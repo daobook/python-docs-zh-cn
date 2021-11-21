@@ -59,7 +59,7 @@ msgid ""
 "code object using the built-in :func:`compile` function."
 msgstr ""
 "抽象语法树可通过将 :data:`ast.PyCF_ONLY_AST` 作为旗标传递给 :func:`compile` "
-"内置函数来生成，或是使用此模块中提供的 :func:`parse` 辅助函数。返回结果将是一个对象树，，其中的类都继承自 "
+"内置函数来生成，或是使用此模块中提供的 :func:`parse` 辅助函数。返回结果将是一个对象树，其中的类都继承自 "
 ":class:`ast.AST`。抽象语法树可被内置的 :func:`compile` 函数编译为一个 Python 代码对象。"
 
 #: ../../library/ast.rst:33
@@ -68,7 +68,7 @@ msgstr "抽象文法"
 
 #: ../../library/ast.rst:35
 msgid "The abstract grammar is currently defined as follows:"
-msgstr "抽象文法目前定义如下"
+msgstr "抽象文法目前定义如下："
 
 #: ../../library/ast.rst:42
 msgid "Node classes"
@@ -96,9 +96,10 @@ msgid ""
 "side class is abstract: only instances of specific constructor nodes are "
 "ever created."
 msgstr ""
-"抽象语法定义的每个左侧符号(比方说，  :class:`ast.stmt` 或者 "
-":class:`ast.expr`)定义了一个类。另外，在抽象语法定义的右侧，对每一个构造器也定义了一个类；这些类继承自树左侧的类。比如，:class:`ast.BinOp`"
-" 继承自 :class:`ast.expr`。对于多分支产生式(也就是\"和规则\")，树右侧的类是抽象的；只有特定构造器结点的实例能被构造。"
+"抽象语法定义的每个左侧符号（比方说， :class:`ast.stmt` 或者 :class:`ast.expr`）定义了一个类。"
+"另外，在抽象语法定义的右侧，对每一个构造器也定义了一个类；这些类继承自树左侧的类。"
+"比如，:class:`ast.BinOp` 继承自 :class:`ast.expr`。"
+"对于多分支产生式（也就是\"和规则\"），树右侧的类是抽象的；只有特定构造器结点的实例能被构造。"
 
 #: ../../library/ast.rst:64
 msgid ""
@@ -123,9 +124,9 @@ msgid ""
 " as Python lists.  All possible attributes must be present and have valid"
 " values when compiling an AST with :func:`compile`."
 msgstr ""
-"如果这些属性在文法中标记为可选（使用问号），对应值可能会是 "
-"``None``。如果这些属性有零或多个（用星号标记），对应值会用Python的列表来表示。所有可能的属性必须在用 :func:`compile`"
-" 编译得到AST时给出，且是有效的值。"
+"如果这些属性在文法中标记为可选（使用问号），对应值可能会是 ``None``。"
+"如果这些属性有零或多个（用星号标记），对应值会用 Python 的列表来表示。"
+"所有可能的属性必须在用 :func:`compile` 编译得到 AST 时给出，且是有效的值。"
 
 #: ../../library/ast.rst:82
 msgid ""
@@ -138,6 +139,11 @@ msgid ""
 "the first and last tokens that generated the node. The UTF-8 offset is "
 "recorded because the parser uses UTF-8 internally."
 msgstr ""
+":class:`ast.expr` 和 :class:`ast.stmt` 子类的实例有 "
+":attr:`lineno`、:attr:`col_offset`、:attr:`end_lineno` 和 :attr:`end_col_offset` 属性。"
+":attr:`lineno` 和 :attr:`end_lineno` 是源文本跨度的第一行和最后一行的编号（1-索引，所以第一行是 行1），"
+"而 :attr:`col_offset` 和 :attr:`end_col_offset` 是生成该节点的第一个和最后一个形符的相应 UTF-8 字节偏差。"
+"UTF-8 的偏移量被记录下来，因为分析器内部使用 UTF-8。"
 
 #: ../../library/ast.rst:91
 msgid ""
@@ -146,6 +152,10 @@ msgid ""
 "example one can get the source segment of a one-line expression node "
 "using ``source_line[node.col_offset : node.end_col_offset]``."
 msgstr ""
+"请注意，编译器不要求结束位置，因此是可选的。"
+"末端偏移量是在最后一个符号之后，例如可以用 "
+"``source_line[node.col_offset : node.end_col_offset]`` "
+"得到单行表达式节点的源片段。"
 
 #: ../../library/ast.rst:96
 msgid "The constructor of a class :class:`ast.T` parses its arguments as follows:"
