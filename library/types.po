@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # Freesand Leo <yuqinju@163.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:16+0000\n"
 "Last-Translator: Freesand Leo <yuqinju@163.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../library/types.rst:2
 msgid ":mod:`types` --- Dynamic type creation and names for built-in types"
@@ -31,14 +32,14 @@ msgstr "**源代码:** :source:`Lib/types.py`"
 
 #: ../../library/types.rst:11
 msgid ""
-"This module defines utility functions to assist in dynamic creation of new "
-"types."
+"This module defines utility functions to assist in dynamic creation of "
+"new types."
 msgstr "此模块定义了一些工具函数，用于协助动态创建新的类型。"
 
 #: ../../library/types.rst:14
 msgid ""
-"It also defines names for some object types that are used by the standard "
-"Python interpreter, but not exposed as builtins like :class:`int` or "
+"It also defines names for some object types that are used by the standard"
+" Python interpreter, but not exposed as builtins like :class:`int` or "
 ":class:`str` are."
 msgstr ""
 "它还为某些对象类型定义了名称，这些名称由标准 Python 解释器所使用，但并不像内置的 :class:`int` 或 :class:`str` "
@@ -60,18 +61,18 @@ msgstr "使用适当的元类动态地创建一个类对象。"
 
 #: ../../library/types.rst:29
 msgid ""
-"The first three arguments are the components that make up a class definition"
-" header: the class name, the base classes (in order), the keyword arguments "
-"(such as ``metaclass``)."
+"The first three arguments are the components that make up a class "
+"definition header: the class name, the base classes (in order), the "
+"keyword arguments (such as ``metaclass``)."
 msgstr "前三个参数是组成类定义头的部件：类名称，基类 (有序排列)，关键字参数 (例如 ``metaclass``)。"
 
 #: ../../library/types.rst:33
 msgid ""
-"The *exec_body* argument is a callback that is used to populate the freshly "
-"created class namespace. It should accept the class namespace as its sole "
-"argument and update the namespace directly with the class contents. If no "
-"callback is provided, it has the same effect as passing in ``lambda ns: "
-"None``."
+"The *exec_body* argument is a callback that is used to populate the "
+"freshly created class namespace. It should accept the class namespace as "
+"its sole argument and update the namespace directly with the class "
+"contents. If no callback is provided, it has the same effect as passing "
+"in ``lambda ns: None``."
 msgstr ""
 "*exec_body* 参数是一个回调函数，用于填充新创建类的命名空间。 它应当接受类命名空间作为其唯一的参数并使用类内容直接更新命名空间。  "
 "如果未提供回调函数，则它就等效于传入 ``lambda ns: None``。"
@@ -82,9 +83,9 @@ msgstr "计算适当的元类并创建类命名空间。"
 
 #: ../../library/types.rst:45
 msgid ""
-"The arguments are the components that make up a class definition header: the"
-" class name, the base classes (in order) and the keyword arguments (such as "
-"``metaclass``)."
+"The arguments are the components that make up a class definition header: "
+"the class name, the base classes (in order) and the keyword arguments "
+"(such as ``metaclass``)."
 msgstr "参数是组成类定义头的部件：类名称，基类 (有序排列) 以及关键字参数 (例如 ``metaclass``)。"
 
 #: ../../library/types.rst:49
@@ -93,29 +94,29 @@ msgstr "返回值是一个 3 元组: ``metaclass, namespace, kwds``"
 
 #: ../../library/types.rst:51
 msgid ""
-"*metaclass* is the appropriate metaclass, *namespace* is the prepared class "
-"namespace and *kwds* is an updated copy of the passed in *kwds* argument "
-"with any ``'metaclass'`` entry removed. If no *kwds* argument is passed in, "
-"this will be an empty dict."
+"*metaclass* is the appropriate metaclass, *namespace* is the prepared "
+"class namespace and *kwds* is an updated copy of the passed in *kwds* "
+"argument with any ``'metaclass'`` entry removed. If no *kwds* argument is"
+" passed in, this will be an empty dict."
 msgstr ""
 "*metaclass* 是适当的元类，*namespace* 是预备好的类命名空间而 *kwds* 是所传入 *kwds* 参数移除每个 "
 "``'metaclass'`` 条目后的已更新副本。 如果未传入 *kwds* 参数，这将为一个空字典。"
 
 #: ../../library/types.rst:60
 msgid ""
-"The default value for the ``namespace`` element of the returned tuple has "
-"changed.  Now an insertion-order-preserving mapping is used when the "
+"The default value for the ``namespace`` element of the returned tuple has"
+" changed.  Now an insertion-order-preserving mapping is used when the "
 "metaclass does not have a ``__prepare__`` method."
 msgstr ""
-"所返回元组中 ``namespace`` 元素的默认值已被改变。 现在当元类没有 ``__prepare__`` 方法时将会使用一个保留插入顺序的映射。"
+"所返回元组中 ``namespace`` 元素的默认值已被改变。 现在当元类没有 ``__prepare__`` "
+"方法时将会使用一个保留插入顺序的映射。"
 
 #: ../../library/types.rst:67
 msgid ":ref:`metaclasses`"
 msgstr ":ref:`metaclasses`"
 
 #: ../../library/types.rst:67
-msgid ""
-"Full details of the class creation process supported by these functions"
+msgid "Full details of the class creation process supported by these functions"
 msgstr "这些函数所支持的类创建过程的完整细节"
 
 #: ../../library/types.rst:69
@@ -134,14 +135,14 @@ msgstr "动态地解析 MRO 条目，具体描述见 :pep:`560`。"
 msgid ""
 "This function looks for items in *bases* that are not instances of "
 ":class:`type`, and returns a tuple where each such object that has an "
-"``__mro_entries__`` method is replaced with an unpacked result of calling "
-"this method.  If a *bases* item is an instance of :class:`type`, or it "
+"``__mro_entries__`` method is replaced with an unpacked result of calling"
+" this method.  If a *bases* item is an instance of :class:`type`, or it "
 "doesn't have an ``__mro_entries__`` method, then it is included in the "
 "return tuple unchanged."
 msgstr ""
-"此函数会在 *bases* 中查找不是 :class:`type` 的实例的项，并返回一个元组，其中每个具有 ``__mro_entries__`` "
-"方法的此种对象对象将被替换为调用该方法解包后的结果。 如果一个 *bases* 项是 :class:`type` 的实例，或它不具有 "
-"``__mro_entries__`` 方法，则它将不加改变地被包含在返回的元组中。"
+"此函数会在 *bases* 中查找不是 :class:`type` 的实例的项，并返回一个元组，其中每个具有 "
+"``__mro_entries__`` 方法的此种对象对象将被替换为调用该方法解包后的结果。 如果一个 *bases* 项是 "
+":class:`type` 的实例，或它不具有 ``__mro_entries__`` 方法，则它将不加改变地被包含在返回的元组中。"
 
 #: ../../library/types.rst:87
 msgid ":pep:`560` - Core support for typing module and generic types"
@@ -154,8 +155,8 @@ msgstr "标准解释器类型"
 #: ../../library/types.rst:93
 msgid ""
 "This module provides names for many of the types that are required to "
-"implement a Python interpreter. It deliberately avoids including some of the"
-" types that arise only incidentally during processing such as the "
+"implement a Python interpreter. It deliberately avoids including some of "
+"the types that arise only incidentally during processing such as the "
 "``listiterator`` type."
 msgstr ""
 "此模块为许多类型提供了实现 Python 解释器所要求的名称。 它刻意地避免了包含某些仅在处理过程中偶然出现的类型，例如 "
@@ -163,14 +164,14 @@ msgstr ""
 
 #: ../../library/types.rst:98
 msgid ""
-"Typical use of these names is for :func:`isinstance` or :func:`issubclass` "
-"checks."
+"Typical use of these names is for :func:`isinstance` or "
+":func:`issubclass` checks."
 msgstr "此种名称的典型应用如 :func:`isinstance` 或 :func:`issubclass` 检测。"
 
 #: ../../library/types.rst:102
 msgid ""
-"If you instantiate any of these types, note that signatures may vary between"
-" Python versions."
+"If you instantiate any of these types, note that signatures may vary "
+"between Python versions."
 msgstr "如果你要实例化这些类型中的任何一种，请注意其签名在不同 Python 版本之间可能出现变化。"
 
 #: ../../library/types.rst:104
@@ -195,8 +196,8 @@ msgstr "引发一个 :ref:`审计事件 <auditing>` ``function.__new__``，附�
 
 #: ../../library/types.rst:121
 msgid ""
-"The audit event only occurs for direct instantiation of function objects, "
-"and is not raised for normal compilation."
+"The audit event only occurs for direct instantiation of function objects,"
+" and is not raised for normal compilation."
 msgstr "此审计事件只会被函数对象的直接实例化引发，而不会被普通编译所引发。"
 
 #: ../../library/types.rst:127
@@ -223,9 +224,10 @@ msgstr "代码对象的类型，例如 :func:`compile` 的返回值。"
 
 #: ../../library/types.rst:153
 msgid ""
-"Raises an :ref:`auditing event <auditing>` ``code.__new__`` with arguments "
-"``code``, ``filename``, ``name``, ``argcount``, ``posonlyargcount``, "
-"``kwonlyargcount``, ``nlocals``, ``stacksize``, ``flags``."
+"Raises an :ref:`auditing event <auditing>` ``code.__new__`` with "
+"arguments ``code``, ``filename``, ``name``, ``argcount``, "
+"``posonlyargcount``, ``kwonlyargcount``, ``nlocals``, ``stacksize``, "
+"``flags``."
 msgstr ""
 "引发 :ref:`审计事件 <auditing>` ``code.__new__`` 附带参数 ``code``, ``filename``, "
 "``name``, ``argcount``, ``posonlyargcount``, ``kwonlyargcount``, "
@@ -239,8 +241,7 @@ msgid ""
 msgstr "请注意被审计的参数可能与初始化代码所要求的名称或位置不相匹配。 审计事件只会被代码对象的直接实例化引发，而不会被普通编译所引发。"
 
 #: ../../library/types.rst:161
-msgid ""
-"Return a copy of the code object with new values for the specified fields."
+msgid "Return a copy of the code object with new values for the specified fields."
 msgstr "返回代码对象的一个副本，使用指定的新字段值。"
 
 #: ../../library/types.rst:167
@@ -256,10 +257,9 @@ msgstr "用户自定义类实例方法的类型。"
 #: ../../library/types.rst:181
 msgid ""
 "The type of built-in functions like :func:`len` or :func:`sys.exit`, and "
-"methods of built-in classes.  (Here, the term \"built-in\" means \"written "
-"in C\".)"
-msgstr ""
-"内置函数例如 :func:`len` 或 :func:`sys.exit` 以及内置类方法的类型。 （这里所说的“内置”是指“以 C 语言编写”。）"
+"methods of built-in classes.  (Here, the term \"built-in\" means "
+"\"written in C\".)"
+msgstr "内置函数例如 :func:`len` 或 :func:`sys.exit` 以及内置类方法的类型。 （这里所说的“内置”是指“以 C 语言编写”。）"
 
 #: ../../library/types.rst:188
 msgid ""
@@ -269,8 +269,8 @@ msgstr "某些内置数据类型和基类的方法的类型，例如 :meth:`obje
 
 #: ../../library/types.rst:196
 msgid ""
-"The type of *bound* methods of some built-in data types and base classes. "
-"For example it is the type of :code:`object().__str__`."
+"The type of *bound* methods of some built-in data types and base classes."
+" For example it is the type of :code:`object().__str__`."
 msgstr "某些内置数据类型和基类的 *绑定* 方法的类型。 例如 :code:`object().__str__` 所属的类型。"
 
 #: ../../library/types.rst:204
@@ -278,8 +278,7 @@ msgid "The type of :data:`NotImplemented`."
 msgstr ":data:`NotImplemented` 的类型。"
 
 #: ../../library/types.rst:211
-msgid ""
-"The type of methods of some built-in data types such as :meth:`str.join`."
+msgid "The type of methods of some built-in data types such as :meth:`str.join`."
 msgstr "某些内置数据类型方法例如 :meth:`str.join` 的类型。"
 
 #: ../../library/types.rst:218
@@ -290,16 +289,15 @@ msgstr "某些内置数据类型 *非绑定* 类方法例如 ``dict.__dict__['fr
 
 #: ../../library/types.rst:226
 msgid ""
-"The type of :term:`modules <module>`. The constructor takes the name of the "
-"module to be created and optionally its :term:`docstring`."
+"The type of :term:`modules <module>`. The constructor takes the name of "
+"the module to be created and optionally its :term:`docstring`."
 msgstr ":term:`模块 <module>` 的类型。 构造器接受待创建模块的名称并以其 :term:`docstring` 作为可选参数。"
 
 #: ../../library/types.rst:230
 msgid ""
-"Use :func:`importlib.util.module_from_spec` to create a new module if you "
-"wish to set the various import-controlled attributes."
-msgstr ""
-"如果你希望设置各种由导入控制的属性，请使用 :func:`importlib.util.module_from_spec` 来创建一个新模块。"
+"Use :func:`importlib.util.module_from_spec` to create a new module if you"
+" wish to set the various import-controlled attributes."
+msgstr "如果你希望设置各种由导入控制的属性，请使用 :func:`importlib.util.module_from_spec` 来创建一个新模块。"
 
 #: ../../library/types.rst:235
 msgid "The :term:`docstring` of the module. Defaults to ``None``."
@@ -311,21 +309,22 @@ msgstr "用于加载模块的 :term:`loader`。 默认为 ``None``。"
 
 #: ../../library/types.rst:241
 msgid ""
-"This attribute is to match :attr:`importlib.machinery.ModuleSpec.loader` as "
-"stored in the attr:`__spec__` object."
+"This attribute is to match :attr:`importlib.machinery.ModuleSpec.loader` "
+"as stored in the attr:`__spec__` object."
 msgstr ""
 "此属性会匹配保存在 attr:`__spec__` 对象中的 "
 ":attr:`importlib.machinery.ModuleSpec.loader`。"
 
 #: ../../library/types.rst:245
+#, fuzzy
 msgid ""
-"A future version of Python may stop setting this attribute by default. To "
-"guard against this potential change, preferrably read from the "
-":attr:`__spec__` attribute instead or use ``getattr(module, \"__loader__\", "
-"None)`` if you explicitly need to use this attribute."
+"A future version of Python may stop setting this attribute by default. To"
+" guard against this potential change, preferably read from the "
+":attr:`__spec__` attribute instead or use ``getattr(module, "
+"\"__loader__\", None)`` if you explicitly need to use this attribute."
 msgstr ""
-"未来的 Python 版本可能停止默认设置此属性。 为了避免这个潜在变化的影响，如果你明确地需要使用此属性则推荐改从 :attr:`__spec__` "
-"属性读取或使用 ``getattr(module, \"__loader__\", None)``。"
+"未来的 Python 版本可能停止默认设置此属性。 为了避免这个潜在变化的影响，如果你明确地需要使用此属性则推荐改从 "
+":attr:`__spec__` 属性读取或使用 ``getattr(module, \"__loader__\", None)``。"
 
 #: ../../library/types.rst:251 ../../library/types.rst:276
 msgid "Defaults to ``None``. Previously the attribute was optional."
@@ -339,31 +338,33 @@ msgstr "模块的名称。 应当能匹配 :attr:`importlib.machinery.ModuleSpec
 
 #: ../../library/types.rst:261
 msgid ""
-"Which :term:`package` a module belongs to. If the module is top-level (i.e. "
-"not a part of any specific package) then the attribute should be set to "
-"``''``, else it should be set to the name of the package (which can be "
-":attr:`__name__` if the module is a package itself). Defaults to ``None``."
+"Which :term:`package` a module belongs to. If the module is top-level "
+"(i.e. not a part of any specific package) then the attribute should be "
+"set to ``''``, else it should be set to the name of the package (which "
+"can be :attr:`__name__` if the module is a package itself). Defaults to "
+"``None``."
 msgstr ""
 "一个模块所属的 :term:`package`。 如果模块为最高层级的（即不是任何特定包的组成部分）则该属性应设为 "
 "``''``，否则它应设为特定包的名称 (如果模块本身也是一个包则名称可以为 :attr:`__name__`)。 默认为 ``None``。"
 
 #: ../../library/types.rst:266
 msgid ""
-"This attribute is to match :attr:`importlib.machinery.ModuleSpec.parent` as "
-"stored in the attr:`__spec__` object."
+"This attribute is to match :attr:`importlib.machinery.ModuleSpec.parent` "
+"as stored in the attr:`__spec__` object."
 msgstr ""
 "此属性会匹配保存在 attr:`__spec__` 对象中的 "
 ":attr:`importlib.machinery.ModuleSpec.parent`。"
 
 #: ../../library/types.rst:270
+#, fuzzy
 msgid ""
-"A future version of Python may stop setting this attribute by default. To "
-"guard against this potential change, preferrably read from the "
-":attr:`__spec__` attribute instead or use ``getattr(module, \"__package__\","
-" None)`` if you explicitly need to use this attribute."
+"A future version of Python may stop setting this attribute by default. To"
+" guard against this potential change, preferably read from the "
+":attr:`__spec__` attribute instead or use ``getattr(module, "
+"\"__package__\", None)`` if you explicitly need to use this attribute."
 msgstr ""
-"未来的 Python 版本可能停止默认设置此属性。 为了避免这个潜在变化的影响，如果你明确地需要使用此属性则推荐改从 :attr:`__spec__` "
-"属性读取或使用 ``getattr(module, \"__package__\", None)``。"
+"未来的 Python 版本可能停止默认设置此属性。 为了避免这个潜在变化的影响，如果你明确地需要使用此属性则推荐改从 "
+":attr:`__spec__` 属性读取或使用 ``getattr(module, \"__package__\", None)``。"
 
 #: ../../library/types.rst:281
 msgid ""
@@ -383,9 +384,9 @@ msgstr ":ref:`形参化泛型 <types-genericalias>` 的类型，例如 ``list[in
 
 #: ../../library/types.rst:298
 msgid ""
-"``t_origin`` should be a non-parameterized generic class, such as ``list``, "
-"``tuple`` or ``dict``.  ``t_args`` should be a :class:`tuple` (possibly of "
-"length 1) of types which parameterize ``t_origin``::"
+"``t_origin`` should be a non-parameterized generic class, such as "
+"``list``, ``tuple`` or ``dict``.  ``t_args`` should be a :class:`tuple` "
+"(possibly of length 1) of types which parameterize ``t_origin``::"
 msgstr ""
 "``t_origin`` 应当是一个非形参化的泛型类，例如 ``list``, ``tuple`` 或 ``dict``。 ``t_args`` "
 "应当是一个形参化 ``t_origin`` 的 :class:`tuple` (长度可以为 1)::"
@@ -411,8 +412,8 @@ msgstr "请查看 :ref:`语言参考 <traceback-objects>` 了解可用属性和�
 
 #: ../../library/types.rst:332
 msgid ""
-"The type of frame objects such as found in ``tb.tb_frame`` if ``tb`` is a "
-"traceback object."
+"The type of frame objects such as found in ``tb.tb_frame`` if ``tb`` is a"
+" traceback object."
 msgstr "帧对象的类型，例如 ``tb.tb_frame`` 中的对象，其中 ``tb`` 是一个回溯对象。"
 
 #: ../../library/types.rst:335
@@ -423,10 +424,10 @@ msgstr "请查看 :ref:`语言参考 <frame-objects>` 了解可用属性和操�
 
 #: ../../library/types.rst:341
 msgid ""
-"The type of objects defined in extension modules with ``PyGetSetDef``, such "
-"as ``FrameType.f_locals`` or ``array.array.typecode``.  This type is used as"
-" descriptor for object attributes; it has the same purpose as the "
-":class:`property` type, but for classes defined in extension modules."
+"The type of objects defined in extension modules with ``PyGetSetDef``, "
+"such as ``FrameType.f_locals`` or ``array.array.typecode``.  This type is"
+" used as descriptor for object attributes; it has the same purpose as the"
+" :class:`property` type, but for classes defined in extension modules."
 msgstr ""
 "使用 ``PyGetSetDef`` 在扩展模块中定义的对象的类型，例如 ``FrameType.f_locals`` 或 "
 "``array.array.typecode``。 此类型被用作对象属性的描述器；它的目的与 :class:`property` "
@@ -434,14 +435,15 @@ msgstr ""
 
 #: ../../library/types.rst:349
 msgid ""
-"The type of objects defined in extension modules with ``PyMemberDef``, such "
-"as ``datetime.timedelta.days``.  This type is used as descriptor for simple "
-"C data members which use standard conversion functions; it has the same "
-"purpose as the :class:`property` type, but for classes defined in extension "
-"modules."
+"The type of objects defined in extension modules with ``PyMemberDef``, "
+"such as ``datetime.timedelta.days``.  This type is used as descriptor for"
+" simple C data members which use standard conversion functions; it has "
+"the same purpose as the :class:`property` type, but for classes defined "
+"in extension modules."
 msgstr ""
 "使用 ``PyMemberDef`` 在扩展模块中定义的对象的类型，例如 ``datetime.timedelta.days``。 "
-"此类型被用作使用标准转换函数的简单 C 数据成员的描述器；它的目的与 :class:`property` 类型相同，但专门针对在扩展模块中定义的类。"
+"此类型被用作使用标准转换函数的简单 C 数据成员的描述器；它的目的与 :class:`property` "
+"类型相同，但专门针对在扩展模块中定义的类。"
 
 #: ../../library/types.rst:356
 msgid ""
@@ -451,9 +453,9 @@ msgstr "在 Python 的其它实现中，此类型可能与 ``GetSetDescriptorTyp
 
 #: ../../library/types.rst:361
 msgid ""
-"Read-only proxy of a mapping. It provides a dynamic view on the mapping's "
-"entries, which means that when the mapping changes, the view reflects these "
-"changes."
+"Read-only proxy of a mapping. It provides a dynamic view on the mapping's"
+" entries, which means that when the mapping changes, the view reflects "
+"these changes."
 msgstr "一个映射的只读代理。 它提供了对映射条目的动态视图，这意味着当映射发生改变时，视图会反映这些改变。"
 
 #: ../../library/types.rst:369
@@ -463,8 +465,7 @@ msgid ""
 msgstr "更新为支持 :pep:`584` 所新增的合并 (``|``) 运算符，它会简单地委托给下层的映射。"
 
 #: ../../library/types.rst:374
-msgid ""
-"Return ``True`` if the underlying mapping has a key *key*, else ``False``."
+msgid "Return ``True`` if the underlying mapping has a key *key*, else ``False``."
 msgstr "如果下层的映射中存在键 *key* 则返回 ``True``，否则返回 ``False``。"
 
 #: ../../library/types.rst:379
@@ -490,8 +491,8 @@ msgstr "返回下层映射的浅拷贝。"
 #: ../../library/types.rst:397
 msgid ""
 "Return the value for *key* if *key* is in the underlying mapping, else "
-"*default*.  If *default* is not given, it defaults to ``None``, so that this"
-" method never raises a :exc:`KeyError`."
+"*default*.  If *default* is not given, it defaults to ``None``, so that "
+"this method never raises a :exc:`KeyError`."
 msgstr ""
 "如果 *key* 存在于下层映射中则返回 *key* 的值，否则返回 *default*。 如果 *default* 未给出则默认为 "
 "``None``，因而此方法绝不会引发 :exc:`KeyError`。"
@@ -539,9 +540,9 @@ msgstr "此类型大致等价于以下代码::"
 
 #: ../../library/types.rst:448
 msgid ""
-"``SimpleNamespace`` may be useful as a replacement for ``class NS: pass``. "
-"However, for a structured record type use :func:`~collections.namedtuple` "
-"instead."
+"``SimpleNamespace`` may be useful as a replacement for ``class NS: "
+"pass``. However, for a structured record type use "
+":func:`~collections.namedtuple` instead."
 msgstr ""
 "``SimpleNamespace`` 可被用于替代 ``class NS: pass``。 但是，对于结构化记录类型则应改用 "
 ":func:`~collections.namedtuple`。"
@@ -558,19 +559,20 @@ msgstr "在类上访问 __getattr__ 的路由属性。"
 
 #: ../../library/types.rst:462
 msgid ""
-"This is a descriptor, used to define attributes that act differently when "
-"accessed through an instance and through a class.  Instance access remains "
-"normal, but access to an attribute through a class will be routed to the "
-"class's __getattr__ method; this is done by raising AttributeError."
+"This is a descriptor, used to define attributes that act differently when"
+" accessed through an instance and through a class.  Instance access "
+"remains normal, but access to an attribute through a class will be routed"
+" to the class's __getattr__ method; this is done by raising "
+"AttributeError."
 msgstr ""
-"这是一个描述器，用于定义通过实例与通过类访问时具有不同行为的属性。 当实例访问时保持正常行为，但当类访问属性时将被路由至类的 __getattr__ "
-"方法；这是通过引发 AttributeError 来完成的。"
+"这是一个描述器，用于定义通过实例与通过类访问时具有不同行为的属性。 当实例访问时保持正常行为，但当类访问属性时将被路由至类的 "
+"__getattr__ 方法；这是通过引发 AttributeError 来完成的。"
 
 #: ../../library/types.rst:467
 msgid ""
-"This allows one to have properties active on an instance, and have virtual "
-"attributes on the class with the same name (see :class:`enum.Enum` for an "
-"example)."
+"This allows one to have properties active on an instance, and have "
+"virtual attributes on the class with the same name (see "
+":class:`enum.Enum` for an example)."
 msgstr "这允许有在实例上激活的特性属性，同时又有在类上的同名虚拟属性 (一个例子请参见 :class:`enum.Enum`)。"
 
 #: ../../library/types.rst:474
@@ -580,10 +582,11 @@ msgstr "协程工具函数"
 #: ../../library/types.rst:478
 msgid ""
 "This function transforms a :term:`generator` function into a "
-":term:`coroutine function` which returns a generator-based coroutine. The "
-"generator-based coroutine is still a :term:`generator iterator`, but is also"
-" considered to be a :term:`coroutine` object and is :term:`awaitable`.  "
-"However, it may not necessarily implement the :meth:`__await__` method."
+":term:`coroutine function` which returns a generator-based coroutine. The"
+" generator-based coroutine is still a :term:`generator iterator`, but is "
+"also considered to be a :term:`coroutine` object and is "
+":term:`awaitable`.  However, it may not necessarily implement the "
+":meth:`__await__` method."
 msgstr ""
 "此函数可将 :term:`generator` 函数转换为返回基于生成器的协程的 :term:`coroutine function`。 "
 "基于生成器的协程仍然属于 :term:`generator iterator`，但同时又可被视为 :term:`coroutine` 对象兼 "
@@ -595,10 +598,12 @@ msgstr "如果 *gen_func* 是一个生成器函数，它将被原地修改。"
 
 #: ../../library/types.rst:487
 msgid ""
-"If *gen_func* is not a generator function, it will be wrapped. If it returns"
-" an instance of :class:`collections.abc.Generator`, the instance will be "
-"wrapped in an *awaitable* proxy object.  All other types of objects will be "
-"returned as is."
+"If *gen_func* is not a generator function, it will be wrapped. If it "
+"returns an instance of :class:`collections.abc.Generator`, the instance "
+"will be wrapped in an *awaitable* proxy object.  All other types of "
+"objects will be returned as is."
 msgstr ""
-"如果 *gen_func* 不是一个生成器函数，则它会被包装。 如果它返回一个 :class:`collections.abc.Generator` "
-"的实例，该实例将被包装在一个 *awaitable* 代理对象中。 所有其他对象类型将被原样返回。"
+"如果 *gen_func* 不是一个生成器函数，则它会被包装。 如果它返回一个 "
+":class:`collections.abc.Generator` 的实例，该实例将被包装在一个 *awaitable* 代理对象中。 "
+"所有其他对象类型将被原样返回。"
+

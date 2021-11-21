@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # lishoujun <lsjun@aliyun.com>, 2021
 # Konge <zkonge@outlook.com>, 2021
@@ -11,21 +11,22 @@
 # ppcfish <ppcfish@gmail.com>, 2021
 # st z <zstcode@outlook.com>, 2021
 # Freesand Leo <yuqinju@163.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 13:16+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:07+0000\n"
 "Last-Translator: Freesand Leo <yuqinju@163.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../library/hashlib.rst:2
 msgid ":mod:`hashlib` --- Secure hashes and message digests"
@@ -37,21 +38,22 @@ msgstr "**源码：** :source:`Lib/hashlib.py`"
 
 #: ../../library/hashlib.rst:23
 msgid ""
-"This module implements a common interface to many different secure hash and "
-"message digest algorithms.  Included are the FIPS secure hash algorithms "
-"SHA1, SHA224, SHA256, SHA384, and SHA512 (defined in FIPS 180-2) as well as "
-"RSA's MD5 algorithm (defined in internet :rfc:`1321`).  The terms \"secure "
-"hash\" and \"message digest\" are interchangeable.  Older algorithms were "
-"called message digests.  The modern term is secure hash."
+"This module implements a common interface to many different secure hash "
+"and message digest algorithms.  Included are the FIPS secure hash "
+"algorithms SHA1, SHA224, SHA256, SHA384, and SHA512 (defined in FIPS "
+"180-2) as well as RSA's MD5 algorithm (defined in internet :rfc:`1321`)."
+"  The terms \"secure hash\" and \"message digest\" are interchangeable.  "
+"Older algorithms were called message digests.  The modern term is secure "
+"hash."
 msgstr ""
-"这个模块针对许多不同的安全哈希和消息摘要算法实现了一个通用接口。 包括 FIPS 安全哈希算法 SHA1, SHA224, SHA256, SHA384"
-" 和 SHA512 (定义于 FIPS 180-2) 以及 RSA 的 MD5 算法 (定义于互联网 :rfc:`1321`)。 术语 \"安全哈希\""
-" 和 \"消息摘要\" 是同义的。 较旧的算法被称为消息摘要。 现代的术语是安全哈希。"
+"这个模块针对许多不同的安全哈希和消息摘要算法实现了一个通用接口。 包括 FIPS 安全哈希算法 SHA1, SHA224, SHA256, "
+"SHA384 和 SHA512 (定义于 FIPS 180-2) 以及 RSA 的 MD5 算法 (定义于互联网 :rfc:`1321`)。 术语"
+" \"安全哈希\" 和 \"消息摘要\" 是同义的。 较旧的算法被称为消息摘要。 现代的术语是安全哈希。"
 
 #: ../../library/hashlib.rst:32
 msgid ""
-"If you want the adler32 or crc32 hash functions, they are available in the "
-":mod:`zlib` module."
+"If you want the adler32 or crc32 hash functions, they are available in "
+"the :mod:`zlib` module."
 msgstr "如果你想找到 adler32 或 crc32 哈希函数，它们在 :mod:`zlib` 模块中。"
 
 #: ../../library/hashlib.rst:37
@@ -68,11 +70,11 @@ msgstr "哈希算法"
 msgid ""
 "There is one constructor method named for each type of :dfn:`hash`.  All "
 "return a hash object with the same simple interface. For example: use "
-":func:`sha256` to create a SHA-256 hash object. You can now feed this object"
-" with :term:`bytes-like objects <bytes-like object>` (normally "
-":class:`bytes`) using the :meth:`update` method. At any point you can ask it"
-" for the :dfn:`digest` of the concatenation of the data fed to it so far "
-"using the :meth:`digest` or :meth:`hexdigest` methods."
+":func:`sha256` to create a SHA-256 hash object. You can now feed this "
+"object with :term:`bytes-like objects <bytes-like object>` (normally "
+":class:`bytes`) using the :meth:`update` method. At any point you can ask"
+" it for the :dfn:`digest` of the concatenation of the data fed to it so "
+"far using the :meth:`digest` or :meth:`hexdigest` methods."
 msgstr ""
 "每种类型的 :dfn:`hash` 都有一个构造器方法。 它们都返回一个具有相同的简单接口的 hash 对象。 例如，使用 use "
 ":func:`sha256` 创建一个 SHA-256 hash 对象。 你可以使用 :meth:`update` 方法向这个对象输入 "
@@ -81,27 +83,27 @@ msgstr ""
 
 #: ../../library/hashlib.rst:56
 msgid ""
-"For better multithreading performance, the Python :term:`GIL` is released "
-"for data larger than 2047 bytes at object creation or on update."
+"For better multithreading performance, the Python :term:`GIL` is released"
+" for data larger than 2047 bytes at object creation or on update."
 msgstr "为了更好的多线程性能，在对象创建或者更新时，若数据大于2047字节则 Python 的 :term:`GIL` 会被释放。"
 
 #: ../../library/hashlib.rst:61
 msgid ""
-"Feeding string objects into :meth:`update` is not supported, as hashes work "
-"on bytes, not on characters."
+"Feeding string objects into :meth:`update` is not supported, as hashes "
+"work on bytes, not on characters."
 msgstr "向 :meth:`update` 输入字符串对象是不被支持的，因为哈希基于字节而非字符。"
 
 #: ../../library/hashlib.rst:66
 msgid ""
-"Constructors for hash algorithms that are always present in this module are "
-":func:`sha1`, :func:`sha224`, :func:`sha256`, :func:`sha384`, "
+"Constructors for hash algorithms that are always present in this module "
+"are :func:`sha1`, :func:`sha224`, :func:`sha256`, :func:`sha384`, "
 ":func:`sha512`, :func:`blake2b`, and :func:`blake2s`. :func:`md5` is "
-"normally available as well, though it may be missing or blocked if you are "
-"using a rare \"FIPS compliant\" build of Python. Additional algorithms may "
-"also be available depending upon the OpenSSL library that Python uses on "
-"your platform. On most platforms the :func:`sha3_224`, :func:`sha3_256`, "
-":func:`sha3_384`, :func:`sha3_512`, :func:`shake_128`, :func:`shake_256` are"
-" also available."
+"normally available as well, though it may be missing or blocked if you "
+"are using a rare \"FIPS compliant\" build of Python. Additional "
+"algorithms may also be available depending upon the OpenSSL library that "
+"Python uses on your platform. On most platforms the :func:`sha3_224`, "
+":func:`sha3_256`, :func:`sha3_384`, :func:`sha3_512`, :func:`shake_128`, "
+":func:`shake_256` are also available."
 msgstr ""
 "此模块中总是可用的哈希算法构造器有 :func:`sha1`, :func:`sha224`, :func:`sha256`, "
 ":func:`sha384`, :func:`sha512`, :func:`blake2b` 和 :func:`blake2s`。 "
@@ -124,11 +126,11 @@ msgstr "添加了 :func:`blake2b` 和 :func:`blake2s` 。"
 
 #: ../../library/hashlib.rst:85
 msgid ""
-"All hashlib constructors take a keyword-only argument *usedforsecurity* with"
-" default value ``True``. A false value allows the use of insecure and "
-"blocked hashing algorithms in restricted environments. ``False`` indicates "
-"that the hashing algorithm is not used in a security context, e.g. as a non-"
-"cryptographic one-way compression function."
+"All hashlib constructors take a keyword-only argument *usedforsecurity* "
+"with default value ``True``. A false value allows the use of insecure and"
+" blocked hashing algorithms in restricted environments. ``False`` "
+"indicates that the hashing algorithm is not used in a security context, "
+"e.g. as a non-cryptographic one-way compression function."
 msgstr ""
 "所有 hashlib 的构造器都接受仅限关键字参数 *usedforsecurity* 且其默认值为 ``True``。 "
 "设为假值即允许在受限的环境中使用不安全且阻塞的哈希算法。 ``False`` 表示此哈希算法不可用于安全场景，例如用作非加密的单向压缩函数。"
@@ -139,8 +141,8 @@ msgstr "现在 hashlib 会使用 OpenSSL 1.1.1 或更新版本的 SHA3 和 SHAKE
 
 #: ../../library/hashlib.rst:94
 msgid ""
-"For example, to obtain the digest of the byte string ``b'Nobody inspects the"
-" spammish repetition'``::"
+"For example, to obtain the digest of the byte string ``b'Nobody inspects "
+"the spammish repetition'``::"
 msgstr "例如，如果想获取字节串 ``b'Nobody inspects the spammish repetition'`` 的摘要::"
 
 #: ../../library/hashlib.rst:108
@@ -152,8 +154,8 @@ msgid ""
 "Is a generic constructor that takes the string *name* of the desired "
 "algorithm as its first parameter.  It also exists to allow access to the "
 "above listed hashes as well as any other algorithms that your OpenSSL "
-"library may offer.  The named constructors are much faster than :func:`new` "
-"and should be preferred."
+"library may offer.  The named constructors are much faster than "
+":func:`new` and should be preferred."
 msgstr ""
 "一个接受所希望的算法对应的字符串 *name* 作为第一个形参的通用构造器。 它还允许访问上面列出的哈希算法以及你的 OpenSSL "
 "库可能提供的任何其他算法。 同名的构造器要比 :func:`new` 更快所以应当优先使用。"
@@ -168,30 +170,30 @@ msgstr "Hashlib 提供下列常量属性："
 
 #: ../../library/hashlib.rst:132
 msgid ""
-"A set containing the names of the hash algorithms guaranteed to be supported"
-" by this module on all platforms.  Note that 'md5' is in this list despite "
-"some upstream vendors offering an odd \"FIPS compliant\" Python build that "
-"excludes it."
+"A set containing the names of the hash algorithms guaranteed to be "
+"supported by this module on all platforms.  Note that 'md5' is in this "
+"list despite some upstream vendors offering an odd \"FIPS compliant\" "
+"Python build that excludes it."
 msgstr ""
-"一个集合，其中包含此模块在所有平台上都保证支持的哈希算法的名称。 请注意 'md5' 也在此清单中，虽然某些上游厂商提供了一个怪异的排除了此算法的 "
-"\"FIPS 兼容\" Python 编译版本。"
+"一个集合，其中包含此模块在所有平台上都保证支持的哈希算法的名称。 请注意 'md5' 也在此清单中，虽然某些上游厂商提供了一个怪异的排除了此算法的"
+" \"FIPS 兼容\" Python 编译版本。"
 
 #: ../../library/hashlib.rst:141
 msgid ""
-"A set containing the names of the hash algorithms that are available in the "
-"running Python interpreter.  These names will be recognized when passed to "
-":func:`new`.  :attr:`algorithms_guaranteed` will always be a subset.  The "
-"same algorithm may appear multiple times in this set under different names "
-"(thanks to OpenSSL)."
+"A set containing the names of the hash algorithms that are available in "
+"the running Python interpreter.  These names will be recognized when "
+"passed to :func:`new`.  :attr:`algorithms_guaranteed` will always be a "
+"subset.  The same algorithm may appear multiple times in this set under "
+"different names (thanks to OpenSSL)."
 msgstr ""
 "一个集合，其中包含在所运行的 Python 解释器上可用的哈希算法的名称。 将这些名称传给 :func:`new` 时将可被识别。 "
-":attr:`algorithms_guaranteed` 将总是它的一个子集。 同样的算法在此集合中可能以不同的名称出现多次（这是 OpenSSL "
-"的原因）。"
+":attr:`algorithms_guaranteed` 将总是它的一个子集。 同样的算法在此集合中可能以不同的名称出现多次（这是 "
+"OpenSSL 的原因）。"
 
 #: ../../library/hashlib.rst:149
 msgid ""
-"The following values are provided as constant attributes of the hash objects"
-" returned by the constructors:"
+"The following values are provided as constant attributes of the hash "
+"objects returned by the constructors:"
 msgstr "下列值会以构造器所返回的哈希对象的常量属性的形式被提供:"
 
 #: ../../library/hashlib.rst:155
@@ -208,8 +210,8 @@ msgstr "hash 对象具有以下属性："
 
 #: ../../library/hashlib.rst:165
 msgid ""
-"The canonical name of this hash, always lowercase and always suitable as a "
-"parameter to :func:`new` to create another hash of this type."
+"The canonical name of this hash, always lowercase and always suitable as "
+"a parameter to :func:`new` to create another hash of this type."
 msgstr "此哈希对象的规范名称，总是为小写形式并且总是可以作为 :func:`new` 的形参用来创建另一个此类型的哈希对象。"
 
 #: ../../library/hashlib.rst:168
@@ -225,28 +227,29 @@ msgstr "哈希对象具有下列方法:"
 
 #: ../../library/hashlib.rst:178
 msgid ""
-"Update the hash object with the :term:`bytes-like object`. Repeated calls "
-"are equivalent to a single call with the concatenation of all the arguments:"
-" ``m.update(a); m.update(b)`` is equivalent to ``m.update(a+b)``."
+"Update the hash object with the :term:`bytes-like object`. Repeated calls"
+" are equivalent to a single call with the concatenation of all the "
+"arguments: ``m.update(a); m.update(b)`` is equivalent to "
+"``m.update(a+b)``."
 msgstr ""
-"用 :term:`bytes-like object` 来更新哈希对象。 重复调用相当于单次调用并传入所有参数的拼接结果: ``m.update(a);"
-" m.update(b)`` 等价于 ``m.update(a+b)``。"
+"用 :term:`bytes-like object` 来更新哈希对象。 重复调用相当于单次调用并传入所有参数的拼接结果: "
+"``m.update(a); m.update(b)`` 等价于 ``m.update(a+b)``。"
 
 #: ../../library/hashlib.rst:183
 msgid ""
-"The Python GIL is released to allow other threads to run while hash updates "
-"on data larger than 2047 bytes is taking place when using hash algorithms "
-"supplied by OpenSSL."
+"The Python GIL is released to allow other threads to run while hash "
+"updates on data larger than 2047 bytes is taking place when using hash "
+"algorithms supplied by OpenSSL."
 msgstr "当使用 OpenSSL 提供的哈希算法在大于 2047 字节的数据上执行哈希更新时 Python GIL 会被释放以允许其他线程运行。"
 
 #: ../../library/hashlib.rst:191
 msgid ""
-"Return the digest of the data passed to the :meth:`update` method so far. "
-"This is a bytes object of size :attr:`digest_size` which may contain bytes "
-"in the whole range from 0 to 255."
+"Return the digest of the data passed to the :meth:`update` method so far."
+" This is a bytes object of size :attr:`digest_size` which may contain "
+"bytes in the whole range from 0 to 255."
 msgstr ""
-"返回当前已传给 :meth:`update` 方法的数据摘要。 这是一个大小为 :attr:`digest_size` 的字节串对象，字节串中可包含 0"
-" 至 255 的完整取值范围。"
+"返回当前已传给 :meth:`update` 方法的数据摘要。 这是一个大小为 :attr:`digest_size` "
+"的字节串对象，字节串中可包含 0 至 255 的完整取值范围。"
 
 #: ../../library/hashlib.rst:198 ../../library/hashlib.rst:226
 msgid ""
@@ -260,7 +263,8 @@ msgstr ""
 #: ../../library/hashlib.rst:205
 msgid ""
 "Return a copy (\"clone\") of the hash object.  This can be used to "
-"efficiently compute the digests of data sharing a common initial substring."
+"efficiently compute the digests of data sharing a common initial "
+"substring."
 msgstr "返回哈希对象的副本（“克隆”）。 这可被用来高效地计算共享相同初始子串的数据的摘要。"
 
 #: ../../library/hashlib.rst:210
@@ -270,18 +274,18 @@ msgstr "SHAKE 可变长度摘要"
 #: ../../library/hashlib.rst:212
 msgid ""
 "The :func:`shake_128` and :func:`shake_256` algorithms provide variable "
-"length digests with length_in_bits//2 up to 128 or 256 bits of security. As "
-"such, their digest methods require a length. Maximum length is not limited "
-"by the SHAKE algorithm."
+"length digests with length_in_bits//2 up to 128 or 256 bits of security. "
+"As such, their digest methods require a length. Maximum length is not "
+"limited by the SHAKE algorithm."
 msgstr ""
-":func:`shake_128` 和 :func:`shake_256` 算法提供安全的 length_in_bits//2 至 128 或 256 "
-"位可变长度摘要。 为此，它们的摘要需指定一个长度。 SHAKE 算法不限制最大长度。"
+":func:`shake_128` 和 :func:`shake_256` 算法提供安全的 length_in_bits//2 至 128 或 "
+"256 位可变长度摘要。 为此，它们的摘要需指定一个长度。 SHAKE 算法不限制最大长度。"
 
 #: ../../library/hashlib.rst:219
 msgid ""
-"Return the digest of the data passed to the :meth:`update` method so far. "
-"This is a bytes object of size *length* which may contain bytes in the whole"
-" range from 0 to 255."
+"Return the digest of the data passed to the :meth:`update` method so far."
+" This is a bytes object of size *length* which may contain bytes in the "
+"whole range from 0 to 255."
 msgstr ""
 "返回当前已传给 :meth:`update` 方法的数据摘要。 这是一个大小为 *length* 的字节串对象，字节串中可包含 0 to 255 "
 "的完整取值范围。"
@@ -291,11 +295,12 @@ msgid "Key derivation"
 msgstr "密钥派生"
 
 #: ../../library/hashlib.rst:234
+#, python-format
 msgid ""
 "Key derivation and key stretching algorithms are designed for secure "
 "password hashing. Naive algorithms such as ``sha1(password)`` are not "
-"resistant against brute-force attacks. A good password hashing function must"
-" be tunable, slow, and include a `salt "
+"resistant against brute-force attacks. A good password hashing function "
+"must be tunable, slow, and include a `salt "
 "<https://en.wikipedia.org/wiki/Salt_%28cryptography%29>`_."
 msgstr ""
 "密钥派生和密钥延展算法被设计用于安全密码哈希。 ``sha1(password)`` 这样的简单算法无法防御暴力攻击。 "
@@ -304,17 +309,17 @@ msgstr ""
 
 #: ../../library/hashlib.rst:242
 msgid ""
-"The function provides PKCS#5 password-based key derivation function 2. It "
-"uses HMAC as pseudorandom function."
+"The function provides PKCS#5 password-based key derivation function 2. It"
+" uses HMAC as pseudorandom function."
 msgstr "此函数提供 PKCS#5 基于密码的密钥派生函数 2。 它使用 HMAC 作为伪随机函数。"
 
 #: ../../library/hashlib.rst:245
 msgid ""
-"The string *hash_name* is the desired name of the hash digest algorithm for "
-"HMAC, e.g. 'sha1' or 'sha256'. *password* and *salt* are interpreted as "
-"buffers of bytes. Applications and libraries should limit *password* to a "
-"sensible length (e.g. 1024). *salt* should be about 16 or more bytes from a "
-"proper source, e.g. :func:`os.urandom`."
+"The string *hash_name* is the desired name of the hash digest algorithm "
+"for HMAC, e.g. 'sha1' or 'sha256'. *password* and *salt* are interpreted "
+"as buffers of bytes. Applications and libraries should limit *password* "
+"to a sensible length (e.g. 1024). *salt* should be about 16 or more bytes"
+" from a proper source, e.g. :func:`os.urandom`."
 msgstr ""
 "字符串 *hash_name* 是要求用于 HMAC 的哈希摘要算法的名称，例如 'sha1' 或 'sha256'。 *password* 和 "
 "*salt* 会以字节串缓冲区的形式被解析。 应用和库应当将 *password* 限制在合理长度 (例如 1024)。 *salt* "
@@ -322,15 +327,16 @@ msgstr ""
 
 #: ../../library/hashlib.rst:251
 msgid ""
-"The number of *iterations* should be chosen based on the hash algorithm and "
-"computing power. As of 2013, at least 100,000 iterations of SHA-256 are "
-"suggested."
+"The number of *iterations* should be chosen based on the hash algorithm "
+"and computing power. As of 2013, at least 100,000 iterations of SHA-256 "
+"are suggested."
 msgstr "*iterations* 数值应当基于哈希算法和算力来选择。 在 2013 年时，建议至少为 100,000 次 SHA-256 迭代。"
 
 #: ../../library/hashlib.rst:255
 msgid ""
-"*dklen* is the length of the derived key. If *dklen* is ``None`` then the "
-"digest size of the hash algorithm *hash_name* is used, e.g. 64 for SHA-512."
+"*dklen* is the length of the derived key. If *dklen* is ``None`` then the"
+" digest size of the hash algorithm *hash_name* is used, e.g. 64 for "
+"SHA-512."
 msgstr ""
 "*dklen* 为派生密钥的长度。 如果 *dklen* 为 ``None`` 则会使用哈希算法 *hash_name* 的摘要大小，例如 "
 "SHA-512 为 64。"
@@ -346,8 +352,8 @@ msgstr ""
 
 #: ../../library/hashlib.rst:273
 msgid ""
-"Slow Python implementation of *pbkdf2_hmac* is deprecated. In the future the"
-" function will only be available when Python is compiled with OpenSSL."
+"Slow Python implementation of *pbkdf2_hmac* is deprecated. In the future "
+"the function will only be available when Python is compiled with OpenSSL."
 msgstr "较慢的 *pbkdf2_hmac* Python 实现已被弃用。 未来该函数将仅在 Python 附带 OpenSSL 编译时可用。"
 
 #: ../../library/hashlib.rst:279
@@ -359,9 +365,9 @@ msgstr "此函数提供基于密码加密的密钥派生函数，其定义参见
 #: ../../library/hashlib.rst:282
 msgid ""
 "*password* and *salt* must be :term:`bytes-like objects <bytes-like "
-"object>`.  Applications and libraries should limit *password* to a sensible "
-"length (e.g. 1024).  *salt* should be about 16 or more bytes from a proper "
-"source, e.g. :func:`os.urandom`."
+"object>`.  Applications and libraries should limit *password* to a "
+"sensible length (e.g. 1024).  *salt* should be about 16 or more bytes "
+"from a proper source, e.g. :func:`os.urandom`."
 msgstr ""
 "*password* 和 *salt* 必须为 :term:`字节类对象 <bytes-like object>`。 应用和库应当将 "
 "*password* 限制在合理长度 (例如 1024)。 *salt* 应当为适当来源例如 :func:`os.urandom` 的大约 16 "
@@ -369,12 +375,12 @@ msgstr ""
 
 #: ../../library/hashlib.rst:287
 msgid ""
-"*n* is the CPU/Memory cost factor, *r* the block size, *p* parallelization "
-"factor and *maxmem* limits memory (OpenSSL 1.1.0 defaults to 32 MiB). "
-"*dklen* is the length of the derived key."
+"*n* is the CPU/Memory cost factor, *r* the block size, *p* "
+"parallelization factor and *maxmem* limits memory (OpenSSL 1.1.0 defaults"
+" to 32 MiB). *dklen* is the length of the derived key."
 msgstr ""
-"*n* 为 CPU/内存开销因子，*r* 为块大小，*p* 为并行化因子，*maxmem* 为内存限制 (OpenSSL 1.1.0 默认为 32 "
-"MiB)。 *dklen* 为派生密钥的长度。"
+"*n* 为 CPU/内存开销因子，*r* 为块大小，*p* 为并行化因子，*maxmem* 为内存限制 (OpenSSL 1.1.0 默认为 32"
+" MiB)。 *dklen* 为派生密钥的长度。"
 
 #: ../../library/hashlib.rst:295
 msgid "BLAKE2"
@@ -382,26 +388,26 @@ msgstr "BLAKE2"
 
 #: ../../library/hashlib.rst:302
 msgid ""
-"BLAKE2_ is a cryptographic hash function defined in :rfc:`7693` that comes "
-"in two flavors:"
+"BLAKE2_ is a cryptographic hash function defined in :rfc:`7693` that "
+"comes in two flavors:"
 msgstr "BLAKE2_ 是在 :rfc:`7693` 中定义的加密哈希函数，它有两种形式:"
 
 #: ../../library/hashlib.rst:305
 msgid ""
-"**BLAKE2b**, optimized for 64-bit platforms and produces digests of any size"
-" between 1 and 64 bytes,"
+"**BLAKE2b**, optimized for 64-bit platforms and produces digests of any "
+"size between 1 and 64 bytes,"
 msgstr "**BLAKE2b**，针对 64 位平台进行优化，并会生成长度介于 1 和 64 字节之间任意大小的摘要。"
 
 #: ../../library/hashlib.rst:308
 msgid ""
-"**BLAKE2s**, optimized for 8- to 32-bit platforms and produces digests of "
-"any size between 1 and 32 bytes."
+"**BLAKE2s**, optimized for 8- to 32-bit platforms and produces digests of"
+" any size between 1 and 32 bytes."
 msgstr "**BLAKE2s**，针对 8 至 32 位平台进行优化，并会生成长度介于 1 和 32 字节之间任意大小的摘要。"
 
 #: ../../library/hashlib.rst:311
 msgid ""
-"BLAKE2 supports **keyed mode** (a faster and simpler replacement for HMAC_),"
-" **salted hashing**, **personalization**, and **tree hashing**."
+"BLAKE2 supports **keyed mode** (a faster and simpler replacement for "
+"HMAC_), **salted hashing**, **personalization**, and **tree hashing**."
 msgstr ""
 "BLAKE2 支持 **keyed mode** (HMAC_ 的更快速更简单的替代), **salted hashing**, "
 "**personalization** 和 **tree hashing**."
@@ -438,8 +444,8 @@ msgstr "*digest_size*: 以字节数表示的输出摘要大小。"
 
 #: ../../library/hashlib.rst:343
 msgid ""
-"*key*: key for keyed hashing (up to 64 bytes for BLAKE2b, up to 32 bytes for"
-" BLAKE2s)."
+"*key*: key for keyed hashing (up to 64 bytes for BLAKE2b, up to 32 bytes "
+"for BLAKE2s)."
 msgstr "*key*: 用于密钥哈希的密钥（对于 BLAKE2b 最长 64 字节，对于 BLAKE2s 最长 32 字节）。"
 
 #: ../../library/hashlib.rst:346
@@ -450,8 +456,8 @@ msgstr "*salt*: 用于随机哈希的盐值（对于 BLAKE2b 最长 16 字节，
 
 #: ../../library/hashlib.rst:349
 msgid ""
-"*person*: personalization string (up to 16 bytes for BLAKE2b, up to 8 bytes "
-"for BLAKE2s)."
+"*person*: personalization string (up to 16 bytes for BLAKE2b, up to 8 "
+"bytes for BLAKE2s)."
 msgstr "*person*: 个性化字符串（对于 BLAKE2b 最长 16 字节，对于 BLAKE2s 最长 8 字节）。"
 
 #: ../../library/hashlib.rst:352
@@ -482,11 +488,11 @@ msgstr "长度（个人）"
 msgid "BLAKE2b"
 msgstr "BLAKE2b"
 
-#: ../../library/hashlib.rst:357 ../../library/hashlib.rst:357
+#: ../../library/hashlib.rst:357
 msgid "64"
 msgstr "64"
 
-#: ../../library/hashlib.rst:357 ../../library/hashlib.rst:357
+#: ../../library/hashlib.rst:357
 msgid "16"
 msgstr "16"
 
@@ -494,22 +500,22 @@ msgstr "16"
 msgid "BLAKE2s"
 msgstr "BLAKE2s"
 
-#: ../../library/hashlib.rst:358 ../../library/hashlib.rst:358
+#: ../../library/hashlib.rst:358
 msgid "32"
 msgstr "32"
 
-#: ../../library/hashlib.rst:358 ../../library/hashlib.rst:358
+#: ../../library/hashlib.rst:358
 msgid "8"
 msgstr "8"
 
 #: ../../library/hashlib.rst:363
 msgid ""
-"BLAKE2 specification defines constant lengths for salt and personalization "
-"parameters, however, for convenience, this implementation accepts byte "
-"strings of any size up to the specified length. If the length of the "
-"parameter is less than specified, it is padded with zeros, thus, for "
-"example, ``b'salt'`` and ``b'salt\\x00'`` is the same value. (This is not "
-"the case for *key*.)"
+"BLAKE2 specification defines constant lengths for salt and "
+"personalization parameters, however, for convenience, this implementation"
+" accepts byte strings of any size up to the specified length. If the "
+"length of the parameter is less than specified, it is padded with zeros, "
+"thus, for example, ``b'salt'`` and ``b'salt\\x00'`` is the same value. "
+"(This is not the case for *key*.)"
 msgstr ""
 "BLAKE2 规格描述为盐值和个性化形参定义了固定的长度，但是为了方便起见，此实现接受指定在长度以内的任意大小的字节串。 "
 "如果形参长度小于指定值，它将以零值进行填充，因此举例来说，``b'salt'`` 和 ``b'salt\\x00'`` 为相同的值 (*key* "
@@ -520,8 +526,7 @@ msgid "These sizes are available as module `constants`_ described below."
 msgstr "如下面的模块 `constants`_ 所描述，这些是可用的大小取值。"
 
 #: ../../library/hashlib.rst:372
-msgid ""
-"Constructor functions also accept the following tree hashing parameters:"
+msgid "Constructor functions also accept the following tree hashing parameters:"
 msgstr "构造器函数还接受下列树形哈希形参:"
 
 #: ../../library/hashlib.rst:374
@@ -530,51 +535,51 @@ msgstr "*fanout*: 扇出值 (0 至 255，如无限制即为 0，连续模式下�
 
 #: ../../library/hashlib.rst:376
 msgid ""
-"*depth*: maximal depth of tree (1 to 255, 255 if unlimited, 1 in sequential "
-"mode)."
+"*depth*: maximal depth of tree (1 to 255, 255 if unlimited, 1 in "
+"sequential mode)."
 msgstr "*depth*: 树的最大深度 (1 至 255，如无限制则为 255，连续模式下为 1)。"
 
 #: ../../library/hashlib.rst:379
+#, fuzzy
 msgid ""
-"*leaf_size*: maximal byte length of leaf (0 to 2**32-1, 0 if unlimited or in"
-" sequential mode)."
+"*leaf_size*: maximal byte length of leaf (0 to ``2**32-1``, 0 if "
+"unlimited or in sequential mode)."
 msgstr "*leaf_size*: 叶子的最大字节长度 (0 至 2**32-1，如无限制或在连续模式下则为 0)。"
 
 #: ../../library/hashlib.rst:382
+#, fuzzy
 msgid ""
-"*node_offset*: node offset (0 to 2**64-1 for BLAKE2b, 0 to 2**48-1 for "
-"BLAKE2s, 0 for the first, leftmost, leaf, or in sequential mode)."
+"*node_offset*: node offset (0 to ``2**64-1`` for BLAKE2b, 0 to "
+"``2**48-1`` for BLAKE2s, 0 for the first, leftmost, leaf, or in "
+"sequential mode)."
 msgstr ""
 "*node_offset*: 节点偏移量 (对于 BLAKE2b 为 0 至 2**64-1，对于 BLAKE2s 为 0 至 "
 "2**48-1，对于最左边第一个叶子或在连续模式下则为 0)。"
 
 #: ../../library/hashlib.rst:385
-msgid ""
-"*node_depth*: node depth (0 to 255, 0 for leaves, or in sequential mode)."
+msgid "*node_depth*: node depth (0 to 255, 0 for leaves, or in sequential mode)."
 msgstr "*node_depth*: 节点深度 (0 至 255，对于叶子或在连续模式下则为 0)。"
 
 #: ../../library/hashlib.rst:387
 msgid ""
-"*inner_size*: inner digest size (0 to 64 for BLAKE2b, 0 to 32 for BLAKE2s, 0"
-" in sequential mode)."
-msgstr ""
-"*inner_size*: 内部摘要大小 (对于 BLAKE2b 为 0 至 64，对于 BLAKE2s 为 0 至 32，连续模式下则为 0)。"
+"*inner_size*: inner digest size (0 to 64 for BLAKE2b, 0 to 32 for "
+"BLAKE2s, 0 in sequential mode)."
+msgstr "*inner_size*: 内部摘要大小 (对于 BLAKE2b 为 0 至 64，对于 BLAKE2s 为 0 至 32，连续模式下则为 0)。"
 
 #: ../../library/hashlib.rst:390
 msgid ""
-"*last_node*: boolean indicating whether the processed node is the last one "
-"(`False` for sequential mode)."
+"*last_node*: boolean indicating whether the processed node is the last "
+"one (`False` for sequential mode)."
 msgstr "*last_node*: 一个布尔值，指明所处理的节点是否为最后一个 (连续模式下则为 `False`)。"
 
-#: ../../library/hashlib.rstNone
 msgid "Explanation of tree mode parameters."
 msgstr "树模式形参的说明。"
 
 #: ../../library/hashlib.rst:396
 msgid ""
 "See section 2.10 in `BLAKE2 specification "
-"<https://blake2.net/blake2_20130129.pdf>`_ for comprehensive review of tree "
-"hashing."
+"<https://blake2.net/blake2_20130129.pdf>`_ for comprehensive review of "
+"tree hashing."
 msgstr ""
 "请参阅 `BLAKE2 规格描述 <https://blake2.net/blake2_20130129.pdf>`_ 第 2.10 "
 "节获取有关树形哈希的完整说明。"
@@ -588,8 +593,7 @@ msgid "Salt length (maximum length accepted by constructors)."
 msgstr "盐值长度（构造器所接受的最大长度）。"
 
 #: ../../library/hashlib.rst:413
-msgid ""
-"Personalization string length (maximum length accepted by constructors)."
+msgid "Personalization string length (maximum length accepted by constructors)."
 msgstr "个性化字符串长度（构造器所接受的最大长度）。"
 
 #: ../../library/hashlib.rst:419
@@ -610,10 +614,10 @@ msgstr "简单哈希"
 
 #: ../../library/hashlib.rst:434
 msgid ""
-"To calculate hash of some data, you should first construct a hash object by "
-"calling the appropriate constructor function (:func:`blake2b` or "
-":func:`blake2s`), then update it with the data by calling :meth:`update` on "
-"the object, and, finally, get the digest out of the object by calling "
+"To calculate hash of some data, you should first construct a hash object "
+"by calling the appropriate constructor function (:func:`blake2b` or "
+":func:`blake2s`), then update it with the data by calling :meth:`update` "
+"on the object, and, finally, get the digest out of the object by calling "
 ":meth:`digest` (or :meth:`hexdigest` for hex-encoded string)."
 msgstr ""
 "要计算某个数据的哈希值，你应该首先通过调用适当的构造器函数 (:func:`blake2b` 或 :func:`blake2s`) "
@@ -622,14 +626,14 @@ msgstr ""
 
 #: ../../library/hashlib.rst:447
 msgid ""
-"As a shortcut, you can pass the first chunk of data to update directly to "
-"the constructor as the positional argument:"
+"As a shortcut, you can pass the first chunk of data to update directly to"
+" the constructor as the positional argument:"
 msgstr "作为快捷方式，你可以直接以位置参数的形式向构造器传入第一个数据块来直接更新:"
 
 #: ../../library/hashlib.rst:454
 msgid ""
-"You can call :meth:`hash.update` as many times as you need to iteratively "
-"update the hash:"
+"You can call :meth:`hash.update` as many times as you need to iteratively"
+" update the hash:"
 msgstr "你可以多次调用 :meth:`hash.update` 至你所想要的任意次数以迭代地更新哈希值:"
 
 #: ../../library/hashlib.rst:467
@@ -638,18 +642,19 @@ msgstr "使用不同的摘要大小"
 
 #: ../../library/hashlib.rst:469
 msgid ""
-"BLAKE2 has configurable size of digests up to 64 bytes for BLAKE2b and up to"
-" 32 bytes for BLAKE2s. For example, to replace SHA-1 with BLAKE2b without "
-"changing the size of output, we can tell BLAKE2b to produce 20-byte digests:"
+"BLAKE2 has configurable size of digests up to 64 bytes for BLAKE2b and up"
+" to 32 bytes for BLAKE2s. For example, to replace SHA-1 with BLAKE2b "
+"without changing the size of output, we can tell BLAKE2b to produce "
+"20-byte digests:"
 msgstr ""
-"BLAKE2 具有可配置的摘要大小，对于 BLAKE2b 最多 64 字节，对于 BLAKE2s 最多 32 字节。 例如，要使用 BLAKE2b "
-"来替代 SHA-1 而不改变输出大小，我们可以让 BLAKE2b 产生 20 个字节的摘要:"
+"BLAKE2 具有可配置的摘要大小，对于 BLAKE2b 最多 64 字节，对于 BLAKE2s 最多 32 字节。 例如，要使用 BLAKE2b"
+" 来替代 SHA-1 而不改变输出大小，我们可以让 BLAKE2b 产生 20 个字节的摘要:"
 
 #: ../../library/hashlib.rst:483
 msgid ""
-"Hash objects with different digest sizes have completely different outputs "
-"(shorter hashes are *not* prefixes of longer hashes); BLAKE2b and BLAKE2s "
-"produce different outputs even if the output length is the same:"
+"Hash objects with different digest sizes have completely different "
+"outputs (shorter hashes are *not* prefixes of longer hashes); BLAKE2b and"
+" BLAKE2s produce different outputs even if the output length is the same:"
 msgstr ""
 "不同摘要大小的哈希对象具有完全不同的输出（较短哈希值 *并非* 较长哈希值的前缀）；即使输出长度相同，BLAKE2b 和 BLAKE2s "
 "也会产生不同的输出:"
@@ -659,21 +664,22 @@ msgid "Keyed hashing"
 msgstr "密钥哈希"
 
 #: ../../library/hashlib.rst:501
+#, fuzzy
 msgid ""
 "Keyed hashing can be used for authentication as a faster and simpler "
 "replacement for `Hash-based message authentication code "
-"<https://en.wikipedia.org/wiki/Hash-based_message_authentication_code>`_ "
-"(HMAC). BLAKE2 can be securely used in prefix-MAC mode thanks to the "
-"indifferentiability property inherited from BLAKE."
+"<https://en.wikipedia.org/wiki/HMAC>`_ (HMAC). BLAKE2 can be securely "
+"used in prefix-MAC mode thanks to the indifferentiability property "
+"inherited from BLAKE."
 msgstr ""
 "密钥哈希可被用于身份验证，作为 `基于哈希的消息验证代码 <https://en.wikipedia.org/wiki/Hash-"
-"based_message_authentication_code>`_ (HMAC) 的一种更快速更简单的替代。 BLAKE2 可在前缀 MAC "
-"模式下安全地使用，这是由于它从 BLAKE 所继承的不可区分特性。"
+"based_message_authentication_code>`_ (HMAC) 的一种更快速更简单的替代。 BLAKE2 可在前缀 MAC"
+" 模式下安全地使用，这是由于它从 BLAKE 所继承的不可区分特性。"
 
 #: ../../library/hashlib.rst:507
 msgid ""
-"This example shows how to get a (hex-encoded) 128-bit authentication code "
-"for message ``b'message data'`` with key ``b'pseudorandom key'``::"
+"This example shows how to get a (hex-encoded) 128-bit authentication code"
+" for message ``b'message data'`` with key ``b'pseudorandom key'``::"
 msgstr ""
 "这个例子演示了如何使用密钥 ``b'pseudorandom key'`` 来为 ``b'message data'`` "
 "获取一个（十六进制编码的）128 位验证代码::"
@@ -687,8 +693,8 @@ msgstr "作为实际的例子，一个 Web 应用可为发送给用户的 cookie
 
 #: ../../library/hashlib.rst:546
 msgid ""
-"Even though there's a native keyed hashing mode, BLAKE2 can, of course, be "
-"used in HMAC construction with :mod:`hmac` module::"
+"Even though there's a native keyed hashing mode, BLAKE2 can, of course, "
+"be used in HMAC construction with :mod:`hmac` module::"
 msgstr "即使存在原生的密钥哈希模式，BLAKE2 也同样可在 :mod:`hmac` 模块的 HMAC 构造过程中使用::"
 
 #: ../../library/hashlib.rst:557
@@ -697,30 +703,31 @@ msgstr "随机哈希"
 
 #: ../../library/hashlib.rst:559
 msgid ""
-"By setting *salt* parameter users can introduce randomization to the hash "
-"function. Randomized hashing is useful for protecting against collision "
+"By setting *salt* parameter users can introduce randomization to the hash"
+" function. Randomized hashing is useful for protecting against collision "
 "attacks on the hash function used in digital signatures."
 msgstr "用户可通过设置 *salt* 形参来为哈希函数引入随机化。 随机哈希适用于防止对数字签名中使用的哈希函数进行碰撞攻击。"
 
 #: ../../library/hashlib.rst:563
 msgid ""
-"Randomized hashing is designed for situations where one party, the message "
-"preparer, generates all or part of a message to be signed by a second party,"
-" the message signer. If the message preparer is able to find cryptographic "
-"hash function collisions (i.e., two messages producing the same hash value),"
-" then they might prepare meaningful versions of the message that would "
-"produce the same hash value and digital signature, but with different "
-"results (e.g., transferring $1,000,000 to an account, rather than $10). "
-"Cryptographic hash functions have been designed with collision resistance as"
-" a major goal, but the current concentration on attacking cryptographic hash"
-" functions may result in a given cryptographic hash function providing less "
-"collision resistance than expected. Randomized hashing offers the signer "
-"additional protection by reducing the likelihood that a preparer can "
-"generate two or more messages that ultimately yield the same hash value "
-"during the digital signature generation process --- even if it is practical "
-"to find collisions for the hash function. However, the use of randomized "
-"hashing may reduce the amount of security provided by a digital signature "
-"when all portions of the message are prepared by the signer."
+"Randomized hashing is designed for situations where one party, the "
+"message preparer, generates all or part of a message to be signed by a "
+"second party, the message signer. If the message preparer is able to find"
+" cryptographic hash function collisions (i.e., two messages producing the"
+" same hash value), then they might prepare meaningful versions of the "
+"message that would produce the same hash value and digital signature, but"
+" with different results (e.g., transferring $1,000,000 to an account, "
+"rather than $10). Cryptographic hash functions have been designed with "
+"collision resistance as a major goal, but the current concentration on "
+"attacking cryptographic hash functions may result in a given "
+"cryptographic hash function providing less collision resistance than "
+"expected. Randomized hashing offers the signer additional protection by "
+"reducing the likelihood that a preparer can generate two or more messages"
+" that ultimately yield the same hash value during the digital signature "
+"generation process --- even if it is practical to find collisions for the"
+" hash function. However, the use of randomized hashing may reduce the "
+"amount of security provided by a digital signature when all portions of "
+"the message are prepared by the signer."
 msgstr ""
 "随机哈希被设计用来处理当一方（消息准备者）要生成由另一方（消息签名者）进行签名的全部或部分消息的情况。 "
 "如果消息准备者能够找到加密哈希函数的碰撞现象（即两条消息产生相同的哈希值），则他们就可以准备将产生相同哈希值和数字签名但却具有不同结果的有意义的消息版本（例如向某个账户转入"
@@ -740,17 +747,19 @@ msgstr ""
 #: ../../library/hashlib.rst:585
 msgid ""
 "In BLAKE2 the salt is processed as a one-time input to the hash function "
-"during initialization, rather than as an input to each compression function."
+"during initialization, rather than as an input to each compression "
+"function."
 msgstr "在 BLAKE2 中，盐值会在初始化期间作为对哈希函数的一次性输入而不是对每个压缩函数的输入来处理。"
 
 #: ../../library/hashlib.rst:590
 msgid ""
-"*Salted hashing* (or just hashing) with BLAKE2 or any other general-purpose "
-"cryptographic hash function, such as SHA-256, is not suitable for hashing "
-"passwords.  See `BLAKE2 FAQ <https://blake2.net/#qa>`_ for more information."
+"*Salted hashing* (or just hashing) with BLAKE2 or any other general-"
+"purpose cryptographic hash function, such as SHA-256, is not suitable for"
+" hashing passwords.  See `BLAKE2 FAQ <https://blake2.net/#qa>`_ for more "
+"information."
 msgstr ""
-"使用 BLAKE2 或任何其他通用加密哈希函数例如 SHA-256 进行 *加盐哈希* (或纯哈希) 并不适用于哈希密码。 请参阅 `BLAKE2 "
-"FAQ <https://blake2.net/#qa>`_ 了解更多信息。"
+"使用 BLAKE2 或任何其他通用加密哈希函数例如 SHA-256 进行 *加盐哈希* (或纯哈希) 并不适用于哈希密码。 请参阅 `BLAKE2"
+" FAQ <https://blake2.net/#qa>`_ 了解更多信息。"
 
 #: ../../library/hashlib.rst:613
 msgid "Personalization"
@@ -758,19 +767,20 @@ msgstr "个性化"
 
 #: ../../library/hashlib.rst:615
 msgid ""
-"Sometimes it is useful to force hash function to produce different digests "
-"for the same input for different purposes. Quoting the authors of the Skein "
-"hash function:"
+"Sometimes it is useful to force hash function to produce different "
+"digests for the same input for different purposes. Quoting the authors of"
+" the Skein hash function:"
 msgstr "出于不同的目的强制让哈希函数为相同的输入生成不同的摘要有时也是有用的。 正如 Skein 哈希函数的作者所言:"
 
 #: ../../library/hashlib.rst:619
 msgid ""
-"We recommend that all application designers seriously consider doing this; "
-"we have seen many protocols where a hash that is computed in one part of the"
-" protocol can be used in an entirely different part because two hash "
-"computations were done on similar or related data, and the attacker can "
-"force the application to make the hash inputs the same. Personalizing each "
-"hash function used in the protocol summarily stops this type of attack."
+"We recommend that all application designers seriously consider doing "
+"this; we have seen many protocols where a hash that is computed in one "
+"part of the protocol can be used in an entirely different part because "
+"two hash computations were done on similar or related data, and the "
+"attacker can force the application to make the hash inputs the same. "
+"Personalizing each hash function used in the protocol summarily stops "
+"this type of attack."
 msgstr ""
 "我们建议所有应用设计者慎重考虑这种做法；我们已看到有许多协议在协议的某一部分中计算出来的哈希值在另一个完全不同的部分中也可以被使用，因为两次哈希计算是针对类似或相关的数据进行的，这样攻击者可以强制应用为相同的输入生成哈希值。"
 " 个性化协议中所使用的每个哈希函数将有效地阻止这种类型的攻击。"
@@ -803,8 +813,8 @@ msgstr "以下是对包含两个叶子节点的最小树进行哈希的例子::"
 
 #: ../../library/hashlib.rst:666
 msgid ""
-"This example uses 64-byte internal digests, and returns the 32-byte final "
-"digest::"
+"This example uses 64-byte internal digests, and returns the 32-byte final"
+" digest::"
 msgstr "这个例子使用 64 字节内部摘要，返回 32 字节最终摘要::"
 
 #: ../../library/hashlib.rst:696
@@ -814,13 +824,14 @@ msgstr "开发人员"
 #: ../../library/hashlib.rst:698
 msgid ""
 "BLAKE2_ was designed by *Jean-Philippe Aumasson*, *Samuel Neves*, *Zooko "
-"Wilcox-O'Hearn*, and *Christian Winnerlein* based on SHA-3_ finalist BLAKE_ "
-"created by *Jean-Philippe Aumasson*, *Luca Henzen*, *Willi Meier*, and "
-"*Raphael C.-W. Phan*."
+"Wilcox-O'Hearn*, and *Christian Winnerlein* based on SHA-3_ finalist "
+"BLAKE_ created by *Jean-Philippe Aumasson*, *Luca Henzen*, *Willi Meier*,"
+" and *Raphael C.-W. Phan*."
 msgstr ""
-"BLAKE2_ 是由 *Jean-Philippe Aumasson*, *Samuel Neves*, *Zooko Wilcox-O'Hearn* "
-"和 *Christian Winnerlein* 基于 *Jean-Philippe Aumasson*, *Luca Henzen*, *Willi "
-"Meier* 和 *Raphael C.-W. Phan* 所创造的 SHA-3_ 入围方案 BLAKE_ 进行设计的。"
+"BLAKE2_ 是由 *Jean-Philippe Aumasson*, *Samuel Neves*, *Zooko "
+"Wilcox-O'Hearn* 和 *Christian Winnerlein* 基于 *Jean-Philippe Aumasson*, "
+"*Luca Henzen*, *Willi Meier* 和 *Raphael C.-W. Phan* 所创造的 SHA-3_ 入围方案 "
+"BLAKE_ 进行设计的。"
 
 #: ../../library/hashlib.rst:703
 msgid ""
@@ -830,12 +841,13 @@ msgstr "它使用的核心算法来自由 *Daniel J. Bernstein* 所设计的 Cha
 
 #: ../../library/hashlib.rst:705
 msgid ""
-"The stdlib implementation is based on pyblake2_ module. It was written by "
-"*Dmitry Chestnykh* based on C implementation written by *Samuel Neves*. The "
-"documentation was copied from pyblake2_ and written by *Dmitry Chestnykh*."
+"The stdlib implementation is based on pyblake2_ module. It was written by"
+" *Dmitry Chestnykh* based on C implementation written by *Samuel Neves*. "
+"The documentation was copied from pyblake2_ and written by *Dmitry "
+"Chestnykh*."
 msgstr ""
-"stdlib 实现是基于 pyblake2_ 模块的。 它由 *Dmitry Chestnykh* 在 *Samuel Neves* 所编写的 C "
-"实现的基础上编写。 此文档拷贝自 pyblake2_ 并由 *Dmitry Chestnykh* 撰写。"
+"stdlib 实现是基于 pyblake2_ 模块的。 它由 *Dmitry Chestnykh* 在 *Samuel Neves* 所编写的 C"
+" 实现的基础上编写。 此文档拷贝自 pyblake2_ 并由 *Dmitry Chestnykh* 撰写。"
 
 #: ../../library/hashlib.rst:709
 msgid "The C code was partly rewritten for Python by *Christian Heimes*."
@@ -849,15 +861,16 @@ msgstr "以下公共领域贡献同时适用于 C 哈希函数实现、扩展代
 
 #: ../../library/hashlib.rst:714
 msgid ""
-"To the extent possible under law, the author(s) have dedicated all copyright"
-" and related and neighboring rights to this software to the public domain "
-"worldwide. This software is distributed without any warranty."
+"To the extent possible under law, the author(s) have dedicated all "
+"copyright and related and neighboring rights to this software to the "
+"public domain worldwide. This software is distributed without any "
+"warranty."
 msgstr "在法律许可的范围内，作者已将此软件的全部版权以及关联和邻接权利贡献到全球公共领域。 此软件的发布不附带任何担保。"
 
 #: ../../library/hashlib.rst:718
 msgid ""
-"You should have received a copy of the CC0 Public Domain Dedication along "
-"with this software. If not, see "
+"You should have received a copy of the CC0 Public Domain Dedication along"
+" with this software. If not, see "
 "https://creativecommons.org/publicdomain/zero/1.0/."
 msgstr ""
 "你应该已收到此软件附带的 CC0 公共领域专属证书的副本。 如果没有，请参阅 "
@@ -899,25 +912,21 @@ msgid "Official BLAKE2 website."
 msgstr "BLAKE2 官方网站"
 
 #: ../../library/hashlib.rst:749
-msgid ""
-"https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf"
-msgstr ""
-"https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf"
+msgid "https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf"
+msgstr "https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2.pdf"
 
 #: ../../library/hashlib.rst:749
 msgid "The FIPS 180-2 publication on Secure Hash Algorithms."
 msgstr "有关安全哈希算法的 FIPS 180-2 出版物。"
 
 #: ../../library/hashlib.rst:753
-msgid ""
-"https://en.wikipedia.org/wiki/Cryptographic_hash_function#Cryptographic_hash_algorithms"
-msgstr ""
-"https://en.wikipedia.org/wiki/Cryptographic_hash_function#Cryptographic_hash_algorithms"
+msgid "https://en.wikipedia.org/wiki/Cryptographic_hash_function#Cryptographic_hash_algorithms"
+msgstr "https://en.wikipedia.org/wiki/Cryptographic_hash_function#Cryptographic_hash_algorithms"
 
 #: ../../library/hashlib.rst:752
 msgid ""
-"Wikipedia article with information on which algorithms have known issues and"
-" what that means regarding their use."
+"Wikipedia article with information on which algorithms have known issues "
+"and what that means regarding their use."
 msgstr "包含关于哪些算法存在已知问题以及对其使用所造成的影响的信息的 Wikipedia 文章。"
 
 #: ../../library/hashlib.rst:755
@@ -927,3 +936,4 @@ msgstr "https://www.ietf.org/rfc/rfc8018.txt"
 #: ../../library/hashlib.rst:756
 msgid "PKCS #5: Password-Based Cryptography Specification Version 2.1"
 msgstr "PKCS #5: 基于密码的加密规范描述 2.1 版"
+

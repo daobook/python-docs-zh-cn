@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # Dai Xu <daixu61@hotmail.com>, 2021
 # Freesand Leo <yuqinju@163.com>, 2021
 # Alpha Du <alphanow@gmail.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:50+0000\n"
 "Last-Translator: Alpha Du <alphanow@gmail.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../using/configure.rst:3
 msgid "Configure Python"
@@ -47,16 +48,15 @@ msgstr "常用参数"
 
 #: ../../using/configure.rst:21
 msgid ""
-"Support loadable extensions in the :mod:`_sqlite` extension module (default "
-"is no)."
+"Support loadable extensions in the :mod:`_sqlite` extension module "
+"(default is no)."
 msgstr "支持 :mod:`_sqlite` 扩展模块中的可加载扩展（默认为否）。"
 
 #: ../../using/configure.rst:24
 msgid ""
 "See the :meth:`sqlite3.Connection.enable_load_extension` method of the "
 ":mod:`sqlite3` module."
-msgstr ""
-"参见 :meth:`sqlite3.Connection.enable_load_extension` 方法的 :mod:`sqlite3` 模块。"
+msgstr "参见 :meth:`sqlite3.Connection.enable_load_extension` 方法的 :mod:`sqlite3` 模块。"
 
 #: ../../using/configure.rst:31
 msgid ""
@@ -70,10 +70,12 @@ msgstr "定义 Python :class:`int` 数字的比特大小：15或30比特"
 
 #: ../../using/configure.rst:38
 msgid ""
-"By default, the number of bits is selected depending on ``sizeof(void*)``: "
-"30 bits if ``void*`` size is 64-bit or larger, 15 bits otherwise."
+"By default, the number of bits is selected depending on "
+"``sizeof(void*)``: 30 bits if ``void*`` size is 64-bit or larger, 15 bits"
+" otherwise."
 msgstr ""
-"默认情况下，比特数取决于 ``sizeof(void*)``。如果 ``void*`` 大小为 64 位以上，则比特数为 30 位，否则为 15 位。"
+"默认情况下，比特数取决于 ``sizeof(void*)``。如果 ``void*`` 大小为 64 位以上，则比特数为 30 位，否则为 15 "
+"位。"
 
 #: ../../using/configure.rst:41
 msgid "Define the ``PYLONG_BITS_IN_DIGIT`` to ``15`` or ``30``."
@@ -85,10 +87,9 @@ msgstr "参见  :data:`sys.int_info.bits_per_digit <sys.int_info>` 。"
 
 #: ../../using/configure.rst:48
 msgid ""
-"Compile the Python ``main()`` function and link Python executable with C++ "
-"compiler: ``$CXX``, or *COMPILER* if specified."
-msgstr ""
-"编译 Python ``main()`` 函数，用 C++ 编译器链接 Python 可执行文件： `$CXX`` 或 *COMPILER*。"
+"Compile the Python ``main()`` function and link Python executable with "
+"C++ compiler: ``$CXX``, or *COMPILER* if specified."
+msgstr "编译 Python ``main()`` 函数，用 C++ 编译器链接 Python 可执行文件： `$CXX`` 或 *COMPILER*。"
 
 #: ../../using/configure.rst:53
 msgid "Set the Python executable suffix to *SUFFIX*."
@@ -97,26 +98,26 @@ msgstr "将 Python 的可执行文件后缀设置为 *SUFFIX*。"
 #: ../../using/configure.rst:55
 msgid ""
 "The default suffix is ``.exe`` on Windows and macOS (``python.exe`` "
-"executable), and an empty string on other platforms (``python`` executable)."
+"executable), and an empty string on other platforms (``python`` "
+"executable)."
 msgstr ""
 "在 Windows 和 macOS 上的默认后缀为 ``.exe``（ ``python.exe`` 为可执行文件），在其他平台上为空字符串（ "
 "``python`` 可执行）。"
 
 #: ../../using/configure.rst:60
 msgid ""
-"Select the default time zone search path for :data:`zoneinfo.TZPATH`. See "
-"the :ref:`Compile-time configuration <zoneinfo_data_compile_time_config>` of"
-" the :mod:`zoneinfo` module."
+"Select the default time zone search path for :data:`zoneinfo.TZPATH`. See"
+" the :ref:`Compile-time configuration "
+"<zoneinfo_data_compile_time_config>` of the :mod:`zoneinfo` module."
 msgstr ""
-"为 :data:`zoneinfo.TZPATH` 选择默认的时区搜索路径。 参见 :mod:`zoneinfo` 模块的 :ref:`编译时配置 "
-"<zoneinfo_data_compile_time_config>`。"
+"为 :data:`zoneinfo.TZPATH` 选择默认的时区搜索路径。 参见 :mod:`zoneinfo` 模块的 :ref:`编译时配置"
+" <zoneinfo_data_compile_time_config>`。"
 
 #: ../../using/configure.rst:64
 msgid ""
 "Default: "
 "``/usr/share/zoneinfo:/usr/lib/zoneinfo:/usr/share/lib/zoneinfo:/etc/zoneinfo``."
-msgstr ""
-"默认：``/usr/share/zoneinfo:/usr/lib/zoneinfo:/usr/share/lib/zoneinfo:/etc/zoneinfo``"
+msgstr "默认：``/usr/share/zoneinfo:/usr/lib/zoneinfo:/usr/share/lib/zoneinfo:/etc/zoneinfo``"
 
 #: ../../using/configure.rst:66
 msgid "See :data:`os.pathsep` path separator."
@@ -124,8 +125,9 @@ msgstr "参阅 :data:`os.pathsep` 路径分隔符。"
 
 #: ../../using/configure.rst:72
 msgid ""
-"Build the ``_decimal`` extension module using a thread-local context rather "
-"than a coroutine-local context (default), see the :mod:`decimal` module."
+"Build the ``_decimal`` extension module using a thread-local context "
+"rather than a coroutine-local context (default), see the :mod:`decimal` "
+"module."
 msgstr "编译 ``_decimal`` 扩展模块时使用线程本地上下文，而不是协程本地上下文（默认），参见 :mod:`decimal`  模块。"
 
 #: ../../using/configure.rst:75
@@ -137,8 +139,7 @@ msgid "Override order to check db backends for the :mod:`dbm` module"
 msgstr "覆盖 :mod:`dbm` 模块的 db 后端检查顺序。"
 
 #: ../../using/configure.rst:83
-msgid ""
-"A valid value is a colon (``:``) separated string with the backend names:"
+msgid "A valid value is a colon (``:``) separated string with the backend names:"
 msgstr "合法值是用冒号（``:``）分隔的字符串，包含后端名称。"
 
 #: ../../using/configure.rst:85
@@ -154,8 +155,7 @@ msgid "``bdb``."
 msgstr "``bdb`` 。"
 
 #: ../../using/configure.rst:91
-msgid ""
-"Disable C locale coercion to a UTF-8 based locale (enabled by default)."
+msgid "Disable C locale coercion to a UTF-8 based locale (enabled by default)."
 msgstr "禁用 C 语言对 UTF-8 的强制要求（默认为启用）。"
 
 #: ../../using/configure.rst:93
@@ -191,8 +191,8 @@ msgid ""
 "``/usr/share/python-wheels/`` directory and don't install the "
 ":mod:`ensurepip._bundled` package."
 msgstr ""
-"某些 Linux 发行版的打包策略建议不要捆绑依赖关系。如 Fedora 在``/usr/share/python-wheels/`` 目录下安装 "
-"wheel 包，而不安装 :mod:`ensurepip._bundled` 包。"
+"某些 Linux 发行版的打包策略建议不要捆绑依赖关系。如 Fedora 在``/usr/share/python-wheels/`` 目录下安装"
+" wheel 包，而不安装 :mod:`ensurepip._bundled` 包。"
 
 #: ../../using/configure.rst:121
 msgid "Install Options"
@@ -200,8 +200,8 @@ msgstr "安装时的选项"
 
 #: ../../using/configure.rst:125
 msgid ""
-"Don't build nor install test modules, like the :mod:`test` package or the "
-":mod:`_testcapi` extension module (built and installed by default)."
+"Don't build nor install test modules, like the :mod:`test` package or the"
+" :mod:`_testcapi` extension module (built and installed by default)."
 msgstr "不编译和安装 test 模块，如 :mod:`test` 包或 :mod:`_testcapi` 扩展模块（默认会编译并安装）。"
 
 #: ../../using/configure.rst:132
@@ -210,10 +210,9 @@ msgstr "选择 Python 安装时运行的 :mod:`ensurepip` 命令。"
 
 #: ../../using/configure.rst:134
 msgid ""
-"``upgrade`` (default): run ``python -m ensurepip --altinstall --upgrade`` "
-"command."
-msgstr ""
-"``upgrade`` （默认）：运行 ``python -m ensurepip --altinstall --upgrade`` 命令。"
+"``upgrade`` (default): run ``python -m ensurepip --altinstall --upgrade``"
+" command."
+msgstr "``upgrade`` （默认）：运行 ``python -m ensurepip --altinstall --upgrade`` 命令。"
 
 #: ../../using/configure.rst:136
 msgid "``install``: run ``python -m ensurepip --altinstall`` command;"
@@ -229,10 +228,9 @@ msgstr "性能选项"
 
 #: ../../using/configure.rst:145
 msgid ""
-"Configuring Python using ``--enable-optimizations --with-lto`` (PGO + LTO) "
-"is recommended for best performance."
-msgstr ""
-"建议用 ``--enable-optimizations --with-lto`` （PGO + LTO）配置 Python，以便实现最佳性能。"
+"Configuring Python using ``--enable-optimizations --with-lto`` (PGO + "
+"LTO) is recommended for best performance."
+msgstr "建议用 ``--enable-optimizations --with-lto`` （PGO + LTO）配置 Python，以便实现最佳性能。"
 
 #: ../../using/configure.rst:150
 msgid ""
@@ -242,17 +240,17 @@ msgstr "用 :envvar:`PROFILE_TASK` 启用以配置文件主导的优化（PGO）
 
 #: ../../using/configure.rst:153
 msgid ""
-"The C compiler Clang requires ``llvm-profdata`` program for PGO. On macOS, "
-"GCC also requires it: GCC is just an alias to Clang on macOS."
+"The C compiler Clang requires ``llvm-profdata`` program for PGO. On "
+"macOS, GCC also requires it: GCC is just an alias to Clang on macOS."
 msgstr ""
-"C 编译器 Clang 需要用到 ``llvm-profdata`` 程序进行 PGO。在 macOS 上，GCC 也需要用到它：在 macOS 上 "
-"GCC 只是 Clang 的别名而已。"
+"C 编译器 Clang 需要用到 ``llvm-profdata`` 程序进行 PGO。在 macOS 上，GCC 也需要用到它：在 macOS "
+"上 GCC 只是 Clang 的别名而已。"
 
 #: ../../using/configure.rst:156
 msgid ""
-"Disable also semantic interposition in libpython if ``--enable-shared`` and "
-"GCC is used: add ``-fno-semantic-interposition`` to the compiler and linker "
-"flags."
+"Disable also semantic interposition in libpython if ``--enable-shared`` "
+"and GCC is used: add ``-fno-semantic-interposition`` to the compiler and "
+"linker flags."
 msgstr ""
 "如果使用 ``--enable-shared`` 和 GCC ，还可以禁用 libpython 中的语义插值：在编译器和链接器的标志中加入 "
 "``-fno-semantic-interposition`` 。"
@@ -263,8 +261,8 @@ msgstr "在 GCC 上使用 ``-fno-semantic-interposition`` 。"
 
 #: ../../using/configure.rst:167
 msgid ""
-"Environment variable used in the Makefile: Python command line arguments for"
-" the PGO generation task."
+"Environment variable used in the Makefile: Python command line arguments "
+"for the PGO generation task."
 msgstr "Makefile 用到的环境变量：PGO 用到的 Python 命令行参数。"
 
 #: ../../using/configure.rst:170
@@ -272,28 +270,27 @@ msgid "Default: ``-m test --pgo --timeout=$(TESTTIMEOUT)``."
 msgstr "默认为：``-m test --pgo --timeout=$(TESTTIMEOUT)`` 。"
 
 #: ../../using/configure.rst:176
-msgid ""
-"Enable Link Time Optimization (LTO) in any build (disabled by default)."
+msgid "Enable Link Time Optimization (LTO) in any build (disabled by default)."
 msgstr "在编译过程中启用链接时间优化（LTO）（默认为禁用）。"
 
 #: ../../using/configure.rst:178
 msgid ""
-"The C compiler Clang requires ``llvm-ar`` for LTO (``ar`` on macOS), as well"
-" as an LTO-aware linker (``ld.gold`` or ``lld``)."
+"The C compiler Clang requires ``llvm-ar`` for LTO (``ar`` on macOS), as "
+"well as an LTO-aware linker (``ld.gold`` or ``lld``)."
 msgstr ""
 "LTO 时 C 编译器 Clang 需要用到 ``llvm-ar`` 参数（在 macOS 则为 ``ar``），以及支持 LTO "
 "的链接器（``ld.gold`` 或 ``lld``）。"
 
 #: ../../using/configure.rst:185
 msgid ""
-"Enable computed gotos in evaluation loop (enabled by default on supported "
-"compilers)."
+"Enable computed gotos in evaluation loop (enabled by default on supported"
+" compilers)."
 msgstr "在求值环节启用 goto 计数（在支持的编译器上默认启用）。"
 
 #: ../../using/configure.rst:190
 msgid ""
-"Disable the specialized Python memory allocator :ref:`pymalloc <pymalloc>` "
-"(enabled by default)."
+"Disable the specialized Python memory allocator :ref:`pymalloc "
+"<pymalloc>` (enabled by default)."
 msgstr "禁用特定的 Python 内存分配器 :ref:`pymalloc <pymalloc>` （默认为启用）。"
 
 #: ../../using/configure.rst:193
@@ -302,8 +299,9 @@ msgstr "参见环境变量 :envvar:`PYTHONMALLOC` 。"
 
 #: ../../using/configure.rst:197
 msgid ""
-"Disable static documentation strings to reduce the memory footprint (enabled"
-" by default). Documentation strings defined in Python are not affected."
+"Disable static documentation strings to reduce the memory footprint "
+"(enabled by default). Documentation strings defined in Python are not "
+"affected."
 msgstr "禁用静态文档字符串以减少内存占用（默认启用）。Python 中定义的文档字符串不受影响。"
 
 #: ../../using/configure.rst:200
@@ -324,8 +322,8 @@ msgstr "Python 调试级编译"
 
 #: ../../using/configure.rst:214
 msgid ""
-"A debug build is Python built with the :option:`--with-pydebug` configure "
-"option."
+"A debug build is Python built with the :option:`--with-pydebug` configure"
+" option."
 msgstr "调试版本 Python 是指带有 :option:`--with-pydebug`  参数的编译。"
 
 #: ../../using/configure.rst:217
@@ -356,14 +354,14 @@ msgstr "环境变量加入 :envvar:`PYTHONTHREADDEBUG` 。"
 
 #: ../../using/configure.rst:225
 msgid ""
-"Add support for the ``__ltrace__`` variable: enable low-level tracing in the"
-" bytecode evaluation loop if the variable is defined."
+"Add support for the ``__ltrace__`` variable: enable low-level tracing in "
+"the bytecode evaluation loop if the variable is defined."
 msgstr "加入对 ``__ltrace__`` 变量的支持：如果定义了该变量，在计算字节码环节启用底层跟踪。"
 
 #: ../../using/configure.rst:227
 msgid ""
-"Install :ref:`debug hooks on memory allocators <default-memory-allocators>` "
-"to detect buffer overflow and other memory errors."
+"Install :ref:`debug hooks on memory allocators <default-memory-"
+"allocators>` to detect buffer overflow and other memory errors."
 msgstr "安装 :ref:`内存分配调试钩子 <default-memory-allocators>` ，以便检测缓冲区溢出和其他内存错误。"
 
 #: ../../using/configure.rst:229
@@ -372,10 +370,10 @@ msgstr "定义宏 ``Py_DEBUG`` 和 ``Py_REF_DEBUG`` 。"
 
 #: ../../using/configure.rst:230
 msgid ""
-"Add runtime checks: code surroundeded by ``#ifdef Py_DEBUG`` and ``#endif``."
-" Enable ``assert(...)`` and ``_PyObject_ASSERT(...)`` assertions: don't set "
-"the ``NDEBUG`` macro (see also the :option:`--with-assertions` configure "
-"option). Main runtime checks:"
+"Add runtime checks: code surroundeded by ``#ifdef Py_DEBUG`` and "
+"``#endif``. Enable ``assert(...)`` and ``_PyObject_ASSERT(...)`` "
+"assertions: don't set the ``NDEBUG`` macro (see also the :option:`--with-"
+"assertions` configure option). Main runtime checks:"
 msgstr ""
 "加入运行时检查：针对 ``#ifdef Py_DEBUG`` 和 ``#endif`` 包裹的代码。启用 ``assert(...)`` 和 "
 "``_PyObject_ASSERT(...)`` 断言：不设置 ``NDEBUG`` 宏（参阅  :option:`--with-"
@@ -387,20 +385,20 @@ msgstr "增加了对函数参数的合理性检查。"
 
 #: ../../using/configure.rst:236
 msgid ""
-"Unicode and int objects are created with their memory filled with a pattern "
-"to detect usage of uninitialized objects."
+"Unicode and int objects are created with their memory filled with a "
+"pattern to detect usage of uninitialized objects."
 msgstr "创建 Unicode 和 int 对象时，内存按某种模式进行了填充，用于检测是否使用了未初始化的对象。"
 
 #: ../../using/configure.rst:238
 msgid ""
-"Ensure that functions which can clear or replace the current exception are "
-"not called with an exception raised."
+"Ensure that functions which can clear or replace the current exception "
+"are not called with an exception raised."
 msgstr "确保有能力清除或替换当前异常的函数在调用时不会引发异常。"
 
 #: ../../using/configure.rst:240
 msgid ""
-"The garbage collector (:func:`gc.collect` function) runs some basic checks "
-"on objects consistency."
+"The garbage collector (:func:`gc.collect` function) runs some basic "
+"checks on objects consistency."
 msgstr "垃圾收集器（:func:`gc.collect` 函数）对对象的一致性进行一些基本检查。"
 
 #: ../../using/configure.rst:242
@@ -418,12 +416,12 @@ msgstr "参见  :ref:`Python 开发模式 <devmode>` 和配置参数 :option:`--
 #: ../../using/configure.rst:248
 msgid ""
 "Release builds and debug builds are now ABI compatible: defining the "
-"``Py_DEBUG`` macro no longer implies the ``Py_TRACE_REFS`` macro (see the "
-":option:`--with-trace-refs` option), which introduces the only ABI "
+"``Py_DEBUG`` macro no longer implies the ``Py_TRACE_REFS`` macro (see the"
+" :option:`--with-trace-refs` option), which introduces the only ABI "
 "incompatibility."
 msgstr ""
-"发布版和调试版的编译现在是 ABI 兼容的：定义了 ``Py_DEBUG`` 宏不再意味着同时定义了 ``Py_TRACE_REFS`` 宏（参见 "
-":option:`--with-trace-refs` 参数），这引入了唯一一处不是 ABI 兼容的地方。"
+"发布版和调试版的编译现在是 ABI 兼容的：定义了 ``Py_DEBUG`` 宏不再意味着同时定义了 ``Py_TRACE_REFS`` 宏（参见"
+" :option:`--with-trace-refs` 参数），这引入了唯一一处不是 ABI 兼容的地方。"
 
 #: ../../using/configure.rst:256
 msgid "Debug options"
@@ -457,8 +455,8 @@ msgstr "环境变量加入 :envvar:`PYTHONDUMPREFS` 。"
 
 #: ../../using/configure.rst:273
 msgid ""
-"This build is not ABI compatible with release build (default build) or debug"
-" build (``Py_DEBUG`` and ``Py_REF_DEBUG`` macros)."
+"This build is not ABI compatible with release build (default build) or "
+"debug build (``Py_DEBUG`` and ``Py_REF_DEBUG`` macros)."
 msgstr "此版本与发布模式（默认编译模式）或调试模式（``Py_DEBUG`` 和 ``Py_REF_DEBUG`` 宏）不具备 ABI 兼容性。"
 
 #: ../../using/configure.rst:280
@@ -469,8 +467,8 @@ msgstr "编译时启用 C 断言：``assert(...);`` 和 ``_PyObject_ASSERT(...);
 
 #: ../../using/configure.rst:283
 msgid ""
-"If set, the ``NDEBUG`` macro is not defined in the :envvar:`OPT` compiler "
-"variable."
+"If set, the ``NDEBUG`` macro is not defined in the :envvar:`OPT` compiler"
+" variable."
 msgstr "如果设置此参数，则在 :envvar:`OPT` 编译器变量中不定义 ``NDEBUG`` 宏。"
 
 #: ../../using/configure.rst:286
@@ -494,19 +492,19 @@ msgid ""
 msgstr "参阅 :ref:`用 DTrace 和 SystemTap 测试 CPython <instrumentation>`。"
 
 #: ../../using/configure.rst:306
-msgid ""
-"Enable AddressSanitizer memory error detector, ``asan`` (default is no)."
+msgid "Enable AddressSanitizer memory error detector, ``asan`` (default is no)."
 msgstr "启用 AddressSanitizer 内存错误检测 ``asan``，（默认为禁用）。"
 
 #: ../../using/configure.rst:312
 msgid ""
-"Enable MemorySanitizer allocation error detector, ``msan`` (default is no)."
+"Enable MemorySanitizer allocation error detector, ``msan`` (default is "
+"no)."
 msgstr "启用 MemorySanitizer 内存错误检测 ``msan``，（默认为禁用）。"
 
 #: ../../using/configure.rst:318
 msgid ""
-"Enable UndefinedBehaviorSanitizer undefined behaviour detector, ``ubsan`` "
-"(default is no)."
+"Enable UndefinedBehaviorSanitizer undefined behaviour detector, ``ubsan``"
+" (default is no)."
 msgstr "启用 undefinedBehaviorSanitizer 未定义行为检测 ``ubsan``，（默认为禁用）。"
 
 #: ../../using/configure.rst:325
@@ -514,8 +512,7 @@ msgid "Linker options"
 msgstr "链接器选项"
 
 #: ../../using/configure.rst:329
-msgid ""
-"Enable building a shared Python library: ``libpython`` (default is no)."
+msgid "Enable building a shared Python library: ``libpython`` (default is no)."
 msgstr "启用共享 Python 库 ``libpython`` 的编译（默认为禁用）。"
 
 #: ../../using/configure.rst:333
@@ -575,8 +572,7 @@ msgid "Override search for Tcl and Tk libraries."
 msgstr "覆盖 Tcl 和 Tk 库的搜索路径。"
 
 #: ../../using/configure.rst:389
-msgid ""
-"Override ``libm`` math library to *STRING* (default is system-dependent)."
+msgid "Override ``libm`` math library to *STRING* (default is system-dependent)."
 msgstr "将 ``libm`` 数学库覆盖为 *STRING* (默认情况视系统而定)。"
 
 #: ../../using/configure.rst:393
@@ -671,8 +667,8 @@ msgstr "参见 :mod:`ssl`  模块。"
 
 #: ../../using/configure.rst:452
 msgid ""
-"The settings ``python`` and *STRING* also set TLS 1.2 as minimum protocol "
-"version."
+"The settings ``python`` and *STRING* also set TLS 1.2 as minimum protocol"
+" version."
 msgstr "设置 ``python`` 和 *STRING* 也会把 TLS 1.2 设为最低版本的协议。"
 
 #: ../../using/configure.rst:456
@@ -685,21 +681,20 @@ msgstr "参见 ``Mac/README.rst`` 。"
 
 #: ../../using/configure.rst:463
 msgid ""
-"Create a universal binary build. *SDKDIR* specifies which macOS SDK should "
-"be used to perform the build (default is no)."
+"Create a universal binary build. *SDKDIR* specifies which macOS SDK "
+"should be used to perform the build (default is no)."
 msgstr "创建通用的二进制版本。*SDKDIR* 指定应采用的 macOS SDK （默认为否）。"
 
 #: ../../using/configure.rst:469
 msgid ""
-"Create a Python.framework rather than a traditional Unix install. Optional "
-"*INSTALLDIR* specifies the installation path (default is no)."
-msgstr ""
-"创建 Python.framework ，而不是传统的 Unix 安装版。可选参数 *INSTALLDIR* 指定了安装路径（(默认为否）。"
+"Create a Python.framework rather than a traditional Unix install. "
+"Optional *INSTALLDIR* specifies the installation path (default is no)."
+msgstr "创建 Python.framework ，而不是传统的 Unix 安装版。可选参数 *INSTALLDIR* 指定了安装路径（(默认为否）。"
 
 #: ../../using/configure.rst:474
 msgid ""
-"Specify the kind of universal binary that should be created. This option is "
-"only valid when :option:`--enable-universalsdk` is set."
+"Specify the kind of universal binary that should be created. This option "
+"is only valid when :option:`--enable-universalsdk` is set."
 msgstr "指定应创建何种通用二进制文件。该选项仅当设置了 :option:`--enable-universalsdk` 时才有效。"
 
 #: ../../using/configure.rst:477
@@ -740,8 +735,8 @@ msgstr "``all``。"
 
 #: ../../using/configure.rst:490
 msgid ""
-"Specify the name for the python framework on macOS only valid when :option"
-":`--enable-framework` is set (default: ``Python``)."
+"Specify the name for the python framework on macOS only valid when "
+":option:`--enable-framework` is set (default: ``Python``)."
 msgstr ""
 "为 macOS 中的 python 框架指定名称，仅当设置了 :option:`--enable-framework` "
 "时有效（默认：``Python``）。"
@@ -760,7 +755,8 @@ msgstr ":file:`configure.ac` => :file:`configure`;"
 
 #: ../../using/configure.rst:501
 msgid ""
-":file:`Makefile.pre.in` => :file:`Makefile` (created by :file:`configure`);"
+":file:`Makefile.pre.in` => :file:`Makefile` (created by "
+":file:`configure`);"
 msgstr ":file:`Makefile.pre.in` => :file:`Makefile` (由 :file:`configure` 创建);"
 
 #: ../../using/configure.rst:502
@@ -772,12 +768,11 @@ msgid ""
 ":file:`Modules/Setup`: C extensions built by the Makefile using "
 ":file:`Module/makesetup` shell script;"
 msgstr ""
-":file:`Modules/Setup`:  由Makefile 使用 :file:`Module/makesetup` shell 脚本构建的 C "
-"扩展;"
+":file:`Modules/Setup`:  由Makefile 使用 :file:`Module/makesetup` shell 脚本构建的"
+" C 扩展;"
 
 #: ../../using/configure.rst:505
-msgid ""
-":file:`setup.py`: C extensions built using the :mod:`distutils` module."
+msgid ":file:`setup.py`: C extensions built using the :mod:`distutils` module."
 msgstr ":file:`setup.py`: 使用 :mod:`distutils` 模块构建的 C 扩展。"
 
 #: ../../using/configure.rst:508
@@ -794,16 +789,15 @@ msgstr "一个静态库 ``libpython`` （ ``.a`` ）是由对象文件创建的�
 
 #: ../../using/configure.rst:512
 msgid ""
-"``python.o`` and the static ``libpython`` library are linked into the final "
-"``python`` program."
+"``python.o`` and the static ``libpython`` library are linked into the "
+"final ``python`` program."
 msgstr "``python.o`` 和静态库 ``libpython`` 被链接到最终程序 ``python`` 中。"
 
 #: ../../using/configure.rst:514
 msgid ""
 "C extensions are built by the Makefile (see :file:`Modules/Setup`) and "
 "``python setup.py build``."
-msgstr ""
-"C 扩展由 Makefile （参见 :file:`Modules/Setup` ） 和 ``python setup.py build`` 构建。"
+msgstr "C 扩展由 Makefile （参见 :file:`Modules/Setup` ） 和 ``python setup.py build`` 构建。"
 
 #: ../../using/configure.rst:518
 msgid "Main Makefile targets"
@@ -821,20 +815,20 @@ msgstr "``make platform:`` ：构建 ``python`` 程序，但不构建标准库�
 
 #: ../../using/configure.rst:523
 msgid ""
-"``make profile-opt``: build Python using Profile Guided Optimization (PGO). "
-"You can use the configure :option:`--enable-optimizations` option to make "
-"this the default target of the ``make`` command (``make all`` or just "
-"``make``)."
+"``make profile-opt``: build Python using Profile Guided Optimization "
+"(PGO). You can use the configure :option:`--enable-optimizations` option "
+"to make this the default target of the ``make`` command (``make all`` or "
+"just ``make``)."
 msgstr ""
-"``make profile-opt`` ：使用 Profile Guided Optimization (PGO) 构建 Python 。你可以使用 "
-"configure 的 :option:`--enable-optimizations` 选项来使其成为 ``make`` 命令的默认目标（ "
-"``make all`` 或只是 ``make`` ）。"
+"``make profile-opt`` ：使用 Profile Guided Optimization (PGO) 构建 Python "
+"。你可以使用 configure 的 :option:`--enable-optimizations` 选项来使其成为 ``make`` "
+"命令的默认目标（ ``make all`` 或只是 ``make`` ）。"
 
 #: ../../using/configure.rst:527
 msgid ""
-"``make buildbottest``: Build Python and run the Python test suite, the same "
-"way than buildbots test Python. Set ``TESTTIMEOUT`` variable (in seconds) to"
-" change the test timeout (1200 by default: 20 minutes)."
+"``make buildbottest``: Build Python and run the Python test suite, the "
+"same way than buildbots test Python. Set ``TESTTIMEOUT`` variable (in "
+"seconds) to change the test timeout (1200 by default: 20 minutes)."
 msgstr ""
 "``make buildbottest`` ：构建 Python 并运行 Python 测试套件，与 buildbots 测试 Python "
 "的方式相同。设置变量 ``TESTTIMEOUT`` （单位：秒）来改变测试超时时间（默认为 1200 即 20 分钟）。"
@@ -845,12 +839,12 @@ msgstr "``make install``：构建并安装 Python 。"
 
 #: ../../using/configure.rst:531
 msgid ""
-"``make regen-all``: Regenerate (almost) all generated files; ``make regen-"
-"stdlib-module-names`` and ``autoconf`` must be run separately for the "
-"remaining generated files."
+"``make regen-all``: Regenerate (almost) all generated files; ``make "
+"regen-stdlib-module-names`` and ``autoconf`` must be run separately for "
+"the remaining generated files."
 msgstr ""
-"``make regen-all`` ：重新生成（几乎）所有生成的文件； ``make regen-stdlib-module-names`` 和 "
-"``autoconf`` 必须对其余生成的文件单独运行。"
+"``make regen-all`` ：重新生成（几乎）所有生成的文件； ``make regen-stdlib-module-names`` 和"
+" ``autoconf`` 必须对其余生成的文件单独运行。"
 
 #: ../../using/configure.rst:534
 msgid "``make clean``: Remove built files."
@@ -858,8 +852,8 @@ msgstr "``make clean`` ：移除构建的文件。"
 
 #: ../../using/configure.rst:535
 msgid ""
-"``make distclean``: Same than ``make clean``, but remove also files created "
-"by the configure script."
+"``make distclean``: Same than ``make clean``, but remove also files "
+"created by the configure script."
 msgstr "``make distclean`` ：与 ``make clean`` 相同，但也删除由配置脚本创建的文件。"
 
 #: ../../using/configure.rst:539
@@ -868,16 +862,17 @@ msgstr "C 扩展"
 
 #: ../../using/configure.rst:541
 msgid ""
-"Some C extensions are built as built-in modules, like the ``sys`` module. "
-"They are built with the ``Py_BUILD_CORE_BUILTIN`` macro defined. Built-in "
-"modules have no ``__file__`` attribute::"
+"Some C extensions are built as built-in modules, like the ``sys`` module."
+" They are built with the ``Py_BUILD_CORE_BUILTIN`` macro defined. Built-"
+"in modules have no ``__file__`` attribute::"
 msgstr ""
 "一些 C 扩展是作为内置模块构建的，比如模块 ``sys`` 。它们是在定义了宏 ``Py_BUILD_CORE_BUILTIN`` "
 "的情况下构建的。内置模块没有 ``__file__`` 属性::"
 
 #: ../../using/configure.rst:553
+#, fuzzy
 msgid ""
-"Other C extensins are built as dynamic libraires, like the ``_asyncio`` "
+"Other C extensins are built as dynamic libraries, like the ``_asyncio`` "
 "module. They are built with the ``Py_BUILD_CORE_MODULE`` macro defined. "
 "Example on Linux x86-64::"
 msgstr ""
@@ -887,9 +882,9 @@ msgstr ""
 #: ../../using/configure.rst:563
 msgid ""
 ":file:`Modules/Setup` is used to generate Makefile targets to build C "
-"extensions. At the beginning of the files, C extensions are built as built-"
-"in modules. Extensions defined after the ``*shared*`` marker are built as "
-"dynamic libraries."
+"extensions. At the beginning of the files, C extensions are built as "
+"built-in modules. Extensions defined after the ``*shared*`` marker are "
+"built as dynamic libraries."
 msgstr ""
 ":file:`Modules/Setup` 用于生成 Makefile 目标，以构建 C 扩展。在文件的开头， C 被构建为内置模块。在标记 "
 "``*shared*`` 之后定义的扩展被构建为动态库。"
@@ -903,8 +898,9 @@ msgstr ":file:`setup.py` 脚本只使用 :mod:`distutils` 模块将 C 构建为�
 #: ../../using/configure.rst:570
 msgid ""
 "The :c:macro:`PyAPI_FUNC()`, :c:macro:`PyAPI_API()` and "
-":c:macro:`PyMODINIT_FUNC()` macros of :file:`Include/pyport.h` are defined "
-"differently depending if the ``Py_BUILD_CORE_MODULE`` macro is defined:"
+":c:macro:`PyMODINIT_FUNC()` macros of :file:`Include/pyport.h` are "
+"defined differently depending if the ``Py_BUILD_CORE_MODULE`` macro is "
+"defined:"
 msgstr ""
 "宏 :c:macro:`PyAPI_FUNC()` ， :c:macro:`PyAPI_API()` 和 "
 ":c:macro:`PyMODINIT_FUNC()` 在 :file:`Include/pyport.h` 中的定义不同，取决于是否定义宏 "
@@ -920,9 +916,9 @@ msgstr "否则使用 ``Py_IMPORTED_SYMBOL`` 。"
 
 #: ../../using/configure.rst:577
 msgid ""
-"If the ``Py_BUILD_CORE_BUILTIN`` macro is used by mistake on a C extension "
-"built as a shared library, its ``PyInit_xxx()`` function is not exported, "
-"causing an :exc:`ImportError` on import."
+"If the ``Py_BUILD_CORE_BUILTIN`` macro is used by mistake on a C "
+"extension built as a shared library, its ``PyInit_xxx()`` function is not"
+" exported, causing an :exc:`ImportError` on import."
 msgstr ""
 "如果宏 ``Py_BUILD_CORE_BUILTIN`` 被错误地用在作为共享库构建的 C 扩展上，它的函数 ``PyInit_xxx()`` "
 "就不会被导出，导致导入时出现 :exc:`ImportError` 。"
@@ -933,8 +929,8 @@ msgstr "编译器和链接器的标志"
 
 #: ../../using/configure.rst:585
 msgid ""
-"Options set by the ``./configure`` script and environment variables and used"
-" by ``Makefile``."
+"Options set by the ``./configure`` script and environment variables and "
+"used by ``Makefile``."
 msgstr "脚本 ``./configure`` 和环境变量设置的选项，并被 ``Makefile`` 使用。"
 
 #: ../../using/configure.rst:589
@@ -942,30 +938,28 @@ msgid "Preprocessor flags"
 msgstr "预处理器的标志"
 
 #: ../../using/configure.rst:593
-msgid ""
-"Value of :envvar:`CPPFLAGS` variable passed to the ``./configure`` script."
+msgid "Value of :envvar:`CPPFLAGS` variable passed to the ``./configure`` script."
 msgstr "变量 :envvar:`CPPFLAGS` 的值被传递给 ``./configure`` 脚本。"
 
 #: ../../using/configure.rst:599
 msgid ""
-"(Objective) C/C++ preprocessor flags, e.g. ``-I<include dir>`` if you have "
-"headers in a nonstandard directory ``<include dir>``."
+"(Objective) C/C++ preprocessor flags, e.g. ``-I<include dir>`` if you "
+"have headers in a nonstandard directory ``<include dir>``."
 msgstr ""
 "（ Objective ） C/C++ 预处理器标志，例如，使用 ``-I<include dir>`` 如果你的头文件在一个非标准的目录 "
 "``<include dir>`` 中 、"
 
 #: ../../using/configure.rst:602 ../../using/configure.rst:779
 msgid ""
-"Both :envvar:`CPPFLAGS` and :envvar:`LDFLAGS` need to contain the shell's "
-"value for setup.py to be able to build extension modules using the "
+"Both :envvar:`CPPFLAGS` and :envvar:`LDFLAGS` need to contain the shell's"
+" value for setup.py to be able to build extension modules using the "
 "directories specified in the environment variables."
 msgstr ""
 ":envvar:`CPPFLAGS` 和 :envvar:`LDFLAGS` 都需要包含shell的值，以便 setup.py "
 "能够使用环境变量中指定的目录构建扩展模块。"
 
 #: ../../using/configure.rst:612
-msgid ""
-"Extra preprocessor flags added for building the interpreter object files."
+msgid "Extra preprocessor flags added for building the interpreter object files."
 msgstr "为构建解释器对象文件增加了额外的预处理器标志。"
 
 #: ../../using/configure.rst:614
@@ -990,8 +984,8 @@ msgstr "例如： ``gcc -pthread`` 。"
 
 #: ../../using/configure.rst:629
 msgid ""
-"C compiler command used to build the ``main()`` function of programs like "
-"``python``."
+"C compiler command used to build the ``main()`` function of programs like"
+" ``python``."
 msgstr "C编译器命令用于构建像 ``python`` 这样的程序的 ``main()`` 函数。"
 
 #: ../../using/configure.rst:632
@@ -1022,8 +1016,8 @@ msgstr "C 编译器标志。"
 
 #: ../../using/configure.rst:651
 msgid ""
-":envvar:`CFLAGS_NODIST` is used for building the interpreter and stdlib C "
-"extensions.  Use it when a compiler flag should *not* be part of the "
+":envvar:`CFLAGS_NODIST` is used for building the interpreter and stdlib C"
+" extensions.  Use it when a compiler flag should *not* be part of the "
 "distutils :envvar:`CFLAGS` once Python is installed (:issue:`21121`)."
 msgstr ""
 ":envvar:`CFLAGS_NODIST` 用于构建解释器和 stdlib C 扩展。当 Python 安装后，编译器标志 *不* 应该成为 "
@@ -1034,8 +1028,7 @@ msgid "Extra C compiler flags."
 msgstr "而外的 C 编译器指令。"
 
 #: ../../using/configure.rst:663
-msgid ""
-"Value of :envvar:`CFLAGS` variable passed to the ``./configure`` script."
+msgid "Value of :envvar:`CFLAGS` variable passed to the ``./configure`` script."
 msgstr "变量 :envvar:`CFLAGS` 的值传递给 ``./configure`` 脚本。"
 
 #: ../../using/configure.rst:670
@@ -1070,8 +1063,8 @@ msgstr "为构建解释器对象文件增加了额外的 C 标志。"
 
 #: ../../using/configure.rst:699
 msgid ""
-"Default: ``$(CCSHARED)`` when :option:`--enable-shared` is used, or an empty"
-" string otherwise."
+"Default: ``$(CCSHARED)`` when :option:`--enable-shared` is used, or an "
+"empty string otherwise."
 msgstr "，默认为： ``$(CCSHARED)`` ，当 :option:`--enable-shared` 被使用时，则为空字符串"
 
 #: ../../using/configure.rst:704
@@ -1079,8 +1072,8 @@ msgid ""
 "Default: ``$(BASECFLAGS) $(OPT) $(CONFIGURE_CFLAGS) $(CFLAGS) "
 "$(EXTRA_CFLAGS)``."
 msgstr ""
-"默认为： ``$(BASECFLAGS) $(OPT) $(CONFIGURE_CFLAGS) $(CFLAGS) $(EXTRA_CFLAGS)`` "
-"。"
+"默认为： ``$(BASECFLAGS) $(OPT) $(CONFIGURE_CFLAGS) $(CFLAGS) "
+"$(EXTRA_CFLAGS)`` 。"
 
 #: ../../using/configure.rst:708
 msgid ""
@@ -1099,7 +1092,8 @@ msgid ""
 "Default: ``$(PY_CFLAGS) $(PY_CFLAGS_NODIST) $(PY_CPPFLAGS) "
 "$(CFLAGSFORSHARED)``."
 msgstr ""
-"默认为： ``$(PY_CFLAGS) $(PY_CFLAGS_NODIST) $(PY_CPPFLAGS) $(CFLAGSFORSHARED)``。"
+"默认为： ``$(PY_CFLAGS) $(PY_CFLAGS_NODIST) $(PY_CPPFLAGS) "
+"$(CFLAGSFORSHARED)``。"
 
 #: ../../using/configure.rst:722
 msgid "Default: ``$(PY_STDMODULE_CFLAGS) -DPy_BUILD_CORE``."
@@ -1107,8 +1101,8 @@ msgstr "默认为 ``$(PY_STDMODULE_CFLAGS) -DPy_BUILD_CORE`` 。"
 
 #: ../../using/configure.rst:728
 msgid ""
-"Compiler flags to build a standard library extension module as a built-in "
-"module, like the :mod:`posix` module."
+"Compiler flags to build a standard library extension module as a built-in"
+" module, like the :mod:`posix` module."
 msgstr "编译器标志，将标准库的扩展模块作为内置模块来构建，如 :mod:`posix` 模块"
 
 #: ../../using/configure.rst:731
@@ -1128,8 +1122,7 @@ msgid "Linker flags"
 msgstr "链接器标志位"
 
 #: ../../using/configure.rst:747
-msgid ""
-"Linker command used to build programs like ``python`` and ``_testembed``."
+msgid "Linker command used to build programs like ``python`` and ``_testembed``."
 msgstr "用于构建如 ``python`` 和 ``_testembed`` 的程序的链接器命令。"
 
 #: ../../using/configure.rst:749
@@ -1137,15 +1130,14 @@ msgid "Default: ``$(PURIFY) $(MAINCC)``."
 msgstr "默认为： ``$(PURIFY) $(MAINCC)`` 。"
 
 #: ../../using/configure.rst:753
-msgid ""
-"Value of :envvar:`LDFLAGS` variable passed to the ``./configure`` script."
+msgid "Value of :envvar:`LDFLAGS` variable passed to the ``./configure`` script."
 msgstr "变量 :envvar:`LDFLAGS` 的值被传递给 ``./configure`` 脚本。"
 
 #: ../../using/configure.rst:755
 msgid ""
-"Avoid assigning :envvar:`CFLAGS`, :envvar:`LDFLAGS`, etc. so users can use "
-"them on the command line to append to these values without stomping the pre-"
-"set values."
+"Avoid assigning :envvar:`CFLAGS`, :envvar:`LDFLAGS`, etc. so users can "
+"use them on the command line to append to these values without stomping "
+"the pre-set values."
 msgstr ""
 "避免指定 :envvar:`CFLAGS` ， :envvar:`LDFLAGS` "
 "等，这样用户就可以在命令行上使用它们来追加这些值，而不用触碰到预设的值。"
@@ -1153,12 +1145,13 @@ msgstr ""
 #: ../../using/configure.rst:763
 msgid ""
 ":envvar:`LDFLAGS_NODIST` is used in the same manner as "
-":envvar:`CFLAGS_NODIST`.  Use it when a linker flag should *not* be part of "
-"the distutils :envvar:`LDFLAGS` once Python is installed (:issue:`35257`)."
+":envvar:`CFLAGS_NODIST`.  Use it when a linker flag should *not* be part "
+"of the distutils :envvar:`LDFLAGS` once Python is installed "
+"(:issue:`35257`)."
 msgstr ""
 ":envvar:`LDFLAGS_NODIST` 的使用方式与  :envvar:`CFLAGS_NODIST` 相同。当 Python "
-"安装后，链接器标志 *不* 应该成为 distutils :envvar:`LDFLAGS` 的一部分时，可以使用它（ :issue:`35257` "
-"）。"
+"安装后，链接器标志 *不* 应该成为 distutils :envvar:`LDFLAGS` 的一部分时，可以使用它（ "
+":issue:`35257` ）。"
 
 #: ../../using/configure.rst:769
 msgid ""
@@ -1168,8 +1161,8 @@ msgstr "变量 :envvar:`LDFLAGS_NODIST` 的值传递给 ``./configure`` 脚本�
 
 #: ../../using/configure.rst:776
 msgid ""
-"Linker flags, e.g. ``-L<lib dir>`` if you have libraries in a nonstandard "
-"directory ``<lib dir>``."
+"Linker flags, e.g. ``-L<lib dir>`` if you have libraries in a nonstandard"
+" directory ``<lib dir>``."
 msgstr "链接器标志，例如，如果你的库在一个非标准的目录 ``<lib dir>`` 中，则使用 ``-L<lib dir>`` 。"
 
 #: ../../using/configure.rst:785
@@ -1209,3 +1202,4 @@ msgstr "默认为： ``$(CONFIGURE_LDFLAGS_NODIST) $(LDFLAGS_NODIST)`` 。"
 #: ../../using/configure.rst:814
 msgid "Linker flags used for building the interpreter object files."
 msgstr "用于构建解释器对象文件的链接器标志。"
+

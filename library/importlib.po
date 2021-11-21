@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # nick <2330458484@qq.com>, 2021
 # Shengjing Zhu <zsj950618@gmail.com>, 2021
@@ -13,21 +13,22 @@
 # 1lin24 <1lin24@sina.com>, 2021
 # Dai Xu <daixu61@hotmail.com>, 2021
 # Freesand Leo <yuqinju@163.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:08+0000\n"
 "Last-Translator: Freesand Leo <yuqinju@163.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../library/importlib.rst:2
 msgid ":mod:`!importlib` --- The implementation of :keyword:`!import`"
@@ -43,12 +44,13 @@ msgstr "概述"
 
 #: ../../library/importlib.rst:19
 msgid ""
-"The purpose of the :mod:`importlib` package is two-fold. One is to provide "
-"the implementation of the :keyword:`import` statement (and thus, by "
-"extension, the :func:`__import__` function) in Python source code. This "
-"provides an implementation of :keyword:`!import` which is portable to any "
-"Python interpreter. This also provides an implementation which is easier to "
-"comprehend than one implemented in a programming language other than Python."
+"The purpose of the :mod:`importlib` package is two-fold. One is to "
+"provide the implementation of the :keyword:`import` statement (and thus, "
+"by extension, the :func:`__import__` function) in Python source code. "
+"This provides an implementation of :keyword:`!import` which is portable "
+"to any Python interpreter. This also provides an implementation which is "
+"easier to comprehend than one implemented in a programming language other"
+" than Python."
 msgstr ""
 ":mod:`importlib` 包的目的有两个。 第一个目的是在 Python 源代码中提供 :keyword:`import` "
 "语句的实现（并且因此而扩展 :func:`__import__` 函数）。 这提供了一个可移植到任何 Python 解释器的 "
@@ -73,17 +75,15 @@ msgid "The language reference for the :keyword:`import` statement."
 msgstr ":keyword:`import` 语句的语言参考"
 
 #: ../../library/importlib.rst:38
-msgid ""
-"`Packages specification <https://www.python.org/doc/essays/packages/>`__"
+msgid "`Packages specification <https://www.python.org/doc/essays/packages/>`__"
 msgstr "`包规格说明 <https://www.python.org/doc/essays/packages/>`__"
 
 #: ../../library/importlib.rst:36
 msgid ""
-"Original specification of packages. Some semantics have changed since the "
-"writing of this document (e.g. redirecting based on ``None`` in "
+"Original specification of packages. Some semantics have changed since the"
+" writing of this document (e.g. redirecting based on ``None`` in "
 ":data:`sys.modules`)."
-msgstr ""
-"包的初始规范。自从编写这个文档开始，一些语义已经发生改变了（比如基于 :data:`sys.modules` 中 ``None`` 的重定向）。"
+msgstr "包的初始规范。自从编写这个文档开始，一些语义已经发生改变了（比如基于 :data:`sys.modules` 中 ``None`` 的重定向）。"
 
 #: ../../library/importlib.rst:41
 msgid "The :func:`.__import__` function"
@@ -199,32 +199,33 @@ msgstr "内置 :func:`__import__` 函数的实现。"
 
 #: ../../library/importlib.rst:88
 msgid ""
-"Programmatic importing of modules should use :func:`import_module` instead "
-"of this function."
+"Programmatic importing of modules should use :func:`import_module` "
+"instead of this function."
 msgstr "程序式地导入模块应该使用 :func:`import_module` 而不是这个函数。"
 
 #: ../../library/importlib.rst:93
 msgid ""
 "Import a module. The *name* argument specifies what module to import in "
-"absolute or relative terms (e.g. either ``pkg.mod`` or ``..mod``). If the "
-"name is specified in relative terms, then the *package* argument must be set"
-" to the name of the package which is to act as the anchor for resolving the "
-"package name (e.g. ``import_module('..mod', 'pkg.subpkg')`` will import "
-"``pkg.mod``)."
+"absolute or relative terms (e.g. either ``pkg.mod`` or ``..mod``). If the"
+" name is specified in relative terms, then the *package* argument must be"
+" set to the name of the package which is to act as the anchor for "
+"resolving the package name (e.g. ``import_module('..mod', 'pkg.subpkg')``"
+" will import ``pkg.mod``)."
 msgstr ""
 "导入一个模块。参数 *name* 指定了以绝对或相对导入方式导入什么模块 (比如要么像这样 ``pkg.mod`` 或者这样 "
 "``..mod``)。如果参数 name 使用相对导入的方式来指定，那么那个参数 *packages* "
-"必须设置为那个包名，这个包名作为解析这个包名的锚点 (比如  ``import_module('..mod', 'pkg.subpkg')`` 将会导入"
-" ``pkg.mod``)。"
+"必须设置为那个包名，这个包名作为解析这个包名的锚点 (比如  ``import_module('..mod', 'pkg.subpkg')`` "
+"将会导入 ``pkg.mod``)。"
 
 #: ../../library/importlib.rst:101
 msgid ""
 "The :func:`import_module` function acts as a simplifying wrapper around "
-":func:`importlib.__import__`. This means all semantics of the function are "
-"derived from :func:`importlib.__import__`. The most important difference "
-"between these two functions is that :func:`import_module` returns the "
-"specified package or module (e.g. ``pkg.mod``), while :func:`__import__` "
-"returns the top-level package or module (e.g. ``pkg``)."
+":func:`importlib.__import__`. This means all semantics of the function "
+"are derived from :func:`importlib.__import__`. The most important "
+"difference between these two functions is that :func:`import_module` "
+"returns the specified package or module (e.g. ``pkg.mod``), while "
+":func:`__import__` returns the top-level package or module (e.g. "
+"``pkg``)."
 msgstr ""
 ":func:`import_module` 函数是一个对 :func:`importlib.__import__` 进行简化的包装器。 "
 "这意味着该函数的所有主义都来自于 :func:`importlib.__import__`。 这两个函数之间最重要的不同点在于 "
@@ -234,9 +235,9 @@ msgstr ""
 #: ../../library/importlib.rst:108
 msgid ""
 "If you are dynamically importing a module that was created since the "
-"interpreter began execution (e.g., created a Python source file), you may "
-"need to call :func:`invalidate_caches` in order for the new module to be "
-"noticed by the import system."
+"interpreter began execution (e.g., created a Python source file), you may"
+" need to call :func:`invalidate_caches` in order for the new module to be"
+" noticed by the import system."
 msgstr ""
 "如果动态导入一个自从解释器开始执行以来被创建的模块（即创建了一个 Python 源代码文件），为了让导入系统知道这个新模块，可能需要调用 "
 ":func:`invalidate_caches`。"
@@ -247,33 +248,33 @@ msgstr "父包会被自动导入。"
 
 #: ../../library/importlib.rst:118
 msgid ""
-"Find the loader for a module, optionally within the specified *path*. If the"
-" module is in :attr:`sys.modules`, then ``sys.modules[name].__loader__`` is "
-"returned (unless the loader would be ``None`` or is not set, in which case "
-":exc:`ValueError` is raised). Otherwise a search using :attr:`sys.meta_path`"
-" is done. ``None`` is returned if no loader is found."
+"Find the loader for a module, optionally within the specified *path*. If "
+"the module is in :attr:`sys.modules`, then "
+"``sys.modules[name].__loader__`` is returned (unless the loader would be "
+"``None`` or is not set, in which case :exc:`ValueError` is raised). "
+"Otherwise a search using :attr:`sys.meta_path` is done. ``None`` is "
+"returned if no loader is found."
 msgstr ""
 "查找一个模块的加载器，可选择地在指定的 *path* 里面。如果这个模块是在 :attr:`sys.modules`，那么返回 "
-"``sys.modules[name].__loader__`` (除非这个加载器是 ``None`` 或者是没有被设置， 在这样的情况下，会引起 "
-":exc:`ValueError` 异常）。 否则使用 :attr:`sys.meta_path` 的一次搜索就结束。如果未发现加载器，则返回 "
+"``sys.modules[name].__loader__`` (除非这个加载器是 ``None`` 或者是没有被设置， 在这样的情况下，会引起"
+" :exc:`ValueError` 异常）。 否则使用 :attr:`sys.meta_path` 的一次搜索就结束。如果未发现加载器，则返回 "
 "``None``。"
 
 #: ../../library/importlib.rst:124
 msgid ""
-"A dotted name does not have its parents implicitly imported as that requires"
-" loading them and that may not be desired. To properly import a submodule "
-"you will need to import all parent packages of the submodule and use the "
-"correct argument to *path*."
+"A dotted name does not have its parents implicitly imported as that "
+"requires loading them and that may not be desired. To properly import a "
+"submodule you will need to import all parent packages of the submodule "
+"and use the correct argument to *path*."
 msgstr ""
-"点状的名称没有使得它父包或模块隐式地导入，因为它需要加载它们并且可能不需要。为了适当地导入一个子模块，需要导入子模块的所有父包并且使用正确的参数提供给 "
-"*path*。"
+"点状的名称没有使得它父包或模块隐式地导入，因为它需要加载它们并且可能不需要。为了适当地导入一个子模块，需要导入子模块的所有父包并且使用正确的参数提供给"
+" *path*。"
 
 #: ../../library/importlib.rst:131
 msgid ""
-"If ``__loader__`` is not set, raise :exc:`ValueError`, just like when the "
-"attribute is set to ``None``."
-msgstr ""
-"如果没有设置 ``__loader__``，会引起 :exc:`ValueError` 异常，就像属性设置为 ``None`` 的时候一样。"
+"If ``__loader__`` is not set, raise :exc:`ValueError`, just like when the"
+" attribute is set to ``None``."
+msgstr "如果没有设置 ``__loader__``，会引起 :exc:`ValueError` 异常，就像属性设置为 ``None`` 的时候一样。"
 
 #: ../../library/importlib.rst:135
 msgid "Use :func:`importlib.util.find_spec` instead."
@@ -281,11 +282,11 @@ msgstr "使用 :func:`importlib.util.find_spec` 来代替。"
 
 #: ../../library/importlib.rst:140
 msgid ""
-"Invalidate the internal caches of finders stored at :data:`sys.meta_path`. "
-"If a finder implements ``invalidate_caches()`` then it will be called to "
-"perform the invalidation.  This function should be called if any modules are"
-" created/installed while your program is running to guarantee all finders "
-"will notice the new module's existence."
+"Invalidate the internal caches of finders stored at "
+":data:`sys.meta_path`. If a finder implements ``invalidate_caches()`` "
+"then it will be called to perform the invalidation.  This function should"
+" be called if any modules are created/installed while your program is "
+"running to guarantee all finders will notice the new module's existence."
 msgstr ""
 "使查找器存储在 :data:`sys.meta_path` 中的内部缓存无效。如果一个查找器实现了 "
 "``invalidate_caches()``，那么它会被调用来执行那个无效过程。 "
@@ -294,16 +295,17 @@ msgstr ""
 #: ../../library/importlib.rst:150
 msgid ""
 "Reload a previously imported *module*.  The argument must be a module "
-"object, so it must have been successfully imported before.  This is useful "
-"if you have edited the module source file using an external editor and want "
-"to try out the new version without leaving the Python interpreter.  The "
-"return value is the module object (which can be different if re-importing "
-"causes a different object to be placed in :data:`sys.modules`)."
+"object, so it must have been successfully imported before.  This is "
+"useful if you have edited the module source file using an external editor"
+" and want to try out the new version without leaving the Python "
+"interpreter.  The return value is the module object (which can be "
+"different if re-importing causes a different object to be placed in "
+":data:`sys.modules`)."
 msgstr ""
 "重新加载之前导入的 "
 "*module*。那个参数必须是一个模块对象，所以它之前必须已经成功导入了。这样做是有用的，如果使用外部编辑器编已经辑过了那个模块的源代码文件并且想在退出"
-" Python 解释器之前试验这个新版本的模块。函数的返回值是那个模块对象（如果重新导入导致一个不同的对象放置在 :data:`sys.modules`"
-" 中，那么那个模块对象是有可能会不同）。"
+" Python 解释器之前试验这个新版本的模块。函数的返回值是那个模块对象（如果重新导入导致一个不同的对象放置在 "
+":data:`sys.modules` 中，那么那个模块对象是有可能会不同）。"
 
 #: ../../library/importlib.rst:157
 msgid "When :func:`reload` is executed:"
@@ -311,31 +313,32 @@ msgstr "当执行 :func:`reload` 的时候："
 
 #: ../../library/importlib.rst:159
 msgid ""
-"Python module's code is recompiled and the module-level code re-executed, "
-"defining a new set of objects which are bound to names in the module's "
-"dictionary by reusing the :term:`loader` which originally loaded the module."
-"  The ``init`` function of extension modules is not called a second time."
+"Python module's code is recompiled and the module-level code re-executed,"
+" defining a new set of objects which are bound to names in the module's "
+"dictionary by reusing the :term:`loader` which originally loaded the "
+"module.  The ``init`` function of extension modules is not called a "
+"second time."
 msgstr ""
 "Python 模块的代码会被重新编译并且那个模块级的代码被重新执行，通过重新使用一开始加载那个模块的 "
 ":term:`loader`，定义一个新的绑定在那个模块字典中的名称的对象集合。扩展模块的``init``函数不会被调用第二次。"
 
 #: ../../library/importlib.rst:165
 msgid ""
-"As with all other objects in Python the old objects are only reclaimed after"
-" their reference counts drop to zero."
+"As with all other objects in Python the old objects are only reclaimed "
+"after their reference counts drop to zero."
 msgstr "与Python中的所有的其它对象一样，旧的对象只有在它们的引用计数为0之后才会被回收。"
 
 #: ../../library/importlib.rst:168
 msgid ""
-"The names in the module namespace are updated to point to any new or changed"
-" objects."
+"The names in the module namespace are updated to point to any new or "
+"changed objects."
 msgstr "模块命名空间中的名称重新指向任何新的或更改后的对象。"
 
 #: ../../library/importlib.rst:171
 msgid ""
-"Other references to the old objects (such as names external to the module) "
-"are not rebound to refer to the new objects and must be updated in each "
-"namespace where they occur if that is desired."
+"Other references to the old objects (such as names external to the "
+"module) are not rebound to refer to the new objects and must be updated "
+"in each namespace where they occur if that is desired."
 msgstr "其他旧对象的引用（例如那个模块的外部名称）不会被重新绑定到引用的新对象的，并且如果有需要，必须在出现的每个命名空间中进行更新。"
 
 #: ../../library/importlib.rst:175
@@ -344,14 +347,14 @@ msgstr "有一些其他注意事项："
 
 #: ../../library/importlib.rst:177
 msgid ""
-"When a module is reloaded, its dictionary (containing the module's global "
-"variables) is retained.  Redefinitions of names will override the old "
-"definitions, so this is generally not a problem.  If the new version of a "
-"module does not define a name that was defined by the old version, the old "
-"definition remains.  This feature can be used to the module's advantage if "
-"it maintains a global table or cache of objects --- with a :keyword:`try` "
-"statement it can test for the table's presence and skip its initialization "
-"if desired::"
+"When a module is reloaded, its dictionary (containing the module's global"
+" variables) is retained.  Redefinitions of names will override the old "
+"definitions, so this is generally not a problem.  If the new version of a"
+" module does not define a name that was defined by the old version, the "
+"old definition remains.  This feature can be used to the module's "
+"advantage if it maintains a global table or cache of objects --- with a "
+":keyword:`try` statement it can test for the table's presence and skip "
+"its initialization if desired::"
 msgstr ""
 "当一个模块被重新加载的时候，它的字典（包含了那个模块的全区变量）会被保留。名称的重新定义会覆盖旧的定义，所以通常来说这不是问题。如果一个新模块没有定义在旧版本模块中定义的名称，则将保留旧版本中的定义。这一特性可用于作为那个模块的优点，如果它维护一个全局表或者对象的缓存"
 " —— 使用 :keyword:`try` 语句，就可以测试表的存在并且跳过它的初始化，如果有需要的话::"
@@ -359,21 +362,21 @@ msgstr ""
 #: ../../library/importlib.rst:191
 msgid ""
 "It is generally not very useful to reload built-in or dynamically loaded "
-"modules.  Reloading :mod:`sys`, :mod:`__main__`, :mod:`builtins` and other "
-"key modules is not recommended.  In many cases extension modules are not "
-"designed to be initialized more than once, and may fail in arbitrary ways "
-"when reloaded."
+"modules.  Reloading :mod:`sys`, :mod:`__main__`, :mod:`builtins` and "
+"other key modules is not recommended.  In many cases extension modules "
+"are not designed to be initialized more than once, and may fail in "
+"arbitrary ways when reloaded."
 msgstr ""
 "重新加载内置的或者动态加载模块，通常来说不是很有用处。不推荐重新加载\":mod:`sys`，:mod:`__main__`，:mod:`builtins`"
 " 和其它关键模块。在很多例子中，扩展模块并不是设计为不止一次的初始化，并且当重新加载时，可能会以任意方式失败。"
 
 #: ../../library/importlib.rst:197
 msgid ""
-"If a module imports objects from another module using :keyword:`from` ... "
-":keyword:`import` ..., calling :func:`reload` for the other module does not "
-"redefine the objects imported from it --- one way around this is to re-"
-"execute the :keyword:`!from` statement, another is to use :keyword:`!import`"
-" and qualified names (*module.name*) instead."
+"If a module imports objects from another module using :keyword:`from` ..."
+" :keyword:`import` ..., calling :func:`reload` for the other module does "
+"not redefine the objects imported from it --- one way around this is to "
+"re-execute the :keyword:`!from` statement, another is to use "
+":keyword:`!import` and qualified names (*module.name*) instead."
 msgstr ""
 "如果一个模块使用 :keyword:`from` ... :keyword:`import` ... 导入的对象来自另外一个模块，给其它模块调用 "
 ":func:`reload` 不会重新定义来自这个模块的对象 —— 解决这个问题的一种方式是重新执行 :keyword:`!from` "
@@ -382,15 +385,15 @@ msgstr ""
 #: ../../library/importlib.rst:203
 msgid ""
 "If a module instantiates instances of a class, reloading the module that "
-"defines the class does not affect the method definitions of the instances "
-"--- they continue to use the old class definition.  The same is true for "
-"derived classes."
+"defines the class does not affect the method definitions of the instances"
+" --- they continue to use the old class definition.  The same is true for"
+" derived classes."
 msgstr "如果一个模块创建一个类的实例，重新加载定义那个类的模块不影响那些实例的方法定义———它们继续使用旧类中的定义。对于子类来说同样是正确的。"
 
 #: ../../library/importlib.rst:209
 msgid ""
-":exc:`ModuleNotFoundError` is raised when the module being reloaded lacks a "
-":class:`~importlib.machinery.ModuleSpec`."
+":exc:`ModuleNotFoundError` is raised when the module being reloaded lacks"
+" a :class:`~importlib.machinery.ModuleSpec`."
 msgstr ""
 "如果重新加载的模块缺少  :class:`~importlib.machinery.ModuleSpec` ，则会触发 "
 ":exc:`ModuleNotFoundError` 。"
@@ -406,8 +409,8 @@ msgstr "**源代码：** :source:`Lib/importlib/abc.py`"
 #: ../../library/importlib.rst:225
 msgid ""
 "The :mod:`importlib.abc` module contains all of the core abstract base "
-"classes used by :keyword:`import`. Some subclasses of the core abstract base"
-" classes are also provided to help in implementing the core ABCs."
+"classes used by :keyword:`import`. Some subclasses of the core abstract "
+"base classes are also provided to help in implementing the core ABCs."
 msgstr ""
 " :mod:`importlib.abc` 模块包含了:keyword:`import` 使用到的所有核心抽象基类。在实现核心的 ABCs "
 "中，核心抽象基类的一些子类也提供了帮助。"
@@ -426,8 +429,8 @@ msgstr "使用 :class:`MetaPathFinder` 或 :class:`PathEntryFinder` 来代替。
 
 #: ../../library/importlib.rst:252
 msgid ""
-"An abstract method for finding a :term:`loader` for the specified module.  "
-"Originally specified in :pep:`302`, this method was meant for use in "
+"An abstract method for finding a :term:`loader` for the specified module."
+"  Originally specified in :pep:`302`, this method was meant for use in "
 ":data:`sys.meta_path` and in the path-based import subsystem."
 msgstr ""
 "为指定的模块查找 :term:`loader` 定义的抽象方法。本来是在 :pep:`302` 指定的，这个方法是在 "
@@ -435,7 +438,8 @@ msgstr ""
 
 #: ../../library/importlib.rst:256
 msgid ""
-"Returns ``None`` when called instead of raising :exc:`NotImplementedError`."
+"Returns ``None`` when called instead of raising "
+":exc:`NotImplementedError`."
 msgstr "当被调用的时候，返回 ``None`` 而不是引发 :exc:`NotImplementedError`。"
 
 #: ../../library/importlib.rst:260
@@ -443,14 +447,14 @@ msgid ""
 "Implement :meth:`MetaPathFinder.find_spec` or "
 ":meth:`PathEntryFinder.find_spec` instead."
 msgstr ""
-"改为实现 :meth:`MetaPathFinder.find_spec` 或 :meth:`PathEntryFinder.find_spec` 。"
+"改为实现 :meth:`MetaPathFinder.find_spec` 或 :meth:`PathEntryFinder.find_spec`"
+" 。"
 
 #: ../../library/importlib.rst:267
 msgid ""
 "An abstract base class representing a :term:`meta path finder`. For "
 "compatibility, this is a subclass of :class:`Finder`."
-msgstr ""
-"代表 :term:`meta path finder` 的一个抽象基类。 为了保持兼容性，这是 :class:`Finder` 的一个子类。"
+msgstr "代表 :term:`meta path finder` 的一个抽象基类。 为了保持兼容性，这是 :class:`Finder` 的一个子类。"
 
 #: ../../library/importlib.rst:272 ../../library/importlib.rst:327
 msgid "No longer a subclass of :class:`Finder`."
@@ -459,24 +463,24 @@ msgstr "不再是 :class:`Finder` 的子类。"
 #: ../../library/importlib.rst:277
 msgid ""
 "An abstract method for finding a :term:`spec <module spec>` for the "
-"specified module.  If this is a top-level import, *path* will be ``None``.  "
-"Otherwise, this is a search for a subpackage or module and *path* will be "
-"the value of :attr:`__path__` from the parent package. If a spec cannot be "
-"found, ``None`` is returned. When passed in, ``target`` is a module object "
-"that the finder may use to make a more educated guess about what spec to "
-"return. :func:`importlib.util.spec_from_loader` may be useful for "
-"implementing concrete ``MetaPathFinders``."
+"specified module.  If this is a top-level import, *path* will be "
+"``None``.  Otherwise, this is a search for a subpackage or module and "
+"*path* will be the value of :attr:`__path__` from the parent package. If "
+"a spec cannot be found, ``None`` is returned. When passed in, ``target`` "
+"is a module object that the finder may use to make a more educated guess "
+"about what spec to return. :func:`importlib.util.spec_from_loader` may be"
+" useful for implementing concrete ``MetaPathFinders``."
 msgstr ""
 "一个抽象方法，用于查找指定模块的 :term:`spec <module spec>` 。若是顶层导入，*path* 将为 ``None``。 "
-"否则就是查找子包或模块，*path* 将是父级包的 :attr:`__path__` 值。找不到则会返回 ``None``。传入的 ``target``"
-" 是一个模块对象，查找器可以用来对返回的规格进行更有依据的猜测。在实现具体的 ``MetaPathFinders`` 代码时，可能会用到 "
-":func:`importlib.util.spec_from_loader` 。"
+"否则就是查找子包或模块，*path* 将是父级包的 :attr:`__path__` 值。找不到则会返回 ``None``。传入的 "
+"``target`` 是一个模块对象，查找器可以用来对返回的规格进行更有依据的猜测。在实现具体的 ``MetaPathFinders`` "
+"代码时，可能会用到 :func:`importlib.util.spec_from_loader` 。"
 
 #: ../../library/importlib.rst:291
 msgid ""
-"A legacy method for finding a :term:`loader` for the specified module.  If "
-"this is a top-level import, *path* will be ``None``. Otherwise, this is a "
-"search for a subpackage or module and *path* will be the value of "
+"A legacy method for finding a :term:`loader` for the specified module.  "
+"If this is a top-level import, *path* will be ``None``. Otherwise, this "
+"is a search for a subpackage or module and *path* will be the value of "
 ":attr:`__path__` from the parent package. If a loader cannot be found, "
 "``None`` is returned."
 msgstr ""
@@ -492,23 +496,24 @@ msgstr "如果定义了 :meth:`find_spec` 方法，则提供了向后兼容的�
 
 #: ../../library/importlib.rst:300
 msgid ""
-"Returns ``None`` when called instead of raising :exc:`NotImplementedError`. "
-"Can use :meth:`find_spec` to provide functionality."
+"Returns ``None`` when called instead of raising "
+":exc:`NotImplementedError`. Can use :meth:`find_spec` to provide "
+"functionality."
 msgstr ""
 "当调用这个方法的时候返回 ``None`` 而不是引发 :exc:`NotImplementedError`。 可以使用 "
 ":meth:`find_spec` 来提供功能。"
 
 #: ../../library/importlib.rst:305 ../../library/importlib.rst:361
-#: ../../library/importlib.rst:369 ../../library/importlib.rst:1149
-#: ../../library/importlib.rst:1206
+#: ../../library/importlib.rst:369 ../../library/importlib.rst:1189
+#: ../../library/importlib.rst:1246
 msgid "Use :meth:`find_spec` instead."
 msgstr "使用 :meth:`find_spec` 来代替。"
 
 #: ../../library/importlib.rst:310
 msgid ""
-"An optional method which, when called, should invalidate any internal cache "
-"used by the finder. Used by :func:`importlib.invalidate_caches` when "
-"invalidating the caches of all finders on :data:`sys.meta_path`."
+"An optional method which, when called, should invalidate any internal "
+"cache used by the finder. Used by :func:`importlib.invalidate_caches` "
+"when invalidating the caches of all finders on :data:`sys.meta_path`."
 msgstr ""
 "当被调用的时候，一个可选的方法应该将查找器使用的任何内部缓存进行无效。将在 :data:`sys.meta_path` "
 "上的所有查找器的缓存进行无效的时候，这个函数被 :func:`importlib.invalidate_caches` 所使用。"
@@ -519,13 +524,13 @@ msgstr "当方法被调用的时候，方法返回是 ``None`` 而不是 ``NotIm
 
 #: ../../library/importlib.rst:320
 msgid ""
-"An abstract base class representing a :term:`path entry finder`.  Though it "
-"bears some similarities to :class:`MetaPathFinder`, ``PathEntryFinder`` is "
-"meant for use only within the path-based import subsystem provided by "
-":class:`importlib.machinery.PathFinder`."
+"An abstract base class representing a :term:`path entry finder`.  Though "
+"it bears some similarities to :class:`MetaPathFinder`, "
+"``PathEntryFinder`` is meant for use only within the path-based import "
+"subsystem provided by :class:`importlib.machinery.PathFinder`."
 msgstr ""
-"一个抽象基类，代表  :term:`path entry finder`。虽然与 :class:`MetaPathFinder` 有些相似之处，但 "
-"`PathEntryFinder` 仅用于 :class:`importlib.machinery.PathFinder` "
+"一个抽象基类，代表  :term:`path entry finder`。虽然与 :class:`MetaPathFinder` 有些相似之处，但"
+" `PathEntryFinder` 仅用于 :class:`importlib.machinery.PathFinder` "
 "提供的基于路径的导入子系统中。"
 
 #: ../../library/importlib.rst:332
@@ -533,10 +538,10 @@ msgid ""
 "An abstract method for finding a :term:`spec <module spec>` for the "
 "specified module.  The finder will search for the module only within the "
 ":term:`path entry` to which it is assigned.  If a spec cannot be found, "
-"``None`` is returned.  When passed in, ``target`` is a module object that "
-"the finder may use to make a more educated guess about what spec to return. "
-":func:`importlib.util.spec_from_loader` may be useful for implementing "
-"concrete ``PathEntryFinders``."
+"``None`` is returned.  When passed in, ``target`` is a module object that"
+" the finder may use to make a more educated guess about what spec to "
+"return. :func:`importlib.util.spec_from_loader` may be useful for "
+"implementing concrete ``PathEntryFinders``."
 msgstr ""
 "一个抽象方法，用于查找指定模块的 :term:`spec <module spec>`。搜索器将只在指定的 :term:`path entry` "
 "内搜索该模块。找不到则会返回 ``None``。在实现具体的 ``PathEntryFinders`` 代码时，可能会用到  "
@@ -545,59 +550,58 @@ msgstr ""
 #: ../../library/importlib.rst:344
 msgid ""
 "A legacy method for finding a :term:`loader` for the specified module.  "
-"Returns a 2-tuple of ``(loader, portion)`` where ``portion`` is a sequence "
-"of file system locations contributing to part of a namespace package. The "
-"loader may be ``None`` while specifying ``portion`` to signify the "
-"contribution of the file system locations to a namespace package. An empty "
-"list can be used for ``portion`` to signify the loader is not part of a "
-"namespace package. If ``loader`` is ``None`` and ``portion`` is the empty "
-"list then no loader or location for a namespace package were found (i.e. "
-"failure to find anything for the module)."
+"Returns a 2-tuple of ``(loader, portion)`` where ``portion`` is a "
+"sequence of file system locations contributing to part of a namespace "
+"package. The loader may be ``None`` while specifying ``portion`` to "
+"signify the contribution of the file system locations to a namespace "
+"package. An empty list can be used for ``portion`` to signify the loader "
+"is not part of a namespace package. If ``loader`` is ``None`` and "
+"``portion`` is the empty list then no loader or location for a namespace "
+"package were found (i.e. failure to find anything for the module)."
 msgstr ""
 "一个用于在模块中查找一个 :term:`loader` 的遗留方法。 返回一个 ``(loader, portion)`` "
 "的2元组，``portion`` 是一个贡献给命名空间包部分的文件系统位置的序列。 加载器可能是 ``None``，同时正在指定的 "
-"``portion`` 表示的是贡献给命名空间包的文件系统位置。``portion`` 可以使用一个空列表来表示加载器不是命名空间包的一部分。 如果 "
-"``loader`` 是 ``None`` 并且 ``portion`` "
+"``portion`` 表示的是贡献给命名空间包的文件系统位置。``portion`` 可以使用一个空列表来表示加载器不是命名空间包的一部分。 "
+"如果 ``loader`` 是 ``None`` 并且 ``portion`` "
 "是一个空列表，那么命名空间包中无加载器或者文件系统位置可查找到（即在那个模块中未能找到任何东西）。"
 
 #: ../../library/importlib.rst:354
 msgid ""
-"If :meth:`find_spec` is defined then backwards-compatible functionality is "
-"provided."
+"If :meth:`find_spec` is defined then backwards-compatible functionality "
+"is provided."
 msgstr "如果定义了 :meth:`find_spec` ，则提供了向后兼容的功能。"
 
 #: ../../library/importlib.rst:357
 msgid ""
-"Returns ``(None, [])`` instead of raising :exc:`NotImplementedError`. Uses "
-":meth:`find_spec` when available to provide functionality."
+"Returns ``(None, [])`` instead of raising :exc:`NotImplementedError`. "
+"Uses :meth:`find_spec` when available to provide functionality."
 msgstr ""
 "返回 ``(None, [])`` 而不是引发 :exc:`NotImplementedError`。 当可于提供相应的功能的时候，使用 "
 ":meth:`find_spec`。"
 
 #: ../../library/importlib.rst:366
 msgid ""
-"A concrete implementation of :meth:`Finder.find_module` which is equivalent "
-"to ``self.find_loader(fullname)[0]``."
-msgstr ""
-":meth:`Finder.find_module`的具体实现，该方法等价于``self.find_loader(fullname)[0]``。"
+"A concrete implementation of :meth:`Finder.find_module` which is "
+"equivalent to ``self.find_loader(fullname)[0]``."
+msgstr ":meth:`Finder.find_module`的具体实现，该方法等价于``self.find_loader(fullname)[0]``。"
 
 #: ../../library/importlib.rst:374
 msgid ""
-"An optional method which, when called, should invalidate any internal cache "
-"used by the finder. Used by "
-":meth:`importlib.machinery.PathFinder.invalidate_caches` when invalidating "
-"the caches of all cached finders."
+"An optional method which, when called, should invalidate any internal "
+"cache used by the finder. Used by "
+":meth:`importlib.machinery.PathFinder.invalidate_caches` when "
+"invalidating the caches of all cached finders."
 msgstr ""
 "可选方法，调用后应让查找器用到的所有内部缓存失效。要让所有缓存的查找器的缓存无效时，可供 "
 ":meth:`importlib.machinery.PathFinder.invalidate_caches` 调用。"
 
 #: ../../library/importlib.rst:382
 msgid ""
-"An abstract base class for a :term:`loader`. See :pep:`302` for the exact "
-"definition for a loader."
+"An abstract base class for a :term:`loader`. See :pep:`302` for the exact"
+" definition for a loader."
 msgstr ":term:`loader` 的抽象基类。 关于一个加载器的实际定义请查看 :pep:`302`。"
 
-#: ../../library/importlib.rst:385 ../../library/importlib.rst:870
+#: ../../library/importlib.rst:385 ../../library/importlib.rst:910
 msgid ""
 "Loaders that wish to support resource reading should implement a "
 "``get_resource_reader(fullname)`` method as specified by "
@@ -626,12 +630,13 @@ msgstr "从 Python 3.6 开始，当定义了 :meth:`exec_module` 的时候，这
 #: ../../library/importlib.rst:406
 msgid ""
 "An abstract method that executes the module in its own namespace when a "
-"module is imported or reloaded.  The module should already be initialized "
-"when ``exec_module()`` is called. When this method exists, "
+"module is imported or reloaded.  The module should already be initialized"
+" when ``exec_module()`` is called. When this method exists, "
 ":meth:`~importlib.abc.Loader.create_module` must be defined."
 msgstr ""
-"当一个模块被导入或重新加载时，一个抽象方法在它自己的命名空间中执行那个模块。当调用 ``exec_module()`` 的时候，那个模块应该已经被初始化"
-" 了。当这个方法存在时，必须定义 :meth:`~importlib.abc.Loader.create_module` 。"
+"当一个模块被导入或重新加载时，一个抽象方法在它自己的命名空间中执行那个模块。当调用 ``exec_module()`` "
+"的时候，那个模块应该已经被初始化 了。当这个方法存在时，必须定义 "
+":meth:`~importlib.abc.Loader.create_module` 。"
 
 #: ../../library/importlib.rst:413
 msgid ":meth:`~importlib.abc.Loader.create_module` must also be defined."
@@ -645,23 +650,25 @@ msgstr "用于加载一个模块的传统方法。如果这个模块不能被导
 
 #: ../../library/importlib.rst:422
 msgid ""
-"If the requested module already exists in :data:`sys.modules`, that module "
-"should be used and reloaded. Otherwise the loader should create a new module"
-" and insert it into :data:`sys.modules` before any loading begins, to "
-"prevent recursion from the import. If the loader inserted a module and the "
-"load fails, it must be removed by the loader from :data:`sys.modules`; "
-"modules already in :data:`sys.modules` before the loader began execution "
-"should be left alone (see :func:`importlib.util.module_for_loader`)."
+"If the requested module already exists in :data:`sys.modules`, that "
+"module should be used and reloaded. Otherwise the loader should create a "
+"new module and insert it into :data:`sys.modules` before any loading "
+"begins, to prevent recursion from the import. If the loader inserted a "
+"module and the load fails, it must be removed by the loader from "
+":data:`sys.modules`; modules already in :data:`sys.modules` before the "
+"loader began execution should be left alone (see "
+":func:`importlib.util.module_for_loader`)."
 msgstr ""
 "如果请求的模块已经存在 :data:`sys.modules`，应该使用并且重新加载那个模块。 "
 "否则加载器应该是创建一个新的模块并且在任何家过程开始之前将这个新模块插入到 :data:`sys.modules` 中，来阻止递归导入。 "
 "如果加载器插入了一个模块并且加载失败了，加载器必须从 :data:`sys.modules` 中将这个模块移除。在加载器开始执行之前，已经在 "
-":data:`sys.modules` 中的模块应该被忽略 (查看 :func:`importlib.util.module_for_loader`)。"
+":data:`sys.modules` 中的模块应该被忽略 (查看 "
+":func:`importlib.util.module_for_loader`)。"
 
 #: ../../library/importlib.rst:431
 msgid ""
-"The loader should set several attributes on the module. (Note that some of "
-"these attributes can change when a module is reloaded):"
+"The loader should set several attributes on the module. (Note that some "
+"of these attributes can change when a module is reloaded):"
 msgstr "加载器应该在模块上面设置几个属性。（要知道当重新加载一个模块的时候，那些属性某部分可以改变）："
 
 #: ../../library/importlib.rst:436
@@ -678,7 +685,8 @@ msgstr ":attr:`__file__`"
 
 #: ../../library/importlib.rst:439
 msgid ""
-"The path to where the module data is stored (not set for built-in modules)."
+"The path to where the module data is stored (not set for built-in "
+"modules)."
 msgstr "模块数据存储的路径(不是为了内置的模块而设置)"
 
 #: ../../library/importlib.rst:444
@@ -687,8 +695,8 @@ msgstr ":attr:`__cached__`"
 
 #: ../../library/importlib.rst:443
 msgid ""
-"The path to where a compiled version of the module is/should be stored (not "
-"set when the attribute would be inappropriate)."
+"The path to where a compiled version of the module is/should be stored "
+"(not set when the attribute would be inappropriate)."
 msgstr "被存储或应该被存储的模块的编译版本的路径（当这个属性不恰当的时候不设置）。"
 
 #: ../../library/importlib.rst:448
@@ -707,11 +715,11 @@ msgstr ":attr:`__package__`"
 
 #: ../../library/importlib.rst:451
 msgid ""
-"The fully-qualified name of the package under which the module was loaded as"
-" a submodule (or the empty string for top-level modules). For packages, it "
-"is the same as :attr:`__name__`.  The "
-":func:`importlib.util.module_for_loader` decorator can handle the details "
-"for :attr:`__package__`."
+"The fully-qualified name of the package under which the module was loaded"
+" as a submodule (or the empty string for top-level modules). For "
+"packages, it is the same as :attr:`__name__`.  The "
+":func:`importlib.util.module_for_loader` decorator can handle the details"
+" for :attr:`__package__`."
 msgstr ""
 "当模块作为子模块加载时，其所在包的完全限定名称（顶层模块则为空字符串）。对于包而言，与 :attr:`__name__` 相同。 "
 ":func:`importlib.util.module_for_loader` 装饰器能够处理 :attr:`__package__` 的细节。"
@@ -723,8 +731,8 @@ msgstr ":attr:`__loader__`"
 #: ../../library/importlib.rst:458
 msgid ""
 "The loader used to load the module. The "
-":func:`importlib.util.module_for_loader` decorator can handle the details "
-"for :attr:`__package__`."
+":func:`importlib.util.module_for_loader` decorator can handle the details"
+" for :attr:`__package__`."
 msgstr ""
 "用来加载那个模块的加载器。 :func:`importlib.util.module_for_loader` 装饰器可以处理 "
 ":attr:`__package__` 的细节。"
@@ -737,8 +745,9 @@ msgstr "当 :meth:`exec_module` 可用的时候，那么则提供了向后兼容
 
 #: ../../library/importlib.rst:465
 msgid ""
-"Raise :exc:`ImportError` when called instead of :exc:`NotImplementedError`. "
-"Functionality provided when :meth:`exec_module` is available."
+"Raise :exc:`ImportError` when called instead of "
+":exc:`NotImplementedError`. Functionality provided when "
+":meth:`exec_module` is available."
 msgstr ""
 "当这个方法被调用的时候，触发 :exc:`ImportError` 异常而不是 :exc:`NotImplementedError`。当 "
 ":meth:`exec_module` 可用的时候，使用它的功能。"
@@ -750,14 +759,15 @@ msgid ""
 "load_module().  The import machinery takes care of all the other "
 "responsibilities of load_module() when exec_module() is implemented."
 msgstr ""
-"加载模块推荐的使用的 API 是 :meth:`exec_module` (和 :meth:`create_module`)。 加载器应该实现它而不是 "
-"load_module()。 当 exec_module() 被实现的时候，导入机制关心的是 load_module() 所有其他的责任。"
+"加载模块推荐的使用的 API 是 :meth:`exec_module` (和 :meth:`create_module`)。 "
+"加载器应该实现它而不是 load_module()。 当 exec_module() 被实现的时候，导入机制关心的是 load_module() "
+"所有其他的责任。"
 
 #: ../../library/importlib.rst:479
 msgid ""
 "A legacy method which when implemented calculates and returns the given "
-"module's repr, as a string. The module type's default repr() will use the "
-"result of this method as appropriate."
+"module's repr, as a string. The module type's default repr() will use the"
+" result of this method as appropriate."
 msgstr "一个遗留方法，在实现时计算并返回给定模块的 repr，作为字符串。 模块类型的默认 repr() 将根据需要使用此方法的结果。"
 
 #: ../../library/importlib.rst:485
@@ -773,18 +783,17 @@ msgid "*Superseded by TraversableResources*"
 msgstr "*被 TraversableResources* 取代"
 
 #: ../../library/importlib.rst:496
-msgid ""
-"An :term:`abstract base class` to provide the ability to read *resources*."
+msgid "An :term:`abstract base class` to provide the ability to read *resources*."
 msgstr "提供读取 *resources* 能力的一个 :term:`abstract base class` 。"
 
 #: ../../library/importlib.rst:499
 msgid ""
-"From the perspective of this ABC, a *resource* is a binary artifact that is "
-"shipped within a package. Typically this is something like a data file that "
-"lives next to the ``__init__.py`` file of the package. The purpose of this "
-"class is to help abstract out the accessing of such data files so that it "
-"does not matter if the package and its data file(s) are stored in a e.g. zip"
-" file versus on the file system."
+"From the perspective of this ABC, a *resource* is a binary artifact that "
+"is shipped within a package. Typically this is something like a data file"
+" that lives next to the ``__init__.py`` file of the package. The purpose "
+"of this class is to help abstract out the accessing of such data files so"
+" that it does not matter if the package and its data file(s) are stored "
+"in a e.g. zip file versus on the file system."
 msgstr ""
 "从这个 ABC 的视角出发，*resource* 指一个包附带的二进制文件。常见的如在包的  ``__init__.py`` "
 "文件旁的数据文件。这个类存在的目的是为了将对数据文件的访问进行抽象，这样包就和其数据文件的存储方式无关了。不论这些文件是存放在一个 zip "
@@ -792,14 +801,15 @@ msgstr ""
 
 #: ../../library/importlib.rst:507
 msgid ""
-"For any of methods of this class, a *resource* argument is expected to be a "
-":term:`path-like object` which represents conceptually just a file name. "
-"This means that no subdirectory paths should be included in the *resource* "
-"argument. This is because the location of the package the reader is for, "
-"acts as the \"directory\". Hence the metaphor for directories and file names"
-" is packages and resources, respectively. This is also why instances of this"
-" class are expected to directly correlate to a specific package (instead of "
-"potentially representing multiple packages or a module)."
+"For any of methods of this class, a *resource* argument is expected to be"
+" a :term:`path-like object` which represents conceptually just a file "
+"name. This means that no subdirectory paths should be included in the "
+"*resource* argument. This is because the location of the package the "
+"reader is for, acts as the \"directory\". Hence the metaphor for "
+"directories and file names is packages and resources, respectively. This "
+"is also why instances of this class are expected to directly correlate to"
+" a specific package (instead of potentially representing multiple "
+"packages or a module)."
 msgstr ""
 "对于该类中的任一方法，*resource* 参数的值都需要是一个在概念上表示文件名称的 :term:`path-like object`。 "
 "这意味着任何子目录的路径都不该出现在 *resouce* 参数值内。 因为对于阅读器而言，包的位置就代表着「目录」。 "
@@ -809,10 +819,10 @@ msgstr ""
 msgid ""
 "Loaders that wish to support resource reading are expected to provide a "
 "method called ``get_resource_reader(fullname)`` which returns an object "
-"implementing this ABC's interface. If the module specified by fullname is "
-"not a package, this method should return :const:`None`. An object compatible"
-" with this ABC should only be returned when the specified module is a "
-"package."
+"implementing this ABC's interface. If the module specified by fullname is"
+" not a package, this method should return :const:`None`. An object "
+"compatible with this ABC should only be returned when the specified "
+"module is a package."
 msgstr ""
 "想支持资源读取的加载器需要提供一个返回实现了此 ABC 的接口的 ``get_resource_reader(fullname)`` "
 "方法。如果通过全名指定的模块不是一个包，这个方法应该返回 :const:`None`。 "
@@ -846,9 +856,9 @@ msgstr "如果*name* 被视作资源，则返回True。如果*name*不存在，�
 
 #: ../../library/importlib.rst:549
 msgid ""
-"Returns an :term:`iterable` of strings over the contents of the package. Do "
-"note that it is not required that all names returned by the iterator be "
-"actual resources, e.g. it is acceptable to return names for which "
+"Returns an :term:`iterable` of strings over the contents of the package. "
+"Do note that it is not required that all names returned by the iterator "
+"be actual resources, e.g. it is acceptable to return names for which "
 ":meth:`is_resource` would be false."
 msgstr ""
 "反回由字符串组成的 :term:`iterable`，表示这个包的所有内容。 请注意并不要求迭代器返回的所有名称都是实际的资源，例如返回 "
@@ -856,14 +866,13 @@ msgstr ""
 
 #: ../../library/importlib.rst:555
 msgid ""
-"Allowing non-resource names to be returned is to allow for situations where "
-"how a package and its resources are stored are known a priori and the non-"
-"resource names would be useful. For instance, returning subdirectory names "
-"is allowed so that when it is known that the package and resources are "
-"stored on the file system then those subdirectory names can be used "
-"directly."
-msgstr ""
-"允许非资源名字被返回是为了允许存储的一个包和它的资源的方式是已知先验的并且非资源名字会有用的情况。比如，允许返回子目录名字，目的是当得知包和资源存储在文件系统上面的时候，能够直接使用子目录的名字。"
+"Allowing non-resource names to be returned is to allow for situations "
+"where how a package and its resources are stored are known a priori and "
+"the non-resource names would be useful. For instance, returning "
+"subdirectory names is allowed so that when it is known that the package "
+"and resources are stored on the file system then those subdirectory names"
+" can be used directly."
+msgstr "允许非资源名字被返回是为了允许存储的一个包和它的资源的方式是已知先验的并且非资源名字会有用的情况。比如，允许返回子目录名字，目的是当得知包和资源存储在文件系统上面的时候，能够直接使用子目录的名字。"
 
 #: ../../library/importlib.rst:563
 msgid "The abstract method returns an iterable of no items."
@@ -871,9 +880,9 @@ msgstr "这个抽象方法返回了一个不包含任何内容的可迭代对象
 
 #: ../../library/importlib.rst:568
 msgid ""
-"An abstract base class for a :term:`loader` which implements the optional "
-":pep:`302` protocol for loading arbitrary resources from the storage back-"
-"end."
+"An abstract base class for a :term:`loader` which implements the optional"
+" :pep:`302` protocol for loading arbitrary resources from the storage "
+"back-end."
 msgstr "一个 :term:`loader` 的抽象基类，它实现了可选的 :pep:`302` 协议用于从存储后端加载任意资源。"
 
 #: ../../library/importlib.rst:572
@@ -885,11 +894,11 @@ msgstr "由于要支持使用 :class:`importlib.abc.ResourceReader`  类来加�
 #: ../../library/importlib.rst:578
 msgid ""
 "An abstract method to return the bytes for the data located at *path*. "
-"Loaders that have a file-like storage back-end that allows storing arbitrary"
-" data can implement this abstract method to give direct access to the data "
-"stored. :exc:`OSError` is to be raised if the *path* cannot be found. The "
-"*path* is expected to be constructed using a module's :attr:`__file__` "
-"attribute or an item from a package's :attr:`__path__`."
+"Loaders that have a file-like storage back-end that allows storing "
+"arbitrary data can implement this abstract method to give direct access "
+"to the data stored. :exc:`OSError` is to be raised if the *path* cannot "
+"be found. The *path* is expected to be constructed using a module's "
+":attr:`__file__` attribute or an item from a package's :attr:`__path__`."
 msgstr ""
 "一个用于返回位于 *path* "
 "的字节数据的抽象方法。有一个允许存储任意数据的类文件存储后端的加载器能够实现这个抽象方法来直接访问这些被存储的数据。如果不能够找到 "
@@ -902,23 +911,24 @@ msgstr "引发 :exc:`OSError` 异常而不是 :exc:`NotImplementedError` 异常�
 
 #: ../../library/importlib.rst:592
 msgid ""
-"An abstract base class for a :term:`loader` which implements the optional "
-":pep:`302` protocol for loaders that inspect modules."
+"An abstract base class for a :term:`loader` which implements the optional"
+" :pep:`302` protocol for loaders that inspect modules."
 msgstr "一个实现加载器检查模块可选的 :pep:`302` 协议的 :term:`loader` 的抽象基类。"
 
 #: ../../library/importlib.rst:597
 msgid ""
-"Return the code object for a module, or ``None`` if the module does not have"
-" a code object (as would be the case, for example, for a built-in module).  "
-"Raise an :exc:`ImportError` if loader cannot find the requested module."
+"Return the code object for a module, or ``None`` if the module does not "
+"have a code object (as would be the case, for example, for a built-in "
+"module).  Raise an :exc:`ImportError` if loader cannot find the requested"
+" module."
 msgstr ""
 "返回一个模块的代码对象，或如果模块没有一个代码对象（例如，对于内置的模块来说，这会是这种情况），则为 ``None``。 "
 "如果加载器不能找到请求的模块，则引发 :exc:`ImportError` 异常。"
 
 #: ../../library/importlib.rst:603
 msgid ""
-"While the method has a default implementation, it is suggested that it be "
-"overridden if possible for performance."
+"While the method has a default implementation, it is suggested that it be"
+" overridden if possible for performance."
 msgstr "当这个方法有一个默认的实现的时候，出于性能方面的考虑，如果有可能的话，建议覆盖它。"
 
 #: ../../library/importlib.rst:609
@@ -929,9 +939,9 @@ msgstr "不再抽象并且提供一个具体的实现。"
 msgid ""
 "An abstract method to return the source of a module. It is returned as a "
 "text string using :term:`universal newlines`, translating all recognized "
-"line separators into ``'\\n'`` characters.  Returns ``None`` if no source is"
-" available (e.g. a built-in module). Raises :exc:`ImportError` if the loader"
-" cannot find the module specified."
+"line separators into ``'\\n'`` characters.  Returns ``None`` if no source"
+" is available (e.g. a built-in module). Raises :exc:`ImportError` if the "
+"loader cannot find the module specified."
 msgstr ""
 "一个返回模块源的抽象方法。使用 :term:`universal newlines` 作为文本字符串被返回，将所有可识别行分割符翻译成 "
 "``'\\n'`` 字符。 如果没有可用的源（例如，一个内置模块），则返回 ``None``。 如果加载器不能找到指定的模块，则引发 "
@@ -945,8 +955,8 @@ msgstr "引发 :exc:`ImportError` 而不是 :exc:`NotImplementedError`。"
 #: ../../library/importlib.rst:625
 msgid ""
 "An optional method to return a true value if the module is a package, a "
-"false value otherwise. :exc:`ImportError` is raised if the :term:`loader` "
-"cannot find the module."
+"false value otherwise. :exc:`ImportError` is raised if the :term:`loader`"
+" cannot find the module."
 msgstr ""
 "可选方法，如果模块为包，则返回 True，否则返回 False。 如果 :term:`loader` 找不到模块，则会触发 "
 ":exc:`ImportError`。"
@@ -957,18 +967,18 @@ msgstr "创建一个来自Python源码的代码对象。"
 
 #: ../../library/importlib.rst:636
 msgid ""
-"The *data* argument can be whatever the :func:`compile` function supports "
-"(i.e. string or bytes). The *path* argument should be the \"path\" to where "
-"the source code originated from, which can be an abstract concept (e.g. "
-"location in a zip file)."
+"The *data* argument can be whatever the :func:`compile` function supports"
+" (i.e. string or bytes). The *path* argument should be the \"path\" to "
+"where the source code originated from, which can be an abstract concept "
+"(e.g. location in a zip file)."
 msgstr ""
 "参数 *data* 可以是任意 :func:`compile` 函数支持的类型（例如字符串或字节串）。 参数 *path* "
 "应该是源代码来源的路径，这可能是一个抽象概念（例如位于一个 zip 文件中）。"
 
 #: ../../library/importlib.rst:641
 msgid ""
-"With the subsequent code object one can execute it in a module by running "
-"``exec(code, module.__dict__)``."
+"With the subsequent code object one can execute it in a module by running"
+" ``exec(code, module.__dict__)``."
 msgstr "在有后续代码对象的情况下，可以在一个模块中通过运行``exec(code, module.__dict__)``来执行它。"
 
 #: ../../library/importlib.rst:646
@@ -989,23 +999,25 @@ msgstr "使用 :meth:`exec_module` 来代替。"
 
 #: ../../library/importlib.rst:665
 msgid ""
-"An abstract base class which inherits from :class:`InspectLoader` that, when"
-" implemented, helps a module to be executed as a script. The ABC represents "
-"an optional :pep:`302` protocol."
+"An abstract base class which inherits from :class:`InspectLoader` that, "
+"when implemented, helps a module to be executed as a script. The ABC "
+"represents an optional :pep:`302` protocol."
 msgstr ""
 "一个继承自 :class:`InspectLoader` 的抽象基类，当被实现时，帮助一个模块作为脚本来执行。 这个抽象基类表示可选的 "
 ":pep:`302` 协议。"
 
 #: ../../library/importlib.rst:671
 msgid ""
-"An abstract method that is to return the value of :attr:`__file__` for the "
-"specified module. If no path is available, :exc:`ImportError` is raised."
+"An abstract method that is to return the value of :attr:`__file__` for "
+"the specified module. If no path is available, :exc:`ImportError` is "
+"raised."
 msgstr "一个用来为指定模块返回 :attr:`__file__` 的值的抽象方法。如果无路径可用，则引发 :exc:`ImportError`。"
 
 #: ../../library/importlib.rst:675
 msgid ""
-"If source code is available, then the method should return the path to the "
-"source file, regardless of whether a bytecode was used to load the module."
+"If source code is available, then the method should return the path to "
+"the source file, regardless of whether a bytecode was used to load the "
+"module."
 msgstr "如果源代码可用，那么这个方法返回源文件的路径，不管是否是用来加载模块的字节码。"
 
 #: ../../library/importlib.rst:685
@@ -1020,8 +1032,9 @@ msgstr ""
 
 #: ../../library/importlib.rst:689
 msgid ""
-"The *fullname* argument is a fully resolved name of the module the loader is"
-" to handle. The *path* argument is the path to the file for the module."
+"The *fullname* argument is a fully resolved name of the module the loader"
+" is to handle. The *path* argument is the path to the file for the "
+"module."
 msgstr "参数*fullname*是加载器要处理的模块的完全解析的名字。参数*path*是模块文件的路径。"
 
 #: ../../library/importlib.rst:696
@@ -1040,7 +1053,7 @@ msgstr "调用super的``load_module()``。"
 msgid "Use :meth:`Loader.exec_module` instead."
 msgstr "使用 :meth:`Loader.exec_module` 来代替。"
 
-#: ../../library/importlib.rst:711 ../../library/importlib.rst:1351
+#: ../../library/importlib.rst:711 ../../library/importlib.rst:1391
 msgid "Returns :attr:`path`."
 msgstr "返回 :attr:`path`。"
 
@@ -1067,20 +1080,20 @@ msgstr ":meth:`ExecutionLoader.get_filename`"
 
 #: ../../library/importlib.rst:726
 msgid ""
-"Should only return the path to the source file; sourceless loading is not "
-"supported."
+"Should only return the path to the source file; sourceless loading is not"
+" supported."
 msgstr "应该是只返回源文件的路径；不支持无源加载。"
 
 #: ../../library/importlib.rst:729
 msgid ""
-"The abstract methods defined by this class are to add optional bytecode file"
-" support. Not implementing these optional methods (or causing them to raise "
-":exc:`NotImplementedError`) causes the loader to only work with source code."
-" Implementing the methods allows the loader to work with source *and* "
-"bytecode files; it does not allow for *sourceless* loading where only "
-"bytecode is provided.  Bytecode files are an optimization to speed up "
-"loading by removing the parsing step of Python's compiler, and so no "
-"bytecode-specific API is exposed."
+"The abstract methods defined by this class are to add optional bytecode "
+"file support. Not implementing these optional methods (or causing them to"
+" raise :exc:`NotImplementedError`) causes the loader to only work with "
+"source code. Implementing the methods allows the loader to work with "
+"source *and* bytecode files; it does not allow for *sourceless* loading "
+"where only bytecode is provided.  Bytecode files are an optimization to "
+"speed up loading by removing the parsing step of Python's compiler, and "
+"so no bytecode-specific API is exposed."
 msgstr ""
 "由这个类定义的抽象方法用来添加可选的字节码文件支持。不实现这些可选的方法（或导致它们引发 :exc:`NotImplementedError` "
 "异常）导致这个加载器只能与源代码一起工作。 实现这些方法允许加载器能与源 *和* 字节码文件一起工作。不允许只提供字节码的 *无源式* "
@@ -1088,14 +1101,14 @@ msgstr ""
 
 #: ../../library/importlib.rst:740
 msgid ""
-"Optional abstract method which returns a :class:`dict` containing metadata "
-"about the specified path.  Supported dictionary keys are:"
+"Optional abstract method which returns a :class:`dict` containing "
+"metadata about the specified path.  Supported dictionary keys are:"
 msgstr "返回一个包含关于指定路径的元数据的 :class:`dict` 的可选的抽象方法。 支持的字典键有："
 
 #: ../../library/importlib.rst:743
 msgid ""
-"``'mtime'`` (mandatory): an integer or floating-point number representing "
-"the modification time of the source code;"
+"``'mtime'`` (mandatory): an integer or floating-point number representing"
+" the modification time of the source code;"
 msgstr "``'mtime'`` (必选项): 一个表示源码修改时间的整数或浮点数；"
 
 #: ../../library/importlib.rst:745
@@ -1120,17 +1133,17 @@ msgstr "返回指定文件路径修改时间的可选的抽象方法。"
 
 #: ../../library/importlib.rst:760
 msgid ""
-"This method is deprecated in favour of :meth:`path_stats`.  You don't have "
-"to implement it, but it is still available for compatibility purposes. Raise"
-" :exc:`OSError` if the path cannot be handled."
+"This method is deprecated in favour of :meth:`path_stats`.  You don't "
+"have to implement it, but it is still available for compatibility "
+"purposes. Raise :exc:`OSError` if the path cannot be handled."
 msgstr ""
 "在有了 :meth:`path_stats` 的情况下，这个方法被弃用了。 没必要去实现它了，但是为了兼容性，它依然处于可用状态。 "
 "如果文件路径不能被处理，则引发 :exc:`OSError` 异常。"
 
 #: ../../library/importlib.rst:770
 msgid ""
-"Optional abstract method which writes the specified bytes to a file path. "
-"Any intermediate directories which do not exist are to be created "
+"Optional abstract method which writes the specified bytes to a file path."
+" Any intermediate directories which do not exist are to be created "
 "automatically."
 msgstr "往一个文件路径写入指定字节的的可选的抽象方法。任何中间不存在的目录不会被自动创建。"
 
@@ -1139,8 +1152,7 @@ msgid ""
 "When writing to the path fails because the path is read-only "
 "(:attr:`errno.EACCES`/:exc:`PermissionError`), do not propagate the "
 "exception."
-msgstr ""
-"由于路径是只读的，当写入的路径产生错误时（:attr:`errno.EACCES`/:exc:`PermissionError`），不会传播异常。"
+msgstr "由于路径是只读的，当写入的路径产生错误时（:attr:`errno.EACCES`/:exc:`PermissionError`），不会传播异常。"
 
 #: ../../library/importlib.rst:778
 msgid "No longer raises :exc:`NotImplementedError` when called."
@@ -1170,9 +1182,9 @@ msgstr ":meth:`InspectLoader.get_source` 的具体实现。"
 msgid ""
 "Concrete implementation of :meth:`InspectLoader.is_package`. A module is "
 "determined to be a package if its file path (as provided by "
-":meth:`ExecutionLoader.get_filename`) is a file named ``__init__`` when the "
-"file extension is removed **and** the module name itself does not end in "
-"``__init__``."
+":meth:`ExecutionLoader.get_filename`) is a file named ``__init__`` when "
+"the file extension is removed **and** the module name itself does not end"
+" in ``__init__``."
 msgstr ""
 ":meth:`InspectLoader.is_package` 的具体实现。一个模块被确定为一个包的条件是：它的文件路径（由 "
 ":meth:`ExecutionLoader.get_filename` 提供）当文件扩展名被移除时是一个命名为 ``__init__`` "
@@ -1184,67 +1196,106 @@ msgid ""
 "directories and opening files."
 msgstr "拥有部分 pathlib.Path 方法的对象，适用于遍历目录和打开文件。"
 
-#: ../../library/importlib.rst:821
-msgid ""
-"An abstract base class for resource readers capable of serving the ``files``"
-" interface. Subclasses ResourceReader and provides concrete implementations "
-"of the ResourceReader's abstract methods. Therefore, any loader supplying "
-"TraversableReader also supplies ResourceReader."
+#: ../../library/importlib.rst:820
+msgid "The base name of this object without any parent references."
 msgstr ""
-"用作资源读取器的抽象基类，能够为 ``files`` 接口提供服务。其为ResourceReader 的子类，并具体实现了 ResourceReader"
-" 的抽象方法。因此，任何提供 TraversableReader 的加载器也提供 ResourceReader。"
 
-#: ../../library/importlib.rst:827
+#: ../../library/importlib.rst:824
+msgid "Yield Traversable objects in self."
+msgstr ""
+
+#: ../../library/importlib.rst:828
+msgid "Return True if self is a directory."
+msgstr ""
+
+#: ../../library/importlib.rst:832
+msgid "Return True if self is a file."
+msgstr ""
+
+#: ../../library/importlib.rst:836 ../../library/importlib.rst:840
+msgid "Return Traversable child in self."
+msgstr ""
+
+#: ../../library/importlib.rst:844
 msgid ""
-"Loaders that wish to support resource reading are expected to implement this"
-" interface."
+"*mode* may be 'r' or 'rb' to open as text or binary. Return a handle "
+"suitable for reading (same as :attr:`pathlib.Path.open`)."
+msgstr ""
+
+#: ../../library/importlib.rst:847
+msgid ""
+"When opening as text, accepts encoding parameters such as those accepted "
+"by :attr:`io.TextIOWrapper`."
+msgstr ""
+
+#: ../../library/importlib.rst:852
+msgid "Read contents of self as bytes."
+msgstr ""
+
+#: ../../library/importlib.rst:856
+msgid "Read contents of self as text."
+msgstr ""
+
+#: ../../library/importlib.rst:861
+msgid ""
+"An abstract base class for resource readers capable of serving the "
+"``files`` interface. Subclasses ResourceReader and provides concrete "
+"implementations of the ResourceReader's abstract methods. Therefore, any "
+"loader supplying TraversableReader also supplies ResourceReader."
+msgstr ""
+"用作资源读取器的抽象基类，能够为 ``files`` 接口提供服务。其为ResourceReader 的子类，并具体实现了 "
+"ResourceReader 的抽象方法。因此，任何提供 TraversableReader 的加载器也提供 ResourceReader。"
+
+#: ../../library/importlib.rst:867
+msgid ""
+"Loaders that wish to support resource reading are expected to implement "
+"this interface."
 msgstr "需要支持资源读取的加载器应实现此接口。"
 
-#: ../../library/importlib.rst:834
+#: ../../library/importlib.rst:874
 msgid ":mod:`importlib.resources` -- Resources"
 msgstr ":mod:`importlib.resources` -- 资源"
 
-#: ../../library/importlib.rst:839
+#: ../../library/importlib.rst:879
 msgid "**Source code:** :source:`Lib/importlib/resources.py`"
 msgstr "**源码：** :source:`Lib/importlib/resources.py`"
 
-#: ../../library/importlib.rst:845
+#: ../../library/importlib.rst:885
 msgid ""
 "This module leverages Python's import system to provide access to "
-"*resources* within *packages*.  If you can import a package, you can access "
-"resources within that package.  Resources can be opened or read, in either "
-"binary or text mode."
-msgstr ""
-"这个模块使得Python的导入系统提供了访问*包*内的*资源*的功能。如果能够导入一个包，那么就能够访问那个包里面的资源。资源可以以二进制或文本模式方式被打开或读取。"
+"*resources* within *packages*.  If you can import a package, you can "
+"access resources within that package.  Resources can be opened or read, "
+"in either binary or text mode."
+msgstr "这个模块使得Python的导入系统提供了访问*包*内的*资源*的功能。如果能够导入一个包，那么就能够访问那个包里面的资源。资源可以以二进制或文本模式方式被打开或读取。"
 
-#: ../../library/importlib.rst:850
+#: ../../library/importlib.rst:890
 msgid ""
 "Resources are roughly akin to files inside directories, though it's "
 "important to keep in mind that this is just a metaphor.  Resources and "
-"packages **do not** have to exist as physical files and directories on the "
-"file system."
+"packages **do not** have to exist as physical files and directories on "
+"the file system."
 msgstr "资源非常类似于目录内部的文件，要牢记的是这仅仅是一个比喻。资源和包不是与文件系统上的物理文件和目录一样存在着。"
 
-#: ../../library/importlib.rst:856
+#: ../../library/importlib.rst:896
 msgid ""
 "This module provides functionality similar to `pkg_resources "
-"<https://setuptools.readthedocs.io/en/latest/pkg_resources.html>`_ `Basic "
-"Resource Access "
+"<https://setuptools.readthedocs.io/en/latest/pkg_resources.html>`_ `Basic"
+" Resource Access "
 "<http://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-"
-"resource-access>`_ without the performance overhead of that package.  This "
-"makes reading resources included in packages easier, with more stable and "
-"consistent semantics."
+"resource-access>`_ without the performance overhead of that package.  "
+"This makes reading resources included in packages easier, with more "
+"stable and consistent semantics."
 msgstr ""
 "本模块提供了类似于 `pkg_resources "
-"<https://setuptools.readthedocs.io/en/latest/pkg_resources.html>`_  `Basic "
-"Resource Access "
+"<https://setuptools.readthedocs.io/en/latest/pkg_resources.html>`_  "
+"`Basic Resource Access "
 "<http://setuptools.readthedocs.io/en/latest/pkg_resources.html#basic-"
 "resource-access>`_ 的功能，但没有该包的性能开销。这样读取包中的资源就更为容易，语义也更稳定一致。"
 
-#: ../../library/importlib.rst:864
+#: ../../library/importlib.rst:904
 msgid ""
-"The standalone backport of this module provides more information on `using "
-"importlib.resources <http://importlib-"
+"The standalone backport of this module provides more information on "
+"`using importlib.resources <http://importlib-"
 "resources.readthedocs.io/en/latest/using.html>`_ and `migrating from "
 "pkg_resources to importlib.resources <http://importlib-"
 "resources.readthedocs.io/en/latest/migration.html>`_."
@@ -1254,272 +1305,273 @@ msgstr ""
 "pkg_resources to importlib.resources <http://importlib-"
 "resources.readthedocs.io/en/latest/migration.html>`_  提供了更多信息。"
 
-#: ../../library/importlib.rst:874
+#: ../../library/importlib.rst:914
 msgid "The following types are defined."
 msgstr "定义了以下类型。"
 
-#: ../../library/importlib.rst:878
+#: ../../library/importlib.rst:918
 msgid ""
-"The ``Package`` type is defined as ``Union[str, ModuleType]``.  This means "
-"that where the function describes accepting a ``Package``, you can pass in "
-"either a string or a module.  Module objects must have a resolvable "
-"``__spec__.submodule_search_locations`` that is not ``None``."
+"The ``Package`` type is defined as ``Union[str, ModuleType]``.  This "
+"means that where the function describes accepting a ``Package``, you can "
+"pass in either a string or a module.  Module objects must have a "
+"resolvable ``__spec__.submodule_search_locations`` that is not ``None``."
 msgstr ""
 "``Package`` 类型定义为 ``Union[str, ModuleType]`` 。这意味着只要函数说明接受 ``Package`` "
-"的地方，就可以传入字符串或模块。模块对象必须拥有一个可解析的 ``__spec__.submodule_search_locations``，不能是 "
-"``None``。"
+"的地方，就可以传入字符串或模块。模块对象必须拥有一个可解析的 "
+"``__spec__.submodule_search_locations``，不能是 ``None``。"
 
-#: ../../library/importlib.rst:885
+#: ../../library/importlib.rst:925
 msgid ""
-"This type describes the resource names passed into the various functions in "
-"this package.  This is defined as ``Union[str, os.PathLike]``."
+"This type describes the resource names passed into the various functions "
+"in this package.  This is defined as ``Union[str, os.PathLike]``."
 msgstr "此类型描述了传入本包各函数的资源名称。定义为 ``Union[str, os.PathLike]``。"
 
-#: ../../library/importlib.rst:889
+#: ../../library/importlib.rst:929
 msgid "The following functions are available."
 msgstr "有以下函数可用："
 
-#: ../../library/importlib.rst:894
+#: ../../library/importlib.rst:934
 msgid ""
-"Returns an :class:`importlib.resources.abc.Traversable` object representing "
-"the resource container for the package (think directory) and its resources "
-"(think files). A Traversable may contain other containers (think "
-"subdirectories)."
+"Returns an :class:`importlib.resources.abc.Traversable` object "
+"representing the resource container for the package (think directory) and"
+" its resources (think files). A Traversable may contain other containers "
+"(think subdirectories)."
 msgstr ""
 "返回一个 :class:`importlib.resources.abc.Traversable` "
 "对象，代表包的资源容器（可视为目录）及其资源（可视为文件）。Traversable 可以包含其他容器（可视为子目录）。"
 
-#: ../../library/importlib.rst:899 ../../library/importlib.rst:1000
+#: ../../library/importlib.rst:939 ../../library/importlib.rst:1040
 msgid ""
 "*package* is either a name or a module object which conforms to the "
 "``Package`` requirements."
 msgstr "*package* 是包名或符合 ``Package`` 要求的模块对象。"
 
-#: ../../library/importlib.rst:906
+#: ../../library/importlib.rst:946
 msgid ""
-"Given a :class:`importlib.resources.abc.Traversable` object representing a "
-"file, typically from :func:`importlib.resources.files`, return a context "
-"manager for use in a :keyword:`with` statement. The context manager provides"
-" a :class:`pathlib.Path` object."
+"Given a :class:`importlib.resources.abc.Traversable` object representing "
+"a file, typically from :func:`importlib.resources.files`, return a "
+"context manager for use in a :keyword:`with` statement. The context "
+"manager provides a :class:`pathlib.Path` object."
 msgstr ""
 "给出代表某个文件的 :class:`importlib.resources.abc.Traversable` 对象，通常是来自 "
-":func:`importlib.resources.files`，返回上下文管理器以供 :keyword:`with` 语句使用。上下文管理器提供一个"
-" :class:`pathlib.Path` 对象。"
+":func:`importlib.resources.files`，返回上下文管理器以供 :keyword:`with` "
+"语句使用。上下文管理器提供一个 :class:`pathlib.Path` 对象。"
 
-#: ../../library/importlib.rst:911
+#: ../../library/importlib.rst:951
 msgid ""
-"Exiting the context manager cleans up any temporary file created when the "
-"resource was extracted from e.g. a zip file."
+"Exiting the context manager cleans up any temporary file created when the"
+" resource was extracted from e.g. a zip file."
 msgstr "退出上下文管理程序时，可以清理所有临时文件，比如从压缩文件中提取资源时创建的那些文件。"
 
-#: ../../library/importlib.rst:914
+#: ../../library/importlib.rst:954
 msgid ""
 "Use ``as_file`` when the Traversable methods (``read_text``, etc) are "
 "insufficient and an actual file on the file system is required."
 msgstr "如果 Traversable 方法（``read_text`` 等）不够用，需要文件系统中的实际文件时，请使用 ``as_file``。"
 
-#: ../../library/importlib.rst:922
+#: ../../library/importlib.rst:962
 msgid "Open for binary reading the *resource* within *package*."
 msgstr "以二进制读方式打开 *package* 内的 *resource*。"
 
-#: ../../library/importlib.rst:924
+#: ../../library/importlib.rst:964
 msgid ""
 "*package* is either a name or a module object which conforms to the "
-"``Package`` requirements.  *resource* is the name of the resource to open "
-"within *package*; it may not contain path separators and it may not have "
-"sub-resources (i.e. it cannot be a directory).  This function returns a "
+"``Package`` requirements.  *resource* is the name of the resource to open"
+" within *package*; it may not contain path separators and it may not have"
+" sub-resources (i.e. it cannot be a directory).  This function returns a "
 "``typing.BinaryIO`` instance, a binary I/O stream open for reading."
 msgstr ""
 "*package* 是包名或符合 ``Package`` 要求的模块对象。 *resource* 是要在*package* "
 "内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能为目录）。本函数将返回一个``typing.BinaryIO`` "
 "实例以供读取，即一个已打开的二进制 I/O 流。"
 
-#: ../../library/importlib.rst:933
+#: ../../library/importlib.rst:973
 msgid ""
 "Open for text reading the *resource* within *package*.  By default, the "
 "resource is opened for reading as UTF-8."
 msgstr "以文本读方式打开 *package* 内的 *resource*。默认情况下，资源将以 UTF-8 格式打开以供读取。"
 
-#: ../../library/importlib.rst:936
+#: ../../library/importlib.rst:976
 msgid ""
 "*package* is either a name or a module object which conforms to the "
-"``Package`` requirements.  *resource* is the name of the resource to open "
-"within *package*; it may not contain path separators and it may not have "
-"sub-resources (i.e. it cannot be a directory).  *encoding* and *errors* have"
-" the same meaning as with built-in :func:`open`."
+"``Package`` requirements.  *resource* is the name of the resource to open"
+" within *package*; it may not contain path separators and it may not have"
+" sub-resources (i.e. it cannot be a directory).  *encoding* and *errors* "
+"have the same meaning as with built-in :func:`open`."
 msgstr ""
 "*package* 是包名或符合 ``Package`` 要求的模块对象。 *resource* 是要在 *package* "
-"内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能是目录）。*encoding* 和 *errors* 的含义与内置 :func:`open` "
-"的一样。"
+"内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能是目录）。*encoding* 和 *errors* 的含义与内置 "
+":func:`open` 的一样。"
 
-#: ../../library/importlib.rst:942
+#: ../../library/importlib.rst:982
 msgid ""
-"This function returns a ``typing.TextIO`` instance, a text I/O stream open "
-"for reading."
+"This function returns a ``typing.TextIO`` instance, a text I/O stream "
+"open for reading."
 msgstr "本函数返回一个 ``typing.TextIO`` 实例，即一个打开的文本 I/O  流对象以供读取。"
 
-#: ../../library/importlib.rst:948
+#: ../../library/importlib.rst:988
 msgid ""
 "Read and return the contents of the *resource* within *package* as "
 "``bytes``."
 msgstr "读取并返回 *package* 中的 *resource* 内容，格式为 ``bytes``。"
 
-#: ../../library/importlib.rst:951
+#: ../../library/importlib.rst:991
 msgid ""
 "*package* is either a name or a module object which conforms to the "
-"``Package`` requirements.  *resource* is the name of the resource to open "
-"within *package*; it may not contain path separators and it may not have "
-"sub-resources (i.e. it cannot be a directory).  This function returns the "
-"contents of the resource as :class:`bytes`."
+"``Package`` requirements.  *resource* is the name of the resource to open"
+" within *package*; it may not contain path separators and it may not have"
+" sub-resources (i.e. it cannot be a directory).  This function returns "
+"the contents of the resource as :class:`bytes`."
 msgstr ""
 "*package* 是包名或符合 ``Package`` 要求的模块对象。 *resource* 是要在 *package* "
 "内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能是目录）。资源内容以 :class:`bytes` 的形式返回。"
 
-#: ../../library/importlib.rst:960
+#: ../../library/importlib.rst:1000
 msgid ""
-"Read and return the contents of *resource* within *package* as a ``str``. By"
-" default, the contents are read as strict UTF-8."
-msgstr ""
-"读取并返回 *package* 中 *resource* 的内容，格式为 ``str``。默认情况下，资源内容将以严格的 UTF-8 格式读取。"
+"Read and return the contents of *resource* within *package* as a ``str``."
+" By default, the contents are read as strict UTF-8."
+msgstr "读取并返回 *package* 中 *resource* 的内容，格式为 ``str``。默认情况下，资源内容将以严格的 UTF-8 格式读取。"
 
-#: ../../library/importlib.rst:963
+#: ../../library/importlib.rst:1003
 msgid ""
 "*package* is either a name or a module object which conforms to the "
-"``Package`` requirements.  *resource* is the name of the resource to open "
-"within *package*; it may not contain path separators and it may not have "
-"sub-resources (i.e. it cannot be a directory).  *encoding* and *errors* have"
-" the same meaning as with built-in :func:`open`.  This function returns the "
-"contents of the resource as :class:`str`."
+"``Package`` requirements.  *resource* is the name of the resource to open"
+" within *package*; it may not contain path separators and it may not have"
+" sub-resources (i.e. it cannot be a directory).  *encoding* and *errors* "
+"have the same meaning as with built-in :func:`open`.  This function "
+"returns the contents of the resource as :class:`str`."
 msgstr ""
 "*package* 是包名或符合 ``Package`` 要求的模块对象。 *resource* 是要在 *package* "
-"内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能是目录）。*encoding* 和 *errors* 的含义与内置 :func:`open` "
-"的一样。资源内容将以 :class:`str` 的形式返回。"
+"内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能是目录）。*encoding* 和 *errors* 的含义与内置 "
+":func:`open` 的一样。资源内容将以 :class:`str` 的形式返回。"
 
-#: ../../library/importlib.rst:973
+#: ../../library/importlib.rst:1013
 msgid ""
 "Return the path to the *resource* as an actual file system path.  This "
-"function returns a context manager for use in a :keyword:`with` statement. "
-"The context manager provides a :class:`pathlib.Path` object."
+"function returns a context manager for use in a :keyword:`with` "
+"statement. The context manager provides a :class:`pathlib.Path` object."
 msgstr ""
-"返回 *resource* 实际的文件系统路径。本函数返回一个上下文管理器，以供 :keyword:`with` 语句中使用。上下文管理器提供一个 "
-":class:`pathlib.Path` 对象。"
+"返回 *resource* 实际的文件系统路径。本函数返回一个上下文管理器，以供 :keyword:`with` 语句中使用。上下文管理器提供一个"
+" :class:`pathlib.Path` 对象。"
 
-#: ../../library/importlib.rst:977
+#: ../../library/importlib.rst:1017
 msgid ""
-"Exiting the context manager cleans up any temporary file created when the "
-"resource needs to be extracted from e.g. a zip file."
+"Exiting the context manager cleans up any temporary file created when the"
+" resource needs to be extracted from e.g. a zip file."
 msgstr "退出上下文管理程序时，可以清理所有临时文件，比如从压缩文件中提取资源时创建的那些文件。"
 
-#: ../../library/importlib.rst:980
+#: ../../library/importlib.rst:1020
 msgid ""
 "*package* is either a name or a module object which conforms to the "
-"``Package`` requirements.  *resource* is the name of the resource to open "
-"within *package*; it may not contain path separators and it may not have "
-"sub-resources (i.e. it cannot be a directory)."
+"``Package`` requirements.  *resource* is the name of the resource to open"
+" within *package*; it may not contain path separators and it may not have"
+" sub-resources (i.e. it cannot be a directory)."
 msgstr ""
 "*package* 是包名或符合 ``Package`` 要求的模块对象。 *resource* 是要在 *package* "
 "内打开的资源名；不能包含路径分隔符，也不能有子资源（即不能是目录）。"
 
-#: ../../library/importlib.rst:988
+#: ../../library/importlib.rst:1028
 msgid ""
 "Return ``True`` if there is a resource named *name* in the package, "
 "otherwise ``False``.  Remember that directories are *not* resources! "
 "*package* is either a name or a module object which conforms to the "
 "``Package`` requirements."
 msgstr ""
-"如果包中存在名为 *name* 的资源，则返回 ``True``，否则返回 ``False``。 请记住，目录 *不是* 资源！ *package* "
-"为包名或符合 ``Package`` 要求的模块对象。"
+"如果包中存在名为 *name* 的资源，则返回 ``True``，否则返回 ``False``。 请记住，目录 *不是* 资源！ "
+"*package* 为包名或符合 ``Package`` 要求的模块对象。"
 
-#: ../../library/importlib.rst:996
+#: ../../library/importlib.rst:1036
 msgid ""
-"Return an iterable over the named items within the package.  The iterable "
-"returns :class:`str` resources (e.g. files) and non-resources (e.g. "
+"Return an iterable over the named items within the package.  The iterable"
+" returns :class:`str` resources (e.g. files) and non-resources (e.g. "
 "directories).  The iterable does not recurse into subdirectories."
 msgstr ""
-"返回一个用于遍历包内各命名项的可迭代对象。该可迭代对象将返回 :class:`str` 资源（如文件）及非资源（如目录）。该迭代器不会递归进入子目录。"
+"返回一个用于遍历包内各命名项的可迭代对象。该可迭代对象将返回 :class:`str` "
+"资源（如文件）及非资源（如目录）。该迭代器不会递归进入子目录。"
 
-#: ../../library/importlib.rst:1005
+#: ../../library/importlib.rst:1045
 msgid ":mod:`importlib.machinery` -- Importers and path hooks"
 msgstr ":mod:`importlib.machinery` —— 导入器和路径钩子函数。"
 
-#: ../../library/importlib.rst:1010
+#: ../../library/importlib.rst:1050
 msgid "**Source code:** :source:`Lib/importlib/machinery.py`"
 msgstr "**源代码：** :source:`Lib/importlib/machinery.py`"
 
-#: ../../library/importlib.rst:1014
+#: ../../library/importlib.rst:1054
 msgid ""
-"This module contains the various objects that help :keyword:`import` find "
-"and load modules."
+"This module contains the various objects that help :keyword:`import` find"
+" and load modules."
 msgstr "本模块包含多个对象，以帮助 :keyword:`import` 查找并加载模块。"
 
-#: ../../library/importlib.rst:1019
+#: ../../library/importlib.rst:1059
 msgid ""
 "A list of strings representing the recognized file suffixes for source "
 "modules."
 msgstr "一个字符串列表，表示源模块的可识别的文件后缀。"
 
-#: ../../library/importlib.rst:1026
+#: ../../library/importlib.rst:1066
 msgid ""
-"A list of strings representing the file suffixes for non-optimized bytecode "
-"modules."
+"A list of strings representing the file suffixes for non-optimized "
+"bytecode modules."
 msgstr "一个字符串列表，表示未经优化字节码模块的文件后缀。"
 
-#: ../../library/importlib.rst:1031 ../../library/importlib.rst:1041
+#: ../../library/importlib.rst:1071 ../../library/importlib.rst:1081
 msgid "Use :attr:`BYTECODE_SUFFIXES` instead."
 msgstr "改用 :attr:`BYTECODE_SUFFIXES` 。"
 
-#: ../../library/importlib.rst:1036
+#: ../../library/importlib.rst:1076
 msgid ""
 "A list of strings representing the file suffixes for optimized bytecode "
 "modules."
 msgstr "一个字符串列表，表示已优化字节码模块的文件后缀。"
 
-#: ../../library/importlib.rst:1046
+#: ../../library/importlib.rst:1086
 msgid ""
 "A list of strings representing the recognized file suffixes for bytecode "
 "modules (including the leading dot)."
 msgstr "一个字符串列表，表示字节码模块的可识别的文件后缀（包含前导的句点符号）。"
 
-#: ../../library/importlib.rst:1051
+#: ../../library/importlib.rst:1091
 msgid "The value is no longer dependent on ``__debug__``."
 msgstr "该值不再依赖于 ``__debug__`` 。"
 
-#: ../../library/importlib.rst:1056
+#: ../../library/importlib.rst:1096
 msgid ""
-"A list of strings representing the recognized file suffixes for extension "
-"modules."
+"A list of strings representing the recognized file suffixes for extension"
+" modules."
 msgstr "一个字符串列表，表示扩展模块的可识别的文件后缀。"
 
-#: ../../library/importlib.rst:1063
+#: ../../library/importlib.rst:1103
 msgid ""
 "Returns a combined list of strings representing all file suffixes for "
-"modules recognized by the standard import machinery. This is a helper for "
-"code which simply needs to know if a filesystem path potentially refers to a"
-" module without needing any details on the kind of module (for example, "
-":func:`inspect.getmodulename`)."
+"modules recognized by the standard import machinery. This is a helper for"
+" code which simply needs to know if a filesystem path potentially refers "
+"to a module without needing any details on the kind of module (for "
+"example, :func:`inspect.getmodulename`)."
 msgstr ""
 "返回字符串的组合列表，代表标准导入机制可识别模块的所有文件后缀。这是个助手函数，只需知道某个文件系统路径是否会指向模块，而不需要任何关于模块种类的细节（例如"
 " :func:`inspect.getmodulename`）。"
 
-#: ../../library/importlib.rst:1074
+#: ../../library/importlib.rst:1114
 msgid ""
 "An :term:`importer` for built-in modules. All known built-in modules are "
 "listed in :data:`sys.builtin_module_names`. This class implements the "
 ":class:`importlib.abc.MetaPathFinder` and "
 ":class:`importlib.abc.InspectLoader` ABCs."
 msgstr ""
-"用于导入内置模块的 :term:`importer`。 所有已知的内置模块都已列入 :data:`sys.builtin_module_names`。 "
-"此类实现了 :class:`importlib.abc.MetaPathFinder` 和 "
+"用于导入内置模块的 :term:`importer`。 所有已知的内置模块都已列入 "
+":data:`sys.builtin_module_names`。 此类实现了 "
+":class:`importlib.abc.MetaPathFinder` 和 "
 ":class:`importlib.abc.InspectLoader` 抽象基类。"
 
-#: ../../library/importlib.rst:1079 ../../library/importlib.rst:1093
-#: ../../library/importlib.rst:1106 ../../library/importlib.rst:1121
+#: ../../library/importlib.rst:1119 ../../library/importlib.rst:1133
+#: ../../library/importlib.rst:1146 ../../library/importlib.rst:1161
 msgid ""
 "Only class methods are defined by this class to alleviate the need for "
 "instantiation."
 msgstr "此类只定义类的方法，以减轻实例化的开销。"
 
-#: ../../library/importlib.rst:1082
+#: ../../library/importlib.rst:1122
 msgid ""
 "As part of :pep:`489`, the builtin importer now implements "
 ":meth:`Loader.create_module` and :meth:`Loader.exec_module`"
@@ -1527,7 +1579,7 @@ msgstr ""
 "作为 :pep:`489` 的一部分，现在内置模块导入器实现了 :meth:`Loader.create_module` 和 "
 ":meth:`Loader.exec_module`。"
 
-#: ../../library/importlib.rst:1089
+#: ../../library/importlib.rst:1129
 msgid ""
 "An :term:`importer` for frozen modules. This class implements the "
 ":class:`importlib.abc.MetaPathFinder` and "
@@ -1536,487 +1588,491 @@ msgstr ""
 "用于已冻结模块的 :term:`importer`。 此类实现了 :class:`importlib.abc.MetaPathFinder` 和 "
 ":class:`importlib.abc.InspectLoader` 抽象基类。"
 
-#: ../../library/importlib.rst:1096
+#: ../../library/importlib.rst:1136
 msgid ""
 "Gained :meth:`~Loader.create_module` and :meth:`~Loader.exec_module` "
 "methods."
 msgstr "有了 :meth:`~Loader.create_module` 和 :meth:`~Loader.exec_module` 方法。"
 
-#: ../../library/importlib.rst:1103
+#: ../../library/importlib.rst:1143
 msgid ""
-":term:`Finder <finder>` for modules declared in the Windows registry.  This "
-"class implements the :class:`importlib.abc.MetaPathFinder` ABC."
+":term:`Finder <finder>` for modules declared in the Windows registry.  "
+"This class implements the :class:`importlib.abc.MetaPathFinder` ABC."
 msgstr ""
 ":term:`Finder <finder>` 用于查找在 Windows 注册表中声明的模块。该类实现了基础的 "
 ":class:`importlib.abc.MetaPathFinder` 。"
 
-#: ../../library/importlib.rst:1111
+#: ../../library/importlib.rst:1151
 msgid ""
 "Use :mod:`site` configuration instead. Future versions of Python may not "
 "enable this finder by default."
 msgstr "改用 :mod:`site` 配置。未来版本的 Python 可能不会默认启用该查找器。"
 
-#: ../../library/importlib.rst:1118
+#: ../../library/importlib.rst:1158
 msgid ""
 "A :term:`Finder <finder>` for :data:`sys.path` and package ``__path__`` "
-"attributes. This class implements the :class:`importlib.abc.MetaPathFinder` "
-"ABC."
+"attributes. This class implements the "
+":class:`importlib.abc.MetaPathFinder` ABC."
 msgstr ""
-"用于 :data:`sys.path` 和包的 ``__path__`` 属性的  :term:`Finder <finder>` 。该类实现了基础的 "
-":class:`importlib.abc.MetaPathFinder`。"
+"用于 :data:`sys.path` 和包的 ``__path__`` 属性的  :term:`Finder <finder>` "
+"。该类实现了基础的 :class:`importlib.abc.MetaPathFinder`。"
 
-#: ../../library/importlib.rst:1126
+#: ../../library/importlib.rst:1166
 msgid ""
 "Class method that attempts to find a :term:`spec <module spec>` for the "
 "module specified by *fullname* on :data:`sys.path` or, if defined, on "
 "*path*. For each path entry that is searched, "
-":data:`sys.path_importer_cache` is checked. If a non-false object is found "
-"then it is used as the :term:`path entry finder` to look for the module "
-"being searched for. If no entry is found in :data:`sys.path_importer_cache`,"
-" then :data:`sys.path_hooks` is searched for a finder for the path entry "
-"and, if found, is stored in :data:`sys.path_importer_cache` along with being"
-" queried about the module. If no finder is ever found then ``None`` is both "
-"stored in the cache and returned."
+":data:`sys.path_importer_cache` is checked. If a non-false object is "
+"found then it is used as the :term:`path entry finder` to look for the "
+"module being searched for. If no entry is found in "
+":data:`sys.path_importer_cache`, then :data:`sys.path_hooks` is searched "
+"for a finder for the path entry and, if found, is stored in "
+":data:`sys.path_importer_cache` along with being queried about the "
+"module. If no finder is ever found then ``None`` is both stored in the "
+"cache and returned."
 msgstr ""
-"类方法试图在 :data:`sys.path` 或 *path* 上为 *fullname* 指定的模块查找 :term:`spec <module "
-"spec>`。对于每个路径条目，都会查看  :data:`sys.path_importer_cache` 。如果找到非 False 的对象，则将其用作"
-" :term:`path entry finder` 来查找要搜索的模块。如果在 :data:`sys.path_importer_cache` "
-"中没有找到条目，那会在 :data:`sys.path_hooks` 检索该路径条目的查找器，找到了则和查到的模块信息一起存入 "
-":data:`sys.path_importer_cache` 。如果查找器没有找到，则缓存中的查找器和模块信息都存为 ``None`` ，然后返回。"
+"类方法试图在 :data:`sys.path` 或 *path* 上为 *fullname* 指定的模块查找 :term:`spec "
+"<module spec>`。对于每个路径条目，都会查看  :data:`sys.path_importer_cache` 。如果找到非 "
+"False 的对象，则将其用作 :term:`path entry finder` 来查找要搜索的模块。如果在 "
+":data:`sys.path_importer_cache` 中没有找到条目，那会在 :data:`sys.path_hooks` "
+"检索该路径条目的查找器，找到了则和查到的模块信息一起存入 :data:`sys.path_importer_cache` "
+"。如果查找器没有找到，则缓存中的查找器和模块信息都存为 ``None`` ，然后返回。"
 
-#: ../../library/importlib.rst:1140
+#: ../../library/importlib.rst:1180
 msgid ""
-"If the current working directory -- represented by an empty string -- is no "
-"longer valid then ``None`` is returned but no value is cached in "
+"If the current working directory -- represented by an empty string -- is "
+"no longer valid then ``None`` is returned but no value is cached in "
 ":data:`sys.path_importer_cache`."
 msgstr ""
 "如果当前工作目录不再有效（用空字符串表示），则返回 ``None``，但在 :data:`sys.path_importer_cache` "
 "中不会有缓存值。"
 
-#: ../../library/importlib.rst:1147
+#: ../../library/importlib.rst:1187
 msgid "A legacy wrapper around :meth:`find_spec`."
 msgstr "一个过时的 :meth:`find_spec` 封装对象。"
 
-#: ../../library/importlib.rst:1154
+#: ../../library/importlib.rst:1194
 msgid ""
-"Calls :meth:`importlib.abc.PathEntryFinder.invalidate_caches` on all finders"
-" stored in :data:`sys.path_importer_cache` that define the method. Otherwise"
-" entries in :data:`sys.path_importer_cache` set to ``None`` are deleted."
+"Calls :meth:`importlib.abc.PathEntryFinder.invalidate_caches` on all "
+"finders stored in :data:`sys.path_importer_cache` that define the method."
+" Otherwise entries in :data:`sys.path_importer_cache` set to ``None`` are"
+" deleted."
 msgstr ""
 "为所有存于 :data:`sys.path_importer_cache` 中的查找器，调用其  "
 ":meth:`importlib.abc.PathEntryFinder.invalidate_caches` 方法。 "
 ":data:`sys.path_importer_cache` 中为 ``None`` 的条目将被删除。"
 
-#: ../../library/importlib.rst:1159
+#: ../../library/importlib.rst:1199
 msgid "Entries of ``None`` in :data:`sys.path_importer_cache` are deleted."
 msgstr ":data:`sys.path_importer_cache` 中为 ``None`` 的条目将被删除。"
 
-#: ../../library/importlib.rst:1162
+#: ../../library/importlib.rst:1202
 msgid ""
-"Calls objects in :data:`sys.path_hooks` with the current working directory "
-"for ``''`` (i.e. the empty string)."
+"Calls objects in :data:`sys.path_hooks` with the current working "
+"directory for ``''`` (i.e. the empty string)."
 msgstr "调用 :data:`sys.path_hooks` 中的对象，当前工作目录为 ``''`` (即空字符串)。"
 
-#: ../../library/importlib.rst:1169
+#: ../../library/importlib.rst:1209
 msgid ""
-"A concrete implementation of :class:`importlib.abc.PathEntryFinder` which "
-"caches results from the file system."
+"A concrete implementation of :class:`importlib.abc.PathEntryFinder` which"
+" caches results from the file system."
 msgstr ":class:`importlib.abc.PathEntryFinder` 的一个具体实现，它会缓存来自文件系统的结果。"
 
-#: ../../library/importlib.rst:1172
+#: ../../library/importlib.rst:1212
 msgid ""
-"The *path* argument is the directory for which the finder is in charge of "
-"searching."
+"The *path* argument is the directory for which the finder is in charge of"
+" searching."
 msgstr "参数 *path* 是查找器负责搜索的目录。"
 
-#: ../../library/importlib.rst:1175
+#: ../../library/importlib.rst:1215
 msgid ""
 "The *loader_details* argument is a variable number of 2-item tuples each "
-"containing a loader and a sequence of file suffixes the loader recognizes. "
-"The loaders are expected to be callables which accept two arguments of the "
-"module's name and the path to the file found."
+"containing a loader and a sequence of file suffixes the loader "
+"recognizes. The loaders are expected to be callables which accept two "
+"arguments of the module's name and the path to the file found."
 msgstr ""
 "*loader_details* "
 "参数是数量不定的二元组，每个元组包含加载器及其可识别的文件后缀列表。加载器应为可调用对象，可接受两个参数，即模块的名称和已找到文件的路径。"
 
-#: ../../library/importlib.rst:1180
+#: ../../library/importlib.rst:1220
 msgid ""
-"The finder will cache the directory contents as necessary, making stat calls"
-" for each module search to verify the cache is not outdated. Because cache "
-"staleness relies upon the granularity of the operating system's state "
-"information of the file system, there is a potential race condition of "
-"searching for a module, creating a new file, and then searching for the "
-"module the new file represents. If the operations happen fast enough to fit "
-"within the granularity of stat calls, then the module search will fail. To "
-"prevent this from happening, when you create a module dynamically, make sure"
-" to call :func:`importlib.invalidate_caches`."
+"The finder will cache the directory contents as necessary, making stat "
+"calls for each module search to verify the cache is not outdated. Because"
+" cache staleness relies upon the granularity of the operating system's "
+"state information of the file system, there is a potential race condition"
+" of searching for a module, creating a new file, and then searching for "
+"the module the new file represents. If the operations happen fast enough "
+"to fit within the granularity of stat calls, then the module search will "
+"fail. To prevent this from happening, when you create a module "
+"dynamically, make sure to call :func:`importlib.invalidate_caches`."
 msgstr ""
 "查找器将按需对目录内容进行缓存，通过对每个模块的检索进行状态统计，验证缓存是否过期。因为缓存的滞后性依赖于操作系统文件系统状态信息的粒度，所以搜索模块、新建文件、然后搜索新文件代表的模块，这会存在竞争状态。如果这些操作的频率太快，甚至小于状态统计的粒度，那么模块搜索将会失败。为了防止这种情况发生，在动态创建模块时，请确保调用"
 " :func:`importlib.invalidate_caches`。"
 
-#: ../../library/importlib.rst:1194
+#: ../../library/importlib.rst:1234
 msgid "The path the finder will search in."
 msgstr "查找器将要搜索的路径。"
 
-#: ../../library/importlib.rst:1198
+#: ../../library/importlib.rst:1238
 msgid "Attempt to find the spec to handle *fullname* within :attr:`path`."
 msgstr "尝试在 :attr:`path` 中找到处理 *fullname* 的规格。"
 
-#: ../../library/importlib.rst:1204
+#: ../../library/importlib.rst:1244
 msgid "Attempt to find the loader to handle *fullname* within :attr:`path`."
 msgstr "试图在 :attr:`path` 内找到处理 *fullname* 的加载器。"
 
-#: ../../library/importlib.rst:1211
+#: ../../library/importlib.rst:1251
 msgid "Clear out the internal cache."
 msgstr "清理内部缓存。"
 
-#: ../../library/importlib.rst:1215
+#: ../../library/importlib.rst:1255
 msgid ""
-"A class method which returns a closure for use on :attr:`sys.path_hooks`. An"
-" instance of :class:`FileFinder` is returned by the closure using the path "
-"argument given to the closure directly and *loader_details* indirectly."
+"A class method which returns a closure for use on :attr:`sys.path_hooks`."
+" An instance of :class:`FileFinder` is returned by the closure using the "
+"path argument given to the closure directly and *loader_details* "
+"indirectly."
 msgstr ""
 "一个类方法，返回供 :attr:`sys.path_hooks` 使用的闭包。根据直接给出的路径参数和间接给出的 "
 "*loader_details*，闭包会返回一个 :class:`FileFinder` 的实例。"
 
-#: ../../library/importlib.rst:1220
+#: ../../library/importlib.rst:1260
 msgid ""
 "If the argument to the closure is not an existing directory, "
 ":exc:`ImportError` is raised."
 msgstr "如果给闭包的参数不是已存在的目录，将会触发 :exc:`ImportError`。"
 
-#: ../../library/importlib.rst:1226
+#: ../../library/importlib.rst:1266
 msgid ""
 "A concrete implementation of :class:`importlib.abc.SourceLoader` by "
-"subclassing :class:`importlib.abc.FileLoader` and providing some concrete "
-"implementations of other methods."
+"subclassing :class:`importlib.abc.FileLoader` and providing some concrete"
+" implementations of other methods."
 msgstr ""
 ":class:`importlib.abc.SourceLoader` 的一个具体实现，该实现子类化了 "
 ":class:`importlib.abc.FileLoader` 并提供了其他一些方法的具体实现。"
 
-#: ../../library/importlib.rst:1234
+#: ../../library/importlib.rst:1274
 msgid "The name of the module that this loader will handle."
 msgstr "该加载器将要处理的模块名称。"
 
-#: ../../library/importlib.rst:1238
+#: ../../library/importlib.rst:1278
 msgid "The path to the source file."
 msgstr "源文件的路径"
 
-#: ../../library/importlib.rst:1242
+#: ../../library/importlib.rst:1282
 msgid "Return ``True`` if :attr:`path` appears to be for a package."
 msgstr "如果 :attr:`path` 看似包的路径，则返回 ``True``。"
 
-#: ../../library/importlib.rst:1246
-msgid ""
-"Concrete implementation of :meth:`importlib.abc.SourceLoader.path_stats`."
+#: ../../library/importlib.rst:1286
+msgid "Concrete implementation of :meth:`importlib.abc.SourceLoader.path_stats`."
 msgstr ":meth:`importlib.abc.SourceLoader.path_stats` 的具体代码实现。"
 
-#: ../../library/importlib.rst:1250
-msgid ""
-"Concrete implementation of :meth:`importlib.abc.SourceLoader.set_data`."
+#: ../../library/importlib.rst:1290
+msgid "Concrete implementation of :meth:`importlib.abc.SourceLoader.set_data`."
 msgstr ":meth:`importlib.abc.SourceLoader.set_data` 的具体代码实现。"
 
-#: ../../library/importlib.rst:1254 ../../library/importlib.rst:1297
+#: ../../library/importlib.rst:1294 ../../library/importlib.rst:1337
 msgid ""
-"Concrete implementation of :meth:`importlib.abc.Loader.load_module` where "
-"specifying the name of the module to load is optional."
+"Concrete implementation of :meth:`importlib.abc.Loader.load_module` where"
+" specifying the name of the module to load is optional."
 msgstr ":meth:`importlib.abc.Loader.load_module` 的具体代码实现，这里要加载的模块名是可选的。"
 
-#: ../../library/importlib.rst:1259 ../../library/importlib.rst:1302
+#: ../../library/importlib.rst:1299 ../../library/importlib.rst:1342
 msgid "Use :meth:`importlib.abc.Loader.exec_module` instead."
 msgstr "改用 :meth:`importlib.abc.Loader.exec_module` 。"
 
-#: ../../library/importlib.rst:1264
+#: ../../library/importlib.rst:1304
 msgid ""
 "A concrete implementation of :class:`importlib.abc.FileLoader` which can "
 "import bytecode files (i.e. no source code files exist)."
 msgstr ":class:`importlib.abc.FileLoader` 的具体代码实现，可导入字节码文件（也即源代码文件不存在）。"
 
-#: ../../library/importlib.rst:1267
+#: ../../library/importlib.rst:1307
 msgid ""
 "Please note that direct use of bytecode files (and thus not source code "
-"files) inhibits your modules from being usable by all Python implementations"
-" or new versions of Python which change the bytecode format."
+"files) inhibits your modules from being usable by all Python "
+"implementations or new versions of Python which change the bytecode "
+"format."
 msgstr "请注意，直接用字节码文件（而不是源代码文件），会让模块无法应用于所有的 Python 版本或字节码格式有所改动的新版本 Python。"
 
-#: ../../library/importlib.rst:1276
+#: ../../library/importlib.rst:1316
 msgid "The name of the module the loader will handle."
 msgstr "加载器将要处理的模块名。"
 
-#: ../../library/importlib.rst:1280
+#: ../../library/importlib.rst:1320
 msgid "The path to the bytecode file."
 msgstr "二进制码文件的路径。"
 
-#: ../../library/importlib.rst:1284
+#: ../../library/importlib.rst:1324
 msgid "Determines if the module is a package based on :attr:`path`."
 msgstr "根据 :attr:`path` 确定该模块是否为包。"
 
-#: ../../library/importlib.rst:1288
+#: ../../library/importlib.rst:1328
 msgid "Returns the code object for :attr:`name` created from :attr:`path`."
 msgstr "返回由 :attr:`path` 创建的 :attr:`name` 的代码对象。"
 
-#: ../../library/importlib.rst:1292
+#: ../../library/importlib.rst:1332
 msgid ""
-"Returns ``None`` as bytecode files have no source when this loader is used."
+"Returns ``None`` as bytecode files have no source when this loader is "
+"used."
 msgstr "因为用此加载器时字节码文件没有源码文件，所以返回 ``None``。"
 
-#: ../../library/importlib.rst:1307
+#: ../../library/importlib.rst:1347
 msgid ""
 "A concrete implementation of :class:`importlib.abc.ExecutionLoader` for "
 "extension modules."
 msgstr ":class:`importlib.abc.ExecutionLoader` 的具体代码实现，用于扩展模块。"
 
-#: ../../library/importlib.rst:1310
+#: ../../library/importlib.rst:1350
 msgid ""
-"The *fullname* argument specifies the name of the module the loader is to "
-"support. The *path* argument is the path to the extension module's file."
+"The *fullname* argument specifies the name of the module the loader is to"
+" support. The *path* argument is the path to the extension module's file."
 msgstr "参数 *fullname* 指定了加载器要支持的模块名。参数 *path* 是指向扩展模块文件的路径。"
 
-#: ../../library/importlib.rst:1317
+#: ../../library/importlib.rst:1357
 msgid "Name of the module the loader supports."
 msgstr "装载器支持的模块名。"
 
-#: ../../library/importlib.rst:1321
+#: ../../library/importlib.rst:1361
 msgid "Path to the extension module."
 msgstr "扩展模块的路径。"
 
-#: ../../library/importlib.rst:1325
+#: ../../library/importlib.rst:1365
 msgid ""
-"Creates the module object from the given specification in accordance with "
-":pep:`489`."
+"Creates the module object from the given specification in accordance with"
+" :pep:`489`."
 msgstr "根据 :pep:`489` ，由给定规范创建模块对象。"
 
-#: ../../library/importlib.rst:1332
+#: ../../library/importlib.rst:1372
 msgid "Initializes the given module object in accordance with :pep:`489`."
 msgstr "根据 :pep:`489`，初始化给定的模块对象。"
 
-#: ../../library/importlib.rst:1338
+#: ../../library/importlib.rst:1378
 msgid ""
-"Returns ``True`` if the file path points to a package's ``__init__`` module "
-"based on :attr:`EXTENSION_SUFFIXES`."
-msgstr ""
-"根据 :attr:`EXTENSION_SUFFIXES` ，如果文件路径指向某个包的 ``__init__`` 模块，则返回 ``True``。"
+"Returns ``True`` if the file path points to a package's ``__init__`` "
+"module based on :attr:`EXTENSION_SUFFIXES`."
+msgstr "根据 :attr:`EXTENSION_SUFFIXES` ，如果文件路径指向某个包的 ``__init__`` 模块，则返回 ``True``。"
 
-#: ../../library/importlib.rst:1343
+#: ../../library/importlib.rst:1383
 msgid "Returns ``None`` as extension modules lack a code object."
 msgstr "返回 ``None``，因为扩展模块缺少代码对象。"
 
-#: ../../library/importlib.rst:1347
+#: ../../library/importlib.rst:1387
 msgid "Returns ``None`` as extension modules do not have source code."
 msgstr "返回 ``None``，因为扩展模块没有源代码。"
 
-#: ../../library/importlib.rst:1358
+#: ../../library/importlib.rst:1398
 msgid ""
 "A specification for a module's import-system-related state.  This is "
 "typically exposed as the module's ``__spec__`` attribute.  In the "
 "descriptions below, the names in parentheses give the corresponding "
 "attribute available directly on the module object. E.g. "
-"``module.__spec__.origin == module.__file__``.  Note however that while the "
-"*values* are usually equivalent, they can differ since there is no "
-"synchronization between the two objects.  Thus it is possible to update the "
-"module's ``__path__`` at runtime, and this will not be automatically "
+"``module.__spec__.origin == module.__file__``.  Note however that while "
+"the *values* are usually equivalent, they can differ since there is no "
+"synchronization between the two objects.  Thus it is possible to update "
+"the module's ``__path__`` at runtime, and this will not be automatically "
 "reflected in ``__spec__.submodule_search_locations``."
 msgstr ""
 "关于模块导入系统相关状态的规范。通常这是作为模块的 ``__spec__`` 属性暴露出来。 "
 "在以下描述中，括号里的名字给出了模块对象中直接可用的属性。比如 ``module.__spec__.origin == "
 "module.__file__``。 但是请注意，虽然 *值* 通常是相等的，但它们可以不同，因为两个对象之间没有进行同步。因此 "
-"``__path__`` 有可能在运行时做过更新，而这不会自动反映在 ``__spec__.submodule_search_locations`` "
-"中。"
+"``__path__`` 有可能在运行时做过更新，而这不会自动反映在 "
+"``__spec__.submodule_search_locations`` 中。"
 
-#: ../../library/importlib.rst:1372
+#: ../../library/importlib.rst:1412
 msgid "(``__name__``)"
 msgstr "（``__name__``）"
 
-#: ../../library/importlib.rst:1374
+#: ../../library/importlib.rst:1414
 msgid "A string for the fully-qualified name of the module."
 msgstr "一个字符串，表示模块的完全限定名称。"
 
-#: ../../library/importlib.rst:1378
+#: ../../library/importlib.rst:1418
 msgid "(``__loader__``)"
 msgstr "（``__loader__``）"
 
-#: ../../library/importlib.rst:1380
+#: ../../library/importlib.rst:1420
 msgid ""
-"The :term:`Loader <loader>` that should be used when loading the module.  "
-":term:`Finders <finder>` should always set this."
-msgstr ""
-"模块加载时应采用的 :term:`Loader <loader>` 。 :term:`Finders <finder>` 应确保设置本属性。"
+"The :term:`Loader <loader>` that should be used when loading the module."
+"  :term:`Finders <finder>` should always set this."
+msgstr "模块加载时应采用的 :term:`Loader <loader>` 。 :term:`Finders <finder>` 应确保设置本属性。"
 
-#: ../../library/importlib.rst:1385
+#: ../../library/importlib.rst:1425
 msgid "(``__file__``)"
 msgstr "（``__file__``）"
 
-#: ../../library/importlib.rst:1387
+#: ../../library/importlib.rst:1427
 msgid ""
 "Name of the place from which the module is loaded, e.g. \"builtin\" for "
-"built-in modules and the filename for modules loaded from source. Normally "
-"\"origin\" should be set, but it may be ``None`` (the default) which "
-"indicates it is unspecified (e.g. for namespace packages)."
+"built-in modules and the filename for modules loaded from source. "
+"Normally \"origin\" should be set, but it may be ``None`` (the default) "
+"which indicates it is unspecified (e.g. for namespace packages)."
 msgstr ""
-"装载模块所在位置的名称，如内置模块为 “buildin”，从源代码加载的模块为文件名。通常应设置 “origin” ，但它可能为 ``None`` "
-"(默认值)，表示未指定 (如命名空间包)。"
+"装载模块所在位置的名称，如内置模块为 “buildin”，从源代码加载的模块为文件名。通常应设置 “origin” ，但它可能为 ``None``"
+" (默认值)，表示未指定 (如命名空间包)。"
 
-#: ../../library/importlib.rst:1394
+#: ../../library/importlib.rst:1434
 msgid "(``__path__``)"
 msgstr "（``__path__``）"
 
-#: ../../library/importlib.rst:1396
+#: ../../library/importlib.rst:1436
 msgid ""
 "List of strings for where to find submodules, if a package (``None`` "
 "otherwise)."
 msgstr "如果是包（否则为 ），子模块所在位置的字符串列表（否则为 ``None``）。"
 
-#: ../../library/importlib.rst:1401
+#: ../../library/importlib.rst:1441
 msgid ""
 "Container of extra module-specific data for use during loading (or "
 "``None``)."
 msgstr "依模块不同的额外数据的容器，以供加载过程中使用（或 ``None``）。"
 
-#: ../../library/importlib.rst:1406
+#: ../../library/importlib.rst:1446
 msgid "(``__cached__``)"
 msgstr "（``__cached__``）"
 
-#: ../../library/importlib.rst:1408
+#: ../../library/importlib.rst:1448
 msgid "String for where the compiled module should be stored (or ``None``)."
 msgstr "字符串，表示经过编译的模块所在位置（或 ``None``）。"
 
-#: ../../library/importlib.rst:1412
+#: ../../library/importlib.rst:1452
 msgid "(``__package__``)"
 msgstr "（``__package__``）"
 
-#: ../../library/importlib.rst:1414
+#: ../../library/importlib.rst:1454
 msgid ""
-"(Read-only) The fully-qualified name of the package under which the module "
-"should be loaded as a submodule (or the empty string for top-level modules)."
-" For packages, it is the same as :attr:`__name__`."
-msgstr ""
-"包的完全限定名称（只读），模块应作为其子模块进行加载（对于顶层模块则为空字符串）。对于包而言，其值与 :attr:`__name__` 相同。"
+"(Read-only) The fully-qualified name of the package under which the "
+"module should be loaded as a submodule (or the empty string for top-level"
+" modules). For packages, it is the same as :attr:`__name__`."
+msgstr "包的完全限定名称（只读），模块应作为其子模块进行加载（对于顶层模块则为空字符串）。对于包而言，其值与 :attr:`__name__` 相同。"
 
-#: ../../library/importlib.rst:1420
+#: ../../library/importlib.rst:1460
 msgid ""
-"Boolean indicating whether or not the module's \"origin\" attribute refers "
-"to a loadable location."
+"Boolean indicating whether or not the module's \"origin\" attribute "
+"refers to a loadable location."
 msgstr "布尔值，表示模块的“origin”属性是否指向可加载的位置。"
 
-#: ../../library/importlib.rst:1424
+#: ../../library/importlib.rst:1464
 msgid ":mod:`importlib.util` -- Utility code for importers"
 msgstr ":mod:`importlib.util` —— 导入器的工具程序代码"
 
-#: ../../library/importlib.rst:1430
+#: ../../library/importlib.rst:1470
 msgid "**Source code:** :source:`Lib/importlib/util.py`"
 msgstr "**源代码：** :source:`Lib/importlib/util.py`"
 
-#: ../../library/importlib.rst:1434
+#: ../../library/importlib.rst:1474
 msgid ""
-"This module contains the various objects that help in the construction of an"
-" :term:`importer`."
+"This module contains the various objects that help in the construction of"
+" an :term:`importer`."
 msgstr "本模块包含了帮助构建 :term:`importer` 的多个对象。"
 
-#: ../../library/importlib.rst:1439
+#: ../../library/importlib.rst:1479
 msgid ""
-"The bytes which represent the bytecode version number. If you need help with"
-" loading/writing bytecode then consider :class:`importlib.abc.SourceLoader`."
-msgstr ""
-"代表字节码版本号的字节串。若要有助于加载/写入字节码，可考虑采用  :class:`importlib.abc.SourceLoader`。"
+"The bytes which represent the bytecode version number. If you need help "
+"with loading/writing bytecode then consider "
+":class:`importlib.abc.SourceLoader`."
+msgstr "代表字节码版本号的字节串。若要有助于加载/写入字节码，可考虑采用  :class:`importlib.abc.SourceLoader`。"
 
-#: ../../library/importlib.rst:1446
+#: ../../library/importlib.rst:1486
 msgid ""
-"Return the :pep:`3147`/:pep:`488` path to the byte-compiled file associated "
-"with the source *path*.  For example, if *path* is ``/foo/bar/baz.py`` the "
-"return value would be ``/foo/bar/__pycache__/baz.cpython-32.pyc`` for Python"
-" 3.2. The ``cpython-32`` string comes from the current magic tag (see "
-":func:`get_tag`; if :attr:`sys.implementation.cache_tag` is not defined then"
-" :exc:`NotImplementedError` will be raised)."
+"Return the :pep:`3147`/:pep:`488` path to the byte-compiled file "
+"associated with the source *path*.  For example, if *path* is "
+"``/foo/bar/baz.py`` the return value would be "
+"``/foo/bar/__pycache__/baz.cpython-32.pyc`` for Python 3.2. The "
+"``cpython-32`` string comes from the current magic tag (see "
+":func:`get_tag`; if :attr:`sys.implementation.cache_tag` is not defined "
+"then :exc:`NotImplementedError` will be raised)."
 msgstr ""
 "返回 :pep:`3147`/:pep:`488` 定义的，与源 *path* 相关联的已编译字节码文件的路径。 例如，如果 *path* 为 "
 "``/foo/bar/baz.py`` 则 Python 3.2 中的返回值将是 "
-"``/foo/bar/__pycache__/baz.cpython-32.pyc``。 字符串 ``cpython-32`` 来自于当前的魔法标签 "
-"(参见 :func:`get_tag`; 如果 :attr:`sys.implementation.cache_tag` 未定义则将会引发 "
-":exc:`NotImplementedError`)。"
+"``/foo/bar/__pycache__/baz.cpython-32.pyc``。 字符串 ``cpython-32`` "
+"来自于当前的魔法标签 (参见 :func:`get_tag`; 如果 :attr:`sys.implementation.cache_tag` "
+"未定义则将会引发 :exc:`NotImplementedError`)。"
 
-#: ../../library/importlib.rst:1453
+#: ../../library/importlib.rst:1493
 msgid ""
-"The *optimization* parameter is used to specify the optimization level of "
-"the bytecode file. An empty string represents no optimization, so "
+"The *optimization* parameter is used to specify the optimization level of"
+" the bytecode file. An empty string represents no optimization, so "
 "``/foo/bar/baz.py`` with an *optimization* of ``''`` will result in a "
 "bytecode path of ``/foo/bar/__pycache__/baz.cpython-32.pyc``. ``None`` "
-"causes the interpreter's optimization level to be used. Any other value's "
-"string representation is used, so ``/foo/bar/baz.py`` with an *optimization*"
-" of ``2`` will lead to the bytecode path of "
-"``/foo/bar/__pycache__/baz.cpython-32.opt-2.pyc``. The string representation"
-" of *optimization* can only be alphanumeric, else :exc:`ValueError` is "
-"raised."
+"causes the interpreter's optimization level to be used. Any other value's"
+" string representation is used, so ``/foo/bar/baz.py`` with an "
+"*optimization* of ``2`` will lead to the bytecode path of "
+"``/foo/bar/__pycache__/baz.cpython-32.opt-2.pyc``. The string "
+"representation of *optimization* can only be alphanumeric, else "
+":exc:`ValueError` is raised."
 msgstr ""
 "参数 *optimization* 用于指定字节码文件的优化级别。空字符串代表没有优化，所以 *optimization* 为  的 "
 "``/foo/bar/baz.py``，将会得到字节码路径为 "
 "``/foo/bar/__pycache__/baz.cpython-32.pyc``。``None`` "
-"会导致采用解释器的优化。任何其他字符串都会被采用，所以 *optimization* 为 ``''`` 的 ``/foo/bar/baz.py`` "
-"会导致字节码路径为 ``/foo/bar/__pycache__/baz.cpython-32.opt-2.pyc``。*optimization* "
+"会导致采用解释器的优化。任何其他字符串都会被采用，所以 *optimization* 为 ``''`` 的 ``/foo/bar/baz.py``"
+" 会导致字节码路径为 "
+"``/foo/bar/__pycache__/baz.cpython-32.opt-2.pyc``。*optimization* "
 "字符串只能是字母数字，否则会触发 :exc:`ValueError`。"
 
-#: ../../library/importlib.rst:1463
+#: ../../library/importlib.rst:1503
 msgid ""
-"The *debug_override* parameter is deprecated and can be used to override the"
-" system's value for ``__debug__``. A ``True`` value is the equivalent of "
-"setting *optimization* to the empty string. A ``False`` value is the same as"
-" setting *optimization* to ``1``. If both *debug_override* an *optimization*"
-" are not ``None`` then :exc:`TypeError` is raised."
+"The *debug_override* parameter is deprecated and can be used to override "
+"the system's value for ``__debug__``. A ``True`` value is the equivalent "
+"of setting *optimization* to the empty string. A ``False`` value is the "
+"same as setting *optimization* to ``1``. If both *debug_override* an "
+"*optimization* are not ``None`` then :exc:`TypeError` is raised."
 msgstr ""
 "*debug_override* 参数已废弃，可用于覆盖系统的 ``__debug__`` 值。``True`` 值相当于将 "
 "*optimization* 设为空字符串。``False`` 则相当于*optimization* 设为 ``1``。如果 "
 "*debug_override* 和 *optimization* 都不为 ``None``，则会触发 :exc:`TypeError`。"
 
-#: ../../library/importlib.rst:1471
+#: ../../library/importlib.rst:1511
 msgid ""
-"The *optimization* parameter was added and the *debug_override* parameter "
-"was deprecated."
+"The *optimization* parameter was added and the *debug_override* parameter"
+" was deprecated."
 msgstr "增加了 *optimization* 参数，废弃了 *debug_override* 参数。"
 
-#: ../../library/importlib.rst:1475 ../../library/importlib.rst:1491
-#: ../../library/importlib.rst:1640
+#: ../../library/importlib.rst:1515 ../../library/importlib.rst:1531
+#: ../../library/importlib.rst:1680
 msgid "Accepts a :term:`path-like object`."
 msgstr "接受一个 :term:`path-like object`。"
 
-#: ../../library/importlib.rst:1481
+#: ../../library/importlib.rst:1521
 msgid ""
-"Given the *path* to a :pep:`3147` file name, return the associated source "
-"code file path.  For example, if *path* is "
+"Given the *path* to a :pep:`3147` file name, return the associated source"
+" code file path.  For example, if *path* is "
 "``/foo/bar/__pycache__/baz.cpython-32.pyc`` the returned path would be "
-"``/foo/bar/baz.py``.  *path* need not exist, however if it does not conform "
-"to :pep:`3147` or :pep:`488` format, a :exc:`ValueError` is raised. If "
-":attr:`sys.implementation.cache_tag` is not defined, "
+"``/foo/bar/baz.py``.  *path* need not exist, however if it does not "
+"conform to :pep:`3147` or :pep:`488` format, a :exc:`ValueError` is "
+"raised. If :attr:`sys.implementation.cache_tag` is not defined, "
 ":exc:`NotImplementedError` is raised."
 msgstr ""
 "根据指向一个 :pep:`3147` 文件名的 *path*，返回相关联的源代码文件路径。 举例来说，如果 *path* 为 "
-"``/foo/bar/__pycache__/baz.cpython-32.pyc`` 则返回的路径将是 ``/foo/bar/baz.py``。 "
-"*path* 不需要已存在，但如果它未遵循 :pep:`3147` 或 :pep:`488` 的格式，则会引发 :exc:`ValueError`。 "
-"如果未定义 :attr:`sys.implementation.cache_tag`，则会引发 :exc:`NotImplementedError`。"
+"``/foo/bar/__pycache__/baz.cpython-32.pyc`` 则返回的路径将是 ``/foo/bar/baz.py``。"
+" *path* 不需要已存在，但如果它未遵循 :pep:`3147` 或 :pep:`488` 的格式，则会引发 "
+":exc:`ValueError`。 如果未定义 :attr:`sys.implementation.cache_tag`，则会引发 "
+":exc:`NotImplementedError`。"
 
-#: ../../library/importlib.rst:1496
+#: ../../library/importlib.rst:1536
 msgid ""
-"Decode the given bytes representing source code and return it as a string "
-"with universal newlines (as required by "
+"Decode the given bytes representing source code and return it as a string"
+" with universal newlines (as required by "
 ":meth:`importlib.abc.InspectLoader.get_source`)."
 msgstr ""
 "对代表源代码的字节串进行解码，并将其作为带有通用换行符的字符串返回（符合 "
 ":meth:`importlib.abc.InspectLoader.get_source` 要求）。"
 
-#: ../../library/importlib.rst:1504
+#: ../../library/importlib.rst:1544
 msgid "Resolve a relative module name to an absolute one."
 msgstr "将模块的相对名称解析为绝对名称。"
 
-#: ../../library/importlib.rst:1506
+#: ../../library/importlib.rst:1546
 msgid ""
 "If  **name** has no leading dots, then **name** is simply returned. This "
 "allows for usage such as ``importlib.util.resolve_name('sys', "
-"__spec__.parent)`` without doing a check to see if the **package** argument "
-"is needed."
+"__spec__.parent)`` without doing a check to see if the **package** "
+"argument is needed."
 msgstr ""
 "如果 **name** 前面没有句点，那就简单地返回 "
 "**name**。这样就能采用``importlib.util.resolve_name('sys', __spec__.parent)`` "
 "之类的写法，而无需检查是否需要 **package** 参数。"
 
-#: ../../library/importlib.rst:1511
+#: ../../library/importlib.rst:1551
 msgid ""
 ":exc:`ImportError` is raised if **name** is a relative module name but "
 "**package** is a false value (e.g. ``None`` or the empty string). "
@@ -2028,38 +2084,39 @@ msgstr ""
 ":exc:`ImportError`。 如果相对名称会离开所在的包（如从 ``spam`` 包中请求 ``..bacon``），则还会触发 "
 ":exc:`ImportError`。"
 
-#: ../../library/importlib.rst:1518
+#: ../../library/importlib.rst:1558
 msgid ""
 "To improve consistency with import statements, raise :exc:`ImportError` "
 "instead of :exc:`ValueError` for invalid relative import attempts."
 msgstr ""
-"为了改善与 import 语句的一致性，对于无效的相对导入尝试会引发 :exc:`ImportError` 而不是 :exc:`ValueError`。"
+"为了改善与 import 语句的一致性，对于无效的相对导入尝试会引发 :exc:`ImportError` 而不是 "
+":exc:`ValueError`。"
 
-#: ../../library/importlib.rst:1525
+#: ../../library/importlib.rst:1565
 msgid ""
-"Find the :term:`spec <module spec>` for a module, optionally relative to the"
-" specified **package** name. If the module is in :attr:`sys.modules`, then "
-"``sys.modules[name].__spec__`` is returned (unless the spec would be "
-"``None`` or is not set, in which case :exc:`ValueError` is raised). "
-"Otherwise a search using :attr:`sys.meta_path` is done. ``None`` is returned"
-" if no spec is found."
+"Find the :term:`spec <module spec>` for a module, optionally relative to "
+"the specified **package** name. If the module is in :attr:`sys.modules`, "
+"then ``sys.modules[name].__spec__`` is returned (unless the spec would be"
+" ``None`` or is not set, in which case :exc:`ValueError` is raised). "
+"Otherwise a search using :attr:`sys.meta_path` is done. ``None`` is "
+"returned if no spec is found."
 msgstr ""
 "查找模块的 :term:`spec <module spec>`，相对指定的 **package** 名为可选参数。如果该模块位于 "
-":attr:`sys.modules` 中，则会返回 ``sys.modules[name].__spec__`` （除非 spec为 ``None``"
-" 或未作设置，这时会触发 :exc:`ValueError`)。否则将用  :attr:`sys.meta_path` 进行搜索。若找不到则返回 "
-"``None``。"
+":attr:`sys.modules` 中，则会返回 ``sys.modules[name].__spec__`` （除非 spec为 "
+"``None`` 或未作设置，这时会触发 :exc:`ValueError`)。否则将用  :attr:`sys.meta_path` "
+"进行搜索。若找不到则返回 ``None``。"
 
-#: ../../library/importlib.rst:1532
+#: ../../library/importlib.rst:1572
 msgid ""
 "If **name** is for a submodule (contains a dot), the parent module is "
 "automatically imported."
 msgstr "如果 **name** 为一个子模块（带有一个句点），则会自动导入父级模块。"
 
-#: ../../library/importlib.rst:1535
+#: ../../library/importlib.rst:1575
 msgid "**name** and **package** work the same as for :func:`import_module`."
 msgstr "**name** 和 **package** 的用法与 :func:`import_module` 相同。"
 
-#: ../../library/importlib.rst:1539
+#: ../../library/importlib.rst:1579
 msgid ""
 "Raises :exc:`ModuleNotFoundError` instead of :exc:`AttributeError` if "
 "**package** is in fact not a package (i.e. lacks a :attr:`__path__` "
@@ -2068,280 +2125,284 @@ msgstr ""
 "如果 **package** 实际上不是一个包（即缺少 :attr:`__path__` 属性）则会引发 "
 ":exc:`ModuleNotFoundError` 而不是 :exc:`AttributeError`。"
 
-#: ../../library/importlib.rst:1546
+#: ../../library/importlib.rst:1586
 msgid ""
-"Create a new module based on **spec** and :meth:`spec.loader.create_module "
-"<importlib.abc.Loader.create_module>`."
+"Create a new module based on **spec** and "
+":meth:`spec.loader.create_module <importlib.abc.Loader.create_module>`."
 msgstr ""
 "基于 **spec** 和 :meth:`spec.loader.create_module "
 "<importlib.abc.Loader.create_module>` 创建一个新模块。"
 
-#: ../../library/importlib.rst:1549
+#: ../../library/importlib.rst:1589
 msgid ""
-"If :meth:`spec.loader.create_module <importlib.abc.Loader.create_module>` "
-"does not return ``None``, then any pre-existing attributes will not be "
+"If :meth:`spec.loader.create_module <importlib.abc.Loader.create_module>`"
+" does not return ``None``, then any pre-existing attributes will not be "
 "reset. Also, no :exc:`AttributeError` will be raised if triggered while "
 "accessing **spec** or setting an attribute on the module."
 msgstr ""
-"如果 :meth:`spec.loader.create_module <importlib.abc.Loader.create_module>` "
-"未返回 ``None``，那么先前已存在的属性不会被重置。另外，如果 :exc:`AttributeError` 是在访问 **spec** "
+"如果 :meth:`spec.loader.create_module <importlib.abc.Loader.create_module>`"
+" 未返回 ``None``，那么先前已存在的属性不会被重置。另外，如果 :exc:`AttributeError` 是在访问 **spec** "
 "或设置模块属性时触发的，则不会触发 。"
 
-#: ../../library/importlib.rst:1554
+#: ../../library/importlib.rst:1594
 msgid ""
-"This function is preferred over using :class:`types.ModuleType` to create a "
-"new module as **spec** is used to set as many import-controlled attributes "
-"on the module as possible."
-msgstr ""
-"本函数比 :class:`types.ModuleType` 创建新模块要好，因为用到 **spec** 模块设置了尽可能多的导入控制属性。"
+"This function is preferred over using :class:`types.ModuleType` to create"
+" a new module as **spec** is used to set as many import-controlled "
+"attributes on the module as possible."
+msgstr "本函数比 :class:`types.ModuleType` 创建新模块要好，因为用到 **spec** 模块设置了尽可能多的导入控制属性。"
 
-#: ../../library/importlib.rst:1562
+#: ../../library/importlib.rst:1602
 msgid ""
-"A :term:`decorator` for :meth:`importlib.abc.Loader.load_module` to handle "
-"selecting the proper module object to load with. The decorated method is "
-"expected to have a call signature taking two positional arguments (e.g. "
-"``load_module(self, module)``) for which the second argument will be the "
-"module **object** to be used by the loader. Note that the decorator will not"
-" work on static methods because of the assumption of two arguments."
+"A :term:`decorator` for :meth:`importlib.abc.Loader.load_module` to "
+"handle selecting the proper module object to load with. The decorated "
+"method is expected to have a call signature taking two positional "
+"arguments (e.g. ``load_module(self, module)``) for which the second "
+"argument will be the module **object** to be used by the loader. Note "
+"that the decorator will not work on static methods because of the "
+"assumption of two arguments."
 msgstr ""
 ":meth:`importlib.abc.Loader.load_module` 的一个 "
-":term:`decorator`，用来选取合适的模块对象以供加载。被装饰方法的签名应带有两个位置参数（如：``load_module(self, "
-"module)``），其中第二个参数将是加载器用到的模块 **对象**。请注意，由于假定有两个参数，所以装饰器对静态方法不起作用。"
+":term:`decorator`，用来选取合适的模块对象以供加载。被装饰方法的签名应带有两个位置参数（如：``load_module(self,"
+" module)``），其中第二个参数将是加载器用到的模块 **对象**。请注意，由于假定有两个参数，所以装饰器对静态方法不起作用。"
 
-#: ../../library/importlib.rst:1571
+#: ../../library/importlib.rst:1611
 msgid ""
-"The decorated method will take in the **name** of the module to be loaded as"
-" expected for a :term:`loader`. If the module is not found in "
-":data:`sys.modules` then a new one is constructed. Regardless of where the "
-"module came from, :attr:`__loader__` set to **self** and :attr:`__package__`"
-" is set based on what :meth:`importlib.abc.InspectLoader.is_package` returns"
-" (if available). These attributes are set unconditionally to support "
-"reloading."
+"The decorated method will take in the **name** of the module to be loaded"
+" as expected for a :term:`loader`. If the module is not found in "
+":data:`sys.modules` then a new one is constructed. Regardless of where "
+"the module came from, :attr:`__loader__` set to **self** and "
+":attr:`__package__` is set based on what "
+":meth:`importlib.abc.InspectLoader.is_package` returns (if available). "
+"These attributes are set unconditionally to support reloading."
 msgstr ""
 "装饰的方法将接受要加载的模块的 **name**，正如 :term:`loader` 一样。如果在 :data:`sys.modules` "
 "中没有找到该模块，那么将构造一个新模块。不管模块来自哪里， :attr:`__loader__` 设置为 **self** ，并且 "
 ":attr:`__package__` 是根据 :meth:`importlib.abc.InspectLoader.is_package` "
 "的返回值设置的。这些属性会无条件进行设置以便支持再次加载。"
 
-#: ../../library/importlib.rst:1579
+#: ../../library/importlib.rst:1619
 msgid ""
-"If an exception is raised by the decorated method and a module was added to "
-":data:`sys.modules`, then the module will be removed to prevent a partially "
-"initialized module from being in left in :data:`sys.modules`. If the module "
-"was already in :data:`sys.modules` then it is left alone."
+"If an exception is raised by the decorated method and a module was added "
+"to :data:`sys.modules`, then the module will be removed to prevent a "
+"partially initialized module from being in left in :data:`sys.modules`. "
+"If the module was already in :data:`sys.modules` then it is left alone."
 msgstr ""
-"如果被装饰的方法触发异常，并且已有模块加入 :data:`sys.modules` 中，那么该模块将被移除，以防 :data:`sys.modules`"
-" 中残留一个部分初始化的模块。如果该模块原先已在 :data:`sys.modules` 中，则会保留不变。"
+"如果被装饰的方法触发异常，并且已有模块加入 :data:`sys.modules` 中，那么该模块将被移除，以防 "
+":data:`sys.modules` 中残留一个部分初始化的模块。如果该模块原先已在 :data:`sys.modules` 中，则会保留不变。"
 
-#: ../../library/importlib.rst:1584
+#: ../../library/importlib.rst:1624
 msgid ""
 ":attr:`__loader__` and :attr:`__package__` are automatically set (when "
 "possible)."
 msgstr "有可能时自动设置 :attr:`__loader__` 和 :attr:`__package__` 。"
 
-#: ../../library/importlib.rst:1588
+#: ../../library/importlib.rst:1628
 msgid ""
-"Set :attr:`__name__`, :attr:`__loader__` :attr:`__package__` unconditionally"
-" to support reloading."
-msgstr ""
-"无条件设置 :attr:`__name__` 、 :attr:`__loader__` 、 :attr:`__package__` 以支持再次加载。"
+"Set :attr:`__name__`, :attr:`__loader__` :attr:`__package__` "
+"unconditionally to support reloading."
+msgstr "无条件设置 :attr:`__name__` 、 :attr:`__loader__` 、 :attr:`__package__` 以支持再次加载。"
 
-#: ../../library/importlib.rst:1592
+#: ../../library/importlib.rst:1632
 msgid ""
-"The import machinery now directly performs all the functionality provided by"
-" this function."
+"The import machinery now directly performs all the functionality provided"
+" by this function."
 msgstr "现在，导入机制直接执行本函数提供的所有功能。"
 
-#: ../../library/importlib.rst:1598
+#: ../../library/importlib.rst:1638
 msgid ""
-"A :term:`decorator` for :meth:`importlib.abc.Loader.load_module` to set the "
-":attr:`__loader__` attribute on the returned module. If the attribute is "
-"already set the decorator does nothing. It is assumed that the first "
+"A :term:`decorator` for :meth:`importlib.abc.Loader.load_module` to set "
+"the :attr:`__loader__` attribute on the returned module. If the attribute"
+" is already set the decorator does nothing. It is assumed that the first "
 "positional argument to the wrapped method (i.e. ``self``) is what "
 ":attr:`__loader__` should be set to."
 msgstr ""
-"一个 :term:`decorator`，用于 :meth:`importlib.abc.Loader.load_module` 在返回的模块上设置 "
-":attr:`__loader__` 属性。如果该属性已被设置，装饰器就什么都不做。这里假定被封装方法的第一个位置参数（即 ``self``）就是 "
-":attr:`__loader__` 要设置的。"
+"一个 :term:`decorator`，用于 :meth:`importlib.abc.Loader.load_module` "
+"在返回的模块上设置 :attr:`__loader__` 属性。如果该属性已被设置，装饰器就什么都不做。这里假定被封装方法的第一个位置参数（即 "
+"``self``）就是 :attr:`__loader__` 要设置的。"
 
-#: ../../library/importlib.rst:1605
-msgid ""
-"Set ``__loader__`` if set to ``None``, as if the attribute does not exist."
+#: ../../library/importlib.rst:1645
+msgid "Set ``__loader__`` if set to ``None``, as if the attribute does not exist."
 msgstr "如果设为 ``None`` ，则会去设置 ``__loader__`` ，就像该属性不存在一样。"
 
-#: ../../library/importlib.rst:1609 ../../library/importlib.rst:1618
+#: ../../library/importlib.rst:1649 ../../library/importlib.rst:1658
 msgid "The import machinery takes care of this automatically."
 msgstr "现在导入机制会自动用到本方法。"
 
-#: ../../library/importlib.rst:1614
+#: ../../library/importlib.rst:1654
 msgid ""
-"A :term:`decorator` for :meth:`importlib.abc.Loader.load_module` to set the "
-":attr:`__package__` attribute on the returned module. If :attr:`__package__`"
-" is set and has a value other than ``None`` it will not be changed."
+"A :term:`decorator` for :meth:`importlib.abc.Loader.load_module` to set "
+"the :attr:`__package__` attribute on the returned module. If "
+":attr:`__package__` is set and has a value other than ``None`` it will "
+"not be changed."
 msgstr ""
-"一个用于 :meth:`importlib.abc.Loader.load_module` 的 :term:`decorator` ，以便设置返回模块的"
-" :attr:`__package__` 属性。如果 :attr:`__package__` 已设置且不为 ``None``，则不会做改动。"
+"一个用于 :meth:`importlib.abc.Loader.load_module` 的 :term:`decorator` "
+"，以便设置返回模块的 :attr:`__package__` 属性。如果 :attr:`__package__` 已设置且不为 "
+"``None``，则不会做改动。"
 
-#: ../../library/importlib.rst:1623
+#: ../../library/importlib.rst:1663
 msgid ""
-"A factory function for creating a :class:`~importlib.machinery.ModuleSpec` "
-"instance based on a loader.  The parameters have the same meaning as they do"
-" for ModuleSpec.  The function uses available :term:`loader` APIs, such as "
-":meth:`InspectLoader.is_package`, to fill in any missing information on the "
-"spec."
+"A factory function for creating a "
+":class:`~importlib.machinery.ModuleSpec` instance based on a loader.  The"
+" parameters have the same meaning as they do for ModuleSpec.  The "
+"function uses available :term:`loader` APIs, such as "
+":meth:`InspectLoader.is_package`, to fill in any missing information on "
+"the spec."
 msgstr ""
 "一个工厂函数，用于创建基于加载器的 :class:`~importlib.machinery.ModuleSpec` 实例。参数的含义与 "
 "ModuleSpec 的相同。该函数会利用当前可用的 :term:`loader` API，比如 "
 ":meth:`InspectLoader.is_package`，以填充所有缺失的规格信息。"
 
-#: ../../library/importlib.rst:1633
+#: ../../library/importlib.rst:1673
 msgid ""
-"A factory function for creating a :class:`~importlib.machinery.ModuleSpec` "
-"instance based on the path to a file.  Missing information will be filled in"
-" on the spec by making use of loader APIs and by the implication that the "
-"module will be file-based."
+"A factory function for creating a "
+":class:`~importlib.machinery.ModuleSpec` instance based on the path to a "
+"file.  Missing information will be filled in on the spec by making use of"
+" loader APIs and by the implication that the module will be file-based."
 msgstr ""
-"一个工厂函数，根据文件路径创建 :class:`~importlib.machinery.ModuleSpec` 实例。缺失的信息将根据 spec "
-"进行填补，利用加载器 API ，以及模块基于文件的隐含条件。"
+"一个工厂函数，根据文件路径创建 :class:`~importlib.machinery.ModuleSpec` 实例。缺失的信息将根据 spec"
+" 进行填补，利用加载器 API ，以及模块基于文件的隐含条件。"
 
-#: ../../library/importlib.rst:1645
+#: ../../library/importlib.rst:1685
 msgid ""
 "Return the hash of *source_bytes* as bytes. A hash-based ``.pyc`` file "
-"embeds the :func:`source_hash` of the corresponding source file's contents "
-"in its header."
+"embeds the :func:`source_hash` of the corresponding source file's "
+"contents in its header."
 msgstr ""
 "以字节串的形式返回 *source_bytes* 的哈希值。基于哈希值的 ``.pyc`` 文件在头部嵌入了对应源文件内容的 "
 ":func:`source_hash`。"
 
-#: ../../library/importlib.rst:1653
+#: ../../library/importlib.rst:1693
 msgid ""
-"A class which postpones the execution of the loader of a module until the "
-"module has an attribute accessed."
+"A class which postpones the execution of the loader of a module until the"
+" module has an attribute accessed."
 msgstr "此类会延迟执行模块加载器，直至该模块有一个属性被访问到。"
 
-#: ../../library/importlib.rst:1656
+#: ../../library/importlib.rst:1696
 msgid ""
 "This class **only** works with loaders that define "
-":meth:`~importlib.abc.Loader.exec_module` as control over what module type "
-"is used for the module is required. For those same reasons, the loader's "
-":meth:`~importlib.abc.Loader.create_module` method must return ``None`` or a"
-" type for which its ``__class__`` attribute can be mutated along with not "
-"using :term:`slots <__slots__>`. Finally, modules which substitute the "
-"object placed into :attr:`sys.modules` will not work as there is no way to "
-"properly replace the module references throughout the interpreter safely; "
-":exc:`ValueError` is raised if such a substitution is detected."
+":meth:`~importlib.abc.Loader.exec_module` as control over what module "
+"type is used for the module is required. For those same reasons, the "
+"loader's :meth:`~importlib.abc.Loader.create_module` method must return "
+"``None`` or a type for which its ``__class__`` attribute can be mutated "
+"along with not using :term:`slots <__slots__>`. Finally, modules which "
+"substitute the object placed into :attr:`sys.modules` will not work as "
+"there is no way to properly replace the module references throughout the "
+"interpreter safely; :exc:`ValueError` is raised if such a substitution is"
+" detected."
 msgstr ""
-"此类 **只** 适用于定义了 :meth:`~importlib.abc.Loader.exec_module` 的加载器，因为需要控制模块的类型。 "
-"同理，加载器的 :meth:`~importlib.abc.Loader.create_module` 方法必须返回 ``None`` 或 "
-"``__class__``  属性可被改变且不用  :term:`slots <__slots__>` 的类型。 最后，用于替换 "
-":attr:`sys.modules` 内容的模块将无法工作，因为无法在整个解释器中安全地替换模块的引用；如果检测到这种替换，将触发 "
-":exc:`ValueError`。"
+"此类 **只** 适用于定义了 :meth:`~importlib.abc.Loader.exec_module` "
+"的加载器，因为需要控制模块的类型。 同理，加载器的 :meth:`~importlib.abc.Loader.create_module` "
+"方法必须返回 ``None`` 或 ``__class__``  属性可被改变且不用  :term:`slots <__slots__>` "
+"的类型。 最后，用于替换 :attr:`sys.modules` "
+"内容的模块将无法工作，因为无法在整个解释器中安全地替换模块的引用；如果检测到这种替换，将触发 :exc:`ValueError`。"
 
-#: ../../library/importlib.rst:1667
+#: ../../library/importlib.rst:1707
 msgid ""
 "For projects where startup time is critical, this class allows for "
-"potentially minimizing the cost of loading a module if it is never used. For"
-" projects where startup time is not essential then use of this class is "
-"**heavily** discouraged due to error messages created during loading being "
-"postponed and thus occurring out of context."
-msgstr ""
-"如果项目对启动时间要求很高，只要模块未被用过，此类能够最小化加载模块的开销。对于启动时间并不重要的项目来说，由于加载过程中产生的错误信息会被暂时搁置，因此强烈不建议使用此类。"
+"potentially minimizing the cost of loading a module if it is never used. "
+"For projects where startup time is not essential then use of this class "
+"is **heavily** discouraged due to error messages created during loading "
+"being postponed and thus occurring out of context."
+msgstr "如果项目对启动时间要求很高，只要模块未被用过，此类能够最小化加载模块的开销。对于启动时间并不重要的项目来说，由于加载过程中产生的错误信息会被暂时搁置，因此强烈不建议使用此类。"
 
-#: ../../library/importlib.rst:1675
+#: ../../library/importlib.rst:1715
 msgid ""
 "Began calling :meth:`~importlib.abc.Loader.create_module`, removing the "
-"compatibility warning for :class:`importlib.machinery.BuiltinImporter` and "
-":class:`importlib.machinery.ExtensionFileLoader`."
+"compatibility warning for :class:`importlib.machinery.BuiltinImporter` "
+"and :class:`importlib.machinery.ExtensionFileLoader`."
 msgstr ""
 "开始调用 :meth:`~importlib.abc.Loader.create_module`，移除 "
 ":class:`importlib.machinery.BuiltinImporter` 和 "
 ":class:`importlib.machinery.ExtensionFileLoader` 的兼容性警告。"
 
-#: ../../library/importlib.rst:1682
+#: ../../library/importlib.rst:1722
 msgid ""
-"A static method which returns a callable that creates a lazy loader. This is"
-" meant to be used in situations where the loader is passed by class instead "
-"of by instance. ::"
+"A static method which returns a callable that creates a lazy loader. This"
+" is meant to be used in situations where the loader is passed by class "
+"instead of by instance. ::"
 msgstr "静态方法，返回创建延迟加载器的可调用对象。就是说用在加载器用类而不是实例传递的场合。"
 
-#: ../../library/importlib.rst:1695
+#: ../../library/importlib.rst:1735
 msgid "Examples"
 msgstr "例子"
 
-#: ../../library/importlib.rst:1698
+#: ../../library/importlib.rst:1738
 msgid "Importing programmatically"
 msgstr "用编程方式导入"
 
-#: ../../library/importlib.rst:1700
+#: ../../library/importlib.rst:1740
 msgid ""
-"To programmatically import a module, use :func:`importlib.import_module`. ::"
+"To programmatically import a module, use :func:`importlib.import_module`."
+" ::"
 msgstr "要以编程方式导入一个模块，请使用 :func:`importlib.import_module` ："
 
-#: ../../library/importlib.rst:1709
+#: ../../library/importlib.rst:1749
 msgid "Checking if a module can be imported"
 msgstr "检查某模块可否导入。"
 
-#: ../../library/importlib.rst:1711
+#: ../../library/importlib.rst:1751
 msgid ""
-"If you need to find out if a module can be imported without actually doing "
-"the import, then you should use :func:`importlib.util.find_spec`. ::"
+"If you need to find out if a module can be imported without actually "
+"doing the import, then you should use :func:`importlib.util.find_spec`. "
+"::"
 msgstr "若要查看某个模块是否可导入，但不需要实际执行导入，则应使用  :func:`importlib.util.find_spec` ："
 
-#: ../../library/importlib.rst:1734
+#: ../../library/importlib.rst:1774
 msgid "Importing a source file directly"
 msgstr "直接导入源码文件。"
 
-#: ../../library/importlib.rst:1736
+#: ../../library/importlib.rst:1776
 msgid ""
-"To import a Python source file directly, use the following recipe (Python "
-"3.5 and newer only)::"
+"To import a Python source file directly, use the following recipe (Python"
+" 3.5 and newer only)::"
 msgstr "若要直接导入 Python 源码文件，请使用一下方案（仅 Python 3.5 以上版本有效）："
 
-#: ../../library/importlib.rst:1754
+#: ../../library/importlib.rst:1794
 msgid "Implementing lazy imports"
 msgstr "实现延迟导入"
 
-#: ../../library/importlib.rst:1756
+#: ../../library/importlib.rst:1796
 msgid "The example below shows how to implement lazy imports::"
 msgstr "以下例子展示了如何实现延迟导入："
 
-#: ../../library/importlib.rst:1778
+#: ../../library/importlib.rst:1818
 msgid "Setting up an importer"
 msgstr "导入器的配置"
 
-#: ../../library/importlib.rst:1780
+#: ../../library/importlib.rst:1820
 msgid ""
 "For deep customizations of import, you typically want to implement an "
 ":term:`importer`. This means managing both the :term:`finder` and "
-":term:`loader` side of things. For finders there are two flavours to choose "
-"from depending on your needs: a :term:`meta path finder` or a :term:`path "
-"entry finder`. The former is what you would put on :attr:`sys.meta_path` "
-"while the latter is what you create using a :term:`path entry hook` on "
-":attr:`sys.path_hooks` which works with :attr:`sys.path` entries to "
-"potentially create a finder. This example will show you how to register your"
-" own importers so that import will use them (for creating an importer for "
-"yourself, read the documentation for the appropriate classes defined within "
-"this package)::"
+":term:`loader` side of things. For finders there are two flavours to "
+"choose from depending on your needs: a :term:`meta path finder` or a "
+":term:`path entry finder`. The former is what you would put on "
+":attr:`sys.meta_path` while the latter is what you create using a "
+":term:`path entry hook` on :attr:`sys.path_hooks` which works with "
+":attr:`sys.path` entries to potentially create a finder. This example "
+"will show you how to register your own importers so that import will use "
+"them (for creating an importer for yourself, read the documentation for "
+"the appropriate classes defined within this package)::"
 msgstr ""
 "对于深度定制的导入，通常需要实现一个 :term:`importer`。 这意味着得同时管理 :term:`finder` 和 "
 ":term:`loader`。 根据不同的需求，有两种类型的查找器可供选择： :term:`meta path finder` 或 "
-":term:`path entry finder`。 前者应位于 :attr:`sys.meta_path` 之上，而后者是用 :term:`path "
-"entry hook` 在 :attr:`sys.path_hooks` 上创建但与 :attr:`sys.path` "
+":term:`path entry finder`。 前者应位于 :attr:`sys.meta_path` 之上，而后者是用 "
+":term:`path entry hook` 在 :attr:`sys.path_hooks` 上创建但与 :attr:`sys.path` "
 "一起工作，可能会创建一个查找器。以下例子将演示如何注册自己的导入器，以供导入使用（关于自建导入器请阅读本包内定义的类文档）："
 
-#: ../../library/importlib.rst:1812
+#: ../../library/importlib.rst:1852
 msgid "Approximating :func:`importlib.import_module`"
 msgstr ":func:`importlib.import_module` 的近似实现"
 
-#: ../../library/importlib.rst:1814
+#: ../../library/importlib.rst:1854
 msgid ""
-"Import itself is implemented in Python code, making it possible to expose "
-"most of the import machinery through importlib. The following helps "
+"Import itself is implemented in Python code, making it possible to expose"
+" most of the import machinery through importlib. The following helps "
 "illustrate the various APIs that importlib exposes by providing an "
-"approximate implementation of :func:`importlib.import_module` (Python 3.4 "
-"and newer for the importlib usage, Python 3.6 and newer for other parts of "
-"the code). ::"
+"approximate implementation of :func:`importlib.import_module` (Python 3.4"
+" and newer for the importlib usage, Python 3.6 and newer for other parts "
+"of the code). ::"
 msgstr ""
 "导入过程本身是用 Python 代码实现的，这样就能通过 importlib 将大多数导入机制暴露出来。以下代码近似实现了 "
 ":func:`importlib.import_module` ，以帮助说明 importlib 暴露出来的各种 API （importlib "
 "的用法适用于 Python 3.4 以上版本 ，其他代码适用于 Python 3.6 以上版本）。"
+

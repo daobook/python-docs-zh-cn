@@ -1,28 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # ww song <sww4718168@gmail.com>, 2021
 # sgqy <sgqyzh@gmail.com>, 2021
 # ppcfish <ppcfish@gmail.com>, 2021
 # Freesand Leo <yuqinju@163.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 13:13+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:16+0000\n"
 "Last-Translator: Freesand Leo <yuqinju@163.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../library/turtle.rst:3
 msgid ":mod:`turtle` --- Turtle graphics"
@@ -38,28 +39,27 @@ msgstr "概述"
 
 #: ../../library/turtle.rst:22
 msgid ""
-"Turtle graphics is a popular way for introducing programming to kids.  It "
-"was part of the original Logo programming language developed by Wally "
+"Turtle graphics is a popular way for introducing programming to kids.  It"
+" was part of the original Logo programming language developed by Wally "
 "Feurzeig, Seymour Papert and Cynthia Solomon in 1967."
 msgstr ""
-"海龟绘图很适合用来引导孩子学习编程。 最初来自于 Wally Feurzeig, Seymour Papert 和 Cynthia Solomon 于 "
-"1967 年所创造的 Logo 编程语言。"
+"海龟绘图很适合用来引导孩子学习编程。 最初来自于 Wally Feurzeig, Seymour Papert 和 Cynthia Solomon"
+" 于 1967 年所创造的 Logo 编程语言。"
 
 #: ../../library/turtle.rst:26
 msgid ""
 "Imagine a robotic turtle starting at (0, 0) in the x-y plane.  After an "
-"``import turtle``, give it the command ``turtle.forward(15)``, and it moves "
-"(on-screen!) 15 pixels in the direction it is facing, drawing a line as it "
-"moves.  Give it the command ``turtle.right(25)``, and it rotates in-place 25"
-" degrees clockwise."
+"``import turtle``, give it the command ``turtle.forward(15)``, and it "
+"moves (on-screen!) 15 pixels in the direction it is facing, drawing a "
+"line as it moves.  Give it the command ``turtle.right(25)``, and it "
+"rotates in-place 25 degrees clockwise."
 msgstr ""
 "请想象绘图区有一只机器海龟，起始位置在 x-y 平面的 (0, 0) 点。先执行 ``import turtle``，再执行 "
 "``turtle.forward(15)``，它将(在屏幕上)朝所面对的 x 轴正方向前进 15 像素，随着它的移动画出一条线段。再执行 "
 "``turtle.right(25)``，它将原地右转 25 度。"
 
 #: ../../library/turtle.rst:33
-msgid ""
-"Turtle can draw intricate shapes using programs that repeat simple moves."
+msgid "Turtle can draw intricate shapes using programs that repeat simple moves."
 msgstr "使用海龟绘图可以编写重复执行简单动作的程序画出精细复杂的形状。"
 
 #: ../../library/turtle.rst:41
@@ -70,29 +70,32 @@ msgstr "通过组合使用此类命令，可以轻松地绘制出精美的形状
 
 #: ../../library/turtle.rst:44
 msgid ""
-"The :mod:`turtle` module is an extended reimplementation of the same-named "
-"module from the Python standard distribution up to version Python 2.5."
+"The :mod:`turtle` module is an extended reimplementation of the same-"
+"named module from the Python standard distribution up to version Python "
+"2.5."
 msgstr ":mod:`turtle` 模块是基于 Python 标准发行版 2.5 以来的同名模块重新编写并进行了功能扩展。"
 
 #: ../../library/turtle.rst:47
+#, python-format
 msgid ""
-"It tries to keep the merits of the old turtle module and to be (nearly) 100%"
-" compatible with it.  This means in the first place to enable the learning "
-"programmer to use all the commands, classes and methods interactively when "
-"using the module from within IDLE run with the ``-n`` switch."
+"It tries to keep the merits of the old turtle module and to be (nearly) "
+"100% compatible with it.  This means in the first place to enable the "
+"learning programmer to use all the commands, classes and methods "
+"interactively when using the module from within IDLE run with the ``-n`` "
+"switch."
 msgstr ""
-"新模块尽量保持了原模块的特点，并且(几乎)100%与其兼容。这就意味着初学编程者能够以交互方式使用模块的所有命令、类和方法——运行 IDLE 时注意加 "
-"``-n`` 参数。"
+"新模块尽量保持了原模块的特点，并且(几乎)100%与其兼容。这就意味着初学编程者能够以交互方式使用模块的所有命令、类和方法——运行 IDLE "
+"时注意加 ``-n`` 参数。"
 
 #: ../../library/turtle.rst:52
 msgid ""
 "The turtle module provides turtle graphics primitives, in both object-"
-"oriented and procedure-oriented ways.  Because it uses :mod:`tkinter` for "
-"the underlying graphics, it needs a version of Python installed with Tk "
+"oriented and procedure-oriented ways.  Because it uses :mod:`tkinter` for"
+" the underlying graphics, it needs a version of Python installed with Tk "
 "support."
 msgstr ""
-"turtle 模块提供面向对象和面向过程两种形式的海龟绘图基本组件。由于它使用 :mod:`tkinter` 实现基本图形界面，因此需要安装了 Tk "
-"支持的 Python 版本。"
+"turtle 模块提供面向对象和面向过程两种形式的海龟绘图基本组件。由于它使用 :mod:`tkinter` 实现基本图形界面，因此需要安装了 "
+"Tk 支持的 Python 版本。"
 
 #: ../../library/turtle.rst:56
 msgid "The object-oriented interface uses essentially two+two classes:"
@@ -100,13 +103,13 @@ msgstr "面向对象的接口主要使用“2+2”个类："
 
 #: ../../library/turtle.rst:58
 msgid ""
-"The :class:`TurtleScreen` class defines graphics windows as a playground for"
-" the drawing turtles.  Its constructor needs a :class:`tkinter.Canvas` or a "
-":class:`ScrolledCanvas` as argument.  It should be used when :mod:`turtle` "
-"is used as part of some application."
+"The :class:`TurtleScreen` class defines graphics windows as a playground "
+"for the drawing turtles.  Its constructor needs a :class:`tkinter.Canvas`"
+" or a :class:`ScrolledCanvas` as argument.  It should be used when "
+":mod:`turtle` is used as part of some application."
 msgstr ""
-":class:`TurtleScreen` 类定义图形窗口作为绘图海龟的运动场。它的构造器需要一个 :class:`tkinter.Canvas` 或 "
-":class:`ScrolledCanvas` 作为参数。应在 :mod:`turtle` 作为某个程序的一部分的时候使用。"
+":class:`TurtleScreen` 类定义图形窗口作为绘图海龟的运动场。它的构造器需要一个 :class:`tkinter.Canvas`"
+" 或 :class:`ScrolledCanvas` 作为参数。应在 :mod:`turtle` 作为某个程序的一部分的时候使用。"
 
 #: ../../library/turtle.rst:63
 msgid ""
@@ -120,16 +123,16 @@ msgstr ""
 
 #: ../../library/turtle.rst:68
 msgid ""
-"All methods of TurtleScreen/Screen also exist as functions, i.e. as part of "
-"the procedure-oriented interface."
+"All methods of TurtleScreen/Screen also exist as functions, i.e. as part "
+"of the procedure-oriented interface."
 msgstr "TurtleScreen/Screen 的所有方法还存在对应的函数，即作为面向过程的接口组成部分。"
 
 #: ../../library/turtle.rst:71
 msgid ""
 ":class:`RawTurtle` (alias: :class:`RawPen`) defines Turtle objects which "
 "draw on a :class:`TurtleScreen`.  Its constructor needs a Canvas, "
-"ScrolledCanvas or TurtleScreen as argument, so the RawTurtle objects know "
-"where to draw."
+"ScrolledCanvas or TurtleScreen as argument, so the RawTurtle objects know"
+" where to draw."
 msgstr ""
 ":class:`RawTurtle` (别名: :class:`RawPen`) 类定义海龟对象在 :class:`TurtleScreen` "
 "上绘图。它的构造器需要一个 Canvas, ScrolledCanvas 或 TurtleScreen 作为参数，以指定 RawTurtle "
@@ -141,26 +144,27 @@ msgid ""
 ":class:`Pen`), which draws on \"the\" :class:`Screen` instance which is "
 "automatically created, if not already present."
 msgstr ""
-"从 RawTurtle 派生出子类 :class:`Turtle` (别名: :class:`Pen`)，该类对象在 :class:`Screen` "
-"实例上绘图，如果实例不存在则会自动创建。"
+"从 RawTurtle 派生出子类 :class:`Turtle` (别名: :class:`Pen`)，该类对象在 "
+":class:`Screen` 实例上绘图，如果实例不存在则会自动创建。"
 
 #: ../../library/turtle.rst:79
 msgid ""
-"All methods of RawTurtle/Turtle also exist as functions, i.e. part of the "
-"procedure-oriented interface."
+"All methods of RawTurtle/Turtle also exist as functions, i.e. part of the"
+" procedure-oriented interface."
 msgstr "RawTurtle/Turtle 的所有方法也存在对应的函数，即作为面向过程的接口组成部分。"
 
 #: ../../library/turtle.rst:82
 msgid ""
 "The procedural interface provides functions which are derived from the "
-"methods of the classes :class:`Screen` and :class:`Turtle`.  They have the "
-"same names as the corresponding methods.  A screen object is automatically "
-"created whenever a function derived from a Screen method is called.  An "
-"(unnamed) turtle object is automatically created whenever any of the "
-"functions derived from a Turtle method is called."
+"methods of the classes :class:`Screen` and :class:`Turtle`.  They have "
+"the same names as the corresponding methods.  A screen object is "
+"automatically created whenever a function derived from a Screen method is"
+" called.  An (unnamed) turtle object is automatically created whenever "
+"any of the functions derived from a Turtle method is called."
 msgstr ""
-"过程式接口提供与 :class:`Screen` 和 :class:`Turtle` 类的方法相对应的函数。函数名与对应的方法名相同。当 Screen "
-"类的方法对应函数被调用时会自动创建一个 Screen 对象。当 Turtle 类的方法对应函数被调用时会自动创建一个 (匿名的) Turtle 对象。"
+"过程式接口提供与 :class:`Screen` 和 :class:`Turtle` 类的方法相对应的函数。函数名与对应的方法名相同。当 "
+"Screen 类的方法对应函数被调用时会自动创建一个 Screen 对象。当 Turtle 类的方法对应函数被调用时会自动创建一个 (匿名的) "
+"Turtle 对象。"
 
 #: ../../library/turtle.rst:89
 msgid ""
@@ -191,67 +195,67 @@ msgstr "海龟动作"
 msgid "Move and draw"
 msgstr "移动和绘制"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`forward` | :func:`fd`"
 msgstr ":func:`forward` | :func:`fd` 前进"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`backward` | :func:`bk` | :func:`back`"
 msgstr ":func:`backward` | :func:`bk` | :func:`back` 后退"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`right` | :func:`rt`"
 msgstr ":func:`right` | :func:`rt` 右转"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`left` | :func:`lt`"
 msgstr ":func:`left` | :func:`lt` 左转"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`goto` | :func:`setpos` | :func:`setposition`"
 msgstr ":func:`goto` | :func:`setpos` | :func:`setposition` 前往/定位"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`setx`"
 msgstr ":func:`setx` 设置x坐标"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`sety`"
 msgstr ":func:`sety` 设置y坐标"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`setheading` | :func:`seth`"
 msgstr ":func:`setheading` | :func:`seth` 设置朝向"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`home`"
 msgstr ":func:`home` 返回原点"
 
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:2463
+#: ../../library/turtle.rst ../../library/turtle.rst:2463
 msgid ":func:`circle`"
 msgstr ":func:`circle` 画圆"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`dot`"
 msgstr ":func:`dot` 画点"
 
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:2441
+#: ../../library/turtle.rst ../../library/turtle.rst:2441
 msgid ":func:`stamp`"
 msgstr ":func:`stamp` 印章"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`clearstamp`"
 msgstr ":func:`clearstamp` 清除印章"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`clearstamps`"
 msgstr ":func:`clearstamps` 清除多个印章"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`undo`"
 msgstr ":func:`undo` 撤消"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`speed`"
 msgstr ":func:`speed` 速度"
 
@@ -259,27 +263,27 @@ msgstr ":func:`speed` 速度"
 msgid "Tell Turtle's state"
 msgstr "获取海龟的状态"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`position` | :func:`pos`"
 msgstr ":func:`position` | :func:`pos` 位置"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`towards`"
 msgstr ":func:`towards` 目标方向"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`xcor`"
 msgstr ":func:`xcor` x坐标"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`ycor`"
 msgstr ":func:`ycor` y坐标"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`heading`"
 msgstr ":func:`heading` 朝向"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`distance`"
 msgstr ":func:`distance` 距离"
 
@@ -287,11 +291,11 @@ msgstr ":func:`distance` 距离"
 msgid "Setting and measurement"
 msgstr "设置与度量单位"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`degrees`"
 msgstr ":func:`degrees` 角度"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`radians`"
 msgstr ":func:`radians` 弧度"
 
@@ -303,23 +307,23 @@ msgstr "画笔控制"
 msgid "Drawing state"
 msgstr "绘图状态"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`pendown` | :func:`pd` | :func:`down`"
 msgstr ":func:`pendown` | :func:`pd` | :func:`down` 画笔落下"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`penup` | :func:`pu` | :func:`up`"
 msgstr ":func:`penup` | :func:`pu` | :func:`up` 画笔抬起"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`pensize` | :func:`width`"
 msgstr ":func:`pensize` | :func:`width` 画笔粗细"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`pen`"
 msgstr ":func:`pen` 画笔"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`isdown`"
 msgstr ":func:`isdown` 画笔是否落下"
 
@@ -327,15 +331,15 @@ msgstr ":func:`isdown` 画笔是否落下"
 msgid "Color control"
 msgstr "颜色控制"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`color`"
 msgstr ":func:`color` 颜色"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`pencolor`"
 msgstr ":func:`pencolor` 画笔颜色"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`fillcolor`"
 msgstr ":func:`fillcolor` 填充颜色"
 
@@ -343,15 +347,15 @@ msgstr ":func:`fillcolor` 填充颜色"
 msgid "Filling"
 msgstr "填充"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`filling`"
 msgstr ":func:`filling` 是否填充"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`begin_fill`"
 msgstr ":func:`begin_fill` 开始填充"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`end_fill`"
 msgstr ":func:`end_fill` 结束填充"
 
@@ -359,15 +363,15 @@ msgstr ":func:`end_fill` 结束填充"
 msgid "More drawing control"
 msgstr "更多绘图控制"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`reset`"
 msgstr ":func:`reset` 重置"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`clear`"
 msgstr ":func:`clear` 清空"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`write`"
 msgstr ":func:`write` 书写"
 
@@ -379,15 +383,15 @@ msgstr "海龟状态"
 msgid "Visibility"
 msgstr "可见性"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`showturtle` | :func:`st`"
 msgstr ":func:`showturtle` | :func:`st` 显示海龟"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`hideturtle` | :func:`ht`"
 msgstr ":func:`hideturtle` | :func:`ht` 隐藏海龟"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`isvisible`"
 msgstr ":func:`isvisible` 是否可见"
 
@@ -395,39 +399,39 @@ msgstr ":func:`isvisible` 是否可见"
 msgid "Appearance"
 msgstr "外观"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`shape`"
 msgstr ":func:`shape` 形状"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`resizemode`"
 msgstr ":func:`resizemode` 大小调整模式"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`shapesize` | :func:`turtlesize`"
 msgstr ":func:`shapesize` | :func:`turtlesize` 形状大小"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`shearfactor`"
 msgstr ":func:`shearfactor` 剪切因子"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`settiltangle`"
 msgstr ":func:`settiltangle` 设置倾角"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`tiltangle`"
 msgstr ":func:`tiltangle` 倾角"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`tilt`"
 msgstr ":func:`tilt` 倾斜"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`shapetransform`"
 msgstr ":func:`shapetransform` 变形"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`get_shapepoly`"
 msgstr ":func:`get_shapepoly` 获取形状多边形"
 
@@ -435,15 +439,15 @@ msgstr ":func:`get_shapepoly` 获取形状多边形"
 msgid "Using events"
 msgstr "使用事件"
 
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:2435
+#: ../../library/turtle.rst ../../library/turtle.rst:2435
 msgid ":func:`onclick`"
 msgstr ":func:`onclick` 当鼠标点击"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`onrelease`"
 msgstr ":func:`onrelease` 当鼠标释放"
 
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:2418
+#: ../../library/turtle.rst ../../library/turtle.rst:2418
 msgid ":func:`ondrag`"
 msgstr ":func:`ondrag` 当鼠标拖动"
 
@@ -451,35 +455,35 @@ msgstr ":func:`ondrag` 当鼠标拖动"
 msgid "Special Turtle methods"
 msgstr "特殊海龟方法"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`begin_poly`"
 msgstr ":func:`begin_poly` 开始记录多边形"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`end_poly`"
 msgstr ":func:`end_poly` 结束记录多边形"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`get_poly`"
 msgstr ":func:`get_poly` 获取多边形"
 
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:2454
+#: ../../library/turtle.rst ../../library/turtle.rst:2454
 msgid ":func:`clone`"
 msgstr ":func:`clone` 克隆"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`getturtle` | :func:`getpen`"
 msgstr ":func:`getturtle` | :func:`getpen` 获取海龟画笔"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`getscreen`"
 msgstr ":func:`getscreen` 获取屏幕"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`setundobuffer`"
 msgstr ":func:`setundobuffer` 设置撤消缓冲区"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`undobufferentries`"
 msgstr ":func:`undobufferentries` 撤消缓冲区条目数"
 
@@ -491,27 +495,27 @@ msgstr "TurtleScreen/Screen 方法"
 msgid "Window control"
 msgstr "窗口控制"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`bgcolor`"
 msgstr ":func:`bgcolor` 背景颜色"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`bgpic`"
 msgstr ":func:`bgpic` 背景图片"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`clearscreen`"
 msgstr ":func:`clearscreen`"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`resetscreen`"
 msgstr ":func:`resetscreen`"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`screensize`"
 msgstr ":func:`screensize` 屏幕大小"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`setworldcoordinates`"
 msgstr ":func:`setworldcoordinates` 设置世界坐标系"
 
@@ -519,15 +523,15 @@ msgstr ":func:`setworldcoordinates` 设置世界坐标系"
 msgid "Animation control"
 msgstr "动画控制"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`delay`"
 msgstr ":func:`delay` 延迟"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`tracer`"
 msgstr ":func:`tracer` 追踪"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`update`"
 msgstr ":func:`update` 更新"
 
@@ -535,27 +539,27 @@ msgstr ":func:`update` 更新"
 msgid "Using screen events"
 msgstr "使用屏幕事件"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`listen`"
 msgstr ":func:`listen` 监听"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`onkey` | :func:`onkeyrelease`"
 msgstr ":func:`onkey` | :func:`onkeyrelease` 当键盘按下并释放"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`onkeypress`"
 msgstr ":func:`onkeypress` 当键盘按下"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`onclick` | :func:`onscreenclick`"
 msgstr ":func:`onclick` | :func:`onscreenclick` 当点击屏幕"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`ontimer`"
 msgstr ":func:`ontimer` 当达到定时"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`mainloop` | :func:`done`"
 msgstr ":func:`mainloop` | :func:`done` 主循环"
 
@@ -563,35 +567,35 @@ msgstr ":func:`mainloop` | :func:`done` 主循环"
 msgid "Settings and special methods"
 msgstr "设置与特殊方法"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`mode`"
 msgstr ":func:`mode`"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`colormode`"
 msgstr ":func:`colormode` 颜色模式"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`getcanvas`"
 msgstr ":func:`getcanvas` 获取画布"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`getshapes`"
 msgstr ":func:`getshapes` 获取形状"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`register_shape` | :func:`addshape`"
 msgstr ":func:`register_shape` | :func:`addshape` 添加形状"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`turtles`"
 msgstr ":func:`turtles` 所有海龟"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`window_height`"
 msgstr ":func:`window_height` 窗口高度"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`window_width`"
 msgstr ":func:`window_width` 窗口宽度"
 
@@ -599,11 +603,11 @@ msgstr ":func:`window_width` 窗口宽度"
 msgid "Input methods"
 msgstr "输入方法"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`textinput`"
 msgstr ":func:`textinput` 文本输入"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`numinput`"
 msgstr ":func:`numinput` 数字输入"
 
@@ -611,19 +615,19 @@ msgstr ":func:`numinput` 数字输入"
 msgid "Methods specific to Screen"
 msgstr "Screen 专有方法"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`bye`"
 msgstr ":func:`bye` 退出"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`exitonclick`"
 msgstr ":func:`exitonclick` 当点击时退出"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`setup`"
 msgstr ":func:`setup` 设置"
 
-#: ../../library/turtle.rst:0
+#: ../../library/turtle.rst
 msgid ":func:`title`"
 msgstr ":func:`title` 标题"
 
@@ -637,35 +641,9 @@ msgid ""
 "``turtle``."
 msgstr "本节中的大部分示例都使用 Turtle 类的一个实例，命名为 ``turtle``。"
 
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0 ../../library/turtle.rst:0
-#: ../../library/turtle.rst:0
-msgid "Parameters"
-msgstr "参数"
+#: ../../library/turtle.rst
+msgid "参数"
+msgstr ""
 
 #: ../../library/turtle.rst:247 ../../library/turtle.rst:292
 #: ../../library/turtle.rst:317 ../../library/turtle.rst:377
@@ -675,8 +653,8 @@ msgstr "一个数值 (整型或浮点型)"
 
 #: ../../library/turtle.rst:249
 msgid ""
-"Move the turtle forward by the specified *distance*, in the direction the "
-"turtle is headed."
+"Move the turtle forward by the specified *distance*, in the direction the"
+" turtle is headed."
 msgstr "海龟前进 *distance* 指定的距离，方向为海龟的朝向。"
 
 #: ../../library/turtle.rst:269 ../../library/turtle.rst:473
@@ -687,27 +665,27 @@ msgstr "一个数值"
 
 #: ../../library/turtle.rst:271
 msgid ""
-"Move the turtle backward by *distance*, opposite to the direction the turtle"
-" is headed.  Do not change the turtle's heading."
+"Move the turtle backward by *distance*, opposite to the direction the "
+"turtle is headed.  Do not change the turtle's heading."
 msgstr "海龟后退 *distance* 指定的距离，方向与海龟的朝向相反。不改变海龟的朝向。"
 
 #: ../../library/turtle.rst:294
 msgid ""
-"Turn turtle right by *angle* units.  (Units are by default degrees, but can "
-"be set via the :func:`degrees` and :func:`radians` functions.)  Angle "
-"orientation depends on the turtle mode, see :func:`mode`."
+"Turn turtle right by *angle* units.  (Units are by default degrees, but "
+"can be set via the :func:`degrees` and :func:`radians` functions.)  Angle"
+" orientation depends on the turtle mode, see :func:`mode`."
 msgstr ""
-"海龟右转 *angle* 个单位。(单位默认为角度，但可通过 :func:`degrees` 和 :func:`radians` 函数改变设置。) "
-"角度的正负由海龟模式确定，参见 :func:`mode`。"
+"海龟右转 *angle* 个单位。(单位默认为角度，但可通过 :func:`degrees` 和 :func:`radians` 函数改变设置。)"
+" 角度的正负由海龟模式确定，参见 :func:`mode`。"
 
 #: ../../library/turtle.rst:319
 msgid ""
-"Turn turtle left by *angle* units.  (Units are by default degrees, but can "
-"be set via the :func:`degrees` and :func:`radians` functions.)  Angle "
-"orientation depends on the turtle mode, see :func:`mode`."
+"Turn turtle left by *angle* units.  (Units are by default degrees, but "
+"can be set via the :func:`degrees` and :func:`radians` functions.)  Angle"
+" orientation depends on the turtle mode, see :func:`mode`."
 msgstr ""
-"海龟左转 *angle* 个单位。(单位默认为角度，但可通过 :func:`degrees` 和 :func:`radians` 函数改变设置。) "
-"角度的正负由海龟模式确定，参见 :func:`mode`。"
+"海龟左转 *angle* 个单位。(单位默认为角度，但可通过 :func:`degrees` 和 :func:`radians` 函数改变设置。)"
+" 角度的正负由海龟模式确定，参见 :func:`mode`。"
 
 #: ../../library/turtle.rst:343
 msgid "a number or a pair/vector of numbers"
@@ -719,26 +697,28 @@ msgstr "一个数值或 ``None``"
 
 #: ../../library/turtle.rst:346
 msgid ""
-"If *y* is ``None``, *x* must be a pair of coordinates or a :class:`Vec2D` "
-"(e.g. as returned by :func:`pos`)."
+"If *y* is ``None``, *x* must be a pair of coordinates or a :class:`Vec2D`"
+" (e.g. as returned by :func:`pos`)."
 msgstr ""
 "如果 *y* 为 ``None``，*x* 应为一个表示坐标的数值对或 :class:`Vec2D` 类对象 (例如 :func:`pos` "
 "返回的对象)."
 
 #: ../../library/turtle.rst:349
 msgid ""
-"Move turtle to an absolute position.  If the pen is down, draw line.  Do not"
-" change the turtle's orientation."
+"Move turtle to an absolute position.  If the pen is down, draw line.  Do "
+"not change the turtle's orientation."
 msgstr "海龟移动到一个绝对坐标。如果画笔已落下将会画线。不改变海龟的朝向。"
 
 #: ../../library/turtle.rst:379
 msgid ""
-"Set the turtle's first coordinate to *x*, leave second coordinate unchanged."
+"Set the turtle's first coordinate to *x*, leave second coordinate "
+"unchanged."
 msgstr "设置海龟的横坐标为 *x*，纵坐标保持不变。"
 
 #: ../../library/turtle.rst:402
 msgid ""
-"Set the turtle's second coordinate to *y*, leave first coordinate unchanged."
+"Set the turtle's second coordinate to *y*, leave first coordinate "
+"unchanged."
 msgstr "设置海龟的纵坐标为 *y*，横坐标保持不变。"
 
 #: ../../library/turtle.rst:425
@@ -789,8 +769,8 @@ msgstr "270 - 西"
 
 #: ../../library/turtle.rst:447
 msgid ""
-"Move turtle to the origin -- coordinates (0,0) -- and set its heading to its"
-" start-orientation (which depends on the mode, see :func:`mode`)."
+"Move turtle to the origin -- coordinates (0,0) -- and set its heading to "
+"its start-orientation (which depends on the mode, see :func:`mode`)."
 msgstr "海龟移至初始坐标 (0,0)，并设置朝向为初始方向 (由海龟模式确定，参见 :func:`mode`)。"
 
 #: ../../library/turtle.rst:474
@@ -803,23 +783,23 @@ msgstr "一个整型数 (或 ``None``)"
 
 #: ../../library/turtle.rst:477
 msgid ""
-"Draw a circle with given *radius*.  The center is *radius* units left of the"
-" turtle; *extent* -- an angle -- determines which part of the circle is "
-"drawn.  If *extent* is not given, draw the entire circle.  If *extent* is "
-"not a full circle, one endpoint of the arc is the current pen position.  "
-"Draw the arc in counterclockwise direction if *radius* is positive, "
-"otherwise in clockwise direction.  Finally the direction of the turtle is "
-"changed by the amount of *extent*."
+"Draw a circle with given *radius*.  The center is *radius* units left of "
+"the turtle; *extent* -- an angle -- determines which part of the circle "
+"is drawn.  If *extent* is not given, draw the entire circle.  If *extent*"
+" is not a full circle, one endpoint of the arc is the current pen "
+"position.  Draw the arc in counterclockwise direction if *radius* is "
+"positive, otherwise in clockwise direction.  Finally the direction of the"
+" turtle is changed by the amount of *extent*."
 msgstr ""
-"绘制一个 *radius* 指定半径的圆。圆心在海龟左边 *radius* 个单位；*extent* 为一个夹角，用来决定绘制圆的一部分。如未指定 "
-"*extent*则绘制整个圆。如果 *extent* 不是完整圆周，则以当前画笔位置为一个端点绘制圆弧。如果 *radius* "
+"绘制一个 *radius* 指定半径的圆。圆心在海龟左边 *radius* 个单位；*extent* 为一个夹角，用来决定绘制圆的一部分。如未指定"
+" *extent*则绘制整个圆。如果 *extent* 不是完整圆周，则以当前画笔位置为一个端点绘制圆弧。如果 *radius* "
 "为正值则朝逆时针方向绘制圆弧，否则朝顺时针方向。最终海龟的朝向会依据 *extent* 的值而改变。"
 
 #: ../../library/turtle.rst:485
 msgid ""
 "As the circle is approximated by an inscribed regular polygon, *steps* "
-"determines the number of steps to use.  If not given, it will be calculated "
-"automatically.  May be used to draw regular polygons."
+"determines the number of steps to use.  If not given, it will be "
+"calculated automatically.  May be used to draw regular polygons."
 msgstr "圆实际是以其内切正多边形来近似表示的，其边的数量由 *steps* 指定。如果未指定边数则会自动确定。此方法也可用来绘制正多边形。"
 
 #: ../../library/turtle.rst:511
@@ -832,8 +812,8 @@ msgstr "一个颜色字符串或颜色数值元组"
 
 #: ../../library/turtle.rst:514
 msgid ""
-"Draw a circular dot with diameter *size*, using *color*.  If *size* is not "
-"given, the maximum of pensize+4 and 2*pensize is used."
+"Draw a circular dot with diameter *size*, using *color*.  If *size* is "
+"not given, the maximum of pensize+4 and 2*pensize is used."
 msgstr ""
 "绘制一个直径为 *size*，颜色为 *color* 的圆点。如果 *size* 未指定，则直径取 pensize+4 和 2*pensize "
 "中的较大值。"
@@ -841,10 +821,9 @@ msgstr ""
 #: ../../library/turtle.rst:532
 msgid ""
 "Stamp a copy of the turtle shape onto the canvas at the current turtle "
-"position.  Return a stamp_id for that stamp, which can be used to delete it "
-"by calling ``clearstamp(stamp_id)``."
-msgstr ""
-"在海龟当前位置印制一个海龟形状。返回该印章的 stamp_id，印章可以通过调用 ``clearstamp(stamp_id)`` 来删除。"
+"position.  Return a stamp_id for that stamp, which can be used to delete "
+"it by calling ``clearstamp(stamp_id)``."
+msgstr "在海龟当前位置印制一个海龟形状。返回该印章的 stamp_id，印章可以通过调用 ``clearstamp(stamp_id)`` 来删除。"
 
 #: ../../library/turtle.rst:547
 msgid "an integer, must be return value of previous :func:`stamp` call"
@@ -856,12 +835,12 @@ msgstr "删除 *stampid* 指定的印章。"
 
 #: ../../library/turtle.rst:571
 msgid ""
-"Delete all or first/last *n* of turtle's stamps.  If *n* is ``None``, delete"
-" all stamps, if *n* > 0 delete first *n* stamps, else if *n* < 0 delete last"
-" *n* stamps."
+"Delete all or first/last *n* of turtle's stamps.  If *n* is ``None``, "
+"delete all stamps, if *n* > 0 delete first *n* stamps, else if *n* < 0 "
+"delete last *n* stamps."
 msgstr ""
-"删除全部或前/后 *n* 个海龟印章。如果 *n* 为 ``None`` 则删除全部印章，如果 *n* > 0 则删除前 *n* 个印章，否则如果 "
-"*n* < 0 则删除后 *n* 个印章。"
+"删除全部或前/后 *n* 个海龟印章。如果 *n* 为 ``None`` 则删除全部印章，如果 *n* > 0 则删除前 *n* 个印章，否则如果"
+" *n* < 0 则删除后 *n* 个印章。"
 
 #: ../../library/turtle.rst:594
 msgid ""
@@ -881,8 +860,8 @@ msgstr "设置海龟移动的速度为 0..10 表示的整型数值。如未指�
 
 #: ../../library/turtle.rst:614
 msgid ""
-"If input is a number greater than 10 or smaller than 0.5, speed is set to 0."
-"  Speedstrings are mapped to speedvalues as follows:"
+"If input is a number greater than 10 or smaller than 0.5, speed is set to"
+" 0.  Speedstrings are mapped to speedvalues as follows:"
 msgstr "如果输入数值大于 10 或小于 0.5 则速度设为 0。速度字符串与速度值的对应关系如下:"
 
 #: ../../library/turtle.rst:617
@@ -907,21 +886,21 @@ msgstr "\"slowest\":  1 最慢"
 
 #: ../../library/turtle.rst:623
 msgid ""
-"Speeds from 1 to 10 enforce increasingly faster animation of line drawing "
-"and turtle turning."
+"Speeds from 1 to 10 enforce increasingly faster animation of line drawing"
+" and turtle turning."
 msgstr "速度值从 1 到 10，画线和海龟转向的动画效果逐级加快。"
 
 #: ../../library/turtle.rst:626
 msgid ""
-"Attention: *speed* = 0 means that *no* animation takes place. forward/back "
-"makes turtle jump and likewise left/right make the turtle turn instantly."
+"Attention: *speed* = 0 means that *no* animation takes place. "
+"forward/back makes turtle jump and likewise left/right make the turtle "
+"turn instantly."
 msgstr ""
 "注意: *speed* = 0 表示 *没有* 动画效果。forward/back 将使海龟向前/向后跳跃，同样的 left/right "
 "将使海龟立即改变朝向。"
 
 #: ../../library/turtle.rst:649
-msgid ""
-"Return the turtle's current location (x,y) (as a :class:`Vec2D` vector)."
+msgid "Return the turtle's current location (x,y) (as a :class:`Vec2D` vector)."
 msgstr "返回海龟当前的坐标 (x,y) (为 :class:`Vec2D` 矢量类对象)。"
 
 #: ../../library/turtle.rst:660 ../../library/turtle.rst:723
@@ -934,10 +913,10 @@ msgstr "一个数值——如果 *x* 是一个数值，否则为 ``None``"
 
 #: ../../library/turtle.rst:663
 msgid ""
-"Return the angle between the line from turtle position to position specified"
-" by (x,y), the vector or the other turtle.  This depends on the turtle's "
-"start orientation which depends on the mode - \"standard\"/\"world\" or "
-"\"logo\"."
+"Return the angle between the line from turtle position to position "
+"specified by (x,y), the vector or the other turtle.  This depends on the "
+"turtle's start orientation which depends on the mode - "
+"\"standard\"/\"world\" or \"logo\"."
 msgstr ""
 "返回从海龟位置到由 (x,y)、矢量或另一海龟所确定位置的连线的夹角。 此数值依赖于海龟的初始朝向，这又取决于 "
 "\"standard\"/\"world\" 或 \"logo\" 模式设置。"
@@ -952,14 +931,14 @@ msgstr "返回海龟的 y 坐标。"
 
 #: ../../library/turtle.rst:709
 msgid ""
-"Return the turtle's current heading (value depends on the turtle mode, see "
-":func:`mode`)."
+"Return the turtle's current heading (value depends on the turtle mode, "
+"see :func:`mode`)."
 msgstr "返回海龟当前的朝向 (数值依赖于海龟模式参见 :func:`mode`)。"
 
 #: ../../library/turtle.rst:726
 msgid ""
-"Return the distance from the turtle to (x,y), the given vector, or the given"
-" other turtle, in turtle step units."
+"Return the distance from the turtle to (x,y), the given vector, or the "
+"given other turtle, in turtle step units."
 msgstr "返回从海龟位置到由 (x,y)，适量或另一海龟对应位置的单位距离。"
 
 #: ../../library/turtle.rst:744
@@ -993,8 +972,9 @@ msgstr "一个正数值"
 #: ../../library/turtle.rst:819
 msgid ""
 "Set the line thickness to *width* or return it.  If resizemode is set to "
-"\"auto\" and turtleshape is a polygon, that polygon is drawn with the same "
-"line thickness.  If no argument is given, the current pensize is returned."
+"\"auto\" and turtleshape is a polygon, that polygon is drawn with the "
+"same line thickness.  If no argument is given, the current pensize is "
+"returned."
 msgstr ""
 "设置线条的粗细为 *width* 或返回该值。如果 resizemode 设为 \"auto\" 并且 turtleshape "
 "为多边形，该多边形也以同样组细的线条绘制。如未指定参数，则返回当前的 pensize。"
@@ -1055,10 +1035,10 @@ msgstr "\"tilt\": 数值"
 
 #: ../../library/turtle.rst:850
 msgid ""
-"This dictionary can be used as argument for a subsequent call to :func:`pen`"
-" to restore the former pen-state.  Moreover one or more of these attributes "
-"can be provided as keyword-arguments.  This can be used to set several pen "
-"attributes in one statement."
+"This dictionary can be used as argument for a subsequent call to "
+":func:`pen` to restore the former pen-state.  Moreover one or more of "
+"these attributes can be provided as keyword-arguments.  This can be used "
+"to set several pen attributes in one statement."
 msgstr ""
 "此字典可作为后续调用 :func:`pen` "
 "时的参数，以恢复之前的画笔状态。另外还可将这些属性作为关键词参数提交。使用此方式可以用一条语句设置画笔的多个属性。"
@@ -1081,8 +1061,9 @@ msgstr "``pencolor()``"
 
 #: ../../library/turtle.rst:899
 msgid ""
-"Return the current pencolor as color specification string or as a tuple (see"
-" example).  May be used as input to another color/pencolor/fillcolor call."
+"Return the current pencolor as color specification string or as a tuple "
+"(see example).  May be used as input to another color/pencolor/fillcolor "
+"call."
 msgstr "返回以颜色描述字符串或元组 (见示例) 表示的当前画笔颜色。可用作其他 color/pencolor/fillcolor 调用的输入。"
 
 #: ../../library/turtle.rst:905
@@ -1103,8 +1084,8 @@ msgstr "``pencolor((r, g, b))``"
 
 #: ../../library/turtle.rst:908
 msgid ""
-"Set pencolor to the RGB color represented by the tuple of *r*, *g*, and *b*."
-"  Each of *r*, *g*, and *b* must be in the range 0..colormode, where "
+"Set pencolor to the RGB color represented by the tuple of *r*, *g*, and "
+"*b*.  Each of *r*, *g*, and *b* must be in the range 0..colormode, where "
 "colormode is either 1.0 or 255 (see :func:`colormode`)."
 msgstr ""
 "设置画笔颜色为以 *r*, *g*, *b* 元组表示的 RGB 颜色。*r*, *g*, *b* 的取值范围应为 "
@@ -1122,8 +1103,8 @@ msgstr "设置画笔颜色为以 *r*, *g*, *b* 表示的 RGB 颜色。*r*, *g*, 
 
 #: ../../library/turtle.rst:916
 msgid ""
-"If turtleshape is a polygon, the outline of that polygon is drawn with the "
-"newly set pencolor."
+"If turtleshape is a polygon, the outline of that polygon is drawn with "
+"the newly set pencolor."
 msgstr "如果 turtleshape 为多边形，该多边形轮廓也以新设置的画笔颜色绘制。"
 
 #: ../../library/turtle.rst:943
@@ -1147,8 +1128,8 @@ msgstr "``fillcolor(colorstring)``"
 
 #: ../../library/turtle.rst:953
 msgid ""
-"Set fillcolor to *colorstring*, which is a Tk color specification string, "
-"such as ``\"red\"``, ``\"yellow\"``, or ``\"#33cc8c\"``."
+"Set fillcolor to *colorstring*, which is a Tk color specification string,"
+" such as ``\"red\"``, ``\"yellow\"``, or ``\"#33cc8c\"``."
 msgstr ""
 "设置填充颜色为 *colorstring* 指定的 Tk 颜色描述字符串，例如 ``\"red\"``、``\"yellow\"`` 或 "
 "``\"#33cc8c\"``。"
@@ -1172,14 +1153,14 @@ msgstr "``fillcolor(r, g, b)``"
 
 #: ../../library/turtle.rst:962
 msgid ""
-"Set fillcolor to the RGB color represented by *r*, *g*, and *b*.  Each of "
-"*r*, *g*, and *b* must be in the range 0..colormode."
+"Set fillcolor to the RGB color represented by *r*, *g*, and *b*.  Each of"
+" *r*, *g*, and *b* must be in the range 0..colormode."
 msgstr "设置填充颜色为 *r*, *g*, *b* 表示的 RGB 颜色。*r*, *g*, *b* 的取值范围应为 0..colormode。"
 
 #: ../../library/turtle.rst:965
 msgid ""
-"If turtleshape is a polygon, the interior of that polygon is drawn with the "
-"newly set fillcolor."
+"If turtleshape is a polygon, the interior of that polygon is drawn with "
+"the newly set fillcolor."
 msgstr "如果 turtleshape 为多边形，该多边形内部也以新设置的填充颜色填充。"
 
 #: ../../library/turtle.rst:986
@@ -1187,8 +1168,7 @@ msgid "Return or set pencolor and fillcolor."
 msgstr "返回或设置画笔颜色和填充颜色。"
 
 #: ../../library/turtle.rst:988
-msgid ""
-"Several input formats are allowed.  They use 0 to 3 arguments as follows:"
+msgid "Several input formats are allowed.  They use 0 to 3 arguments as follows:"
 msgstr "允许多种输入格式。使用如下 0 至 3 个参数:"
 
 #: ../../library/turtle.rst:994
@@ -1201,8 +1181,8 @@ msgid ""
 "specification strings or tuples as returned by :func:`pencolor` and "
 ":func:`fillcolor`."
 msgstr ""
-"返回以一对颜色描述字符串或元组表示的当前画笔颜色和填充颜色，两者可分别由 :func:`pencolor` 和 :func:`fillcolor` "
-"返回。"
+"返回以一对颜色描述字符串或元组表示的当前画笔颜色和填充颜色，两者可分别由 :func:`pencolor` 和 :func:`fillcolor`"
+" 返回。"
 
 #: ../../library/turtle.rst:998
 msgid "``color(colorstring)``, ``color((r,g,b))``, ``color(r,g,b)``"
@@ -1215,23 +1195,21 @@ msgid ""
 msgstr "输入格式与 :func:`pencolor` 相同，同时设置填充颜色和画笔颜色为指定的值。"
 
 #: ../../library/turtle.rst:1002
-msgid ""
-"``color(colorstring1, colorstring2)``, ``color((r1,g1,b1), (r2,g2,b2))``"
-msgstr ""
-"``color(colorstring1, colorstring2)``, ``color((r1,g1,b1), (r2,g2,b2))``"
+msgid "``color(colorstring1, colorstring2)``, ``color((r1,g1,b1), (r2,g2,b2))``"
+msgstr "``color(colorstring1, colorstring2)``, ``color((r1,g1,b1), (r2,g2,b2))``"
 
 #: ../../library/turtle.rst:1001
 msgid ""
-"Equivalent to ``pencolor(colorstring1)`` and ``fillcolor(colorstring2)`` and"
-" analogously if the other input format is used."
+"Equivalent to ``pencolor(colorstring1)`` and ``fillcolor(colorstring2)`` "
+"and analogously if the other input format is used."
 msgstr ""
 "相当于 ``pencolor(colorstring1)`` 加 "
 "``fillcolor(colorstring2)``，使用其他输入格式的方法也与之类似。"
 
 #: ../../library/turtle.rst:1004
 msgid ""
-"If turtleshape is a polygon, outline and interior of that polygon is drawn "
-"with the newly set colors."
+"If turtleshape is a polygon, outline and interior of that polygon is "
+"drawn with the newly set colors."
 msgstr "如果 turtleshape 为多边形，该多边形轮廓与填充也使用新设置的颜色。"
 
 #: ../../library/turtle.rst:1018
@@ -1252,24 +1230,24 @@ msgstr "填充上次调用 :func:`begin_fill` 之后绘制的形状。"
 
 #: ../../library/turtle.rst:1054
 msgid ""
-"Whether or not overlap regions for self-intersecting polygons or multiple "
-"shapes are filled depends on the operating system graphics, type of overlap,"
-" and number of overlaps.  For example, the Turtle star above may be either "
-"all yellow or have some white regions."
+"Whether or not overlap regions for self-intersecting polygons or multiple"
+" shapes are filled depends on the operating system graphics, type of "
+"overlap, and number of overlaps.  For example, the Turtle star above may "
+"be either all yellow or have some white regions."
 msgstr ""
 "自相交多边形或多个形状间的重叠区域是否填充取决于操作系统的图形引擎、重叠的类型以及重叠的层数。 例如上面的 Turtle "
 "多芒星可能会全部填充为黄色，也可能会有一些白色区域。"
 
 #: ../../library/turtle.rst:1073
 msgid ""
-"Delete the turtle's drawings from the screen, re-center the turtle and set "
-"variables to the default values."
+"Delete the turtle's drawings from the screen, re-center the turtle and "
+"set variables to the default values."
 msgstr "从屏幕中删除海龟的绘图，海龟回到原点并设置所有变量为默认值。"
 
 #: ../../library/turtle.rst:1094
 msgid ""
-"Delete the turtle's drawings from the screen.  Do not move turtle.  State "
-"and position of the turtle as well as drawings of other turtles are not "
+"Delete the turtle's drawings from the screen.  Do not move turtle.  State"
+" and position of the turtle as well as drawings of other turtles are not "
 "affected."
 msgstr "从屏幕中删除指定海龟的绘图。不移动海龟。海龟的状态和位置以及其他海龟的绘图不受影响。"
 
@@ -1292,18 +1270,19 @@ msgstr "一个三元组 (fontname, fontsize, fonttype)"
 #: ../../library/turtle.rst:1105
 msgid ""
 "Write text - the string representation of *arg* - at the current turtle "
-"position according to *align* (\"left\", \"center\" or \"right\") and with "
-"the given font.  If *move* is true, the pen is moved to the bottom-right "
-"corner of the text.  By default, *move* is ``False``."
+"position according to *align* (\"left\", \"center\" or \"right\") and "
+"with the given font.  If *move* is true, the pen is moved to the bottom-"
+"right corner of the text.  By default, *move* is ``False``."
 msgstr ""
-"基于 *align* (\"left\", \"center\" 或 \"right\") 并使用给定的字体将文本 —— *arg* 的字符串表示形式 "
-"—— 写到当前海龟位置。 如果 *move* 为真值，画笔会移至文本的右下角。 默认情况下 *move* 为 ``False``。"
+"基于 *align* (\"left\", \"center\" 或 \"right\") 并使用给定的字体将文本 —— *arg* "
+"的字符串表示形式 —— 写到当前海龟位置。 如果 *move* 为真值，画笔会移至文本的右下角。 默认情况下 *move* 为 "
+"``False``。"
 
 #: ../../library/turtle.rst:1123
 msgid ""
-"Make the turtle invisible.  It's a good idea to do this while you're in the "
-"middle of doing some complex drawing, because hiding the turtle speeds up "
-"the drawing observably."
+"Make the turtle invisible.  It's a good idea to do this while you're in "
+"the middle of doing some complex drawing, because hiding the turtle "
+"speeds up the drawing observably."
 msgstr "使海龟不可见。当你绘制复杂图形时这是个好主意，因为隐藏海龟可显著加快绘制速度。"
 
 #: ../../library/turtle.rst:1136
@@ -1320,12 +1299,12 @@ msgstr "一个有效的形状名字符串"
 
 #: ../../library/turtle.rst:1163
 msgid ""
-"Set turtle shape to shape with given *name* or, if name is not given, return"
-" name of current shape.  Shape with *name* must exist in the TurtleScreen's "
-"shape dictionary.  Initially there are the following polygon shapes: "
-"\"arrow\", \"turtle\", \"circle\", \"square\", \"triangle\", \"classic\".  "
-"To learn about how to deal with shapes see Screen method "
-":func:`register_shape`."
+"Set turtle shape to shape with given *name* or, if name is not given, "
+"return name of current shape.  Shape with *name* must exist in the "
+"TurtleScreen's shape dictionary.  Initially there are the following "
+"polygon shapes: \"arrow\", \"turtle\", \"circle\", \"square\", "
+"\"triangle\", \"classic\".  To learn about how to deal with shapes see "
+"Screen method :func:`register_shape`."
 msgstr ""
 "设置海龟形状为 *name* 指定的形状名，如未指定形状名则返回当前的形状名。*name* 指定的形状名应存在于 TurtleScreen 的 "
 "shape 字典中。多边形的形状初始时有以下几种: \"arrow\", \"turtle\", \"circle\", \"square\", "
@@ -1337,17 +1316,17 @@ msgstr "字符串 \"auto\", \"user\", \"noresize\" 其中之一"
 
 #: ../../library/turtle.rst:1183
 msgid ""
-"Set resizemode to one of the values: \"auto\", \"user\", \"noresize\".  If "
-"*rmode* is not given, return current resizemode.  Different resizemodes have"
-" the following effects:"
+"Set resizemode to one of the values: \"auto\", \"user\", \"noresize\".  "
+"If *rmode* is not given, return current resizemode.  Different "
+"resizemodes have the following effects:"
 msgstr ""
 "设置大小调整模式为以下值之一: \"auto\", \"user\", \"noresize\"。如未指定 *rmode* "
 "则返回当前的大小调整模式。不同的大小调整模式的效果如下:"
 
 #: ../../library/turtle.rst:1187
 msgid ""
-"\"auto\": adapts the appearance of the turtle corresponding to the value of "
-"pensize."
+"\"auto\": adapts the appearance of the turtle corresponding to the value "
+"of pensize."
 msgstr "\"auto\": 根据画笔粗细值调整海龟的外观。"
 
 #: ../../library/turtle.rst:1188
@@ -1374,12 +1353,12 @@ msgstr "正数值"
 
 #: ../../library/turtle.rst:1212
 msgid ""
-"Return or set the pen's attributes x/y-stretchfactors and/or outline.  Set "
-"resizemode to \"user\".  If and only if resizemode is set to \"user\", the "
-"turtle will be displayed stretched according to its stretchfactors: "
-"*stretch_wid* is stretchfactor perpendicular to its orientation, "
-"*stretch_len* is stretchfactor in direction of its orientation, *outline* "
-"determines the width of the shapes's outline."
+"Return or set the pen's attributes x/y-stretchfactors and/or outline.  "
+"Set resizemode to \"user\".  If and only if resizemode is set to "
+"\"user\", the turtle will be displayed stretched according to its "
+"stretchfactors: *stretch_wid* is stretchfactor perpendicular to its "
+"orientation, *stretch_len* is stretchfactor in direction of its "
+"orientation, *outline* determines the width of the shapes's outline."
 msgstr ""
 "返回或设置画笔的属性 x/y-拉伸因子和/或轮廓。设置大小调整模式为 \"user\"。当且仅当大小调整模式设为 \"user\" "
 "时海龟会基于其拉伸因子调整外观: *stretch_wid* 为垂直于其朝向的宽度拉伸因子，*stretch_len* "
@@ -1392,26 +1371,26 @@ msgstr "数值 (可选)"
 
 #: ../../library/turtle.rst:1237
 msgid ""
-"Set or return the current shearfactor. Shear the turtleshape according to "
-"the given shearfactor shear, which is the tangent of the shear angle. Do "
-"*not* change the turtle's heading (direction of movement). If shear is not "
-"given: return the current shearfactor, i. e. the tangent of the shear angle,"
-" by which lines parallel to the heading of the turtle are sheared."
+"Set or return the current shearfactor. Shear the turtleshape according to"
+" the given shearfactor shear, which is the tangent of the shear angle. Do"
+" *not* change the turtle's heading (direction of movement). If shear is "
+"not given: return the current shearfactor, i. e. the tangent of the shear"
+" angle, by which lines parallel to the heading of the turtle are sheared."
 msgstr ""
-"设置或返回当前的剪切因子。根据 share 指定的剪切因子即剪切角度的切线来剪切海龟形状。*不* 改变海龟的朝向 (移动方向)。如未指定 shear "
-"参数: 返回当前的剪切因子即剪切角度的切线，与海龟朝向平行的线条将被剪切。"
+"设置或返回当前的剪切因子。根据 share 指定的剪切因子即剪切角度的切线来剪切海龟形状。*不* 改变海龟的朝向 (移动方向)。如未指定 "
+"shear 参数: 返回当前的剪切因子即剪切角度的切线，与海龟朝向平行的线条将被剪切。"
 
 #: ../../library/turtle.rst:1258
 msgid ""
-"Rotate the turtleshape by *angle* from its current tilt-angle, but do *not* "
-"change the turtle's heading (direction of movement)."
+"Rotate the turtleshape by *angle* from its current tilt-angle, but do "
+"*not* change the turtle's heading (direction of movement)."
 msgstr "海龟形状自其当前的倾角转动 *angle* 指定的角度，但 *不* 改变海龟的朝向 (移动方向)。"
 
 #: ../../library/turtle.rst:1277
 msgid ""
 "Rotate the turtleshape to point in the direction specified by *angle*, "
-"regardless of its current tilt-angle.  *Do not* change the turtle's heading "
-"(direction of movement)."
+"regardless of its current tilt-angle.  *Do not* change the turtle's "
+"heading (direction of movement)."
 msgstr "旋转海龟形状使其指向 *angle* 指定的方向，忽略其当前的倾角，*不* 改变海龟的朝向 (移动方向)。"
 
 #: ../../library/turtle.rst:1297 ../../library/turtle.rst:1320
@@ -1423,11 +1402,11 @@ msgstr "一个数值 (可选)"
 #: ../../library/turtle.rst:1299
 msgid ""
 "Set or return the current tilt-angle. If angle is given, rotate the "
-"turtleshape to point in the direction specified by angle, regardless of its "
-"current tilt-angle. Do *not* change the turtle's heading (direction of "
-"movement). If angle is not given: return the current tilt-angle, i. e. the "
-"angle between the orientation of the turtleshape and the heading of the "
-"turtle (its direction of movement)."
+"turtleshape to point in the direction specified by angle, regardless of "
+"its current tilt-angle. Do *not* change the turtle's heading (direction "
+"of movement). If angle is not given: return the current tilt-angle, i. e."
+" the angle between the orientation of the turtleshape and the heading of "
+"the turtle (its direction of movement)."
 msgstr ""
 "设置或返回当前的倾角。如果指定 angle 则旋转海龟形状使其指向 angle 指定的方向，忽略其当前的倾角。*不* 改变海龟的朝向 "
 "(移动方向)。如果未指定 angle: 返回当前的倾角，即海龟形状的方向和海龟朝向 (移动方向) 之间的夹角。"
@@ -1438,12 +1417,12 @@ msgstr "设置或返回海龟形状的当前变形矩阵。"
 
 #: ../../library/turtle.rst:1327
 msgid ""
-"If none of the matrix elements are given, return the transformation matrix "
-"as a tuple of 4 elements. Otherwise set the given elements and transform the"
-" turtleshape according to the matrix consisting of first row t11, t12 and "
-"second row t21, t22. The determinant t11 * t22 - t12 * t21 must not be zero,"
-" otherwise an error is raised. Modify stretchfactor, shearfactor and "
-"tiltangle according to the given matrix."
+"If none of the matrix elements are given, return the transformation "
+"matrix as a tuple of 4 elements. Otherwise set the given elements and "
+"transform the turtleshape according to the matrix consisting of first row"
+" t11, t12 and second row t21, t22. The determinant t11 * t22 - t12 * t21 "
+"must not be zero, otherwise an error is raised. Modify stretchfactor, "
+"shearfactor and tiltangle according to the given matrix."
 msgstr ""
 "如未指定任何矩阵元素，则返回以 4 元素元组表示的变形矩阵。 否则就根据设置指定元素的矩阵来改变海龟形状，矩阵第一排的值为 t11, t12 "
 "而第二排的值为 t21, t22。 行列式 t11 * t22 - t12 * t21 必须不为零，否则会引发错误。 根据指定矩阵修改拉伸因子 "
@@ -1451,15 +1430,15 @@ msgstr ""
 
 #: ../../library/turtle.rst:1349
 msgid ""
-"Return the current shape polygon as tuple of coordinate pairs. This can be "
-"used to define a new shape or components of a compound shape."
+"Return the current shape polygon as tuple of coordinate pairs. This can "
+"be used to define a new shape or components of a compound shape."
 msgstr "返回以坐标值对元组表示的当前形状多边形。这可以用于定义一个新形状或一个复合形状的多个组成部分。"
 
 #: ../../library/turtle.rst:1367 ../../library/turtle.rst:1389
 #: ../../library/turtle.rst:1414 ../../library/turtle.rst:1818
 msgid ""
-"a function with two arguments which will be called with the coordinates of "
-"the clicked point on the canvas"
+"a function with two arguments which will be called with the coordinates "
+"of the clicked point on the canvas"
 msgstr "一个函数，调用时将传入两个参数表示在画布上点击的坐标。"
 
 #: ../../library/turtle.rst:1369 ../../library/turtle.rst:1391
@@ -1470,17 +1449,16 @@ msgstr "鼠标按钮编号，默认值为 1 (鼠标左键)"
 #: ../../library/turtle.rst:1370 ../../library/turtle.rst:1392
 #: ../../library/turtle.rst:1417 ../../library/turtle.rst:1821
 msgid ""
-"``True`` or ``False`` -- if ``True``, a new binding will be added, otherwise"
-" it will replace a former binding"
+"``True`` or ``False`` -- if ``True``, a new binding will be added, "
+"otherwise it will replace a former binding"
 msgstr "``True`` 或 ``False`` -- 如为 ``True`` 则将添加一个新绑定，否则将取代先前的绑定"
 
 #: ../../library/turtle.rst:1373
 msgid ""
 "Bind *fun* to mouse-click events on this turtle.  If *fun* is ``None``, "
-"existing bindings are removed.  Example for the anonymous turtle, i.e. the "
-"procedural way:"
-msgstr ""
-"将 *fun* 指定的函数绑定到鼠标点击此海龟事件。如果 *fun* 值为 ``None``，则移除现有的绑定。以下为使用匿名海龟即过程式的示例:"
+"existing bindings are removed.  Example for the anonymous turtle, i.e. "
+"the procedural way:"
+msgstr "将 *fun* 指定的函数绑定到鼠标点击此海龟事件。如果 *fun* 值为 ``None``，则移除现有的绑定。以下为使用匿名海龟即过程式的示例:"
 
 #: ../../library/turtle.rst:1395
 msgid ""
@@ -1508,14 +1486,14 @@ msgstr "在此之后点击并拖动海龟可在屏幕上手绘线条 (如果画�
 
 #: ../../library/turtle.rst:1440
 msgid ""
-"Start recording the vertices of a polygon.  Current turtle position is first"
-" vertex of polygon."
+"Start recording the vertices of a polygon.  Current turtle position is "
+"first vertex of polygon."
 msgstr "开始记录多边形的顶点。当前海龟位置为多边形的第一个顶点。"
 
 #: ../../library/turtle.rst:1446
 msgid ""
-"Stop recording the vertices of a polygon.  Current turtle position is last "
-"vertex of polygon.  This will be connected with the first vertex."
+"Stop recording the vertices of a polygon.  Current turtle position is "
+"last vertex of polygon.  This will be connected with the first vertex."
 msgstr "停止记录多边形的顶点。当前海龟位置为多边形的最后一个顶点。它将连线到第一个顶点。"
 
 #: ../../library/turtle.rst:1452
@@ -1546,10 +1524,10 @@ msgstr "一个整型数值或 ``None``"
 
 #: ../../library/turtle.rst:1514
 msgid ""
-"Set or disable undobuffer.  If *size* is an integer, an empty undobuffer of "
-"given size is installed.  *size* gives the maximum number of turtle actions "
-"that can be undone by the :func:`undo` method/function.  If *size* is "
-"``None``, the undobuffer is disabled."
+"Set or disable undobuffer.  If *size* is an integer, an empty undobuffer "
+"of given size is installed.  *size* gives the maximum number of turtle "
+"actions that can be undone by the :func:`undo` method/function.  If "
+"*size* is ``None``, the undobuffer is disabled."
 msgstr ""
 "设置或禁用撤销缓冲区。 如果 *size* 为整数，则开辟一个给定大小的空撤销缓冲区。 *size* 给出了可以通过 :func:`undo` "
 "方法/函数撤销海龟动作的最大次数。  如果 *size* 为 ``None``，则禁用撤销缓冲区。"
@@ -1565,8 +1543,8 @@ msgstr "复合形状"
 #: ../../library/turtle.rst:1542
 msgid ""
 "To use compound turtle shapes, which consist of several polygons of "
-"different color, you must use the helper class :class:`Shape` explicitly as "
-"described below:"
+"different color, you must use the helper class :class:`Shape` explicitly "
+"as described below:"
 msgstr "要使用由多个不同颜色多边形构成的复合海龟形状，你必须明确地使用辅助类 :class:`Shape`，具体步骤如下:"
 
 #: ../../library/turtle.rst:1546
@@ -1589,9 +1567,9 @@ msgstr "接下来将 Shape 对象添加到 Screen 对象的形状列表并使用
 
 #: ../../library/turtle.rst:1572
 msgid ""
-"The :class:`Shape` class is used internally by the :func:`register_shape` "
-"method in different ways.  The application programmer has to deal with the "
-"Shape class *only* when using compound shapes like shown above!"
+"The :class:`Shape` class is used internally by the :func:`register_shape`"
+" method in different ways.  The application programmer has to deal with "
+"the Shape class *only* when using compound shapes like shown above!"
 msgstr ""
 ":class:`Shape` 类在 :func:`register_shape` 方法的内部以多种方式使用。应用程序编写者 *只有* "
 "在使用上述的复合形状时才需要处理 Shape 类。"
@@ -1602,14 +1580,14 @@ msgstr "TurtleScreen/Screen 方法及对应函数"
 
 #: ../../library/turtle.rst:1580
 msgid ""
-"Most of the examples in this section refer to a TurtleScreen instance called"
-" ``screen``."
+"Most of the examples in this section refer to a TurtleScreen instance "
+"called ``screen``."
 msgstr "本节中的大部分示例都使用 TurtleScreen 类的一个实例，命名为 ``screen``。"
 
 #: ../../library/turtle.rst:1594
 msgid ""
-"a color string or three numbers in the range 0..colormode or a 3-tuple of "
-"such numbers"
+"a color string or three numbers in the range 0..colormode or a 3-tuple of"
+" such numbers"
 msgstr "一个颜色字符串或三个取值范围 0..colormode 内的数值或一个取值范围相同的数值3元组"
 
 #: ../../library/turtle.rst:1598
@@ -1625,36 +1603,36 @@ msgid ""
 "Set background image or return name of current backgroundimage.  If "
 "*picname* is a filename, set the corresponding image as background.  If "
 "*picname* is ``\"nopic\"``, delete background image, if present.  If "
-"*picname* is ``None``, return the filename of the current backgroundimage. "
-"::"
+"*picname* is ``None``, return the filename of the current "
+"backgroundimage. ::"
 msgstr ""
 "设置背景图片或返回当前背景图片名称。如果 *picname* 为一个文件名，则将相应图片设为背景。如果 *picname* 为 "
 "``\"nopic\"``，则删除当前背景图片。如果 *picname* 为 ``None``，则返回当前背景图片文件名。::"
 
 #: ../../library/turtle.rst:1631
 msgid ""
-"This TurtleScreen method is available as a global function only under the "
-"name ``clearscreen``.  The global function ``clear`` is a different one "
+"This TurtleScreen method is available as a global function only under the"
+" name ``clearscreen``.  The global function ``clear`` is a different one "
 "derived from the Turtle method ``clear``."
 msgstr ""
-"此 TurtleScreen 方法作为全局函数时只有一个名字 ``clearscreen``。全局函数 ``clear`` 所对应的是 Turtle "
-"方法 ``clear``。"
+"此 TurtleScreen 方法作为全局函数时只有一个名字 ``clearscreen``。全局函数 ``clear`` 所对应的是 "
+"Turtle 方法 ``clear``。"
 
 #: ../../library/turtle.rst:1638
 msgid ""
-"Delete all drawings and all turtles from the TurtleScreen.  Reset the now "
-"empty TurtleScreen to its initial state: white background, no background "
-"image, no event bindings and tracing on."
+"Delete all drawings and all turtles from the TurtleScreen.  Reset the now"
+" empty TurtleScreen to its initial state: white background, no background"
+" image, no event bindings and tracing on."
 msgstr "从中删除所有海龟的全部绘图。将已清空的 TurtleScreen 重置为初始状态: 白色背景，无背景片，无事件绑定并启用追踪。"
 
 #: ../../library/turtle.rst:1647
 msgid ""
-"This TurtleScreen method is available as a global function only under the "
-"name ``resetscreen``.  The global function ``reset`` is another one derived "
-"from the Turtle method ``reset``."
+"This TurtleScreen method is available as a global function only under the"
+" name ``resetscreen``.  The global function ``reset`` is another one "
+"derived from the Turtle method ``reset``."
 msgstr ""
-"此 TurtleScreen 方法作为全局函数时只有一个名字 ``resetscreen``。全局函数 ``reset`` 所对应的是 Turtle "
-"方法 ``reset``。"
+"此 TurtleScreen 方法作为全局函数时只有一个名字 ``resetscreen``。全局函数 ``reset`` 所对应的是 "
+"Turtle 方法 ``reset``。"
 
 #: ../../library/turtle.rst:1654
 msgid "Reset all Turtles on the Screen to their initial state."
@@ -1674,11 +1652,11 @@ msgstr "颜色字符串或颜色元组，新的背景颜色"
 
 #: ../../library/turtle.rst:1663
 msgid ""
-"If no arguments are given, return current (canvaswidth, canvasheight).  Else"
-" resize the canvas the turtles are drawing on.  Do not alter the drawing "
-"window.  To observe hidden parts of the canvas, use the scrollbars. With "
-"this method, one can make visible those parts of a drawing which were "
-"outside the canvas before."
+"If no arguments are given, return current (canvaswidth, canvasheight).  "
+"Else resize the canvas the turtles are drawing on.  Do not alter the "
+"drawing window.  To observe hidden parts of the canvas, use the "
+"scrollbars. With this method, one can make visible those parts of a "
+"drawing which were outside the canvas before."
 msgstr ""
 "如未指定任何参数，则返回当前的 (canvaswidth, "
 "canvasheight)。否则改变作为海龟绘图场所的画布大小。不改变绘图窗口。要观察画布的隐藏区域，可以使用滚动条。通过此方法可以令之前绘制于画布之外的图形变为可见。"
@@ -1707,7 +1685,8 @@ msgstr "一个数值, 画布右上角的 y-坐标"
 msgid ""
 "Set up user-defined coordinate system and switch to mode \"world\" if "
 "necessary.  This performs a ``screen.reset()``.  If mode \"world\" is "
-"already active, all drawings are redrawn according to the new coordinates."
+"already active, all drawings are redrawn according to the new "
+"coordinates."
 msgstr ""
 "设置用户自定义坐标系并在必要时切换模式为 \"world\"。这会执行一次 ``screen.reset()``。如果 \"world\" "
 "模式已激活，则所有图形将根据新的坐标系重绘。"
@@ -1724,9 +1703,9 @@ msgstr "正整型数"
 
 #: ../../library/turtle.rst:1719
 msgid ""
-"Set or return the drawing *delay* in milliseconds.  (This is approximately "
-"the time interval between two consecutive canvas updates.)  The longer the "
-"drawing delay, the slower the animation."
+"Set or return the drawing *delay* in milliseconds.  (This is "
+"approximately the time interval between two consecutive canvas updates.)"
+"  The longer the drawing delay, the slower the animation."
 msgstr "设置或返回以毫秒数表示的延迟值 *delay*。(这约等于连续两次画布刷新的间隔时间。) 绘图延迟越长，动画速度越慢。"
 
 #: ../../library/turtle.rst:1723
@@ -1739,11 +1718,11 @@ msgstr "非负整型数"
 
 #: ../../library/turtle.rst:1740
 msgid ""
-"Turn turtle animation on/off and set delay for update drawings.  If *n* is "
-"given, only each n-th regular screen update is really performed.  (Can be "
-"used to accelerate the drawing of complex graphics.)  When called without "
-"arguments, returns the currently stored value of n. Second argument sets "
-"delay value (see :func:`delay`)."
+"Turn turtle animation on/off and set delay for update drawings.  If *n* "
+"is given, only each n-th regular screen update is really performed.  (Can"
+" be used to accelerate the drawing of complex graphics.)  When called "
+"without arguments, returns the currently stored value of n. Second "
+"argument sets delay value (see :func:`delay`)."
 msgstr ""
 "启用/禁用海龟动画并设置刷新图形的延迟时间。如果指定 *n* 值，则只有每第 n 次屏幕刷新会实际执行。(可被用来加速复杂图形的绘制。) "
 "如果调用时不带参数，则返回当前保存的 n 值。第二个参数设置延迟值 (参见 :func:`delay`)。"
@@ -1758,12 +1737,12 @@ msgstr "另参见 RawTurtle/Turtle 方法 :func:`speed`。"
 
 #: ../../library/turtle.rst:1770
 msgid ""
-"Set focus on TurtleScreen (in order to collect key-events).  Dummy arguments"
-" are provided in order to be able to pass :func:`listen` to the onclick "
-"method."
+"Set focus on TurtleScreen (in order to collect key-events).  Dummy "
+"arguments are provided in order to be able to pass :func:`listen` to the "
+"onclick method."
 msgstr ""
-"设置焦点到 TurtleScreen (以便接收按键事件)。使用两个 Dummy 参数以便能够传递 :func:`listen` 给 onclick "
-"方法。"
+"设置焦点到 TurtleScreen (以便接收按键事件)。使用两个 Dummy 参数以便能够传递 :func:`listen` 给 "
+"onclick 方法。"
 
 #: ../../library/turtle.rst:1777 ../../library/turtle.rst:1797
 msgid "a function with no arguments or ``None``"
@@ -1776,17 +1755,17 @@ msgstr "一个字符串: 键 (例如 \"a\") 或键标 (例如 \"space\")"
 #: ../../library/turtle.rst:1780
 msgid ""
 "Bind *fun* to key-release event of key.  If *fun* is ``None``, event "
-"bindings are removed. Remark: in order to be able to register key-events, "
-"TurtleScreen must have the focus. (See method :func:`listen`.)"
+"bindings are removed. Remark: in order to be able to register key-events,"
+" TurtleScreen must have the focus. (See method :func:`listen`.)"
 msgstr ""
 "绑定 *fun* 指定的函数到按键释放事件。如果 *fun* 值为 ``None``，则移除事件绑定。注: "
 "为了能够注册按键事件，TurtleScreen 必须得到焦点。(参见 method :func:`listen` 方法。)"
 
 #: ../../library/turtle.rst:1800
 msgid ""
-"Bind *fun* to key-press event of key if key is given, or to any key-press-"
-"event if no key is given. Remark: in order to be able to register key-"
-"events, TurtleScreen must have focus. (See method :func:`listen`.)"
+"Bind *fun* to key-press event of key if key is given, or to any key-"
+"press-event if no key is given. Remark: in order to be able to register "
+"key-events, TurtleScreen must have focus. (See method :func:`listen`.)"
 msgstr ""
 "绑定 *fun* 指定的函数到指定键的按下事件。如未指定键则绑定到任意键的按下事件。注: 为了能够注册按键事件，必须得到焦点。(参见 "
 ":func:`listen` 方法。)"
@@ -1799,14 +1778,14 @@ msgstr "绑定 *fun* 指定的函数到鼠标点击屏幕事件。如果 *fun* �
 
 #: ../../library/turtle.rst:1827
 msgid ""
-"Example for a TurtleScreen instance named ``screen`` and a Turtle instance "
-"named ``turtle``:"
+"Example for a TurtleScreen instance named ``screen`` and a Turtle "
+"instance named ``turtle``:"
 msgstr "以下示例使用一个 TurtleScreen 实例 ``screen`` 和一个 Turtle 实例 ``turtle``:"
 
 #: ../../library/turtle.rst:1838
 msgid ""
-"This TurtleScreen method is available as a global function only under the "
-"name ``onscreenclick``.  The global function ``onclick`` is another one "
+"This TurtleScreen method is available as a global function only under the"
+" name ``onscreenclick``.  The global function ``onclick`` is another one "
 "derived from the Turtle method ``onclick``."
 msgstr ""
 "此 TurtleScreen 方法作为全局函数时只有一个名字 ``onscreenclick``。全局函数 ``onclick`` 所对应的是 "
@@ -1826,13 +1805,13 @@ msgstr "安装一个计时器，在 *t* 毫秒后调用 *fun* 函数。"
 
 #: ../../library/turtle.rst:1866
 msgid ""
-"Starts event loop - calling Tkinter's mainloop function. Must be the last "
-"statement in a turtle graphics program. Must *not* be used if a script is "
-"run from within IDLE in -n mode (No subprocess) - for interactive use of "
-"turtle graphics. ::"
+"Starts event loop - calling Tkinter's mainloop function. Must be the last"
+" statement in a turtle graphics program. Must *not* be used if a script "
+"is run from within IDLE in -n mode (No subprocess) - for interactive use "
+"of turtle graphics. ::"
 msgstr ""
-"开始事件循环 - 调用 Tkinter 的 mainloop 函数。必须作为一个海龟绘图程序的结束语句。如果一个脚本是在以 -n 模式 (无子进程) "
-"启动的 IDLE 中运行时 *不可* 使用 - 用于实现海龟绘图的交互功能。::"
+"开始事件循环 - 调用 Tkinter 的 mainloop 函数。必须作为一个海龟绘图程序的结束语句。如果一个脚本是在以 -n 模式 "
+"(无子进程) 启动的 IDLE 中运行时 *不可* 使用 - 用于实现海龟绘图的交互功能。::"
 
 #: ../../library/turtle.rst:1879 ../../library/turtle.rst:1880
 #: ../../library/turtle.rst:1892 ../../library/turtle.rst:1893
@@ -1841,10 +1820,10 @@ msgstr "string"
 
 #: ../../library/turtle.rst:1882
 msgid ""
-"Pop up a dialog window for input of a string. Parameter title is the title "
-"of the dialog window, prompt is a text mostly describing what information to"
-" input. Return the string input. If the dialog is canceled, return ``None``."
-" ::"
+"Pop up a dialog window for input of a string. Parameter title is the "
+"title of the dialog window, prompt is a text mostly describing what "
+"information to input. Return the string input. If the dialog is canceled,"
+" return ``None``. ::"
 msgstr ""
 "弹出一个对话框窗口用来输入一个字符串。形参 title 为对话框窗口的标题，prompt "
 "为一条文本，通常用来提示要输入什么信息。返回输入的字符串。如果对话框被取消则返回 ``None``。::"
@@ -1852,15 +1831,15 @@ msgstr ""
 #: ../../library/turtle.rst:1898
 msgid ""
 "Pop up a dialog window for input of a number. title is the title of the "
-"dialog window, prompt is a text mostly describing what numerical information"
-" to input. default: default value, minval: minimum value for input, maxval: "
-"maximum value for input The number input must be in the range minval .. "
-"maxval if these are given. If not, a hint is issued and the dialog remains "
-"open for correction. Return the number input. If the dialog is canceled,  "
-"return ``None``. ::"
+"dialog window, prompt is a text mostly describing what numerical "
+"information to input. default: default value, minval: minimum value for "
+"input, maxval: maximum value for input The number input must be in the "
+"range minval .. maxval if these are given. If not, a hint is issued and "
+"the dialog remains open for correction. Return the number input. If the "
+"dialog is canceled,  return ``None``. ::"
 msgstr ""
-"弹出一个对话框窗口用来输入一个数值。title 为对话框窗口的标题，prompt 为一条文本，通常用来描述要输入的数值信息。default: 默认值, "
-"minval: 可输入的最小值, maxval: 可输入的最大值。输入数值的必须在指定的 minval .. maxval "
+"弹出一个对话框窗口用来输入一个数值。title 为对话框窗口的标题，prompt 为一条文本，通常用来描述要输入的数值信息。default: "
+"默认值, minval: 可输入的最小值, maxval: 可输入的最大值。输入数值的必须在指定的 minval .. maxval "
 "范围之内，否则将给出一条提示，对话框保持打开等待修改。返回输入的数值。如果对话框被取消则返回 ``None``。::"
 
 #: ../../library/turtle.rst:1915
@@ -1869,19 +1848,19 @@ msgstr "字符串 \"standard\", \"logo\" 或 \"world\" 其中之一"
 
 #: ../../library/turtle.rst:1917
 msgid ""
-"Set turtle mode (\"standard\", \"logo\" or \"world\") and perform reset.  If"
-" mode is not given, current mode is returned."
+"Set turtle mode (\"standard\", \"logo\" or \"world\") and perform reset."
+"  If mode is not given, current mode is returned."
 msgstr "设置海龟模式 (\"standard\", \"logo\" 或 \"world\") 并执行重置。如未指定模式则返回当前的模式。"
 
 #: ../../library/turtle.rst:1920
 msgid ""
-"Mode \"standard\" is compatible with old :mod:`turtle`.  Mode \"logo\" is "
-"compatible with most Logo turtle graphics.  Mode \"world\" uses user-defined"
-" \"world coordinates\". **Attention**: in this mode angles appear distorted "
-"if ``x/y`` unit-ratio doesn't equal 1."
+"Mode \"standard\" is compatible with old :mod:`turtle`.  Mode \"logo\" is"
+" compatible with most Logo turtle graphics.  Mode \"world\" uses user-"
+"defined \"world coordinates\". **Attention**: in this mode angles appear "
+"distorted if ``x/y`` unit-ratio doesn't equal 1."
 msgstr ""
-"\"standard\" 模式与旧的 :mod:`turtle` 兼容。\"logo\" 模式与大部分 Logo 海龟绘图兼容。\"world\" "
-"模式使用用户自定义的 \"世界坐标系\"。**注意**: 在此模式下，如果 ``x/y`` 单位比率不等于 1 则角度会显得扭曲。"
+"\"standard\" 模式与旧的 :mod:`turtle` 兼容。\"logo\" 模式与大部分 Logo 海龟绘图兼容。\"world\""
+" 模式使用用户自定义的 \"世界坐标系\"。**注意**: 在此模式下，如果 ``x/y`` 单位比率不等于 1 则角度会显得扭曲。"
 
 #: ../../library/turtle.rst:1926
 msgid "Mode"
@@ -1925,14 +1904,14 @@ msgstr "数值 1.0 或 255 其中之一"
 
 #: ../../library/turtle.rst:1944
 msgid ""
-"Return the colormode or set it to 1.0 or 255.  Subsequently *r*, *g*, *b* "
-"values of color triples have to be in the range 0..\\ *cmode*."
+"Return the colormode or set it to 1.0 or 255.  Subsequently *r*, *g*, *b*"
+" values of color triples have to be in the range 0..\\ *cmode*."
 msgstr "返回颜色模式或将其设为 1.0 或 255。构成颜色三元组的 *r*, *g*, *b* 数值必须在 0..\\ *cmode* 范围之内。"
 
 #: ../../library/turtle.rst:1965
 msgid ""
-"Return the Canvas of this TurtleScreen.  Useful for insiders who know what "
-"to do with a Tkinter Canvas."
+"Return the Canvas of this TurtleScreen.  Useful for insiders who know "
+"what to do with a Tkinter Canvas."
 msgstr "返回此 TurtleScreen 的 Canvas 对象。供了解 Tkinter 的 Canvas 对象内部机理的人士使用。"
 
 #: ../../library/turtle.rst:1978
@@ -1951,8 +1930,8 @@ msgstr "*name* 为一个 gif 文件的文件名， *shape* 为 ``None``: 安装�
 
 #: ../../library/turtle.rst:1998
 msgid ""
-"Image shapes *do not* rotate when turning the turtle, so they do not display"
-" the heading of the turtle!"
+"Image shapes *do not* rotate when turning the turtle, so they do not "
+"display the heading of the turtle!"
 msgstr "当海龟转向时图像形状 *不会* 转动，因此无法显示海龟的朝向!"
 
 #: ../../library/turtle.rst:2001
@@ -1971,8 +1950,7 @@ msgstr "*name* 为指定的字符串， 为一个 (复合) :class:`Shape` 类对
 msgid ""
 "Add a turtle shape to TurtleScreen's shapelist.  Only thusly registered "
 "shapes can be used by issuing the command ``shape(shapename)``."
-msgstr ""
-"将一个海龟形状加入 TurtleScreen 的形状列表。只有这样注册过的形状才能通过执行 ``shape(shapename)`` 命令来使用。"
+msgstr "将一个海龟形状加入 TurtleScreen 的形状列表。只有这样注册过的形状才能通过执行 ``shape(shapename)`` 命令来使用。"
 
 #: ../../library/turtle.rst:2018
 msgid "Return the list of turtles on the screen."
@@ -2003,8 +1981,8 @@ msgid ""
 "If the value \"using_IDLE\" in the configuration dictionary is ``False`` "
 "(default value), also enter mainloop.  Remark: If IDLE with the ``-n`` "
 "switch (no subprocess) is used, this value should be set to ``True`` in "
-":file:`turtle.cfg`.  In this case IDLE's own mainloop is active also for the"
-" client script."
+":file:`turtle.cfg`.  In this case IDLE's own mainloop is active also for "
+"the client script."
 msgstr ""
 "如果配置字典中 \"using_IDLE\" 的值为 ``False`` (默认值) 则同时进入主事件循环。注: 如果启动 IDLE 时使用了 "
 "``-n`` 开关 (无子进程)，:file:`turtle.cfg` 中此数值应设为 ``True``。在此情况下 IDLE "
@@ -2012,33 +1990,36 @@ msgstr ""
 
 #: ../../library/turtle.rst:2067
 msgid ""
-"Set the size and position of the main window.  Default values of arguments "
-"are stored in the configuration dictionary and can be changed via a "
-":file:`turtle.cfg` file."
+"Set the size and position of the main window.  Default values of "
+"arguments are stored in the configuration dictionary and can be changed "
+"via a :file:`turtle.cfg` file."
 msgstr "设置主窗口的大小和位置。默认参数值保存在配置字典中，可通过 :file:`turtle.cfg` 文件进行修改。"
 
 #: ../../library/turtle.rst:2071
+#, python-format
 msgid ""
 "if an integer, a size in pixels, if a float, a fraction of the screen; "
 "default is 50% of screen"
 msgstr "如为一个整型数值，表示大小为多少像素，如为一个浮点数值，则表示屏幕的占比；默认为屏幕的 50%"
 
 #: ../../library/turtle.rst:2073
+#, python-format
 msgid ""
-"if an integer, the height in pixels, if a float, a fraction of the screen; "
-"default is 75% of screen"
+"if an integer, the height in pixels, if a float, a fraction of the "
+"screen; default is 75% of screen"
 msgstr "如为一个整型数值，表示高度为多少像素，如为一个浮点数值，则表示屏幕的占比；默认为屏幕的 75%"
 
 #: ../../library/turtle.rst:2075
 msgid ""
-"if positive, starting position in pixels from the left edge of the screen, "
-"if negative from the right edge, if ``None``, center window horizontally"
+"if positive, starting position in pixels from the left edge of the "
+"screen, if negative from the right edge, if ``None``, center window "
+"horizontally"
 msgstr "如为正值，表示初始位置距离屏幕左边缘多少像素，负值表示距离右边缘，``None`` 表示窗口水平居中"
 
 #: ../../library/turtle.rst:2078
 msgid ""
-"if positive, starting position in pixels from the top edge of the screen, if"
-" negative from the bottom edge, if ``None``, center window vertically"
+"if positive, starting position in pixels from the top edge of the screen,"
+" if negative from the bottom edge, if ``None``, center window vertically"
 msgstr "如为正值，表示初始位置距离屏幕上边缘多少像素，负值表示距离下边缘，``None`` 表示窗口垂直居中"
 
 #: ../../library/turtle.rst:2093
@@ -2058,19 +2039,20 @@ msgid ""
 "a :class:`tkinter.Canvas`, a :class:`ScrolledCanvas` or a "
 ":class:`TurtleScreen`"
 msgstr ""
-"一个 :class:`tkinter.Canvas` , :class:`ScrolledCanvas` 或 :class:`TurtleScreen`"
-" 类对象"
+"一个 :class:`tkinter.Canvas` , :class:`ScrolledCanvas` 或 "
+":class:`TurtleScreen` 类对象"
 
 #: ../../library/turtle.rst:2114
 msgid ""
-"Create a turtle.  The turtle has all methods described above as \"methods of"
-" Turtle/RawTurtle\"."
+"Create a turtle.  The turtle has all methods described above as \"methods"
+" of Turtle/RawTurtle\"."
 msgstr "创建一个海龟。海龟对象具有 \"Turtle/RawTurtle 方法\" 一节所述的全部方法。"
 
 #: ../../library/turtle.rst:2120
 msgid ""
 "Subclass of RawTurtle, has the same interface but draws on a default "
-":class:`Screen` object created automatically when needed for the first time."
+":class:`Screen` object created automatically when needed for the first "
+"time."
 msgstr "RawTurtle 的子类，具有相同的接口，但其绘图场所为默认的 :class:`Screen` 类对象，在首次使用时自动创建。"
 
 #: ../../library/turtle.rst:2126
@@ -2079,13 +2061,12 @@ msgstr "一个 :class:`tkinter.Canvas` 类对象"
 
 #: ../../library/turtle.rst:2128
 msgid ""
-"Provides screen oriented methods like :func:`setbg` etc. that are described "
-"above."
+"Provides screen oriented methods like :func:`setbg` etc. that are "
+"described above."
 msgstr "提供面向屏幕的方法例如 :func:`setbg` 等。说明见上文。"
 
 #: ../../library/turtle.rst:2133
-msgid ""
-"Subclass of TurtleScreen, with :ref:`four methods added <screenspecific>`."
+msgid "Subclass of TurtleScreen, with :ref:`four methods added <screenspecific>`."
 msgstr "TurtleScreen 的子类，:ref:`增加了四个方法 <screenspecific>`."
 
 #: ../../library/turtle.rst:2138
@@ -2096,8 +2077,8 @@ msgstr "可容纳 ScrolledCanvas 的 Tkinter 部件，即添加了滚动条的 T
 
 #: ../../library/turtle.rst:2141
 msgid ""
-"Used by class Screen, which thus automatically provides a ScrolledCanvas as "
-"playground for the turtles."
+"Used by class Screen, which thus automatically provides a ScrolledCanvas "
+"as playground for the turtles."
 msgstr "由 Screen 类使用，使其能够自动提供一个 ScrolledCanvas 作为海龟的绘图场所。"
 
 #: ../../library/turtle.rst:2146
@@ -2106,8 +2087,8 @@ msgstr "字符串 \"polygon\", \"image\", \"compound\" 其中之一"
 
 #: ../../library/turtle.rst:2148
 msgid ""
-"Data structure modeling shapes.  The pair ``(type_, data)`` must follow this"
-" specification:"
+"Data structure modeling shapes.  The pair ``(type_, data)`` must follow "
+"this specification:"
 msgstr "实现形状的数据结构。``(type_, data)`` 必须遵循以下定义:"
 
 #: ../../library/turtle.rst:2153
@@ -2167,8 +2148,8 @@ msgstr "参见 :ref:`compoundshapes`。"
 #: ../../library/turtle.rst:2182
 msgid ""
 "A two-dimensional vector class, used as a helper class for implementing "
-"turtle graphics.  May be useful for turtle graphics programs too.  Derived "
-"from tuple, so a vector is a tuple!"
+"turtle graphics.  May be useful for turtle graphics programs too.  "
+"Derived from tuple, so a vector is a tuple!"
 msgstr "一个二维矢量类，用来作为实现海龟绘图的辅助类。也可能在海龟绘图程序中使用。派生自元组，因此矢量也属于元组!"
 
 #: ../../library/turtle.rst:2186
@@ -2242,9 +2223,9 @@ msgstr "文档字符串翻译为不同的语言"
 
 #: ../../library/turtle.rst:2281
 msgid ""
-"There is a utility to create a dictionary the keys of which are the method "
-"names and the values of which are the docstrings of the public methods of "
-"the classes Screen and Turtle."
+"There is a utility to create a dictionary the keys of which are the "
+"method names and the values of which are the docstrings of the public "
+"methods of the classes Screen and Turtle."
 msgstr "可使用工具创建一个字典，键为方法名，值为 Screen 和 Turtle 类公共方法的文档字符串。"
 
 #: ../../library/turtle.rst:2287
@@ -2254,10 +2235,10 @@ msgstr "一个字符串，表示文件名"
 #: ../../library/turtle.rst:2289
 msgid ""
 "Create and write docstring-dictionary to a Python script with the given "
-"filename.  This function has to be called explicitly (it is not used by the "
-"turtle graphics classes).  The docstring dictionary will be written to the "
-"Python script :file:`{filename}.py`.  It is intended to serve as a template "
-"for translation of the docstrings into different languages."
+"filename.  This function has to be called explicitly (it is not used by "
+"the turtle graphics classes).  The docstring dictionary will be written "
+"to the Python script :file:`{filename}.py`.  It is intended to serve as a"
+" template for translation of the docstrings into different languages."
 msgstr ""
 "创建文档字符串字典并将其写入 filename 指定的 Python 脚本文件。此函数必须显示地调用 "
 "(海龟绘图类并不使用此函数)。文档字符串字典将被写入到 Python 脚本文件 "
@@ -2265,8 +2246,8 @@ msgstr ""
 
 #: ../../library/turtle.rst:2295
 msgid ""
-"If you (or your students) want to use :mod:`turtle` with online help in your"
-" native language, you have to translate the docstrings and save the "
+"If you (or your students) want to use :mod:`turtle` with online help in "
+"your native language, you have to translate the docstrings and save the "
 "resulting file as e.g. :file:`turtle_docstringdict_german.py`."
 msgstr ""
 "如果你 (或你的学生) 想使用本国语言版本的 :mod:`turtle` 在线帮助，你必须翻译文档字符串并保存结果文件，例如 "
@@ -2281,8 +2262,8 @@ msgstr "如果你在 :file:`turtle.cfg` 文件中加入了相应的条目，此�
 
 #: ../../library/turtle.rst:2302
 msgid ""
-"At the time of this writing there are docstring dictionaries in German and "
-"in Italian.  (Requests please to glingl@aon.at.)"
+"At the time of this writing there are docstring dictionaries in German "
+"and in Italian.  (Requests please to glingl@aon.at.)"
 msgstr "在撰写本文档时已经有了德语和意大利语版的文档字符串字典。(更多需求请联系 glingl@aon.at)"
 
 #: ../../library/turtle.rst:2308
@@ -2291,25 +2272,24 @@ msgstr "如何配置 Screen 和 Turtle"
 
 #: ../../library/turtle.rst:2310
 msgid ""
-"The built-in default configuration mimics the appearance and behaviour of "
-"the old turtle module in order to retain best possible compatibility with "
-"it."
+"The built-in default configuration mimics the appearance and behaviour of"
+" the old turtle module in order to retain best possible compatibility "
+"with it."
 msgstr "内置的默认配置是模仿旧 turtle 模块的外观和行为，以便尽可能地与其保持兼容。"
 
 #: ../../library/turtle.rst:2313
 msgid ""
 "If you want to use a different configuration which better reflects the "
-"features of this module or which better fits to your needs, e.g. for use in "
-"a classroom, you can prepare a configuration file ``turtle.cfg`` which will "
-"be read at import time and modify the configuration according to its "
-"settings."
+"features of this module or which better fits to your needs, e.g. for use "
+"in a classroom, you can prepare a configuration file ``turtle.cfg`` which"
+" will be read at import time and modify the configuration according to "
+"its settings."
 msgstr ""
 "如果你想使用不同的配置，以便更好地反映此模块的特性或是更适合你的需求，例如在课堂中使用，你可以准备一个配置文件 "
 "``turtle.cfg``，该文件将在导入模块时被读取并根据其中的设定修改模块配置。"
 
 #: ../../library/turtle.rst:2318
-msgid ""
-"The built in configuration would correspond to the following turtle.cfg::"
+msgid "The built in configuration would correspond to the following turtle.cfg::"
 msgstr "内置的配置对应以下的 turtle.cfg::"
 
 #: ../../library/turtle.rst:2341
@@ -2318,8 +2298,8 @@ msgstr "选定条目的简短说明:"
 
 #: ../../library/turtle.rst:2343
 msgid ""
-"The first four lines correspond to the arguments of the :meth:`Screen.setup`"
-" method."
+"The first four lines correspond to the arguments of the "
+":meth:`Screen.setup` method."
 msgstr "开头的四行对应 :meth:`Screen.setup` 方法的参数。"
 
 #: ../../library/turtle.rst:2345
@@ -2336,31 +2316,31 @@ msgstr "*shape* 可以是任何内置形状，即: arrow, turtle 等。更多信
 
 #: ../../library/turtle.rst:2349
 msgid ""
-"If you want to use no fillcolor (i.e. make the turtle transparent), you have"
-" to write ``fillcolor = \"\"`` (but all nonempty strings must not have "
-"quotes in the cfg-file)."
+"If you want to use no fillcolor (i.e. make the turtle transparent), you "
+"have to write ``fillcolor = \"\"`` (but all nonempty strings must not "
+"have quotes in the cfg-file)."
 msgstr "如果你想使用无填充色 (即令海龟变透明)，你必须写 ``fillcolor = \"\"`` (但 cfg 文件中所有非空字符串都不可加引号)。"
 
 #: ../../library/turtle.rst:2352
 msgid ""
-"If you want to reflect the turtle its state, you have to use ``resizemode = "
-"auto``."
+"If you want to reflect the turtle its state, you have to use ``resizemode"
+" = auto``."
 msgstr "如果你想令海龟反映其状态，你必须使用 ``resizemode = auto``。"
 
 #: ../../library/turtle.rst:2354
 msgid ""
 "If you set e.g. ``language = italian`` the docstringdict "
-":file:`turtle_docstringdict_italian.py` will be loaded at import time (if "
-"present on the import path, e.g. in the same directory as :mod:`turtle`."
+":file:`turtle_docstringdict_italian.py` will be loaded at import time (if"
+" present on the import path, e.g. in the same directory as :mod:`turtle`."
 msgstr ""
 "如果你设置语言例如 ``language = italian`` 则文档字符串字典 "
-":file:`turtle_docstringdict_italian.py` 将在导入模块时被加载 (如果导入路径即 :mod:`turtle` "
-"的目录中存在此文件。"
+":file:`turtle_docstringdict_italian.py` 将在导入模块时被加载 (如果导入路径即 :mod:`turtle`"
+" 的目录中存在此文件。"
 
 #: ../../library/turtle.rst:2357
 msgid ""
-"The entries *exampleturtle* and *examplescreen* define the names of these "
-"objects as they occur in the docstrings.  The transformation of method-"
+"The entries *exampleturtle* and *examplescreen* define the names of these"
+" objects as they occur in the docstrings.  The transformation of method-"
 "docstrings to function-docstrings will delete these names from the "
 "docstrings."
 msgstr ""
@@ -2369,26 +2349,27 @@ msgstr ""
 
 #: ../../library/turtle.rst:2361
 msgid ""
-"*using_IDLE*: Set this to ``True`` if you regularly work with IDLE and its "
-"-n switch (\"no subprocess\").  This will prevent :func:`exitonclick` to "
-"enter the mainloop."
+"*using_IDLE*: Set this to ``True`` if you regularly work with IDLE and "
+"its -n switch (\"no subprocess\").  This will prevent :func:`exitonclick`"
+" to enter the mainloop."
 msgstr ""
 "*using_IDLE*: 如果你经常使用 IDLE 并启用其 -n 开关 (\"无子进程\") 则应将此项设为 ``True``，这将阻止 "
 ":func:`exitonclick` 进入主事件循环。"
 
 #: ../../library/turtle.rst:2365
 msgid ""
-"There can be a :file:`turtle.cfg` file in the directory where :mod:`turtle` "
-"is stored and an additional one in the current working directory.  The "
-"latter will override the settings of the first one."
+"There can be a :file:`turtle.cfg` file in the directory where "
+":mod:`turtle` is stored and an additional one in the current working "
+"directory.  The latter will override the settings of the first one."
 msgstr ""
-":file:`turtle.cfg` 文件可以保存于 :mod:`turtle` 所在目录，当前工作目录也可以有一个同名文件。后者会重载覆盖前者的设置。"
+":file:`turtle.cfg` 文件可以保存于 :mod:`turtle` "
+"所在目录，当前工作目录也可以有一个同名文件。后者会重载覆盖前者的设置。"
 
 #: ../../library/turtle.rst:2369
 msgid ""
-"The :file:`Lib/turtledemo` directory contains a :file:`turtle.cfg` file.  "
-"You can study it as an example and see its effects when running the demos "
-"(preferably not from within the demo-viewer)."
+"The :file:`Lib/turtledemo` directory contains a :file:`turtle.cfg` file."
+"  You can study it as an example and see its effects when running the "
+"demos (preferably not from within the demo-viewer)."
 msgstr ""
 ":file:`Lib/turtledemo` 目录中也有一个 :file:`turtle.cfg` "
 "文件。你可以将其作为示例进行研究，并在运行演示时查看其作用效果 (但最好不要在演示查看器中运行)。"
@@ -2399,13 +2380,12 @@ msgstr ":mod:`turtledemo` --- 演示脚本集"
 
 #: ../../library/turtle.rst:2380
 msgid ""
-"The :mod:`turtledemo` package includes a set of demo scripts.  These scripts"
-" can be run and viewed using the supplied demo viewer as follows::"
+"The :mod:`turtledemo` package includes a set of demo scripts.  These "
+"scripts can be run and viewed using the supplied demo viewer as follows::"
 msgstr ":mod:`turtledemo` 包汇集了一组演示脚本。这些脚本可以通过以下命令打开所提供的演示查看器运行和查看::"
 
 #: ../../library/turtle.rst:2385
-msgid ""
-"Alternatively, you can run the demo scripts individually.  For example, ::"
+msgid "Alternatively, you can run the demo scripts individually.  For example, ::"
 msgstr "此外，你也可以单独运行其中的演示脚本。例如，::"
 
 #: ../../library/turtle.rst:2389
@@ -2414,21 +2394,21 @@ msgstr ":mod:`turtledemo` 包目录中的内容:"
 
 #: ../../library/turtle.rst:2391
 msgid ""
-"A demo viewer :file:`__main__.py` which can be used to view the sourcecode "
-"of the scripts and run them at the same time."
+"A demo viewer :file:`__main__.py` which can be used to view the "
+"sourcecode of the scripts and run them at the same time."
 msgstr "一个演示查看器 :file:`__main__.py`，可用来查看脚本的源码并即时运行。"
 
 #: ../../library/turtle.rst:2393
 msgid ""
 "Multiple scripts demonstrating different features of the :mod:`turtle` "
-"module.  Examples can be accessed via the Examples menu.  They can also be "
-"run standalone."
+"module.  Examples can be accessed via the Examples menu.  They can also "
+"be run standalone."
 msgstr "多个脚本文件，演示 :mod:`turtle` 模块的不同特性。所有示例可通过 Examples 菜单打开。也可以单独运行每个脚本。"
 
 #: ../../library/turtle.rst:2396
 msgid ""
-"A :file:`turtle.cfg` file which serves as an example of how to write and use"
-" such files."
+"A :file:`turtle.cfg` file which serves as an example of how to write and "
+"use such files."
 msgstr "一个 :file:`turtle.cfg` 文件，作为说明如何编写并使用模块配置文件的示例模板。"
 
 #: ../../library/turtle.rst:2399
@@ -2465,8 +2445,8 @@ msgstr "chaos"
 
 #: ../../library/turtle.rst:2409
 msgid ""
-"graphs Verhulst dynamics, shows that computer's computations can generate "
-"results sometimes against the common sense expectations"
+"graphs Verhulst dynamics, shows that computer's computations can generate"
+" results sometimes against the common sense expectations"
 msgstr "绘制 Verhulst 动态模型，演示通过计算机的运算可能会生成令人惊叹的结果"
 
 #: ../../library/turtle.rst:2409
@@ -2547,7 +2527,8 @@ msgstr "nim"
 
 #: ../../library/turtle.rst:2431
 msgid ""
-"play the classical nim game with three heaps of sticks against the computer."
+"play the classical nim game with three heaps of sticks against the "
+"computer."
 msgstr "玩经典的“尼姆”游戏，开始时有三堆小棒，与电脑对战。"
 
 #: ../../library/turtle.rst:2431
@@ -2669,11 +2650,11 @@ msgstr "Python 2.6 之后的变化"
 #: ../../library/turtle.rst:2472
 msgid ""
 "The methods :meth:`Turtle.tracer`, :meth:`Turtle.window_width` and "
-":meth:`Turtle.window_height` have been eliminated. Methods with these names "
-"and functionality are now available only as methods of :class:`Screen`. The "
-"functions derived from these remain available. (In fact already in Python "
-"2.6 these methods were merely duplications of the corresponding "
-":class:`TurtleScreen`/:class:`Screen`-methods.)"
+":meth:`Turtle.window_height` have been eliminated. Methods with these "
+"names and functionality are now available only as methods of "
+":class:`Screen`. The functions derived from these remain available. (In "
+"fact already in Python 2.6 these methods were merely duplications of the "
+"corresponding :class:`TurtleScreen`/:class:`Screen`-methods.)"
 msgstr ""
 ":meth:`Turtle.tracer`, :meth:`Turtle.window_width` 和 "
 ":meth:`Turtle.window_height` 方法已被去除。具有这些名称和功能的方法现在只限于 :class:`Screen` "
@@ -2683,17 +2664,18 @@ msgstr ""
 #: ../../library/turtle.rst:2480
 msgid ""
 "The method :meth:`Turtle.fill` has been eliminated. The behaviour of "
-":meth:`begin_fill` and :meth:`end_fill` have changed slightly: now  every "
-"filling-process must be completed with an ``end_fill()`` call."
+":meth:`begin_fill` and :meth:`end_fill` have changed slightly: now  every"
+" filling-process must be completed with an ``end_fill()`` call."
 msgstr ""
-":meth:`Turtle.fill` 方法已被去除。:meth:`begin_fill` 和 :meth:`end_fill` 的行为则有细微改变: "
-"现在每个填充过程必须以一个 ``end_fill()`` 调用来结束。"
+":meth:`Turtle.fill` 方法已被去除。:meth:`begin_fill` 和 :meth:`end_fill` "
+"的行为则有细微改变: 现在每个填充过程必须以一个 ``end_fill()`` 调用来结束。"
 
 #: ../../library/turtle.rst:2485
 msgid ""
-"A method :meth:`Turtle.filling` has been added. It returns a boolean value: "
-"``True`` if a filling process is under way, ``False`` otherwise. This "
-"behaviour corresponds to a ``fill()`` call without arguments in Python 2.6."
+"A method :meth:`Turtle.filling` has been added. It returns a boolean "
+"value: ``True`` if a filling process is under way, ``False`` otherwise. "
+"This behaviour corresponds to a ``fill()`` call without arguments in "
+"Python 2.6."
 msgstr ""
 "新增了一个 :meth:`Turtle.filling` 方法。该方法返回一个布尔值: 如果填充过程正在进行为 ``True``，否则为 "
 "``False``。此行为相当于 Python 2.6 中不带参数的 ``fill()`` 调用。"
@@ -2704,12 +2686,12 @@ msgstr "Python 3.0 之后的变化"
 
 #: ../../library/turtle.rst:2493
 msgid ""
-"The methods :meth:`Turtle.shearfactor`, :meth:`Turtle.shapetransform` and "
-":meth:`Turtle.get_shapepoly` have been added. Thus the full range of regular"
-" linear transforms is now available for transforming turtle shapes. "
-":meth:`Turtle.tiltangle` has been enhanced in functionality: it now can be "
-"used to get or set the tiltangle. :meth:`Turtle.settiltangle` has been "
-"deprecated."
+"The methods :meth:`Turtle.shearfactor`, :meth:`Turtle.shapetransform` and"
+" :meth:`Turtle.get_shapepoly` have been added. Thus the full range of "
+"regular linear transforms is now available for transforming turtle "
+"shapes. :meth:`Turtle.tiltangle` has been enhanced in functionality: it "
+"now can be used to get or set the tiltangle. :meth:`Turtle.settiltangle` "
+"has been deprecated."
 msgstr ""
 "新增了 :meth:`Turtle.shearfactor`, :meth:`Turtle.shapetransform` 和 "
 ":meth:`Turtle.get_shapepoly` "
@@ -2719,8 +2701,8 @@ msgstr ""
 #: ../../library/turtle.rst:2500
 msgid ""
 "The method :meth:`Screen.onkeypress` has been added as a complement to "
-":meth:`Screen.onkey` which in fact binds actions to the keyrelease event. "
-"Accordingly the latter has got an alias: :meth:`Screen.onkeyrelease`."
+":meth:`Screen.onkey` which in fact binds actions to the keyrelease event."
+" Accordingly the latter has got an alias: :meth:`Screen.onkeyrelease`."
 msgstr ""
 "新增了 :meth:`Screen.onkeypress` 方法作为对 :meth:`Screen.onkey` 的补充，实际就是将行为绑定到 "
 "keyrelease 事件。后者相应增加了一个别名: :meth:`Screen.onkeyrelease`。"
@@ -2737,16 +2719,20 @@ msgstr ""
 #: ../../library/turtle.rst:2508
 msgid ""
 "Two input methods has been added :meth:`Screen.textinput` and "
-":meth:`Screen.numinput`. These popup input dialogs and return strings and "
-"numbers respectively."
+":meth:`Screen.numinput`. These popup input dialogs and return strings and"
+" numbers respectively."
 msgstr ""
 "新增了两个方法 :meth:`Screen.textinput` 和 "
 ":meth:`Screen.numinput`。用来弹出对话框接受输入并分别返回字符串和数值。"
 
 #: ../../library/turtle.rst:2512
 msgid ""
-"Two example scripts :file:`tdemo_nim.py` and :file:`tdemo_round_dance.py` "
-"have been added to the :file:`Lib/turtledemo` directory."
+"Two example scripts :file:`tdemo_nim.py` and :file:`tdemo_round_dance.py`"
+" have been added to the :file:`Lib/turtledemo` directory."
 msgstr ""
 "两个新的示例脚本 :file:`tdemo_nim.py` 和 :file:`tdemo_round_dance.py` 被加入到 "
 ":file:`Lib/turtledemo` 目录中。"
+
+#~ msgid "Parameters"
+#~ msgstr "参数"
+

@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # Shengjing Zhu <zsj950618@gmail.com>, 2021
 # ppcfish <ppcfish@gmail.com>, 2021
 # Iterator <xicheng.li@ucdconnect.ie>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 13:07+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:07+0000\n"
 "Last-Translator: Iterator <xicheng.li@ucdconnect.ie>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../library/idle.rst:4
 msgid "IDLE"
@@ -49,8 +50,8 @@ msgstr "跨平台：在 Windows、Unix 和 macOS 上工作近似。"
 
 #: ../../library/idle.rst:25
 msgid ""
-"Python shell window (interactive interpreter) with colorizing of code input,"
-" output, and error messages"
+"Python shell window (interactive interpreter) with colorizing of code "
+"input, output, and error messages"
 msgstr "提供输入输出高亮和错误信息的 Python 命令行窗口 （交互解释器） "
 
 #: ../../library/idle.rst:28
@@ -61,14 +62,14 @@ msgstr "提供多次撤销操作、Python 语法高亮、智能缩进、函数�
 
 #: ../../library/idle.rst:31
 msgid ""
-"search within any window, replace within editor windows, and search through "
-"multiple files (grep)"
+"search within any window, replace within editor windows, and search "
+"through multiple files (grep)"
 msgstr "在多个窗口中检索，在编辑器中替换文本，以及在多个文件中检索（通过 grep）"
 
 #: ../../library/idle.rst:34
 msgid ""
-"debugger with persistent breakpoints, stepping, and viewing of global and "
-"local namespaces"
+"debugger with persistent breakpoints, stepping, and viewing of global and"
+" local namespaces"
 msgstr "提供持久保存的断点调试、单步调试、查看本地和全局命名空间功能的调试器"
 
 #: ../../library/idle.rst:37
@@ -81,10 +82,10 @@ msgstr "目录"
 
 #: ../../library/idle.rst:42
 msgid ""
-"IDLE has two main window types, the Shell window and the Editor window.  It "
-"is possible to have multiple editor windows simultaneously.  On Windows and "
-"Linux, each has its own top menu.  Each menu documented below indicates "
-"which window type it is associated with."
+"IDLE has two main window types, the Shell window and the Editor window.  "
+"It is possible to have multiple editor windows simultaneously.  On "
+"Windows and Linux, each has its own top menu.  Each menu documented below"
+" indicates which window type it is associated with."
 msgstr ""
 "IDEL 有两种主要的窗口类型：Shell窗口和编辑器窗口。其中编辑器窗口可以同时打开多个。并且对于 Windows 和 Linux "
 "平台，窗口顶部主菜单各不相同。以下每个菜单说明项，都标识了与之关联的平台类型。"
@@ -98,11 +99,11 @@ msgstr "导出窗口，例如使用 编辑=>在文件中查找 是编辑器窗�
 
 #: ../../library/idle.rst:51
 msgid ""
-"On macOS, there is one application menu.  It dynamically changes according "
-"to the window currently selected.  It has an IDLE menu, and some entries "
-"described below are moved around to conform to Apple guidelines."
-msgstr ""
-"在macOS上，只有一个应用程序菜单。它会根据当前选择的窗口动态变化。它具有一个IDLE菜单，并且下面描述的某些条目已移动到符合Apple准则的位置。"
+"On macOS, there is one application menu.  It dynamically changes "
+"according to the window currently selected.  It has an IDLE menu, and "
+"some entries described below are moved around to conform to Apple "
+"guidelines."
+msgstr "在macOS上，只有一个应用程序菜单。它会根据当前选择的窗口动态变化。它具有一个IDLE菜单，并且下面描述的某些条目已移动到符合Apple准则的位置。"
 
 #: ../../library/idle.rst:56
 msgid "File menu (Shell and Editor)"
@@ -146,8 +147,8 @@ msgstr "类浏览器"
 
 #: ../../library/idle.rst:75
 msgid ""
-"Show functions, classes, and methods in the current Editor file in a tree "
-"structure.  In the shell, open a module first."
+"Show functions, classes, and methods in the current Editor file in a tree"
+" structure.  In the shell, open a module first."
 msgstr "于当前所编辑的文件中使用树形结构展示函数、类以及方法。在命令行中，首先打开一个模块。"
 
 #: ../../library/idle.rst:80
@@ -156,8 +157,8 @@ msgstr "路径浏览"
 
 #: ../../library/idle.rst:79
 msgid ""
-"Show sys.path directories, modules, functions, classes and methods in a tree"
-" structure."
+"Show sys.path directories, modules, functions, classes and methods in a "
+"tree structure."
 msgstr "在树状结构中展示 sys.path 目录、模块、函数、类和方法。"
 
 #: ../../library/idle.rst:86
@@ -166,10 +167,10 @@ msgstr "保存"
 
 #: ../../library/idle.rst:83
 msgid ""
-"Save the current window to the associated file, if there is one.  Windows "
-"that have been changed since being opened or last saved have a \\* before "
-"and after the window title.  If there is no associated file, do Save As "
-"instead."
+"Save the current window to the associated file, if there is one.  Windows"
+" that have been changed since being opened or last saved have a \\* "
+"before and after the window title.  If there is no associated file, do "
+"Save As instead."
 msgstr ""
 "如果文件已经存在，则将当前窗口保存至对应的文件。自打开或上次保存之后经过修改的文件的窗口标题栏首尾将出现星号 \\* "
 "。如果没有对应的文件，则使用“另存为”代替。 "
@@ -180,8 +181,8 @@ msgstr "保存为..."
 
 #: ../../library/idle.rst:89
 msgid ""
-"Save the current window with a Save As dialog.  The file saved becomes the "
-"new associated file for the window."
+"Save the current window with a Save As dialog.  The file saved becomes "
+"the new associated file for the window."
 msgstr "使用“保存为”对话框保存当前窗口。被保存的文件将作为当前窗口新的对应文件。"
 
 #: ../../library/idle.rst:94
@@ -190,8 +191,8 @@ msgstr "另存为副本..."
 
 #: ../../library/idle.rst:93
 msgid ""
-"Save the current window to different file without changing the associated "
-"file."
+"Save the current window to different file without changing the associated"
+" file."
 msgstr "保存当前窗口至另一个文件，而不修改当前对应文件。"
 
 #: ../../library/idle.rst:97
@@ -228,8 +229,8 @@ msgstr "撤销操作"
 
 #: ../../library/idle.rst:109
 msgid ""
-"Undo the last change to the current window.  A maximum of 1000 changes may "
-"be undone."
+"Undo the last change to the current window.  A maximum of 1000 changes "
+"may be undone."
 msgstr "撤销当前窗口的最近一次操作。最高可以撤回 1000 条操作记录。"
 
 #: ../../library/idle.rst:113
@@ -245,8 +246,7 @@ msgid "Cut"
 msgstr "剪切"
 
 #: ../../library/idle.rst:116 ../../library/idle.rst:365
-msgid ""
-"Copy selection into the system-wide clipboard; then delete the selection."
+msgid "Copy selection into the system-wide clipboard; then delete the selection."
 msgstr "复制选区至系统剪贴板，然后删除选区。"
 
 #: ../../library/idle.rst:119 ../../library/idle.rst:368
@@ -323,8 +323,8 @@ msgstr "前往行"
 
 #: ../../library/idle.rst:145
 msgid ""
-"Move the cursor to the beginning of the line requested and make that line "
-"visible.  A request past the end of the file goes to the end. Clear any "
+"Move the cursor to the beginning of the line requested and make that line"
+" visible.  A request past the end of the file goes to the end. Clear any "
 "selection and update the line and column status."
 msgstr ""
 
@@ -356,10 +356,9 @@ msgstr "显示调用贴士"
 #: ../../library/idle.rst:158
 msgid ""
 "After an unclosed parenthesis for a function, open a small window with "
-"function parameter hints.  See :ref:`Calltips <calltips>` in the Editing and"
-" navigation section below."
-msgstr ""
-"在函数的右括号后，打开一个带有函数参数提示的小窗口。请参阅下面的“编辑和导航”部分中的 :ref:`Calltips <calltips>` 。"
+"function parameter hints.  See :ref:`Calltips <calltips>` in the Editing "
+"and navigation section below."
+msgstr "在函数的右括号后，打开一个带有函数参数提示的小窗口。请参阅下面的“编辑和导航”部分中的 :ref:`Calltips <calltips>` 。"
 
 #: ../../library/idle.rst:163
 msgid "Show surrounding parens"
@@ -411,8 +410,8 @@ msgstr "制表符化"
 
 #: ../../library/idle.rst:183
 msgid ""
-"Turn *leading* stretches of spaces into tabs. (Note: We recommend using 4 "
-"space blocks to indent Python code.)"
+"Turn *leading* stretches of spaces into tabs. (Note: We recommend using 4"
+" space blocks to indent Python code.)"
 msgstr "将 *前导* 空格变成制表符。 （注意：我们建议使用4个空格来缩进Python代码。）"
 
 #: ../../library/idle.rst:187
@@ -448,8 +447,9 @@ msgstr "格式段落"
 #: ../../library/idle.rst:197
 msgid ""
 "Reformat the current blank-line-delimited paragraph in comment block or "
-"multiline string or selected line in a string.  All lines in the paragraph "
-"will be formatted to less than N columns, where N defaults to 72."
+"multiline string or selected line in a string.  All lines in the "
+"paragraph will be formatted to less than N columns, where N defaults to "
+"72."
 msgstr "在注释块或多行字符串或字符串中的选定行中，重新格式化当前以空行分隔的段落。段落中的所有行的格式都将少于N列，其中N默认为72。"
 
 #: ../../library/idle.rst:205
@@ -460,8 +460,8 @@ msgstr "删除尾随空格"
 msgid ""
 "Remove trailing space and other whitespace characters after the last non-"
 "whitespace character of a line by applying str.rstrip to each line, "
-"including lines within multiline strings.  Except for Shell windows, remove "
-"extra newlines at the end of the file."
+"including lines within multiline strings.  Except for Shell windows, "
+"remove extra newlines at the end of the file."
 msgstr ""
 "通过将 str.rstrip "
 "应用于每行（包括多行字符串中的行），删除行尾非空白字符之后的尾随空格和其他空白字符。除Shell窗口外，在文件末尾删除多余的换行符。"
@@ -476,15 +476,16 @@ msgstr "运行模块"
 
 #: ../../library/idle.rst:216
 msgid ""
-"Do :ref:`Check Module <check-module>`.  If no error, restart the shell to "
-"clean the environment, then execute the module.  Output is displayed in the "
-"Shell window.  Note that output requires use of ``print`` or ``write``. When"
-" execution is complete, the Shell retains focus and displays a prompt. At "
-"this point, one may interactively explore the result of execution. This is "
-"similar to executing a file with ``python -i file`` at a command line."
+"Do :ref:`Check Module <check-module>`.  If no error, restart the shell to"
+" clean the environment, then execute the module.  Output is displayed in "
+"the Shell window.  Note that output requires use of ``print`` or "
+"``write``. When execution is complete, the Shell retains focus and "
+"displays a prompt. At this point, one may interactively explore the "
+"result of execution. This is similar to executing a file with ``python -i"
+" file`` at a command line."
 msgstr ""
-"执行 :ref:`检查模块 <check-module>` 。如果没有错误，重新启动 shell 以清理环境，然后执行模块。输出显示在 shell "
-"窗口中。请注意，输出需要使用 “打印” 或 “写入”。执行完成后，Shell "
+"执行 :ref:`检查模块 <check-module>` 。如果没有错误，重新启动 shell 以清理环境，然后执行模块。输出显示在 shell"
+" 窗口中。请注意，输出需要使用 “打印” 或 “写入”。执行完成后，Shell "
 "将保留焦点并显示提示。此时，可以交互地探索执行的结果。这类似于在命令行执行带有 ``python -i file`` 的文件。"
 
 #: ../../library/idle.rst:229
@@ -493,9 +494,10 @@ msgstr "运行... 定制"
 
 #: ../../library/idle.rst:227
 msgid ""
-"Same as :ref:`Run Module <run-module>`, but run the module with customized "
-"settings.  *Command Line Arguments* extend :data:`sys.argv` as if passed on "
-"a command line. The module can be run in the Shell without restarting."
+"Same as :ref:`Run Module <run-module>`, but run the module with "
+"customized settings.  *Command Line Arguments* extend :data:`sys.argv` as"
+" if passed on a command line. The module can be run in the Shell without "
+"restarting."
 msgstr ""
 "与 :ref:`运行模块 <run-module>` 相同，但使用自定义设置运行该模块。*命令行参数* 扩展 :data:`sys.argv` "
 "，就像在命令行上传递一样。该模块可以在命令行管理程序中运行，而无需重新启动。"
@@ -506,11 +508,11 @@ msgstr "检查模块"
 
 #: ../../library/idle.rst:234
 msgid ""
-"Check the syntax of the module currently open in the Editor window. If the "
-"module has not been saved IDLE will either prompt the user to save or "
-"autosave, as selected in the General tab of the Idle Settings dialog.  If "
-"there is a syntax error, the approximate location is indicated in the Editor"
-" window."
+"Check the syntax of the module currently open in the Editor window. If "
+"the module has not been saved IDLE will either prompt the user to save or"
+" autosave, as selected in the General tab of the Idle Settings dialog.  "
+"If there is a syntax error, the approximate location is indicated in the "
+"Editor window."
 msgstr ""
 "检查 “编辑器” 窗口中当前打开的模块的语法。如果尚未保存该模块，则 IDLE会提示用户保存或自动保存，如在 “空闲设置” 对话框的 “常规” "
 "选项卡中所选择的那样。如果存在语法错误，则会在 “编辑器” 窗口中指示大概位置。"
@@ -541,8 +543,8 @@ msgstr "重启Shell"
 
 #: ../../library/idle.rst:253
 msgid ""
-"Restart the shell to clean the environment and reset display and exception "
-"handling."
+"Restart the shell to clean the environment and reset display and "
+"exception handling."
 msgstr "重启 shell 以清理环境，重置显示和异常处理。"
 
 #: ../../library/idle.rst:256
@@ -550,8 +552,7 @@ msgid "Previous History"
 msgstr "上一条历史记录"
 
 #: ../../library/idle.rst:256
-msgid ""
-"Cycle through earlier commands in history which match the current entry."
+msgid "Cycle through earlier commands in history which match the current entry."
 msgstr "循环浏览历史记录中与当前条目匹配的早期命令。"
 
 #: ../../library/idle.rst:259
@@ -580,11 +581,11 @@ msgstr "跳转到文件/行"
 
 #: ../../library/idle.rst:268
 msgid ""
-"Look on the current line. with the cursor, and the line above for a filename"
-" and line number.  If found, open the file if not already open, and show the"
-" line.  Use this to view source lines referenced in an exception traceback "
-"and lines found by Find in Files. Also available in the context menu of the "
-"Shell window and Output windows."
+"Look on the current line. with the cursor, and the line above for a "
+"filename and line number.  If found, open the file if not already open, "
+"and show the line.  Use this to view source lines referenced in an "
+"exception traceback and lines found by Find in Files. Also available in "
+"the context menu of the Shell window and Output windows."
 msgstr ""
 
 #: ../../library/idle.rst:281
@@ -594,8 +595,9 @@ msgstr "调试器（切换）"
 #: ../../library/idle.rst:279
 msgid ""
 "When activated, code entered in the Shell or run from an Editor will run "
-"under the debugger.  In the Editor, breakpoints can be set with the context "
-"menu.  This feature is still incomplete and somewhat experimental."
+"under the debugger.  In the Editor, breakpoints can be set with the "
+"context menu.  This feature is still incomplete and somewhat "
+"experimental."
 msgstr "激活后，在Shell中输入的代码或从编辑器中运行的代码将在调试器下运行。在编辑器中，可以使用上下文菜单设置断点。此功能不完整，具有实验性。"
 
 #: ../../library/idle.rst:285
@@ -604,8 +606,8 @@ msgstr "堆栈查看器"
 
 #: ../../library/idle.rst:284
 msgid ""
-"Show the stack traceback of the last exception in a tree widget, with access"
-" to locals and globals."
+"Show the stack traceback of the last exception in a tree widget, with "
+"access to locals and globals."
 msgstr "在树状目录中显示最后一个异常的堆栈回溯，可以访问本地和全局。"
 
 #: ../../library/idle.rst:288
@@ -613,8 +615,7 @@ msgid "Auto-open Stack Viewer"
 msgstr "自动打开堆栈查看器"
 
 #: ../../library/idle.rst:288
-msgid ""
-"Toggle automatically opening the stack viewer on an unhandled exception."
+msgid "Toggle automatically opening the stack viewer on an unhandled exception."
 msgstr "在未处理的异常上切换自动打开堆栈查看器。"
 
 #: ../../library/idle.rst:291
@@ -627,19 +628,20 @@ msgstr "配置 IDLE"
 
 #: ../../library/idle.rst:294
 msgid ""
-"Open a configuration dialog and change preferences for the following: fonts,"
-" indentation, keybindings, text color themes, startup windows and size, "
-"additional help sources, and extensions.  On macOS, open the configuration "
-"dialog by selecting Preferences in the application menu. For more details, "
-"see :ref:`Setting preferences <preferences>` under Help and preferences."
+"Open a configuration dialog and change preferences for the following: "
+"fonts, indentation, keybindings, text color themes, startup windows and "
+"size, additional help sources, and extensions.  On macOS, open the "
+"configuration dialog by selecting Preferences in the application menu. "
+"For more details, see :ref:`Setting preferences <preferences>` under Help"
+" and preferences."
 msgstr ""
 "打开配置对话框并更改以下各项的首选项：字体、缩进、键绑定、文本颜色主题、启动窗口和大小、其他帮助源和扩展名。在MacOS上，通过在应用程序菜单中选择首选项来打开配置对话框。有关详细信息，请参阅：帮助和首选项下的"
 " :ref:`首选项设置 <preferences>`。"
 
 #: ../../library/idle.rst:301
 msgid ""
-"Most configuration options apply to all windows or all future windows. The "
-"option items below only apply to the active window."
+"Most configuration options apply to all windows or all future windows. "
+"The option items below only apply to the active window."
 msgstr "大多数配置选项适用于所有窗口或将来的所有窗口。以下选项仅适用于活动窗口。"
 
 #: ../../library/idle.rst:308
@@ -648,9 +650,10 @@ msgstr "显示/隐藏代码上下文（仅 window 编辑器）"
 
 #: ../../library/idle.rst:305
 msgid ""
-"Open a pane at the top of the edit window which shows the block context of "
-"the code which has scrolled above the top of the window.  See :ref:`Code "
-"Context <code-context>` in the Editing and Navigation section below."
+"Open a pane at the top of the edit window which shows the block context "
+"of the code which has scrolled above the top of the window.  See "
+":ref:`Code Context <code-context>` in the Editing and Navigation section "
+"below."
 msgstr ""
 
 #: ../../library/idle.rst:313
@@ -659,9 +662,9 @@ msgstr "显示/隐藏行号（仅 window 编辑器）"
 
 #: ../../library/idle.rst:311
 msgid ""
-"Open a column to the left of the edit window which shows the number of each "
-"line of text.  The default is off, which may be changed in the preferences "
-"(see :ref:`Setting preferences <preferences>`)."
+"Open a column to the left of the edit window which shows the number of "
+"each line of text.  The default is off, which may be changed in the "
+"preferences (see :ref:`Setting preferences <preferences>`)."
 msgstr ""
 
 #: ../../library/idle.rst:321
@@ -670,12 +673,12 @@ msgstr "缩放/还原高度"
 
 #: ../../library/idle.rst:316
 msgid ""
-"Toggles the window between normal size and maximum height. The initial size "
-"defaults to 40 lines by 80 chars unless changed on the General tab of the "
-"Configure IDLE dialog.  The maximum height for a screen is determined by "
-"momentarily maximizing a window the first time one is zoomed on the screen. "
-"Changing screen settings may invalidate the saved height.  This toggle has "
-"no effect when a window is maximized."
+"Toggles the window between normal size and maximum height. The initial "
+"size defaults to 40 lines by 80 chars unless changed on the General tab "
+"of the Configure IDLE dialog.  The maximum height for a screen is "
+"determined by momentarily maximizing a window the first time one is "
+"zoomed on the screen. Changing screen settings may invalidate the saved "
+"height.  This toggle has no effect when a window is maximized."
 msgstr ""
 
 #: ../../library/idle.rst:324
@@ -706,8 +709,8 @@ msgstr "IDLE 帮助"
 
 #: ../../library/idle.rst:336
 msgid ""
-"Display this IDLE document, detailing the menu options, basic editing and "
-"navigation, and other tips."
+"Display this IDLE document, detailing the menu options, basic editing and"
+" navigation, and other tips."
 msgstr "显示此 IDLE 文档，详细介绍菜单选项，基本编辑和导航以及其他技巧。"
 
 #: ../../library/idle.rst:341
@@ -716,8 +719,8 @@ msgstr "Python 文档"
 
 #: ../../library/idle.rst:340
 msgid ""
-"Access local Python documentation, if installed, or start a web browser and "
-"open docs.python.org showing the latest Python documentation."
+"Access local Python documentation, if installed, or start a web browser "
+"and open docs.python.org showing the latest Python documentation."
 msgstr "访问本地Python文档（如果已安装），或启动Web浏览器并打开docs.python.org显示最新的Python文档。"
 
 #: ../../library/idle.rst:344
@@ -725,18 +728,17 @@ msgid "Turtle Demo"
 msgstr "海龟演示"
 
 #: ../../library/idle.rst:344
-msgid ""
-"Run the turtledemo module with example Python code and turtle drawings."
+msgid "Run the turtledemo module with example Python code and turtle drawings."
 msgstr "使用示例 Python 代码运行 turtledemo 模块和海龟绘图"
 
 #: ../../library/idle.rst:346
 msgid ""
 "Additional help sources may be added here with the Configure IDLE dialog "
-"under the General tab. See the :ref:`Help sources <help-sources>` subsection"
-" below for more on Help menu choices."
+"under the General tab. See the :ref:`Help sources <help-sources>` "
+"subsection below for more on Help menu choices."
 msgstr ""
-"可以在 “常规” 选项卡下的 “配置IDLE” 对话框中添加其他帮助源。有关“帮助”菜单选项的更多信息，请参见下面的 :ref:`帮助源 <help-"
-"sources>` 小节。"
+"可以在 “常规” 选项卡下的 “配置IDLE” 对话框中添加其他帮助源。有关“帮助”菜单选项的更多信息，请参见下面的 :ref:`帮助源 "
+"<help-sources>` 小节。"
 
 #: ../../library/idle.rst:359
 msgid "Context Menus"
@@ -744,16 +746,17 @@ msgstr "上下文菜单"
 
 #: ../../library/idle.rst:361
 msgid ""
-"Open a context menu by right-clicking in a window (Control-click on macOS). "
-"Context menus have the standard clipboard functions also on the Edit menu."
+"Open a context menu by right-clicking in a window (Control-click on "
+"macOS). Context menus have the standard clipboard functions also on the "
+"Edit menu."
 msgstr ""
 
 #: ../../library/idle.rst:373
 msgid ""
-"Editor windows also have breakpoint functions.  Lines with a breakpoint set "
-"are specially marked.  Breakpoints only have an effect when running under "
-"the debugger.  Breakpoints for a file are saved in the user's ``.idlerc`` "
-"directory."
+"Editor windows also have breakpoint functions.  Lines with a breakpoint "
+"set are specially marked.  Breakpoints only have an effect when running "
+"under the debugger.  Breakpoints for a file are saved in the user's "
+"``.idlerc`` directory."
 msgstr ""
 
 #: ../../library/idle.rst:379
@@ -810,23 +813,23 @@ msgstr "编辑窗口"
 
 #: ../../library/idle.rst:405
 msgid ""
-"IDLE may open editor windows when it starts, depending on settings and how "
-"you start IDLE.  Thereafter, use the File menu.  There can be only one open "
-"editor window for a given file."
+"IDLE may open editor windows when it starts, depending on settings and "
+"how you start IDLE.  Thereafter, use the File menu.  There can be only "
+"one open editor window for a given file."
 msgstr ""
 
 #: ../../library/idle.rst:409
 msgid ""
-"The title bar contains the name of the file, the full path, and the version "
-"of Python and IDLE running the window.  The status bar contains the line "
-"number ('Ln') and column number ('Col').  Line numbers start with 1; column "
-"numbers with 0."
+"The title bar contains the name of the file, the full path, and the "
+"version of Python and IDLE running the window.  The status bar contains "
+"the line number ('Ln') and column number ('Col').  Line numbers start "
+"with 1; column numbers with 0."
 msgstr ""
 
 #: ../../library/idle.rst:414
 msgid ""
-"IDLE assumes that files with a known .py* extension contain Python code and "
-"that other files do not.  Run Python code with the Run menu."
+"IDLE assumes that files with a known .py* extension contain Python code "
+"and that other files do not.  Run Python code with the Run menu."
 msgstr ""
 
 #: ../../library/idle.rst:418
@@ -835,18 +838,18 @@ msgstr "按键绑定"
 
 #: ../../library/idle.rst:420
 msgid ""
-"In this section, 'C' refers to the :kbd:`Control` key on Windows and Unix "
-"and the :kbd:`Command` key on macOS."
+"In this section, 'C' refers to the :kbd:`Control` key on Windows and Unix"
+" and the :kbd:`Command` key on macOS."
 msgstr ""
-"在本节中，'C' 是指 Windows 和 Unix 上的 :kbd:`Control` 键，以及 macOS 上的 :kbd:`Command` 键。"
+"在本节中，'C' 是指 Windows 和 Unix 上的 :kbd:`Control` 键，以及 macOS 上的 :kbd:`Command`"
+" 键。"
 
 #: ../../library/idle.rst:423
 msgid ":kbd:`Backspace` deletes to the left; :kbd:`Del` deletes to the right"
 msgstr ":kbd:`Backspace` 向左删除; :kbd:`Del` 向右删除"
 
 #: ../../library/idle.rst:425
-msgid ""
-":kbd:`C-Backspace` delete word left; :kbd:`C-Del` delete word to the right"
+msgid ":kbd:`C-Backspace` delete word left; :kbd:`C-Del` delete word to the right"
 msgstr ":kbd:`C-Backspace` 向左删除单词; :kbd:`C-Del` 向右删除单词"
 
 #: ../../library/idle.rst:427
@@ -887,19 +890,20 @@ msgstr ""
 
 #: ../../library/idle.rst:445
 msgid ""
-":kbd:`C-b` go backward one character without deleting (usually you can also "
-"use the cursor key for this)"
+":kbd:`C-b` go backward one character without deleting (usually you can "
+"also use the cursor key for this)"
 msgstr ""
 
 #: ../../library/idle.rst:448
 msgid ""
-":kbd:`C-f` go forward one character without deleting (usually you can also "
-"use the cursor key for this)"
+":kbd:`C-f` go forward one character without deleting (usually you can "
+"also use the cursor key for this)"
 msgstr ""
 
 #: ../../library/idle.rst:451
 msgid ""
-":kbd:`C-p` go up one line (usually you can also use the cursor key for this)"
+":kbd:`C-p` go up one line (usually you can also use the cursor key for "
+"this)"
 msgstr ""
 
 #: ../../library/idle.rst:454
@@ -908,8 +912,8 @@ msgstr ":kbd:`C-d` 删除下一个字符"
 
 #: ../../library/idle.rst:456
 msgid ""
-"Standard keybindings (like :kbd:`C-c` to copy and :kbd:`C-v` to paste) may "
-"work.  Keybindings are selected in the Configure IDLE dialog."
+"Standard keybindings (like :kbd:`C-c` to copy and :kbd:`C-v` to paste) "
+"may work.  Keybindings are selected in the Configure IDLE dialog."
 msgstr ""
 
 #: ../../library/idle.rst:460
@@ -918,18 +922,19 @@ msgstr "自动缩进"
 
 #: ../../library/idle.rst:462
 msgid ""
-"After a block-opening statement, the next line is indented by 4 spaces (in "
-"the Python Shell window by one tab).  After certain keywords (break, return "
-"etc.) the next line is dedented.  In leading indentation, :kbd:`Backspace` "
-"deletes up to 4 spaces if they are there. :kbd:`Tab` inserts spaces (in the "
-"Python Shell window one tab), number depends on Indent width. Currently, "
-"tabs are restricted to four spaces due to Tcl/Tk limitations."
+"After a block-opening statement, the next line is indented by 4 spaces "
+"(in the Python Shell window by one tab).  After certain keywords (break, "
+"return etc.) the next line is dedented.  In leading indentation, "
+":kbd:`Backspace` deletes up to 4 spaces if they are there. :kbd:`Tab` "
+"inserts spaces (in the Python Shell window one tab), number depends on "
+"Indent width. Currently, tabs are restricted to four spaces due to Tcl/Tk"
+" limitations."
 msgstr ""
 
 #: ../../library/idle.rst:469
 msgid ""
-"See also the indent/dedent region commands on the :ref:`Format menu <format-"
-"menu>`."
+"See also the indent/dedent region commands on the :ref:`Format menu "
+"<format-menu>`."
 msgstr ""
 
 #: ../../library/idle.rst:475
@@ -938,68 +943,69 @@ msgstr "完成"
 
 #: ../../library/idle.rst:477
 msgid ""
-"Completions are supplied, when requested and available, for module names, "
-"attributes of classes or functions, or filenames.  Each request method "
-"displays a completion box with existing names.  (See tab completions below "
-"for an exception.) For any box, change the name being completed and the item"
-" highlighted in the box by typing and deleting characters; by hitting "
-":kbd:`Up`, :kbd:`Down`, :kbd:`PageUp`, :kbd:`PageDown`, :kbd:`Home`, and "
-":kbd:`End` keys; and by a single click within the box.  Close the box with "
-":kbd:`Escape`, :kbd:`Enter`, and double :kbd:`Tab` keys or clicks outside "
-"the box. A double click within the box selects and closes."
+"Completions are supplied, when requested and available, for module names,"
+" attributes of classes or functions, or filenames.  Each request method "
+"displays a completion box with existing names.  (See tab completions "
+"below for an exception.) For any box, change the name being completed and"
+" the item highlighted in the box by typing and deleting characters; by "
+"hitting :kbd:`Up`, :kbd:`Down`, :kbd:`PageUp`, :kbd:`PageDown`, "
+":kbd:`Home`, and :kbd:`End` keys; and by a single click within the box.  "
+"Close the box with :kbd:`Escape`, :kbd:`Enter`, and double :kbd:`Tab` "
+"keys or clicks outside the box. A double click within the box selects and"
+" closes."
 msgstr ""
 
 #: ../../library/idle.rst:488
 msgid ""
-"One way to open a box is to type a key character and wait for a predefined "
-"interval.  This defaults to 2 seconds; customize it in the settings dialog."
-"  (To prevent auto popups, set the delay to a large number of milliseconds, "
-"such as 100000000.) For imported module names or class or function "
-"attributes, type '.'. For filenames in the root directory, type "
-":data:`os.sep` or :data:`os.altsep` immediately after an opening quote.  (On"
-" Windows, one can specify a drive first.)  Move into subdirectories by "
-"typing a directory name and a separator."
+"One way to open a box is to type a key character and wait for a "
+"predefined interval.  This defaults to 2 seconds; customize it in the "
+"settings dialog.  (To prevent auto popups, set the delay to a large "
+"number of milliseconds, such as 100000000.) For imported module names or "
+"class or function attributes, type '.'. For filenames in the root "
+"directory, type :data:`os.sep` or :data:`os.altsep` immediately after an "
+"opening quote.  (On Windows, one can specify a drive first.)  Move into "
+"subdirectories by typing a directory name and a separator."
 msgstr ""
 
 #: ../../library/idle.rst:498
 msgid ""
 "Instead of waiting, or after a box is closed, open a completion box "
-"immediately with Show Completions on the Edit menu.  The default hot key is "
-":kbd:`C-space`.  If one types a prefix for the desired name before opening "
-"the box, the first match or near miss is made visible. The result is the "
-"same as if one enters a prefix after the box is displayed.  Show Completions"
-" after a quote completes filenames in the current directory instead of a "
-"root directory."
+"immediately with Show Completions on the Edit menu.  The default hot key "
+"is :kbd:`C-space`.  If one types a prefix for the desired name before "
+"opening the box, the first match or near miss is made visible. The result"
+" is the same as if one enters a prefix after the box is displayed.  Show "
+"Completions after a quote completes filenames in the current directory "
+"instead of a root directory."
 msgstr ""
 
 #: ../../library/idle.rst:506
 msgid ""
 "Hitting :kbd:`Tab` after a prefix usually has the same effect as Show "
-"Completions.  (With no prefix, it indents.)  However, if there is only one "
-"match to the prefix, that match is immediately added to the editor text "
-"without opening a box."
+"Completions.  (With no prefix, it indents.)  However, if there is only "
+"one match to the prefix, that match is immediately added to the editor "
+"text without opening a box."
 msgstr ""
 
 #: ../../library/idle.rst:511
 msgid ""
-"Invoking 'Show Completions', or hitting :kbd:`Tab` after a prefix, outside "
-"of a string and without a preceding '.' opens a box with keywords, builtin "
-"names, and available module-level names."
+"Invoking 'Show Completions', or hitting :kbd:`Tab` after a prefix, "
+"outside of a string and without a preceding '.' opens a box with "
+"keywords, builtin names, and available module-level names."
 msgstr ""
 
 #: ../../library/idle.rst:515
 msgid ""
-"When editing code in an editor (as oppose to Shell), increase the available "
-"module-level names by running your code and not restarting the Shell "
-"thereafter.  This is especially useful after adding imports at the top of a "
-"file.  This also increases possible attribute completions."
+"When editing code in an editor (as oppose to Shell), increase the "
+"available module-level names by running your code and not restarting the "
+"Shell thereafter.  This is especially useful after adding imports at the "
+"top of a file.  This also increases possible attribute completions."
 msgstr ""
 
 #: ../../library/idle.rst:521
 msgid ""
-"Completion boxes intially exclude names beginning with '_' or, for modules, "
-"not included in '__all__'.  The hidden names can be accessed by typing '_' "
-"after '.', either before or after the box is opened."
+"Completion boxes initially exclude names beginning with '_' or, for "
+"modules, not included in '__all__'.  The hidden names can be accessed by "
+"typing '_' after '.', either before or after the box is opened."
 msgstr ""
 
 #: ../../library/idle.rst:528
@@ -1008,12 +1014,12 @@ msgstr "提示"
 
 #: ../../library/idle.rst:530
 msgid ""
-"A calltip is shown automatically when one types :kbd:`(` after the name of "
-"an *accessible* function.  A function name expression may include dots and "
-"subscripts.  A calltip remains until it is clicked, the cursor is moved out "
-"of the argument area, or :kbd:`)` is typed.  Whenever the cursor is in the "
-"argument part of a definition, select Edit and \"Show Call Tip\" on the menu"
-" or enter its shortcut to display a calltip."
+"A calltip is shown automatically when one types :kbd:`(` after the name "
+"of an *accessible* function.  A function name expression may include dots"
+" and subscripts.  A calltip remains until it is clicked, the cursor is "
+"moved out of the argument area, or :kbd:`)` is typed.  Whenever the "
+"cursor is in the argument part of a definition, select Edit and \"Show "
+"Call Tip\" on the menu or enter its shortcut to display a calltip."
 msgstr ""
 
 #: ../../library/idle.rst:537
@@ -1021,32 +1027,32 @@ msgid ""
 "The calltip consists of the function's signature and docstring up to the "
 "latter's first blank line or the fifth non-blank line.  (Some builtin "
 "functions lack an accessible signature.)  A '/' or '*' in the signature "
-"indicates that the preceding or following arguments are passed by position "
-"or name (keyword) only.  Details are subject to change."
+"indicates that the preceding or following arguments are passed by "
+"position or name (keyword) only.  Details are subject to change."
 msgstr ""
 
 #: ../../library/idle.rst:543
 msgid ""
 "In Shell, the accessible functions depends on what modules have been "
-"imported into the user process, including those imported by Idle itself, and"
-" which definitions have been run, all since the last restart."
+"imported into the user process, including those imported by Idle itself, "
+"and which definitions have been run, all since the last restart."
 msgstr ""
 
 #: ../../library/idle.rst:547
 msgid ""
-"For example, restart the Shell and enter ``itertools.count(``.  A calltip "
-"appears because Idle imports itertools into the user process for its own "
-"use.  (This could change.)  Enter ``turtle.write(`` and nothing appears. "
-"Idle does not itself import turtle.  The menu entry and shortcut also do "
-"nothing.  Enter ``import turtle``.  Thereafter, ``turtle.write(`` will "
+"For example, restart the Shell and enter ``itertools.count(``.  A calltip"
+" appears because Idle imports itertools into the user process for its own"
+" use.  (This could change.)  Enter ``turtle.write(`` and nothing appears."
+" Idle does not itself import turtle.  The menu entry and shortcut also do"
+" nothing.  Enter ``import turtle``.  Thereafter, ``turtle.write(`` will "
 "display a calltip."
 msgstr ""
 
 #: ../../library/idle.rst:554
 msgid ""
-"In an editor, import statements have no effect until one runs the file. One "
-"might want to run a file after writing import statements, after adding "
-"function definitions, or after opening an existing file."
+"In an editor, import statements have no effect until one runs the file. "
+"One might want to run a file after writing import statements, after "
+"adding function definitions, or after opening an existing file."
 msgstr ""
 
 #: ../../library/idle.rst:561
@@ -1055,22 +1061,22 @@ msgstr "代码上下文"
 
 #: ../../library/idle.rst:563
 msgid ""
-"Within an editor window containing Python code, code context can be toggled "
-"in order to show or hide a pane at the top of the window.  When shown, this "
-"pane freezes the opening lines for block code, such as those beginning with "
-"``class``, ``def``, or ``if`` keywords, that would have otherwise scrolled "
-"out of view.  The size of the pane will be expanded and contracted as needed"
-" to show the all current levels of context, up to the maximum number of "
-"lines defined in the Configure IDLE dialog (which defaults to 15).  If there"
-" are no current context lines and the feature is toggled on, a single blank "
-"line will display.  Clicking on a line in the context pane will move that "
-"line to the top of the editor."
+"Within an editor window containing Python code, code context can be "
+"toggled in order to show or hide a pane at the top of the window.  When "
+"shown, this pane freezes the opening lines for block code, such as those "
+"beginning with ``class``, ``def``, or ``if`` keywords, that would have "
+"otherwise scrolled out of view.  The size of the pane will be expanded "
+"and contracted as needed to show the all current levels of context, up to"
+" the maximum number of lines defined in the Configure IDLE dialog (which "
+"defaults to 15).  If there are no current context lines and the feature "
+"is toggled on, a single blank line will display.  Clicking on a line in "
+"the context pane will move that line to the top of the editor."
 msgstr ""
 
 #: ../../library/idle.rst:574
 msgid ""
-"The text and background colors for the context pane can be configured under "
-"the Highlights tab in the Configure IDLE dialog."
+"The text and background colors for the context pane can be configured "
+"under the Highlights tab in the Configure IDLE dialog."
 msgstr ""
 
 #: ../../library/idle.rst:578
@@ -1079,22 +1085,24 @@ msgstr "Python Shell 窗口"
 
 #: ../../library/idle.rst:580
 msgid ""
-"With IDLE's Shell, one enters, edits, and recalls complete statements. Most "
-"consoles and terminals only work with a single physical line at a time."
+"With IDLE's Shell, one enters, edits, and recalls complete statements. "
+"Most consoles and terminals only work with a single physical line at a "
+"time."
 msgstr ""
 
 #: ../../library/idle.rst:583
 msgid ""
-"When one pastes code into Shell, it is not compiled and possibly executed "
-"until one hits :kbd:`Return`.  One may edit pasted code first. If one pastes"
-" more that one statement into Shell, the result will be a :exc:`SyntaxError`"
-" when multiple statements are compiled as if they were one."
+"When one pastes code into Shell, it is not compiled and possibly executed"
+" until one hits :kbd:`Return`.  One may edit pasted code first. If one "
+"pastes more that one statement into Shell, the result will be a "
+":exc:`SyntaxError` when multiple statements are compiled as if they were "
+"one."
 msgstr ""
 
 #: ../../library/idle.rst:588
 msgid ""
-"The editing features described in previous subsections work when entering "
-"code interactively.  IDLE's Shell window also responds to the following "
+"The editing features described in previous subsections work when entering"
+" code interactively.  IDLE's Shell window also responds to the following "
 "keys."
 msgstr ""
 
@@ -1103,8 +1111,7 @@ msgid ":kbd:`C-c` interrupts executing command"
 msgstr ":kbd:`C-c` 中断执行命令"
 
 #: ../../library/idle.rst:593
-msgid ""
-":kbd:`C-d` sends end-of-file; closes window if typed at a ``>>>`` prompt"
+msgid ":kbd:`C-d` sends end-of-file; closes window if typed at a ``>>>`` prompt"
 msgstr ""
 
 #: ../../library/idle.rst:595
@@ -1135,29 +1142,30 @@ msgstr "文本颜色"
 
 #: ../../library/idle.rst:609
 msgid ""
-"Idle defaults to black on white text, but colors text with special meanings."
-" For the shell, these are shell output, shell error, user output, and user "
-"error.  For Python code, at the shell prompt or in an editor, these are "
-"keywords, builtin class and function names, names following ``class`` and "
-"``def``, strings, and comments. For any text window, these are the cursor "
-"(when present), found text (when possible), and selected text."
+"Idle defaults to black on white text, but colors text with special "
+"meanings. For the shell, these are shell output, shell error, user "
+"output, and user error.  For Python code, at the shell prompt or in an "
+"editor, these are keywords, builtin class and function names, names "
+"following ``class`` and ``def``, strings, and comments. For any text "
+"window, these are the cursor (when present), found text (when possible), "
+"and selected text."
 msgstr ""
 
 #: ../../library/idle.rst:616
 msgid ""
 "IDLE also highlights the :ref:`soft keywords <soft-keywords>` "
 ":keyword:`match`, :keyword:`case <match>`, and :keyword:`_ <wildcard-"
-"patterns>` in pattern-matching statements. However, this highlighting is not"
-" perfect and will be incorrect in some rare cases, including some ``_``-s in"
-" ``case`` patterns."
+"patterns>` in pattern-matching statements. However, this highlighting is "
+"not perfect and will be incorrect in some rare cases, including some "
+"``_``-s in ``case`` patterns."
 msgstr ""
 
 #: ../../library/idle.rst:622
 msgid ""
-"Text coloring is done in the background, so uncolorized text is occasionally"
-" visible.  To change the color scheme, use the Configure IDLE dialog "
-"Highlighting tab.  The marking of debugger breakpoint lines in the editor "
-"and text in popups and dialogs is not user-configurable."
+"Text coloring is done in the background, so uncolorized text is "
+"occasionally visible.  To change the color scheme, use the Configure IDLE"
+" dialog Highlighting tab.  The marking of debugger breakpoint lines in "
+"the editor and text in popups and dialogs is not user-configurable."
 msgstr ""
 
 #: ../../library/idle.rst:629
@@ -1166,23 +1174,23 @@ msgstr "启动和代码执行"
 
 #: ../../library/idle.rst:631
 msgid ""
-"Upon startup with the ``-s`` option, IDLE will execute the file referenced "
-"by the environment variables :envvar:`IDLESTARTUP` or "
+"Upon startup with the ``-s`` option, IDLE will execute the file "
+"referenced by the environment variables :envvar:`IDLESTARTUP` or "
 ":envvar:`PYTHONSTARTUP`. IDLE first checks for ``IDLESTARTUP``; if "
-"``IDLESTARTUP`` is present the file referenced is run.  If ``IDLESTARTUP`` "
-"is not present, IDLE checks for ``PYTHONSTARTUP``.  Files referenced by "
-"these environment variables are convenient places to store functions that "
-"are used frequently from the IDLE shell, or for executing import statements "
-"to import common modules."
+"``IDLESTARTUP`` is present the file referenced is run.  If "
+"``IDLESTARTUP`` is not present, IDLE checks for ``PYTHONSTARTUP``.  Files"
+" referenced by these environment variables are convenient places to store"
+" functions that are used frequently from the IDLE shell, or for executing"
+" import statements to import common modules."
 msgstr ""
 
 #: ../../library/idle.rst:639
 msgid ""
-"In addition, ``Tk`` also loads a startup file if it is present.  Note that "
-"the Tk file is loaded unconditionally.  This additional file is ``.Idle.py``"
-" and is looked for in the user's home directory.  Statements in this file "
-"will be executed in the Tk namespace, so this file is not useful for "
-"importing functions to be used from IDLE's Python shell."
+"In addition, ``Tk`` also loads a startup file if it is present.  Note "
+"that the Tk file is loaded unconditionally.  This additional file is "
+"``.Idle.py`` and is looked for in the user's home directory.  Statements "
+"in this file will be executed in the Tk namespace, so this file is not "
+"useful for importing functions to be used from IDLE's Python shell."
 msgstr ""
 
 #: ../../library/idle.rst:646
@@ -1197,14 +1205,14 @@ msgstr "如果有参数："
 msgid ""
 "If ``-``, ``-c``, or ``r`` is used, all arguments are placed in "
 "``sys.argv[1:...]`` and ``sys.argv[0]`` is set to ``''``, ``'-c'``, or "
-"``'-r'``.  No editor window is opened, even if that is the default set in "
-"the Options dialog."
+"``'-r'``.  No editor window is opened, even if that is the default set in"
+" the Options dialog."
 msgstr ""
 
 #: ../../library/idle.rst:669
 msgid ""
-"Otherwise, arguments are files opened for editing and ``sys.argv`` reflects "
-"the arguments passed to IDLE itself."
+"Otherwise, arguments are files opened for editing and ``sys.argv`` "
+"reflects the arguments passed to IDLE itself."
 msgstr ""
 
 #: ../../library/idle.rst:673
@@ -1213,85 +1221,87 @@ msgstr "启动失败"
 
 #: ../../library/idle.rst:675
 msgid ""
-"IDLE uses a socket to communicate between the IDLE GUI process and the user "
-"code execution process.  A connection must be established whenever the Shell"
-" starts or restarts.  (The latter is indicated by a divider line that says "
-"'RESTART'). If the user process fails to connect to the GUI process, it "
-"usually displays a ``Tk`` error box with a 'cannot connect' message that "
-"directs the user here.  It then exits."
+"IDLE uses a socket to communicate between the IDLE GUI process and the "
+"user code execution process.  A connection must be established whenever "
+"the Shell starts or restarts.  (The latter is indicated by a divider line"
+" that says 'RESTART'). If the user process fails to connect to the GUI "
+"process, it usually displays a ``Tk`` error box with a 'cannot connect' "
+"message that directs the user here.  It then exits."
 msgstr ""
 
 #: ../../library/idle.rst:682
 msgid ""
-"One specific connection failure on Unix systems results from misconfigured "
-"masquerading rules somewhere in a system's network setup. When IDLE is "
-"started from a terminal, one will see a message starting with ``** Invalid "
-"host:``. The valid value is ``127.0.0.1 (idlelib.rpc.LOCALHOST)``. One can "
-"diagnose with ``tcpconnect -irv 127.0.0.1 6543`` in one terminal window and "
-"``tcplisten <same args>`` in another."
+"One specific connection failure on Unix systems results from "
+"misconfigured masquerading rules somewhere in a system's network setup. "
+"When IDLE is started from a terminal, one will see a message starting "
+"with ``** Invalid host:``. The valid value is ``127.0.0.1 "
+"(idlelib.rpc.LOCALHOST)``. One can diagnose with ``tcpconnect -irv "
+"127.0.0.1 6543`` in one terminal window and ``tcplisten <same args>`` in "
+"another."
 msgstr ""
 
 #: ../../library/idle.rst:690
 msgid ""
 "A common cause of failure is a user-written file with the same name as a "
-"standard library module, such as *random.py* and *tkinter.py*. When such a "
-"file is located in the same directory as a file that is about to be run, "
-"IDLE cannot import the stdlib file.  The current fix is to rename the user "
-"file."
+"standard library module, such as *random.py* and *tkinter.py*. When such "
+"a file is located in the same directory as a file that is about to be "
+"run, IDLE cannot import the stdlib file.  The current fix is to rename "
+"the user file."
 msgstr ""
 
 #: ../../library/idle.rst:696
 msgid ""
-"Though less common than in the past, an antivirus or firewall program may "
-"stop the connection.  If the program cannot be taught to allow the "
+"Though less common than in the past, an antivirus or firewall program may"
+" stop the connection.  If the program cannot be taught to allow the "
 "connection, then it must be turned off for IDLE to work.  It is safe to "
-"allow this internal connection because no data is visible on external ports."
-"  A similar problem is a network mis-configuration that blocks connections."
+"allow this internal connection because no data is visible on external "
+"ports.  A similar problem is a network mis-configuration that blocks "
+"connections."
 msgstr ""
 
 #: ../../library/idle.rst:703
 msgid ""
 "Python installation issues occasionally stop IDLE: multiple versions can "
-"clash, or a single installation might need admin access.  If one undo the "
-"clash, or cannot or does not want to run as admin, it might be easiest to "
-"completely remove Python and start over."
+"clash, or a single installation might need admin access.  If one undo the"
+" clash, or cannot or does not want to run as admin, it might be easiest "
+"to completely remove Python and start over."
 msgstr ""
 
 #: ../../library/idle.rst:708
 msgid ""
 "A zombie pythonw.exe process could be a problem.  On Windows, use Task "
 "Manager to check for one and stop it if there is.  Sometimes a restart "
-"initiated by a program crash or Keyboard Interrupt (control-C) may fail to "
-"connect.  Dismissing the error box or using Restart Shell on the Shell menu "
-"may fix a temporary problem."
+"initiated by a program crash or Keyboard Interrupt (control-C) may fail "
+"to connect.  Dismissing the error box or using Restart Shell on the Shell"
+" menu may fix a temporary problem."
 msgstr ""
 
 #: ../../library/idle.rst:714
 msgid ""
 "When IDLE first starts, it attempts to read user configuration files in "
-"``~/.idlerc/`` (~ is one's home directory).  If there is a problem, an error"
-" message should be displayed.  Leaving aside random disk glitches, this can "
-"be prevented by never editing the files by hand.  Instead, use the "
-"configuration dialog, under Options.  Once there is an error in a user "
-"configuration file, the best solution may be to delete it and start over "
-"with the settings dialog."
+"``~/.idlerc/`` (~ is one's home directory).  If there is a problem, an "
+"error message should be displayed.  Leaving aside random disk glitches, "
+"this can be prevented by never editing the files by hand.  Instead, use "
+"the configuration dialog, under Options.  Once there is an error in a "
+"user configuration file, the best solution may be to delete it and start "
+"over with the settings dialog."
 msgstr ""
 
 #: ../../library/idle.rst:722
 msgid ""
-"If IDLE quits with no message, and it was not started from a console, try "
-"starting it from a console or terminal (``python -m idlelib``) and see if "
-"this results in an error message."
+"If IDLE quits with no message, and it was not started from a console, try"
+" starting it from a console or terminal (``python -m idlelib``) and see "
+"if this results in an error message."
 msgstr ""
 
 #: ../../library/idle.rst:726
 msgid ""
-"On Unix-based systems with tcl/tk older than ``8.6.11`` (see ``About IDLE``)"
-" certain characters of certain fonts can cause a tk failure with a message "
-"to the terminal.  This can happen either if one starts IDLE to edit a file "
-"with such a character or later when entering such a character.  If one "
-"cannot upgrade tcl/tk, then re-configure IDLE to use a font that works "
-"better."
+"On Unix-based systems with tcl/tk older than ``8.6.11`` (see ``About "
+"IDLE``) certain characters of certain fonts can cause a tk failure with a"
+" message to the terminal.  This can happen either if one starts IDLE to "
+"edit a file with such a character or later when entering such a "
+"character.  If one cannot upgrade tcl/tk, then re-configure IDLE to use a"
+" font that works better."
 msgstr ""
 
 #: ../../library/idle.rst:734
@@ -1301,33 +1311,34 @@ msgstr "运行用户代码"
 #: ../../library/idle.rst:736
 msgid ""
 "With rare exceptions, the result of executing Python code with IDLE is "
-"intended to be the same as executing the same code by the default method, "
-"directly with Python in a text-mode system console or terminal window. "
-"However, the different interface and operation occasionally affect visible "
-"results.  For instance, ``sys.modules`` starts with more entries, and "
-"``threading.active_count()`` returns 2 instead of 1."
+"intended to be the same as executing the same code by the default method,"
+" directly with Python in a text-mode system console or terminal window. "
+"However, the different interface and operation occasionally affect "
+"visible results.  For instance, ``sys.modules`` starts with more entries,"
+" and ``threading.active_count()`` returns 2 instead of 1."
 msgstr ""
 
 #: ../../library/idle.rst:743
 msgid ""
-"By default, IDLE runs user code in a separate OS process rather than in the "
-"user interface process that runs the shell and editor.  In the execution "
-"process, it replaces ``sys.stdin``, ``sys.stdout``, and ``sys.stderr`` with "
-"objects that get input from and send output to the Shell window. The "
-"original values stored in ``sys.__stdin__``, ``sys.__stdout__``, and "
-"``sys.__stderr__`` are not touched, but may be ``None``."
+"By default, IDLE runs user code in a separate OS process rather than in "
+"the user interface process that runs the shell and editor.  In the "
+"execution process, it replaces ``sys.stdin``, ``sys.stdout``, and "
+"``sys.stderr`` with objects that get input from and send output to the "
+"Shell window. The original values stored in ``sys.__stdin__``, "
+"``sys.__stdout__``, and ``sys.__stderr__`` are not touched, but may be "
+"``None``."
 msgstr ""
 
 #: ../../library/idle.rst:750
 msgid ""
-"Sending print output from one process to a text widget in another is slower "
-"than printing to a system terminal in the same process. This has the most "
-"effect when printing multiple arguments, as the string for each argument, "
-"each separator, the newline are sent separately. For development, this is "
-"usually not a problem, but if one wants to print faster in IDLE, format and "
-"join together everything one wants displayed together and then print a "
-"single string.  Both format strings and :meth:`str.join` can help combine "
-"fields and lines."
+"Sending print output from one process to a text widget in another is "
+"slower than printing to a system terminal in the same process. This has "
+"the most effect when printing multiple arguments, as the string for each "
+"argument, each separator, the newline are sent separately. For "
+"development, this is usually not a problem, but if one wants to print "
+"faster in IDLE, format and join together everything one wants displayed "
+"together and then print a single string.  Both format strings and "
+":meth:`str.join` can help combine fields and lines."
 msgstr ""
 
 #: ../../library/idle.rst:759
@@ -1335,32 +1346,32 @@ msgid ""
 "IDLE's standard stream replacements are not inherited by subprocesses "
 "created in the execution process, whether directly by user code or by "
 "modules such as multiprocessing.  If such subprocess use ``input`` from "
-"sys.stdin or ``print`` or ``write`` to sys.stdout or sys.stderr, IDLE should"
-" be started in a command line window.  The secondary subprocess will then be"
-" attached to that window for input and output."
+"sys.stdin or ``print`` or ``write`` to sys.stdout or sys.stderr, IDLE "
+"should be started in a command line window.  The secondary subprocess "
+"will then be attached to that window for input and output."
 msgstr ""
 
 #: ../../library/idle.rst:766
 msgid ""
-"If ``sys`` is reset by user code, such as with ``importlib.reload(sys)``, "
-"IDLE's changes are lost and input from the keyboard and output to the screen"
-" will not work correctly."
+"If ``sys`` is reset by user code, such as with ``importlib.reload(sys)``,"
+" IDLE's changes are lost and input from the keyboard and output to the "
+"screen will not work correctly."
 msgstr ""
 
 #: ../../library/idle.rst:770
 msgid ""
 "When Shell has the focus, it controls the keyboard and screen.  This is "
-"normally transparent, but functions that directly access the keyboard and "
-"screen will not work.  These include system-specific functions that "
+"normally transparent, but functions that directly access the keyboard and"
+" screen will not work.  These include system-specific functions that "
 "determine whether a key has been pressed and if so, which."
 msgstr ""
 
 #: ../../library/idle.rst:775
 msgid ""
-"The IDLE code running in the execution process adds frames to the call stack"
-" that would not be there otherwise.  IDLE wraps ``sys.getrecursionlimit`` "
-"and ``sys.setrecursionlimit`` to reduce the effect of the additional stack "
-"frames."
+"The IDLE code running in the execution process adds frames to the call "
+"stack that would not be there otherwise.  IDLE wraps "
+"``sys.getrecursionlimit`` and ``sys.setrecursionlimit`` to reduce the "
+"effect of the additional stack frames."
 msgstr ""
 
 #: ../../library/idle.rst:780
@@ -1375,76 +1386,77 @@ msgstr "Shell中的用户输出"
 
 #: ../../library/idle.rst:786
 msgid ""
-"When a program outputs text, the result is determined by the corresponding "
-"output device.  When IDLE executes user code, ``sys.stdout`` and "
-"``sys.stderr`` are connected to the display area of IDLE's Shell.  Some of "
-"its features are inherited from the underlying Tk Text widget.  Others are "
-"programmed additions.  Where it matters, Shell is designed for development "
-"rather than production runs."
+"When a program outputs text, the result is determined by the "
+"corresponding output device.  When IDLE executes user code, "
+"``sys.stdout`` and ``sys.stderr`` are connected to the display area of "
+"IDLE's Shell.  Some of its features are inherited from the underlying Tk "
+"Text widget.  Others are programmed additions.  Where it matters, Shell "
+"is designed for development rather than production runs."
 msgstr ""
 
 #: ../../library/idle.rst:793
 msgid ""
 "For instance, Shell never throws away output.  A program that sends "
-"unlimited output to Shell will eventually fill memory, resulting in a memory"
-" error. In contrast, some system text windows only keep the last n lines of "
-"output. A Windows console, for instance, keeps a user-settable 1 to 9999 "
-"lines, with 300 the default."
+"unlimited output to Shell will eventually fill memory, resulting in a "
+"memory error. In contrast, some system text windows only keep the last n "
+"lines of output. A Windows console, for instance, keeps a user-settable 1"
+" to 9999 lines, with 300 the default."
 msgstr ""
 
 #: ../../library/idle.rst:799
 msgid ""
-"A Tk Text widget, and hence IDLE's Shell, displays characters (codepoints) "
-"in the BMP (Basic Multilingual Plane) subset of Unicode.  Which characters "
-"are displayed with a proper glyph and which with a replacement box depends "
-"on the operating system and installed fonts.  Tab characters cause the "
-"following text to begin after the next tab stop. (They occur every 8 "
-"'characters').  Newline characters cause following text to appear on a new "
-"line.  Other control characters are ignored or displayed as a space, box, or"
-" something else, depending on the operating system and font.  (Moving the "
-"text cursor through such output with arrow keys may exhibit some surprising "
-"spacing behavior.) ::"
+"A Tk Text widget, and hence IDLE's Shell, displays characters "
+"(codepoints) in the BMP (Basic Multilingual Plane) subset of Unicode.  "
+"Which characters are displayed with a proper glyph and which with a "
+"replacement box depends on the operating system and installed fonts.  Tab"
+" characters cause the following text to begin after the next tab stop. "
+"(They occur every 8 'characters').  Newline characters cause following "
+"text to appear on a new line.  Other control characters are ignored or "
+"displayed as a space, box, or something else, depending on the operating "
+"system and font.  (Moving the text cursor through such output with arrow "
+"keys may exhibit some surprising spacing behavior.) ::"
 msgstr ""
 
 #: ../../library/idle.rst:817
 msgid ""
-"The ``repr`` function is used for interactive echo of expression values.  It"
-" returns an altered version of the input string in which control codes, some"
-" BMP codepoints, and all non-BMP codepoints are replaced with escape codes. "
-"As demonstrated above, it allows one to identify the characters in a string,"
-" regardless of how they are displayed."
+"The ``repr`` function is used for interactive echo of expression values."
+"  It returns an altered version of the input string in which control "
+"codes, some BMP codepoints, and all non-BMP codepoints are replaced with "
+"escape codes. As demonstrated above, it allows one to identify the "
+"characters in a string, regardless of how they are displayed."
 msgstr ""
 
 #: ../../library/idle.rst:823
 msgid ""
-"Normal and error output are generally kept separate (on separate lines) from"
-" code input and each other.  They each get different highlight colors."
+"Normal and error output are generally kept separate (on separate lines) "
+"from code input and each other.  They each get different highlight "
+"colors."
 msgstr ""
 
 #: ../../library/idle.rst:826
 msgid ""
 "For SyntaxError tracebacks, the normal '^' marking where the error was "
-"detected is replaced by coloring the text with an error highlight. When code"
-" run from a file causes other exceptions, one may right click on a traceback"
-" line to jump to the corresponding line in an IDLE editor. The file will be "
-"opened if necessary."
+"detected is replaced by coloring the text with an error highlight. When "
+"code run from a file causes other exceptions, one may right click on a "
+"traceback line to jump to the corresponding line in an IDLE editor. The "
+"file will be opened if necessary."
 msgstr ""
 
 #: ../../library/idle.rst:832
 msgid ""
-"Shell has a special facility for squeezing output lines down to a 'Squeezed "
-"text' label.  This is done automatically for output over N lines (N = 50 by "
-"default). N can be changed in the PyShell section of the General page of the"
-" Settings dialog.  Output with fewer lines can be squeezed by right clicking"
-" on the output.  This can be useful lines long enough to slow down "
-"scrolling."
+"Shell has a special facility for squeezing output lines down to a "
+"'Squeezed text' label.  This is done automatically for output over N "
+"lines (N = 50 by default). N can be changed in the PyShell section of the"
+" General page of the Settings dialog.  Output with fewer lines can be "
+"squeezed by right clicking on the output.  This can be useful lines long "
+"enough to slow down scrolling."
 msgstr ""
 
 #: ../../library/idle.rst:840
 msgid ""
-"Squeezed output is expanded in place by double-clicking the label. It can "
-"also be sent to the clipboard or a separate view window by right-clicking "
-"the label."
+"Squeezed output is expanded in place by double-clicking the label. It can"
+" also be sent to the clipboard or a separate view window by right-"
+"clicking the label."
 msgstr ""
 
 #: ../../library/idle.rst:845
@@ -1453,31 +1465,32 @@ msgstr "开发 tkinter 应用程序"
 
 #: ../../library/idle.rst:847
 msgid ""
-"IDLE is intentionally different from standard Python in order to facilitate "
-"development of tkinter programs.  Enter ``import tkinter as tk; root = "
-"tk.Tk()`` in standard Python and nothing appears.  Enter the same in IDLE "
-"and a tk window appears.  In standard Python, one must also enter "
-"``root.update()`` to see the window.  IDLE does the equivalent in the "
-"background, about 20 times a second, which is about every 50 milliseconds. "
-"Next enter ``b = tk.Button(root, text='button'); b.pack()``.  Again, nothing"
-" visibly changes in standard Python until one enters ``root.update()``."
+"IDLE is intentionally different from standard Python in order to "
+"facilitate development of tkinter programs.  Enter ``import tkinter as "
+"tk; root = tk.Tk()`` in standard Python and nothing appears.  Enter the "
+"same in IDLE and a tk window appears.  In standard Python, one must also "
+"enter ``root.update()`` to see the window.  IDLE does the equivalent in "
+"the background, about 20 times a second, which is about every 50 "
+"milliseconds. Next enter ``b = tk.Button(root, text='button'); "
+"b.pack()``.  Again, nothing visibly changes in standard Python until one "
+"enters ``root.update()``."
 msgstr ""
 
 #: ../../library/idle.rst:856
 msgid ""
-"Most tkinter programs run ``root.mainloop()``, which usually does not return"
-" until the tk app is destroyed.  If the program is run with ``python -i`` or"
-" from an IDLE editor, a ``>>>`` shell prompt does not appear until "
-"``mainloop()`` returns, at which time there is nothing left to interact "
-"with."
+"Most tkinter programs run ``root.mainloop()``, which usually does not "
+"return until the tk app is destroyed.  If the program is run with "
+"``python -i`` or from an IDLE editor, a ``>>>`` shell prompt does not "
+"appear until ``mainloop()`` returns, at which time there is nothing left "
+"to interact with."
 msgstr ""
 
 #: ../../library/idle.rst:862
 msgid ""
-"When running a tkinter program from an IDLE editor, one can comment out the "
-"mainloop call.  One then gets a shell prompt immediately and can interact "
-"with the live application.  One just has to remember to re-enable the "
-"mainloop call when running in standard Python."
+"When running a tkinter program from an IDLE editor, one can comment out "
+"the mainloop call.  One then gets a shell prompt immediately and can "
+"interact with the live application.  One just has to remember to re-"
+"enable the mainloop call when running in standard Python."
 msgstr ""
 
 #: ../../library/idle.rst:868
@@ -1486,33 +1499,33 @@ msgstr "在没有子进程的情况下运行"
 
 #: ../../library/idle.rst:870
 msgid ""
-"By default, IDLE executes user code in a separate subprocess via a socket, "
-"which uses the internal loopback interface.  This connection is not "
-"externally visible and no data is sent to or received from the internet. If "
-"firewall software complains anyway, you can ignore it."
+"By default, IDLE executes user code in a separate subprocess via a "
+"socket, which uses the internal loopback interface.  This connection is "
+"not externally visible and no data is sent to or received from the "
+"internet. If firewall software complains anyway, you can ignore it."
 msgstr ""
 
 #: ../../library/idle.rst:875
 msgid ""
-"If the attempt to make the socket connection fails, Idle will notify you. "
-"Such failures are sometimes transient, but if persistent, the problem may be"
-" either a firewall blocking the connection or misconfiguration of a "
-"particular system.  Until the problem is fixed, one can run Idle with the -n"
-" command line switch."
+"If the attempt to make the socket connection fails, Idle will notify you."
+" Such failures are sometimes transient, but if persistent, the problem "
+"may be either a firewall blocking the connection or misconfiguration of a"
+" particular system.  Until the problem is fixed, one can run Idle with "
+"the -n command line switch."
 msgstr ""
 
 #: ../../library/idle.rst:881
 msgid ""
-"If IDLE is started with the -n command line switch it will run in a single "
-"process and will not create the subprocess which runs the RPC Python "
-"execution server.  This can be useful if Python cannot create the subprocess"
-" or the RPC socket interface on your platform.  However, in this mode user "
-"code is not isolated from IDLE itself.  Also, the environment is not "
-"restarted when Run/Run Module (F5) is selected.  If your code has been "
-"modified, you must reload() the affected modules and re-import any specific "
-"items (e.g. from foo import baz) if the changes are to take effect.  For "
-"these reasons, it is preferable to run IDLE with the default subprocess if "
-"at all possible."
+"If IDLE is started with the -n command line switch it will run in a "
+"single process and will not create the subprocess which runs the RPC "
+"Python execution server.  This can be useful if Python cannot create the "
+"subprocess or the RPC socket interface on your platform.  However, in "
+"this mode user code is not isolated from IDLE itself.  Also, the "
+"environment is not restarted when Run/Run Module (F5) is selected.  If "
+"your code has been modified, you must reload() the affected modules and "
+"re-import any specific items (e.g. from foo import baz) if the changes "
+"are to take effect.  For these reasons, it is preferable to run IDLE with"
+" the default subprocess if at all possible."
 msgstr ""
 
 #: ../../library/idle.rst:896
@@ -1525,27 +1538,27 @@ msgstr "帮助源"
 
 #: ../../library/idle.rst:903
 msgid ""
-"Help menu entry \"IDLE Help\" displays a formatted html version of the IDLE "
-"chapter of the Library Reference.  The result, in a read-only tkinter text "
-"window, is close to what one sees in a web browser. Navigate through the "
-"text with a mousewheel, the scrollbar, or up and down arrow keys held down. "
-"Or click the TOC (Table of Contents) button and select a section header in "
-"the opened box."
+"Help menu entry \"IDLE Help\" displays a formatted html version of the "
+"IDLE chapter of the Library Reference.  The result, in a read-only "
+"tkinter text window, is close to what one sees in a web browser. Navigate"
+" through the text with a mousewheel, the scrollbar, or up and down arrow "
+"keys held down. Or click the TOC (Table of Contents) button and select a "
+"section header in the opened box."
 msgstr ""
 
 #: ../../library/idle.rst:911
 msgid ""
 "Help menu entry \"Python Docs\" opens the extensive sources of help, "
-"including tutorials, available at ``docs.python.org/x.y``, where 'x.y' is "
-"the currently running Python version.  If your system has an off-line copy "
-"of the docs (this may be an installation option), that will be opened "
-"instead."
+"including tutorials, available at ``docs.python.org/x.y``, where 'x.y' is"
+" the currently running Python version.  If your system has an off-line "
+"copy of the docs (this may be an installation option), that will be "
+"opened instead."
 msgstr ""
 
 #: ../../library/idle.rst:917
 msgid ""
-"Selected URLs can be added or removed from the help menu at any time using "
-"the General tab of the Configure IDLE dialog."
+"Selected URLs can be added or removed from the help menu at any time "
+"using the General tab of the Configure IDLE dialog."
 msgstr ""
 
 #: ../../library/idle.rst:923
@@ -1555,27 +1568,28 @@ msgstr "首选项设置"
 #: ../../library/idle.rst:925
 msgid ""
 "The font preferences, highlighting, keys, and general preferences can be "
-"changed via Configure IDLE on the Option menu. Non-default user settings are"
-" saved in a ``.idlerc`` directory in the user's home directory.  Problems "
-"caused by bad user configuration files are solved by editing or deleting one"
-" or more of the files in ``.idlerc``."
+"changed via Configure IDLE on the Option menu. Non-default user settings "
+"are saved in a ``.idlerc`` directory in the user's home directory.  "
+"Problems caused by bad user configuration files are solved by editing or "
+"deleting one or more of the files in ``.idlerc``."
 msgstr ""
 
 #: ../../library/idle.rst:931
 msgid ""
-"On the Font tab, see the text sample for the effect of font face and size on"
-" multiple characters in multiple languages.  Edit the sample to add other "
-"characters of personal interest.  Use the sample to select monospaced fonts."
-"  If particular characters have problems in Shell or an editor, add them to "
-"the top of the sample and try changing first size and then font."
+"On the Font tab, see the text sample for the effect of font face and size"
+" on multiple characters in multiple languages.  Edit the sample to add "
+"other characters of personal interest.  Use the sample to select "
+"monospaced fonts.  If particular characters have problems in Shell or an "
+"editor, add them to the top of the sample and try changing first size and"
+" then font."
 msgstr ""
 
 #: ../../library/idle.rst:938
 msgid ""
-"On the Highlights and Keys tab, select a built-in or custom color theme and "
-"key set.  To use a newer built-in color theme or key set with older IDLEs, "
-"save it as a new custom theme or key set and it well be accessible to older "
-"IDLEs."
+"On the Highlights and Keys tab, select a built-in or custom color theme "
+"and key set.  To use a newer built-in color theme or key set with older "
+"IDLEs, save it as a new custom theme or key set and it well be accessible"
+" to older IDLEs."
 msgstr ""
 
 #: ../../library/idle.rst:944
@@ -1596,8 +1610,18 @@ msgstr "扩展"
 #: ../../library/idle.rst:953
 msgid ""
 "IDLE contains an extension facility.  Preferences for extensions can be "
-"changed with the Extensions tab of the preferences dialog. See the beginning"
-" of config-extensions.def in the idlelib directory for further information."
-"  The only current default extension is zzdummy, an example also used for "
-"testing."
+"changed with the Extensions tab of the preferences dialog. See the "
+"beginning of config-extensions.def in the idlelib directory for further "
+"information.  The only current default extension is zzdummy, an example "
+"also used for testing."
 msgstr ""
+
+#~ msgid ""
+#~ "Completion boxes intially exclude names "
+#~ "beginning with '_' or, for modules, "
+#~ "not included in '__all__'.  The hidden"
+#~ " names can be accessed by typing "
+#~ "'_' after '.', either before or "
+#~ "after the box is opened."
+#~ msgstr ""
+

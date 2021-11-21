@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # Shengjing Zhu <zsj950618@gmail.com>, 2021
 # Zombie110year <zombie110year@gmail.com>, 2021
@@ -11,21 +11,22 @@
 # ppcfish <ppcfish@gmail.com>, 2021
 # Alpha Du <alphanow@gmail.com>, 2021
 # Freesand Leo <yuqinju@163.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 13:07+0000\n"
+"POT-Creation-Date: 2021-11-21 14:44+0800\n"
 "PO-Revision-Date: 2021-06-28 01:07+0000\n"
 "Last-Translator: Freesand Leo <yuqinju@163.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/python-doc/teams/5390/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/python-"
+"doc/teams/5390/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../library/http.cookiejar.rst:2
 msgid ":mod:`http.cookiejar` --- Cookie handling for HTTP clients"
@@ -37,11 +38,11 @@ msgstr "**源代码：** :source:`Lib/http/cookiejar.py`"
 
 #: ../../library/http.cookiejar.rst:14
 msgid ""
-"The :mod:`http.cookiejar` module defines classes for automatic handling of "
-"HTTP cookies.  It is useful for accessing web sites that require small "
-"pieces of data -- :dfn:`cookies` -- to be set on the client machine by an "
-"HTTP response from a web server, and then returned to the server in later "
-"HTTP requests."
+"The :mod:`http.cookiejar` module defines classes for automatic handling "
+"of HTTP cookies.  It is useful for accessing web sites that require small"
+" pieces of data -- :dfn:`cookies` -- to be set on the client machine by "
+"an HTTP response from a web server, and then returned to the server in "
+"later HTTP requests."
 msgstr ""
 ":mod:`http.cookiejar` 模块定义了用于自动处理 HTTP cookie 的类。这对访问需要小段数据 —— "
 ":dfn:`cookies` 的网站很有用，这些数据由 Web 服务器的 HTTP 响应在客户端计算机上设置，然后在以后的 HTTP "
@@ -51,27 +52,27 @@ msgstr ""
 msgid ""
 "Both the regular Netscape cookie protocol and the protocol defined by "
 ":rfc:`2965` are handled.  RFC 2965 handling is switched off by default. "
-":rfc:`2109` cookies are parsed as Netscape cookies and subsequently treated "
-"either as Netscape or RFC 2965 cookies according to the 'policy' in effect. "
-"Note that the great majority of cookies on the internet are Netscape "
-"cookies. :mod:`http.cookiejar` attempts to follow the de-facto Netscape "
-"cookie protocol (which differs substantially from that set out in the "
-"original Netscape specification), including taking note of the ``max-age`` "
-"and ``port`` cookie-attributes introduced with RFC 2965."
+":rfc:`2109` cookies are parsed as Netscape cookies and subsequently "
+"treated either as Netscape or RFC 2965 cookies according to the 'policy' "
+"in effect. Note that the great majority of cookies on the internet are "
+"Netscape cookies. :mod:`http.cookiejar` attempts to follow the de-facto "
+"Netscape cookie protocol (which differs substantially from that set out "
+"in the original Netscape specification), including taking note of the "
+"``max-age`` and ``port`` cookie-attributes introduced with RFC 2965."
 msgstr ""
 "常规的 Netscape cookie 协议和由 :rfc:`2965` 定义的协议都可以被处理。 RFC 2965 的处理默认是关闭的。 "
-":rfc:`2109` cookie 被解析为 Netscape cookie ，随后根据当前使用的 \"策略\"，被视为 Netscape 或 RFC"
-" 2965 cookie。:mod:`http.cookiejar` 试图遵循事实上的 Netscape cookie "
-"协议（它与原始Netscape规范中的协议有很大不同），包括注意到 RFC 2965 中引入的``max-age``和``port``cookie "
-"属性。"
+":rfc:`2109` cookie 被解析为 Netscape cookie ，随后根据当前使用的 \"策略\"，被视为 Netscape 或 "
+"RFC 2965 cookie。:mod:`http.cookiejar` 试图遵循事实上的 Netscape cookie "
+"协议（它与原始Netscape规范中的协议有很大不同），包括注意到 RFC 2965 中引入的``max-age``和``port``cookie"
+" 属性。"
 
 #: ../../library/http.cookiejar.rst:31
 msgid ""
 "The various named parameters found in :mailheader:`Set-Cookie` and "
 ":mailheader:`Set-Cookie2` headers (eg. ``domain`` and ``expires``) are "
-"conventionally referred to as :dfn:`attributes`.  To distinguish them from "
-"Python attributes, the documentation for this module uses the term :dfn"
-":`cookie-attribute` instead."
+"conventionally referred to as :dfn:`attributes`.  To distinguish them "
+"from Python attributes, the documentation for this module uses the term "
+":dfn:`cookie-attribute` instead."
 msgstr ""
 "在 :mailheader:`Set-Cookie` 和 :mailheader:`Set-Cookie2` 头中找到的各种命名参数通常指 "
 ":dfn:`attributes`。为了不与 Python 属性相混淆，模块文档使用 :dfn:`cookie-attribute` 代替。"
@@ -82,15 +83,15 @@ msgstr "此模块定义了以下异常："
 
 #: ../../library/http.cookiejar.rst:43
 msgid ""
-"Instances of :class:`FileCookieJar` raise this exception on failure to load "
-"cookies from a file.  :exc:`LoadError` is a subclass of :exc:`OSError`."
+"Instances of :class:`FileCookieJar` raise this exception on failure to "
+"load cookies from a file.  :exc:`LoadError` is a subclass of "
+":exc:`OSError`."
 msgstr ""
 ":class:`FileCookieJar` 实例在从文件加载 cookies 出错时抛出这个异常。 :exc:`LoadError` 是 "
 ":exc:`OSError` 的一个子类。"
 
 #: ../../library/http.cookiejar.rst:46
-msgid ""
-"LoadError was made a subclass of :exc:`OSError` instead of :exc:`IOError`."
+msgid "LoadError was made a subclass of :exc:`OSError` instead of :exc:`IOError`."
 msgstr "LoadError 成为 :exc:`OSError` 的子类而不是 :exc:`IOError`。"
 
 #: ../../library/http.cookiejar.rst:51
@@ -98,37 +99,38 @@ msgid "The following classes are provided:"
 msgstr "提供了以下类："
 
 #: ../../library/http.cookiejar.rst:56
-msgid ""
-"*policy* is an object implementing the :class:`CookiePolicy` interface."
+msgid "*policy* is an object implementing the :class:`CookiePolicy` interface."
 msgstr "*policy* 是实现了 :class:`CookiePolicy` 接口的一个对象。"
 
 #: ../../library/http.cookiejar.rst:58
 msgid ""
-"The :class:`CookieJar` class stores HTTP cookies.  It extracts cookies from "
-"HTTP requests, and returns them in HTTP responses. :class:`CookieJar` "
-"instances automatically expire contained cookies when necessary.  Subclasses"
-" are also responsible for storing and retrieving cookies from a file or "
-"database."
+"The :class:`CookieJar` class stores HTTP cookies.  It extracts cookies "
+"from HTTP requests, and returns them in HTTP responses. "
+":class:`CookieJar` instances automatically expire contained cookies when "
+"necessary.  Subclasses are also responsible for storing and retrieving "
+"cookies from a file or database."
 msgstr ""
-":class:`CookieJar` 类储存 HTTP cookies。它从 HTTP 请求提取 cookies，并在 HTTP 响应中返回它们。 "
-":class:`CookieJar` 实例在必要时自动处理包含 cookie 的到期情况。子类还负责储存和从文件或数据库中查找 cookies。"
+":class:`CookieJar` 类储存 HTTP cookies。它从 HTTP 请求提取 cookies，并在 HTTP 响应中返回它们。"
+" :class:`CookieJar` 实例在必要时自动处理包含 cookie 的到期情况。子类还负责储存和从文件或数据库中查找 cookies。"
 
 #: ../../library/http.cookiejar.rst:66
 msgid ""
-"*policy* is an object implementing the :class:`CookiePolicy` interface.  For"
-" the other arguments, see the documentation for the corresponding "
+"*policy* is an object implementing the :class:`CookiePolicy` interface.  "
+"For the other arguments, see the documentation for the corresponding "
 "attributes."
 msgstr "*policy* 是实现了 :class:`CookiePolicy` 接口的一个对象。对于其他参数，参考相应属性的文档。"
 
 #: ../../library/http.cookiejar.rst:69
 msgid ""
-"A :class:`CookieJar` which can load cookies from, and perhaps save cookies "
-"to, a file on disk.  Cookies are **NOT** loaded from the named file until "
-"either the :meth:`load` or :meth:`revert` method is called.  Subclasses of "
-"this class are documented in section :ref:`file-cookie-jar-classes`."
+"A :class:`CookieJar` which can load cookies from, and perhaps save "
+"cookies to, a file on disk.  Cookies are **NOT** loaded from the named "
+"file until either the :meth:`load` or :meth:`revert` method is called.  "
+"Subclasses of this class are documented in section :ref:`file-cookie-jar-"
+"classes`."
 msgstr ""
-"一个可以从硬盘中文件加载或保存 cookie 的 :class:`CookieJar`。 Cookies **不** 会在 :meth:`load` 或"
-" :meth:`revert` 方法调用前从命名的文件中加载。子类的文档位于段落 :ref:`file-cookie-jar-classes`。"
+"一个可以从硬盘中文件加载或保存 cookie 的 :class:`CookieJar`。 Cookies **不** 会在 "
+":meth:`load` 或 :meth:`revert` 方法调用前从命名的文件中加载。子类的文档位于段落 :ref:`file-cookie-"
+"jar-classes`。"
 
 #: ../../library/http.cookiejar.rst:76 ../../library/http.cookiejar.rst:350
 msgid "The filename parameter supports a :term:`path-like object`."
@@ -143,13 +145,14 @@ msgstr "此类负责确定是否应从服务器接受每个 cookie 或将其返�
 #: ../../library/http.cookiejar.rst:87
 msgid ""
 "Constructor arguments should be passed as keyword arguments only. "
-"*blocked_domains* is a sequence of domain names that we never accept cookies"
-" from, nor return cookies to. *allowed_domains* if not :const:`None`, this "
-"is a sequence of the only domains for which we accept and return cookies. "
-"*secure_protocols* is a sequence of protocols for which secure cookies can "
-"be added to. By default *https* and *wss* (secure websocket) are considered "
-"secure protocols. For all other arguments, see the documentation for "
-":class:`CookiePolicy` and :class:`DefaultCookiePolicy` objects."
+"*blocked_domains* is a sequence of domain names that we never accept "
+"cookies from, nor return cookies to. *allowed_domains* if not "
+":const:`None`, this is a sequence of the only domains for which we accept"
+" and return cookies. *secure_protocols* is a sequence of protocols for "
+"which secure cookies can be added to. By default *https* and *wss* "
+"(secure websocket) are considered secure protocols. For all other "
+"arguments, see the documentation for :class:`CookiePolicy` and "
+":class:`DefaultCookiePolicy` objects."
 msgstr ""
 "构造参数只能以关键字参数传递，*blocked_domains* 是一个我们既不会接受也不会返回 cookie "
 "的域名序列。*allowed_domains* 如果不是 "
@@ -159,29 +162,30 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:96
 msgid ""
-":class:`DefaultCookiePolicy` implements the standard accept / reject rules "
-"for Netscape and :rfc:`2965` cookies.  By default, :rfc:`2109` cookies (ie. "
-"cookies received in a :mailheader:`Set-Cookie` header with a version cookie-"
-"attribute of 1) are treated according to the RFC 2965 rules.  However, if "
-"RFC 2965 handling is turned off or :attr:`rfc2109_as_netscape` is ``True``, "
-"RFC 2109 cookies are 'downgraded' by the :class:`CookieJar` instance to "
-"Netscape cookies, by setting the :attr:`version` attribute of the "
-":class:`Cookie` instance to 0. :class:`DefaultCookiePolicy` also provides "
-"some parameters to allow some fine-tuning of policy."
+":class:`DefaultCookiePolicy` implements the standard accept / reject "
+"rules for Netscape and :rfc:`2965` cookies.  By default, :rfc:`2109` "
+"cookies (ie. cookies received in a :mailheader:`Set-Cookie` header with a"
+" version cookie-attribute of 1) are treated according to the RFC 2965 "
+"rules.  However, if RFC 2965 handling is turned off or "
+":attr:`rfc2109_as_netscape` is ``True``, RFC 2109 cookies are "
+"'downgraded' by the :class:`CookieJar` instance to Netscape cookies, by "
+"setting the :attr:`version` attribute of the :class:`Cookie` instance to "
+"0. :class:`DefaultCookiePolicy` also provides some parameters to allow "
+"some fine-tuning of policy."
 msgstr ""
 ":class:`DefaultCookiePolicy` 实现了 Netscape 和 :rfc:`2965` cookies 的标准接受 / "
 "拒绝规则。 默认情况下，:rfc:`2109` cookies（即在 :mailheader:`Set-Cookie` 头中收到的 cookie-"
 "attribute 版本为 1 的 cookies ）将按照 RFC 2965 规则处理。 然而，如果 RFC 2965 的处理被关闭，或者  "
-":attr:`rfc2109_as_netscape` 为 ``True``，:class:`Cookie` 实例的 :attr:`version` "
-"属性设置将被为 0， RFC 2109 cookies :class:`CookieJar` 实例将 \"降级\" 为 Netscape "
-"cookies。 :class:`DefaultCookiePolicy` 也提供一些参数以允许一些策略微调。"
+":attr:`rfc2109_as_netscape` 为 ``True``，:class:`Cookie` 实例的 "
+":attr:`version` 属性设置将被为 0， RFC 2109 cookies :class:`CookieJar` 实例将 \"降级\""
+" 为 Netscape cookies。 :class:`DefaultCookiePolicy` 也提供一些参数以允许一些策略微调。"
 
 #: ../../library/http.cookiejar.rst:109
 msgid ""
-"This class represents Netscape, :rfc:`2109` and :rfc:`2965` cookies.  It is "
-"not expected that users of :mod:`http.cookiejar` construct their own "
-":class:`Cookie` instances.  Instead, if necessary, call :meth:`make_cookies`"
-" on a :class:`CookieJar` instance."
+"This class represents Netscape, :rfc:`2109` and :rfc:`2965` cookies.  It "
+"is not expected that users of :mod:`http.cookiejar` construct their own "
+":class:`Cookie` instances.  Instead, if necessary, call "
+":meth:`make_cookies` on a :class:`CookieJar` instance."
 msgstr ""
 "这个类代表 Netscape、:rfc:`2109` 和 :rfc:`2965` 的 cookie 。 我们不希望 "
 ":mod:`http.cookiejar` 的用户构建他们自己的 :class:`Cookie` 实例。 如果有必要，请在一个  "
@@ -202,33 +206,34 @@ msgstr "模块 :mod:`http.cookies`"
 #: ../../library/http.cookiejar.rst:121
 msgid ""
 "HTTP cookie classes, principally useful for server-side code.  The "
-":mod:`http.cookiejar` and :mod:`http.cookies` modules do not depend on each "
-"other."
+":mod:`http.cookiejar` and :mod:`http.cookies` modules do not depend on "
+"each other."
 msgstr ""
 "HTTP cookie类，主要是对服务端代码有用。  :mod:`http.cookiejar` 和 :mod:`http.cookies` "
 "模块不相互依赖。"
 
 #: ../../library/http.cookiejar.rst:129
-msgid "https://curl.haxx.se/rfc/cookie_spec.html"
+#, fuzzy
+msgid "https://curl.se/rfc/cookie_spec.html"
 msgstr "https://curl.haxx.se/rfc/cookie_spec.html"
 
 #: ../../library/http.cookiejar.rst:126
 msgid ""
-"The specification of the original Netscape cookie protocol.  Though this is "
-"still the dominant protocol, the 'Netscape cookie protocol' implemented by "
-"all the major browsers (and :mod:`http.cookiejar`) only bears a passing "
-"resemblance to the one sketched out in ``cookie_spec.html``."
+"The specification of the original Netscape cookie protocol.  Though this "
+"is still the dominant protocol, the 'Netscape cookie protocol' "
+"implemented by all the major browsers (and :mod:`http.cookiejar`) only "
+"bears a passing resemblance to the one sketched out in "
+"``cookie_spec.html``."
 msgstr ""
-"原始 Netscape cookie 协议的规范。 虽然这仍然是主流协议，但所有主要浏览器（以及 :mod:`http.cookiejar` ）实现的 "
-"\"Netscape cookie协议\" 与``cookie_spec.html``中描述的协议仅有几分相似之处。"
+"原始 Netscape cookie 协议的规范。 虽然这仍然是主流协议，但所有主要浏览器（以及 :mod:`http.cookiejar` "
+"）实现的 \"Netscape cookie协议\" 与``cookie_spec.html``中描述的协议仅有几分相似之处。"
 
 #: ../../library/http.cookiejar.rst:132
 msgid ":rfc:`2109` - HTTP State Management Mechanism"
 msgstr ":rfc:`2109` - HTTP状态管理机制"
 
 #: ../../library/http.cookiejar.rst:132
-msgid ""
-"Obsoleted by :rfc:`2965`. Uses :mailheader:`Set-Cookie` with version=1."
+msgid "Obsoleted by :rfc:`2965`. Uses :mailheader:`Set-Cookie` with version=1."
 msgstr "被 :rfc:`2965` 所取代。使用 :mailheader:`Set-Cookie` version=1 。"
 
 #: ../../library/http.cookiejar.rst:136
@@ -237,8 +242,8 @@ msgstr ":rfc:`2965` - HTTP状态管理机制"
 
 #: ../../library/http.cookiejar.rst:135
 msgid ""
-"The Netscape protocol with the bugs fixed.  Uses :mailheader:`Set-Cookie2` "
-"in place of :mailheader:`Set-Cookie`.  Not widely used."
+"The Netscape protocol with the bugs fixed.  Uses :mailheader:`Set-"
+"Cookie2` in place of :mailheader:`Set-Cookie`.  Not widely used."
 msgstr ""
 "修正了错误的 Netscape 协议。 使用 :mailheader:`Set-Cookie2` 来代替 :mailheader:`Set-"
 "Cookie` 。 没有广泛被使用。"
@@ -263,8 +268,7 @@ msgstr "CookieJar 和 FileCookieJar 对象"
 msgid ""
 ":class:`CookieJar` objects support the :term:`iterator` protocol for "
 "iterating over contained :class:`Cookie` objects."
-msgstr ""
-":class:`CookieJar` 对象支持 :term:`iterator` 协议，用于迭代包含的 :class:`Cookie` 对象。"
+msgstr ":class:`CookieJar` 对象支持 :term:`iterator` 协议，用于迭代包含的 :class:`Cookie` 对象。"
 
 #: ../../library/http.cookiejar.rst:151
 msgid ":class:`CookieJar` has the following methods:"
@@ -277,9 +281,9 @@ msgstr "在 *request* 中添加正确的 :mailheader:`Cookie` 头。"
 #: ../../library/http.cookiejar.rst:158
 msgid ""
 "If policy allows (ie. the :attr:`rfc2965` and :attr:`hide_cookie2` "
-"attributes of the :class:`CookieJar`'s :class:`CookiePolicy` instance are "
-"true and false respectively), the :mailheader:`Cookie2` header is also added"
-" when appropriate."
+"attributes of the :class:`CookieJar`'s :class:`CookiePolicy` instance are"
+" true and false respectively), the :mailheader:`Cookie2` header is also "
+"added when appropriate."
 msgstr ""
 "如果策略允许（即 :attr:`rfc2965` 和 :attr:`hide_cookie2` 属性在 :class:`CookieJar` 的 "
 ":class:`CookiePolicy` 实例中分别为 True 和 False ）， :mailheader:`Cookie2` "
@@ -287,11 +291,11 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:162
 msgid ""
-"The *request* object (usually a :class:`urllib.request.Request` instance) "
-"must support the methods :meth:`get_full_url`, :meth:`get_host`, "
+"The *request* object (usually a :class:`urllib.request.Request` instance)"
+" must support the methods :meth:`get_full_url`, :meth:`get_host`, "
 ":meth:`get_type`, :meth:`unverifiable`, :meth:`has_header`, "
-":meth:`get_header`, :meth:`header_items`, :meth:`add_unredirected_header` "
-"and :attr:`origin_req_host` attribute as documented by "
+":meth:`get_header`, :meth:`header_items`, :meth:`add_unredirected_header`"
+" and :attr:`origin_req_host` attribute as documented by "
 ":mod:`urllib.request`."
 msgstr ""
 "如 :mod:`urllib.request` 所记载的， *request* 对象（通常是一个 "
@@ -302,8 +306,8 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:171 ../../library/http.cookiejar.rst:197
 msgid ""
-"*request* object needs :attr:`origin_req_host` attribute. Dependency on a "
-"deprecated method :meth:`get_origin_req_host` has been removed."
+"*request* object needs :attr:`origin_req_host` attribute. Dependency on a"
+" deprecated method :meth:`get_origin_req_host` has been removed."
 msgstr ""
 "*request* 对象需要 :attr:`origin_req_host` 属性。对已废弃的方法 "
 ":meth:`get_origin_req_host` 的依赖已被移除。"
@@ -316,37 +320,38 @@ msgstr "从HTTP *response* 中提取 cookie，并在政策允许的情况下，�
 
 #: ../../library/http.cookiejar.rst:180
 msgid ""
-"The :class:`CookieJar` will look for allowable :mailheader:`Set-Cookie` and "
-":mailheader:`Set-Cookie2` headers in the *response* argument, and store "
-"cookies as appropriate (subject to the :meth:`CookiePolicy.set_ok` method's "
-"approval)."
+"The :class:`CookieJar` will look for allowable :mailheader:`Set-Cookie` "
+"and :mailheader:`Set-Cookie2` headers in the *response* argument, and "
+"store cookies as appropriate (subject to the :meth:`CookiePolicy.set_ok` "
+"method's approval)."
 msgstr ""
 ":class:`CookieJar` 将 在*response* 参数中寻找允许的 :mailheader:`Set-Cookie` 和 "
-":mailheader:`Set-Cookie2` 头信息，并适当地存储cookies（须经 :meth:`CookiePolicy.set_ok` "
-"方法批准）。"
+":mailheader:`Set-Cookie2` 头信息，并适当地存储cookies（须经 "
+":meth:`CookiePolicy.set_ok` 方法批准）。"
 
 #: ../../library/http.cookiejar.rst:184
 msgid ""
 "The *response* object (usually the result of a call to "
-":meth:`urllib.request.urlopen`, or similar) should support an :meth:`info` "
-"method, which returns an :class:`email.message.Message` instance."
+":meth:`urllib.request.urlopen`, or similar) should support an "
+":meth:`info` method, which returns an :class:`email.message.Message` "
+"instance."
 msgstr ""
 "*response* 对象（通常是调用 :meth:`urllib.request.urlopen` 或类似方法的结果）应该支持 "
 ":meth:`info` 方法，它返回 :class:`email.message.Message` 实例。"
 
 #: ../../library/http.cookiejar.rst:188
 msgid ""
-"The *request* object (usually a :class:`urllib.request.Request` instance) "
-"must support the methods :meth:`get_full_url`, :meth:`get_host`, "
-":meth:`unverifiable`, and :attr:`origin_req_host` attribute, as documented "
-"by :mod:`urllib.request`.  The request is used to set default values for "
-"cookie-attributes as well as for checking that the cookie is allowed to be "
-"set."
+"The *request* object (usually a :class:`urllib.request.Request` instance)"
+" must support the methods :meth:`get_full_url`, :meth:`get_host`, "
+":meth:`unverifiable`, and :attr:`origin_req_host` attribute, as "
+"documented by :mod:`urllib.request`.  The request is used to set default "
+"values for cookie-attributes as well as for checking that the cookie is "
+"allowed to be set."
 msgstr ""
 "如 :mod:`urllib.request` 的文档所说，*request* 对象（通常是一个 "
 ":class:`urllib.request.Request` 实例）必须支持 :meth:`get_full_url`, "
-":meth:`get_host`, :meth:`unverifiable` 和 :attr:`origin_req_host` 属性。 该请求用于设置"
-" cookie-attributes 的默认值，以及检查 cookie 是否允许被设置。"
+":meth:`get_host`, :meth:`unverifiable` 和 :attr:`origin_req_host` 属性。 "
+"该请求用于设置 cookie-attributes 的默认值，以及检查 cookie 是否允许被设置。"
 
 #: ../../library/http.cookiejar.rst:202
 msgid "Set the :class:`CookiePolicy` instance to be used."
@@ -354,7 +359,8 @@ msgstr "设置要使用的 :class:`CookiePolicy` 实例。"
 
 #: ../../library/http.cookiejar.rst:207
 msgid ""
-"Return sequence of :class:`Cookie` objects extracted from *response* object."
+"Return sequence of :class:`Cookie` objects extracted from *response* "
+"object."
 msgstr "返回从 *response* 对象中提取的 :class:`Cookie` 对象的序列。"
 
 #: ../../library/http.cookiejar.rst:209
@@ -369,8 +375,8 @@ msgstr "如果策略规定可以这样做，就设置一个 :class:`Cookie` 。"
 
 #: ../../library/http.cookiejar.rst:220
 msgid ""
-"Set a :class:`Cookie`, without checking with policy to see whether or not it"
-" should be set."
+"Set a :class:`Cookie`, without checking with policy to see whether or not"
+" it should be set."
 msgstr "设置一个 :class:`Cookie`，不需要检查策略是否应该被设置。"
 
 #: ../../library/http.cookiejar.rst:226
@@ -380,10 +386,10 @@ msgstr "清除一些cookie。"
 #: ../../library/http.cookiejar.rst:228
 msgid ""
 "If invoked without arguments, clear all cookies.  If given a single "
-"argument, only cookies belonging to that *domain* will be removed. If given "
-"two arguments, cookies belonging to the specified *domain* and URL *path* "
-"are removed.  If given three arguments, then the cookie with the specified "
-"*domain*, *path* and *name* is removed."
+"argument, only cookies belonging to that *domain* will be removed. If "
+"given two arguments, cookies belonging to the specified *domain* and URL "
+"*path* are removed.  If given three arguments, then the cookie with the "
+"specified *domain*, *path* and *name* is removed."
 msgstr ""
 "如果调用时没有参数，则清除所有的cookie。 如果给定一个参数，只有属于该 *domain* "
 "的cookies将被删除。如果给定两个参数，那么属于指定的 *domain* 和 URL *path* 的cookie将被删除。 "
@@ -399,17 +405,17 @@ msgstr "丢弃所有session cookie。"
 
 #: ../../library/http.cookiejar.rst:241
 msgid ""
-"Discards all contained cookies that have a true :attr:`discard` attribute "
-"(usually because they had either no ``max-age`` or ``expires`` cookie-"
-"attribute, or an explicit ``discard`` cookie-attribute).  For interactive "
-"browsers, the end of a session usually corresponds to closing the browser "
-"window."
+"Discards all contained cookies that have a true :attr:`discard` attribute"
+" (usually because they had either no ``max-age`` or ``expires`` cookie-"
+"attribute, or an explicit ``discard`` cookie-attribute).  For interactive"
+" browsers, the end of a session usually corresponds to closing the "
+"browser window."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:246
 msgid ""
-"Note that the :meth:`save` method won't save session cookies anyway, unless "
-"you ask otherwise by passing a true *ignore_discard* argument."
+"Note that the :meth:`save` method won't save session cookies anyway, "
+"unless you ask otherwise by passing a true *ignore_discard* argument."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:249
@@ -428,23 +434,23 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:259
 msgid ""
-"*filename* is the name of file in which to save cookies.  If *filename* is "
-"not specified, :attr:`self.filename` is used (whose default is the value "
-"passed to the constructor, if any); if :attr:`self.filename` is "
+"*filename* is the name of file in which to save cookies.  If *filename* "
+"is not specified, :attr:`self.filename` is used (whose default is the "
+"value passed to the constructor, if any); if :attr:`self.filename` is "
 ":const:`None`, :exc:`ValueError` is raised."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:264
 msgid ""
-"*ignore_discard*: save even cookies set to be discarded. *ignore_expires*: "
-"save even cookies that have expired"
+"*ignore_discard*: save even cookies set to be discarded. "
+"*ignore_expires*: save even cookies that have expired"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:267
 msgid ""
-"The file is overwritten if it already exists, thus wiping all the cookies it"
-" contains.  Saved cookies can be restored later using the :meth:`load` or "
-":meth:`revert` methods."
+"The file is overwritten if it already exists, thus wiping all the cookies"
+" it contains.  Saved cookies can be restored later using the :meth:`load`"
+" or :meth:`revert` methods."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:274
@@ -462,13 +468,12 @@ msgstr ""
 #: ../../library/http.cookiejar.rst:280
 msgid ""
 "The named file must be in the format understood by the class, or "
-":exc:`LoadError` will be raised.  Also, :exc:`OSError` may be raised, for "
-"example if the file does not exist."
+":exc:`LoadError` will be raised.  Also, :exc:`OSError` may be raised, for"
+" example if the file does not exist."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:284
-msgid ""
-":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
+msgid ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
 msgstr "过去触发的 :exc:`IOError`，现在是 :exc:`OSError` 的别名。"
 
 #: ../../library/http.cookiejar.rst:290
@@ -477,8 +482,8 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:292
 msgid ""
-":meth:`revert` can raise the same exceptions as :meth:`load`. If there is a "
-"failure, the object's state will not be altered."
+":meth:`revert` can raise the same exceptions as :meth:`load`. If there is"
+" a failure, the object's state will not be altered."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:295
@@ -487,17 +492,18 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:300
 msgid ""
-"Filename of default file in which to keep cookies.  This attribute may be "
-"assigned to."
+"Filename of default file in which to keep cookies.  This attribute may be"
+" assigned to."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:306
 msgid ""
 "If true, load cookies lazily from disk.  This attribute should not be "
-"assigned to.  This is only a hint, since this only affects performance, not "
-"behaviour (unless the cookies on disk are changing). A :class:`CookieJar` "
-"object may ignore it.  None of the :class:`FileCookieJar` classes included "
-"in the standard library lazily loads cookies."
+"assigned to.  This is only a hint, since this only affects performance, "
+"not behaviour (unless the cookies on disk are changing). A "
+":class:`CookieJar` object may ignore it.  None of the "
+":class:`FileCookieJar` classes included in the standard library lazily "
+"loads cookies."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:316
@@ -512,36 +518,36 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:323
 msgid ""
-"A :class:`FileCookieJar` that can load from and save cookies to disk in the "
-"Mozilla ``cookies.txt`` file format (which is also used by the Lynx and "
-"Netscape browsers)."
+"A :class:`FileCookieJar` that can load from and save cookies to disk in "
+"the Mozilla ``cookies.txt`` file format (which is also used by the Lynx "
+"and Netscape browsers)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:329
 msgid ""
-"This loses information about :rfc:`2965` cookies, and also about newer or "
-"non-standard cookie-attributes such as ``port``."
+"This loses information about :rfc:`2965` cookies, and also about newer or"
+" non-standard cookie-attributes such as ``port``."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:334
 msgid ""
 "Back up your cookies before saving if you have cookies whose loss / "
-"corruption would be inconvenient (there are some subtleties which may lead "
-"to slight changes in the file over a load / save round-trip)."
+"corruption would be inconvenient (there are some subtleties which may "
+"lead to slight changes in the file over a load / save round-trip)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:338
 msgid ""
-"Also note that cookies saved while Mozilla is running will get clobbered by "
-"Mozilla."
+"Also note that cookies saved while Mozilla is running will get clobbered "
+"by Mozilla."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:344
 msgid ""
 "A :class:`FileCookieJar` that can load from and save cookies to disk in "
 "format compatible with the libwww-perl library's ``Set-Cookie3`` file "
-"format.  This is convenient if you want to store cookies in a human-readable"
-" file."
+"format.  This is convenient if you want to store cookies in a human-"
+"readable file."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:355
@@ -550,8 +556,8 @@ msgstr "CookiePolicy 对象"
 
 #: ../../library/http.cookiejar.rst:357
 msgid ""
-"Objects implementing the :class:`CookiePolicy` interface have the following "
-"methods:"
+"Objects implementing the :class:`CookiePolicy` interface have the "
+"following methods:"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:363
@@ -562,34 +568,34 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:365
 msgid ""
-"*cookie* is a :class:`Cookie` instance.  *request* is an object implementing"
-" the interface defined by the documentation for "
+"*cookie* is a :class:`Cookie` instance.  *request* is an object "
+"implementing the interface defined by the documentation for "
 ":meth:`CookieJar.extract_cookies`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:372
 msgid ""
-"Return boolean value indicating whether cookie should be returned to server."
+"Return boolean value indicating whether cookie should be returned to "
+"server."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:374
 msgid ""
-"*cookie* is a :class:`Cookie` instance.  *request* is an object implementing"
-" the interface defined by the documentation for "
+"*cookie* is a :class:`Cookie` instance.  *request* is an object "
+"implementing the interface defined by the documentation for "
 ":meth:`CookieJar.add_cookie_header`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:381
-msgid ""
-"Return ``False`` if cookies should not be returned, given cookie domain."
+msgid "Return ``False`` if cookies should not be returned, given cookie domain."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:383
 msgid ""
 "This method is an optimization.  It removes the need for checking every "
-"cookie with a particular domain (which might involve reading many files).  "
-"Returning true from :meth:`domain_return_ok` and :meth:`path_return_ok` "
-"leaves all the work to :meth:`return_ok`."
+"cookie with a particular domain (which might involve reading many files)."
+"  Returning true from :meth:`domain_return_ok` and :meth:`path_return_ok`"
+" leaves all the work to :meth:`return_ok`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:388
@@ -597,17 +603,17 @@ msgid ""
 "If :meth:`domain_return_ok` returns true for the cookie domain, "
 ":meth:`path_return_ok` is called for the cookie path.  Otherwise, "
 ":meth:`path_return_ok` and :meth:`return_ok` are never called for that "
-"cookie domain.  If :meth:`path_return_ok` returns true, :meth:`return_ok` is"
-" called with the :class:`Cookie` object itself for a full check.  Otherwise,"
-" :meth:`return_ok` is never called for that cookie path."
+"cookie domain.  If :meth:`path_return_ok` returns true, :meth:`return_ok`"
+" is called with the :class:`Cookie` object itself for a full check.  "
+"Otherwise, :meth:`return_ok` is never called for that cookie path."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:395
 msgid ""
-"Note that :meth:`domain_return_ok` is called for every *cookie* domain, not "
-"just for the *request* domain.  For example, the function might be called "
-"with both ``\".example.com\"`` and ``\"www.example.com\"`` if the request "
-"domain is ``\"www.example.com\"``.  The same goes for "
+"Note that :meth:`domain_return_ok` is called for every *cookie* domain, "
+"not just for the *request* domain.  For example, the function might be "
+"called with both ``\".example.com\"`` and ``\"www.example.com\"`` if the "
+"request domain is ``\"www.example.com\"``.  The same goes for "
 ":meth:`path_return_ok`."
 msgstr ""
 
@@ -626,9 +632,9 @@ msgstr ""
 #: ../../library/http.cookiejar.rst:409
 msgid ""
 "In addition to implementing the methods above, implementations of the "
-":class:`CookiePolicy` interface must also supply the following attributes, "
-"indicating which protocols should be used, and how.  All of these attributes"
-" may be assigned to."
+":class:`CookiePolicy` interface must also supply the following "
+"attributes, indicating which protocols should be used, and how.  All of "
+"these attributes may be assigned to."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:417
@@ -648,10 +654,10 @@ msgstr ""
 #: ../../library/http.cookiejar.rst:430
 msgid ""
 "The most useful way to define a :class:`CookiePolicy` class is by "
-"subclassing from :class:`DefaultCookiePolicy` and overriding some or all of "
-"the methods above.  :class:`CookiePolicy` itself may be used as a 'null "
-"policy' to allow setting and receiving any and all cookies (this is unlikely"
-" to be useful)."
+"subclassing from :class:`DefaultCookiePolicy` and overriding some or all "
+"of the methods above.  :class:`CookiePolicy` itself may be used as a "
+"'null policy' to allow setting and receiving any and all cookies (this is"
+" unlikely to be useful)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:439
@@ -671,47 +677,47 @@ msgstr ""
 #: ../../library/http.cookiejar.rst:446
 msgid ""
 "The easiest way to provide your own policy is to override this class and "
-"call its methods in your overridden implementations before adding your own "
-"additional checks::"
+"call its methods in your overridden implementations before adding your "
+"own additional checks::"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:459
 msgid ""
-"In addition to the features required to implement the :class:`CookiePolicy` "
-"interface, this class allows you to block and allow domains from setting and"
-" receiving cookies.  There are also some strictness switches that allow you "
-"to tighten up the rather loose Netscape protocol rules a little bit (at the "
-"cost of blocking some benign cookies)."
+"In addition to the features required to implement the "
+":class:`CookiePolicy` interface, this class allows you to block and allow"
+" domains from setting and receiving cookies.  There are also some "
+"strictness switches that allow you to tighten up the rather loose "
+"Netscape protocol rules a little bit (at the cost of blocking some benign"
+" cookies)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:465
 msgid ""
 "A domain blocklist and allowlist is provided (both off by default). Only "
-"domains not in the blocklist and present in the allowlist (if the allowlist "
-"is active) participate in cookie setting and returning.  Use the "
-"*blocked_domains* constructor argument, and :meth:`blocked_domains` and "
-":meth:`set_blocked_domains` methods (and the corresponding argument and "
-"methods for *allowed_domains*).  If you set an allowlist, you can turn it "
-"off again by setting it to :const:`None`."
+"domains not in the blocklist and present in the allowlist (if the "
+"allowlist is active) participate in cookie setting and returning.  Use "
+"the *blocked_domains* constructor argument, and :meth:`blocked_domains` "
+"and :meth:`set_blocked_domains` methods (and the corresponding argument "
+"and methods for *allowed_domains*).  If you set an allowlist, you can "
+"turn it off again by setting it to :const:`None`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:473
 msgid ""
-"Domains in block or allow lists that do not start with a dot must equal the "
-"cookie domain to be matched.  For example, ``\"example.com\"`` matches a "
-"blocklist entry of ``\"example.com\"``, but ``\"www.example.com\"`` does "
-"not.  Domains that do start with a dot are matched by more specific domains "
-"too. For example, both ``\"www.example.com\"`` and "
-"``\"www.coyote.example.com\"`` match ``\".example.com\"`` (but "
-"``\"example.com\"`` itself does not).  IP addresses are an exception, and "
-"must match exactly.  For example, if blocked_domains contains "
-"``\"192.168.1.2\"`` and ``\".168.1.2\"``, 192.168.1.2 is blocked, but "
-"193.168.1.2 is not."
+"Domains in block or allow lists that do not start with a dot must equal "
+"the cookie domain to be matched.  For example, ``\"example.com\"`` "
+"matches a blocklist entry of ``\"example.com\"``, but "
+"``\"www.example.com\"`` does not.  Domains that do start with a dot are "
+"matched by more specific domains too. For example, both "
+"``\"www.example.com\"`` and ``\"www.coyote.example.com\"`` match "
+"``\".example.com\"`` (but ``\"example.com\"`` itself does not).  IP "
+"addresses are an exception, and must match exactly.  For example, if "
+"blocked_domains contains ``\"192.168.1.2\"`` and ``\".168.1.2\"``, "
+"192.168.1.2 is blocked, but 193.168.1.2 is not."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:482
-msgid ""
-":class:`DefaultCookiePolicy` implements the following additional methods:"
+msgid ":class:`DefaultCookiePolicy` implements the following additional methods:"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:487
@@ -744,20 +750,20 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:515
 msgid ""
-":class:`DefaultCookiePolicy` instances have the following attributes, which "
-"are all initialised from the constructor arguments of the same name, and "
-"which may all be assigned to."
+":class:`DefaultCookiePolicy` instances have the following attributes, "
+"which are all initialised from the constructor arguments of the same "
+"name, and which may all be assigned to."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:522
 msgid ""
-"If true, request that the :class:`CookieJar` instance downgrade :rfc:`2109` "
-"cookies (ie. cookies received in a :mailheader:`Set-Cookie` header with a "
-"version cookie-attribute of 1) to Netscape cookies by setting the version "
-"attribute of the :class:`Cookie` instance to 0.  The default value is "
-":const:`None`, in which case RFC 2109 cookies are downgraded if and only if "
-":rfc:`2965` handling is turned off.  Therefore, RFC 2109 cookies are "
-"downgraded by default."
+"If true, request that the :class:`CookieJar` instance downgrade "
+":rfc:`2109` cookies (ie. cookies received in a :mailheader:`Set-Cookie` "
+"header with a version cookie-attribute of 1) to Netscape cookies by "
+"setting the version attribute of the :class:`Cookie` instance to 0.  The "
+"default value is :const:`None`, in which case RFC 2109 cookies are "
+"downgraded if and only if :rfc:`2965` handling is turned off.  Therefore,"
+" RFC 2109 cookies are downgraded by default."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:530
@@ -766,9 +772,9 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:534
 msgid ""
-"Don't allow sites to set two-component domains with country-code top-level "
-"domains like ``.co.uk``, ``.gov.uk``, ``.co.nz``.etc.  This is far from "
-"perfect and isn't guaranteed to work!"
+"Don't allow sites to set two-component domains with country-code top-"
+"level domains like ``.co.uk``, ``.gov.uk``, ``.co.nz``.etc.  This is far "
+"from perfect and isn't guaranteed to work!"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:539
@@ -778,9 +784,9 @@ msgstr ""
 #: ../../library/http.cookiejar.rst:543
 msgid ""
 "Follow :rfc:`2965` rules on unverifiable transactions (usually, an "
-"unverifiable transaction is one resulting from a redirect or a request for "
-"an image hosted on another site).  If this is false, cookies are *never* "
-"blocked on the basis of verifiability"
+"unverifiable transaction is one resulting from a redirect or a request "
+"for an image hosted on another site).  If this is false, cookies are "
+"*never* blocked on the basis of verifiability"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:549
@@ -795,13 +801,14 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:558
 msgid ""
-"Flags indicating how strict to be with domain-matching rules for Netscape "
-"cookies.  See below for acceptable values."
+"Flags indicating how strict to be with domain-matching rules for Netscape"
+" cookies.  See below for acceptable values."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:564
 msgid ""
-"Ignore cookies in Set-Cookie: headers that have names starting with ``'$'``."
+"Ignore cookies in Set-Cookie: headers that have names starting with "
+"``'$'``."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:569
@@ -810,24 +817,24 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:571
 msgid ""
-":attr:`strict_ns_domain` is a collection of flags.  Its value is constructed"
-" by or-ing together (for example, "
+":attr:`strict_ns_domain` is a collection of flags.  Its value is "
+"constructed by or-ing together (for example, "
 "``DomainStrictNoDots|DomainStrictNonDomain`` means both flags are set)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:578
 msgid ""
 "When setting cookies, the 'host prefix' must not contain a dot (eg. "
-"``www.foo.bar.com`` can't set a cookie for ``.bar.com``, because ``www.foo``"
-" contains a dot)."
+"``www.foo.bar.com`` can't set a cookie for ``.bar.com``, because "
+"``www.foo`` contains a dot)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:585
 msgid ""
-"Cookies that did not explicitly specify a ``domain`` cookie-attribute can "
-"only be returned to a domain equal to the domain that set the cookie (eg. "
-"``spam.example.com`` won't be returned cookies from ``example.com`` that had"
-" no ``domain`` cookie-attribute)."
+"Cookies that did not explicitly specify a ``domain`` cookie-attribute can"
+" only be returned to a domain equal to the domain that set the cookie "
+"(eg. ``spam.example.com`` won't be returned cookies from ``example.com`` "
+"that had no ``domain`` cookie-attribute)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:593
@@ -856,27 +863,28 @@ msgstr "Cookie 对象"
 
 #: ../../library/http.cookiejar.rst:613
 msgid ""
-":class:`Cookie` instances have Python attributes roughly corresponding to "
-"the standard cookie-attributes specified in the various cookie standards.  "
-"The correspondence is not one-to-one, because there are complicated rules "
-"for assigning default values, because the ``max-age`` and ``expires`` "
-"cookie-attributes contain equivalent information, and because :rfc:`2109` "
-"cookies may be 'downgraded' by :mod:`http.cookiejar` from version 1 to "
-"version 0 (Netscape) cookies."
+":class:`Cookie` instances have Python attributes roughly corresponding to"
+" the standard cookie-attributes specified in the various cookie "
+"standards.  The correspondence is not one-to-one, because there are "
+"complicated rules for assigning default values, because the ``max-age`` "
+"and ``expires`` cookie-attributes contain equivalent information, and "
+"because :rfc:`2109` cookies may be 'downgraded' by :mod:`http.cookiejar` "
+"from version 1 to version 0 (Netscape) cookies."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:621
 msgid ""
-"Assignment to these attributes should not be necessary other than in rare "
-"circumstances in a :class:`CookiePolicy` method.  The class does not enforce"
-" internal consistency, so you should know what you're doing if you do that."
+"Assignment to these attributes should not be necessary other than in rare"
+" circumstances in a :class:`CookiePolicy` method.  The class does not "
+"enforce internal consistency, so you should know what you're doing if you"
+" do that."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:628
 msgid ""
 "Integer or :const:`None`.  Netscape cookies have :attr:`version` 0. "
-":rfc:`2965` and :rfc:`2109` cookies have a ``version`` cookie-attribute of "
-"1.  However, note that :mod:`http.cookiejar` may 'downgrade' RFC 2109 "
+":rfc:`2965` and :rfc:`2109` cookies have a ``version`` cookie-attribute "
+"of 1.  However, note that :mod:`http.cookiejar` may 'downgrade' RFC 2109 "
 "cookies to Netscape cookies, in which case :attr:`version` is 0."
 msgstr ""
 
@@ -890,8 +898,8 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:646
 msgid ""
-"String representing a port or a set of ports (eg. '80', or '80,8080'), or "
-":const:`None`."
+"String representing a port or a set of ports (eg. '80', or '80,8080'), or"
+" :const:`None`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:652
@@ -904,8 +912,8 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:662
 msgid ""
-"Integer expiry date in seconds since epoch, or :const:`None`.  See also the "
-":meth:`is_expired` method."
+"Integer expiry date in seconds since epoch, or :const:`None`.  See also "
+"the :meth:`is_expired` method."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:668
@@ -914,8 +922,8 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:673
 msgid ""
-"String comment from the server explaining the function of this cookie, or "
-":const:`None`."
+"String comment from the server explaining the function of this cookie, or"
+" :const:`None`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:679
@@ -927,16 +935,16 @@ msgstr ""
 #: ../../library/http.cookiejar.rst:685
 msgid ""
 "``True`` if this cookie was received as an :rfc:`2109` cookie (ie. the "
-"cookie arrived in a :mailheader:`Set-Cookie` header, and the value of the "
-"Version cookie-attribute in that header was 1).  This attribute is provided "
-"because :mod:`http.cookiejar` may 'downgrade' RFC 2109 cookies to Netscape "
-"cookies, in which case :attr:`version` is 0."
+"cookie arrived in a :mailheader:`Set-Cookie` header, and the value of the"
+" Version cookie-attribute in that header was 1).  This attribute is "
+"provided because :mod:`http.cookiejar` may 'downgrade' RFC 2109 cookies "
+"to Netscape cookies, in which case :attr:`version` is 0."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:694
 msgid ""
-"``True`` if a port or set of ports was explicitly specified by the server "
-"(in the :mailheader:`Set-Cookie` / :mailheader:`Set-Cookie2` header)."
+"``True`` if a port or set of ports was explicitly specified by the server"
+" (in the :mailheader:`Set-Cookie` / :mailheader:`Set-Cookie2` header)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:700
@@ -945,14 +953,14 @@ msgstr ""
 
 #: ../../library/http.cookiejar.rst:705
 msgid ""
-"``True`` if the domain explicitly specified by the server began with a dot "
-"(``'.'``)."
+"``True`` if the domain explicitly specified by the server began with a "
+"dot (``'.'``)."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:708
 msgid ""
-"Cookies may have additional non-standard cookie-attributes.  These may be "
-"accessed using the following methods:"
+"Cookies may have additional non-standard cookie-attributes.  These may be"
+" accessed using the following methods:"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:714
@@ -985,21 +993,21 @@ msgid "Examples"
 msgstr "例子"
 
 #: ../../library/http.cookiejar.rst:740
-msgid ""
-"The first example shows the most common usage of :mod:`http.cookiejar`::"
+msgid "The first example shows the most common usage of :mod:`http.cookiejar`::"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:747
 msgid ""
-"This example illustrates how to open a URL using your Netscape, Mozilla, or "
-"Lynx cookies (assumes Unix/Netscape convention for location of the cookies "
-"file)::"
+"This example illustrates how to open a URL using your Netscape, Mozilla, "
+"or Lynx cookies (assumes Unix/Netscape convention for location of the "
+"cookies file)::"
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:756
 msgid ""
-"The next example illustrates the use of :class:`DefaultCookiePolicy`. Turn "
-"on :rfc:`2965` cookies, be more strict about domains when setting and "
-"returning Netscape cookies, and block some domains from setting cookies or "
-"having them returned::"
+"The next example illustrates the use of :class:`DefaultCookiePolicy`. "
+"Turn on :rfc:`2965` cookies, be more strict about domains when setting "
+"and returning Netscape cookies, and block some domains from setting "
+"cookies or having them returned::"
 msgstr ""
+
